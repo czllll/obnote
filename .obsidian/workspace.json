@@ -11,12 +11,8 @@
             "id": "94595077695ebf76",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ceshi.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ceshi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ceshi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ceshi.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,10 +138,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "94595077695ebf76",
+  "active": "44c4af6550794709",
   "lastOpenFiles": [
+    "未命名",
+    "2024-08-04.md",
     "ceshi.md",
-    "欢迎.md",
-    "2024-08-04.md"
+    "欢迎.md"
   ]
 }

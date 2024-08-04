@@ -118,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "欢迎.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -140,9 +138,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "44c4af6550794709",
+  "active": "94595077695ebf76",
   "lastOpenFiles": [
-    "2024-08-04.md",
-    "欢迎.md"
+    "欢迎.md",
+    "2024-08-04.md"
   ]
 }

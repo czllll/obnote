@@ -4,7 +4,7 @@
 # 再进一步
 * ssh是什么？生成的私钥和公钥是什么？为什么git push会触发passphrase？passphrase保护的是什么？
 ## ssh是什么
-> Secure Shell (SSH) 协议是一种通过不安全网络向计算机安全发送命令的方法。Secure Shell (SSH) 协议是一种通过不安全网络向计算机安全发送命令的方法。SSH 使用加密技术对设备之间的连接进行验证和加密。SSH 还可以实现[隧道传输](https://www.cloudflare.com/learning/network-layer/what-is-tunneling/)或端口转发，这是指[数据包](https://www.cloudflare.com/learning/network-layer/what-is-a-packet/)可以穿越原本无法穿越的网络。 SSH 通常用于远程控制服务器、管理基础设施和传输文件。[cloudflare](https://www.cloudflare.com/zh-cn/learning/access-management/what-is-ssh/)
+> Secure Shell (SSH) 协议是一种通过不安全网络向计算机安全发送命令的方法。SSH 使用加密技术对设备之间的连接进行验证和加密。SSH 还可以实现[隧道传输](https://www.cloudflare.com/learning/network-layer/what-is-tunneling/)或端口转发，这是指[数据包](https://www.cloudflare.com/learning/network-layer/what-is-a-packet/)可以穿越原本无法穿越的网络。 SSH 通常用于远程控制服务器、管理基础设施和传输文件。[cloudflare](https://www.cloudflare.com/zh-cn/learning/access-management/what-is-ssh/)
 ### ssh如何工作
 #### 特点
 * 基于TCP/IP协议套件上运行

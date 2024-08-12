@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "class/cs61a/scip.md",
+                "file": "Blog/完成/由obsidian的git插件push失败后引申的ssh相关的问题.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "proj/easyvidshare.md",
+                "file": "Blog/完成/由obsidian的git插件push失败后引申的ssh相关的问题.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "proj/easyvidshare.md",
+                "file": "Blog/完成/由obsidian的git插件push失败后引申的ssh相关的问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "proj/easyvidshare.md",
+                "file": "Blog/完成/由obsidian的git插件push失败后引申的ssh相关的问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "proj/easyvidshare.md"
+                "file": "Blog/完成/由obsidian的git插件push失败后引申的ssh相关的问题.md"
               }
             }
           }
@@ -159,10 +158,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "87eaca67f186d5ec",
+  "active": "44c4af6550794709",
   "lastOpenFiles": [
+    "Blog/完成",
     "class/cs61a/scip.md",
+    "Blog/完成/由obsidian的git插件push失败后引申的ssh相关的问题.md",
     "proj/easyvidshare.md",
+    "Blog/draft",
     "proj",
     "Proj.md",
     "未命名",

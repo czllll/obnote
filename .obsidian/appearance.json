@@ -1,1 +1,6 @@
-{}
+{
+  "cssTheme": "Border",
+  "baseFontSize": 19,
+  "baseFontSizeAction": true,
+  "theme": "obsidian"
+}

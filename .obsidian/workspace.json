@@ -20,6 +20,14 @@
             }
           },
           {
+            "id": "59a8d785dde9da8e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
             "id": "87eaca67f186d5ec",
             "type": "leaf",
             "state": {
@@ -31,7 +39,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blog/完成/由obsidian的git插件push失败后引申的ssh相关的问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +122,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blog/完成/由obsidian的git插件push失败后引申的ssh相关的问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Blog/完成/由obsidian的git插件push失败后引申的ssh相关的问题.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -152,17 +157,20 @@
     "hiddenItems": {
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
+      "canvas:新建白板": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false
     }
   },
-  "active": "44c4af6550794709",
+  "active": "59a8d785dde9da8e",
   "lastOpenFiles": [
+    "未命名.canvas",
+    "算法/递归.md",
+    "Blog/完成/由obsidian的git插件push失败后引申的ssh相关的问题.md",
+    "算法",
     "Blog/完成",
     "class/cs61a/scip.md",
-    "Blog/完成/由obsidian的git插件push失败后引申的ssh相关的问题.md",
     "proj/easyvidshare.md",
     "Blog/draft",
     "proj",

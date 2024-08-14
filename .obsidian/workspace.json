@@ -20,14 +20,6 @@
             }
           },
           {
-            "id": "59a8d785dde9da8e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
             "id": "87eaca67f186d5ec",
             "type": "leaf",
             "state": {
@@ -39,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Blog/完成/由obsidian的git插件push失败后引申的ssh相关的问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Blog/完成/由obsidian的git插件push失败后引申的ssh相关的问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,15 +136,26 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {
+                "file": "Blog/完成/由obsidian的git插件push失败后引申的ssh相关的问题.md"
+              }
+            }
+          },
+          {
+            "id": "3ced3d74e2e29226",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
               "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,11 +167,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "59a8d785dde9da8e",
+  "active": "3ced3d74e2e29226",
   "lastOpenFiles": [
+    "weekly sum-up/2024-W32.md",
+    "2024-08-06.md",
+    "daily sum-up",
+    "weekly sum-up/2024-W33.md",
+    "Blog/完成/由obsidian的git插件push失败后引申的ssh相关的问题.md",
+    "weekly sum-up",
     "未命名.canvas",
     "算法/递归.md",
-    "Blog/完成/由obsidian的git插件push失败后引申的ssh相关的问题.md",
     "算法",
     "Blog/完成",
     "class/cs61a/scip.md",
@@ -181,7 +190,6 @@
     "class",
     "Blog/new1.md",
     "Blog",
-    "LLM",
     "2024-08-04.md",
     "ceshi.md",
     "欢迎.md"

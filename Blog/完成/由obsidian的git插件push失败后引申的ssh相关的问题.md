@@ -38,11 +38,12 @@
 * passphrase是用于保护SSH私钥的密码，在使用`ssh-keygen`生成密钥对时设置
 * SSH agent是一个用于管理和缓存私钥的工具，主要功能是解锁并保存私钥的解锁状态，使得同一用户在同一会话期间无需重复输入`passphrase`
 	* 启动：`ssh-agent -s`
-	* 添加私钥到SSH Agent：`ssh-add ~/.ssh/id_rsa`
+	* 添加私钥到SSH Agent：`ssh-add --apple-use-keychain ~/.ssh/id_rsa`
+		* -`-apple-use-keychain`:改参数将私钥的passphrase存储到macos的钥匙串中了
 	* 自启动ssh agent 并自动加载密钥：配置在环境变量中如`.zshrc`中
 	```shell
-	ssh-agent -s)
-	ssh-add ~/.ssh/id_rsa
+	ssh-agent -s
+	ssh-add --apple-use-keychain ~/.ssh/id_rsa
 	```
 	* 配置SSH客户端配置文件(`~/.ssh/config`)：
 ```shell
@@ -54,4 +55,4 @@ Host *
 
 # 解决方法
 * 通过上述的解释，可以对上节开始的几个问题有清晰的回答了。
-* 只需要在环境变量中配置好自启动ssh agent就无需每次都手动输入passphrase了；或者也可以在生成密钥对是不设置passphrase也可。
+* 只需要在环境变量中配置好自启动ssh agent就无需每次都手动输入passphrase了；或者也可以在生成密钥对时不设置passphrase，当然后者方法由于安全问题不做推荐。

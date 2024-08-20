@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "coding language/python/基础语法及函数.md",
+                "file": "algorithm/递归.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "coding language/python/基础语法及函数.md",
+                "file": "algorithm/递归.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "coding language/python/基础语法及函数.md",
+                "file": "algorithm/递归.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "coding language/python/基础语法及函数.md"
+                "file": "algorithm/递归.md"
               }
             }
           },
@@ -156,7 +156,10 @@
   },
   "active": "d4fd24adf55e7ded",
   "lastOpenFiles": [
-    "工具网站.md",
+    "LLM/new12.md",
+    "algorithm/递归.md",
+    "tools.md",
+    "proj/easyvidshare.md",
     "coding language/python/基础语法及函数.md",
     "class/cs61a/scip.md",
     "未命名.canvas",
@@ -171,14 +174,11 @@
     "daily sum-up",
     "weekly sum-up/2024-W33.md",
     "weekly sum-up",
-    "算法/递归.md",
-    "算法",
+    "algorithm",
     "Blog/完成",
-    "proj/easyvidshare.md",
     "Blog/draft",
     "proj",
     "Proj.md",
-    "LLM/new12.md",
     "class/cs61a",
     "class",
     "Blog/new1.md",

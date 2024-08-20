@@ -1,4 +1,18 @@
 {
-  "Editor@@line-height-customize": 2,
-  "Editor@@file-line-width": "1000px"
+  "Editor@@line-height-customize": 2.1,
+  "Editor@@file-line-width": "1000px",
+  "Appearance-light@@background-primary@@light": "#F5F5DB",
+  "Appearance-light@@background-underlying-select-light": "background-underlying-primary-light",
+  "Appearance-light@@card-layout-open-light": true,
+  "Appearance-light@@accent-light": "#8FED9F",
+  "Appearance-light@@accent-color-override-light": false,
+  "Components@@tab-autohide": false,
+  "Components@@status-bar-autohide": false,
+  "Components@@extra-anim-remove": true,
+  "Components@@outline-enhanced": true,
+  "Appearance-light@@background-primary-alt@@light": "#EFEFC7",
+  "Appearance-light@@background-secondary@@light": "#EFEFC7",
+  "Appearance-light@@background-secondary-alt@@light": "#EFEFC7",
+  "Editor@@codeblock-style-select": "codeblock-style-dracula",
+  "Editor@@p-spacing": "1.5em"
 }

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8a4924dfe3a08c05",
+        "id": "bfa5d6b3f3c67832",
         "type": "tabs",
         "children": [
           {
-            "id": "3f047746d9b384b9",
+            "id": "d4fd24adf55e7ded",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -138,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -154,11 +154,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3f047746d9b384b9",
+  "active": "d4fd24adf55e7ded",
   "lastOpenFiles": [
+    "工具网站.md",
+    "coding language/python/基础语法及函数.md",
+    "class/cs61a/scip.md",
+    "未命名.canvas",
+    "daily sum-up/2024-08-19.md",
     "Blog/完成/由obsidian的git插件push失败后引申的ssh相关的问题.md",
     "daily sum-up/2024-08-15.md",
-    "coding language/python/基础语法及函数.md",
+    "daily sum-up/2024-08-16.md",
     "coding language/python",
     "coding language",
     "weekly sum-up/2024-W32.md",
@@ -166,11 +171,9 @@
     "daily sum-up",
     "weekly sum-up/2024-W33.md",
     "weekly sum-up",
-    "未命名.canvas",
     "算法/递归.md",
     "算法",
     "Blog/完成",
-    "class/cs61a/scip.md",
     "proj/easyvidshare.md",
     "Blog/draft",
     "proj",

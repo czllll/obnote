@@ -2,5 +2,8 @@
   "cssTheme": "Border",
   "baseFontSize": 19,
   "baseFontSizeAction": true,
-  "theme": "obsidian"
+  "theme": "moonstone",
+  "accentColor": "#2c9aaf",
+  "textFontFamily": "Chalkboard",
+  "interfaceFontFamily": "Chalkboard"
 }

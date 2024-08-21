@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/递归.md",
+                "file": "coding language/javascript/Javascript.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/递归.md",
+                "file": "coding language/javascript/Javascript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/递归.md",
+                "file": "coding language/javascript/Javascript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/递归.md"
+                "file": "coding language/javascript/Javascript.md"
               }
             }
           },
@@ -138,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -156,14 +156,18 @@
   },
   "active": "d4fd24adf55e7ded",
   "lastOpenFiles": [
-    "LLM/new12.md",
-    "algorithm/递归.md",
-    "tools.md",
-    "proj/easyvidshare.md",
-    "coding language/python/基础语法及函数.md",
-    "class/cs61a/scip.md",
-    "未命名.canvas",
+    "daily sum-up/2024-08-21.md",
+    "daily sum-up/2024-08-22.md",
     "daily sum-up/2024-08-19.md",
+    "coding language/javascript/Javascript.md",
+    "proj/easyvidshare.md",
+    "coding language/javascript",
+    "algorithm/递归.md",
+    "class/cs61a/scip.md",
+    "LLM/new12.md",
+    "tools.md",
+    "coding language/python/基础语法及函数.md",
+    "未命名.canvas",
     "Blog/完成/由obsidian的git插件push失败后引申的ssh相关的问题.md",
     "daily sum-up/2024-08-15.md",
     "daily sum-up/2024-08-16.md",
@@ -180,7 +184,6 @@
     "proj",
     "Proj.md",
     "class/cs61a",
-    "class",
     "Blog/new1.md",
     "2024-08-04.md",
     "ceshi.md",

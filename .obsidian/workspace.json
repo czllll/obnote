@@ -4,22 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "bfa5d6b3f3c67832",
+        "id": "de54f0f53a29df92",
         "type": "tabs",
         "children": [
           {
-            "id": "d4fd24adf55e7ded",
+            "id": "f0e381506213a723",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sumup/daily sum-up/2024-08-21.md",
+                "file": "💻CODING/coding language/javascript/Javascript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc258f207dd82a33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "💻CODING/coding language/javascript/Javascript.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0fb13a6ca9980855",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "💻CODING/coding language/javascript/Javascript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a9c5732bf3169aff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🌈LIFE/sumup/daily sum-up/2024-08-22.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2cee42ecb2a98253",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Welcome.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sumup/daily sum-up/2024-08-21.md",
+                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sumup/daily sum-up/2024-08-21.md",
+                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sumup/daily sum-up/2024-08-21.md"
+                "file": "Welcome.md"
               }
             }
           },
@@ -155,44 +204,44 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d4fd24adf55e7ded",
+  "active": "2cee42ecb2a98253",
   "lastOpenFiles": [
-    "sumup/daily sum-up/2024-08-22.md",
-    "sumup/daily sum-up/2024-08-21.md",
-    "sumup/daily sum-up/2024-08-15.md",
-    "sumup/daily sum-up/2024-08-19.md",
-    "sumup/daily sum-up/2024-08-16.md",
-    "sumup/daily sum-up/2024-08-23.md",
+    "🌈LIFE/sumup/daily sum-up/2024-08-22.md",
+    "💻CODING/coding language/javascript/Javascript.md",
     "Welcome.md",
+    "🖊️Blog/完成/由obsidian的git插件push失败后引申的ssh相关的问题.md",
+    "@template/nebula.jpg",
+    "📖READING/ibook/04-左耳听风.md",
+    "📖READING/ibook/真幌站前多田便利屋.md",
+    "📖READING/ibook/我与地坛.md",
+    "📖READING/ibook/The Elements of Computing Systems- Building a Modern Computer from First Principles.md",
+    "📖READING/ibook/王小波：绿毛水怪（李银河独家授权，并亲自校订全稿。王小波、李银河定情之作！“从《绿毛水怪》开始，他拥有我，我拥有他。”）.md",
+    "📖READING/ibook/贝叶斯的博弈：数学、思维与人工智能.md",
+    "📖READING/ibook/UNIX环境高级编程(第3版).md",
+    "📖READING/ibook/王小波全集.md",
+    "📖READING/ibook/渡边淳一畅销作品大合集（21册套装）.md",
+    "📖READING/ibook/只是为了好玩 v1.0 by kindlefere.com.md",
+    "📖READING/ibook/日本战国群雄系列（套装八册）【日本历史小说大师山冈庄八、司马辽太郎等再现战国风云！畅销日本30余年，销量超3000万册！写活织田信长、丰臣秀吉等五位战国名将的传奇跌宕人生！】.md",
+    "📖READING/ibook/大模型应用开发极简入门：基于 GPT-4 和 ChatGPT.md",
+    "📖READING/ibook/置身事内 中国政府与经济发展【复旦经院“毕业课”解读经济生活背后的政府角色。罗永浩、刘格菘、张军、周黎安、王烁联袂推荐】.md",
+    "📖READING/ibook/哪啊哪啊神去村（新版）【同名电影原著小说！日本动漫大师宫崎骏鼎力推荐，日本殿堂级治愈系女作家、直木奖得主三浦紫苑经典之作，堪称日本治愈系典范的青春成长小说！】.md",
+    "📖READING/ibook/深入浅出Docker（异步图书）(elib.cc).md",
+    "📖READING/ibook",
     "sumup/weekly sum-up/2024-W34.md",
-    "sumup",
-    "未命名.md",
-    "weekly sum-up/2024-W34.md",
-    "weekly sum-up/2024-W33.md",
-    "@template/weekly sum-up template.md",
-    "@template/daily sum-up template.md",
-    "@template",
-    "proj/easyvidshare.md",
-    "coding language/javascript/Javascript.md",
-    "coding language/javascript",
-    "algorithm/递归.md",
-    "class/cs61a/scip.md",
-    "LLM/new12.md",
-    "tools.md",
-    "coding language/python/基础语法及函数.md",
-    "未命名.canvas",
-    "Blog/完成/由obsidian的git插件push失败后引申的ssh相关的问题.md",
-    "coding language/python",
-    "coding language",
-    "weekly sum-up/2024-W32.md",
-    "2024-08-06.md",
-    "sumup/daily sum-up",
     "sumup/weekly sum-up",
-    "algorithm",
-    "Blog/完成",
-    "Blog/draft",
-    "Proj.md",
-    "Blog/new1.md",
-    "2024-08-04.md"
+    "sumup",
+    "🌈LIFE/tools.md",
+    "💻CODING",
+    "🌈LIFE",
+    "📖READING",
+    "🌈LIFE/sumup/daily sum-up/2024-08-21.md",
+    "🌈LIFE/sumup/daily sum-up/2024-08-15.md",
+    "sumup/daily sum-up/2024-08-19.md",
+    "🌈LIFE/sumup/daily sum-up/2024-08-16.md",
+    "🌈LIFE/sumup",
+    "@template",
+    "💻CODING/coding language/javascript",
+    "未命名.canvas",
+    "💻CODING/coding language/python"
   ]
 }

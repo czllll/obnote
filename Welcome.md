@@ -1,4 +1,8 @@
-##### 📅今天是`=dateformat(date(today),"DD")`，`=date(today).year` 年已经过去了 `=(date(today)-date(date(today).year + "-01-01")).days` 天，约占`=floor((date(today) - date(date(today).year + "-01-01")).days / 365 * 100) + " %"`
+---
+banner: "![[nebula.jpg]]"
+banner_y: 0.5
+---
+##### 📅今天是`=dateformat(date(today),"DD")`，`=date(today).year` 年已经过去了 `=(date(today)-date(date(today).year + "-01-01")).days` 天，约占`=floor((date(today) - date(date(today).year + "-01-01")).days / 365 * 100) + "%"`
 ```dataviewjs
 let ftMd = dv.pages("").file.sort(t => t.cday)[0]
 let total = parseInt([new Date() - ftMd.ctime] / (60*60*24*1000))
@@ -17,8 +21,8 @@ dv.paragraph(
 
 | 标签    | 事项               | DDL       | 进度  |
 | ----- | ---------------- | --------- | --- |
-| #学习   | [[Javascript]]学习 | 2024-8-31 | 3%  |
-|       | #cs61a           | 2024-8-28 | 50% |
+| #学习   | [[Javascript]]学习 | 2024-8-31 | 10% |
+|       | #cs61a           | 2024-8-29 | 55% |
 | #proj | [[easyvidshare]] | 2024-8-31 | 20% |
 
 ### ⏰将要进行

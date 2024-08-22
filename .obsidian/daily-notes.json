@@ -1,4 +1,4 @@
 {
-  "template": "",
-  "folder": "daily sum-up"
+  "template": "@template/daily sum-up template",
+  "folder": "sumup/daily sum-up"
 }

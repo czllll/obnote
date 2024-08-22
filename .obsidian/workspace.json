@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "coding language/javascript/Javascript.md",
+                "file": "sumup/daily sum-up/2024-08-21.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#学习",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 237.50390243530273
   },
   "right": {
     "id": "3085a088a655b4cf",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "coding language/javascript/Javascript.md",
+                "file": "sumup/daily sum-up/2024-08-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "coding language/javascript/Javascript.md",
+                "file": "sumup/daily sum-up/2024-08-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "coding language/javascript/Javascript.md"
+                "file": "sumup/daily sum-up/2024-08-21.md"
               }
             }
           },
@@ -146,6 +146,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": false,
@@ -156,11 +157,23 @@
   },
   "active": "d4fd24adf55e7ded",
   "lastOpenFiles": [
-    "daily sum-up/2024-08-21.md",
-    "daily sum-up/2024-08-22.md",
-    "daily sum-up/2024-08-19.md",
-    "coding language/javascript/Javascript.md",
+    "sumup/daily sum-up/2024-08-22.md",
+    "sumup/daily sum-up/2024-08-21.md",
+    "sumup/daily sum-up/2024-08-15.md",
+    "sumup/daily sum-up/2024-08-19.md",
+    "sumup/daily sum-up/2024-08-16.md",
+    "sumup/daily sum-up/2024-08-23.md",
+    "Welcome.md",
+    "sumup/weekly sum-up/2024-W34.md",
+    "sumup",
+    "未命名.md",
+    "weekly sum-up/2024-W34.md",
+    "weekly sum-up/2024-W33.md",
+    "@template/weekly sum-up template.md",
+    "@template/daily sum-up template.md",
+    "@template",
     "proj/easyvidshare.md",
+    "coding language/javascript/Javascript.md",
     "coding language/javascript",
     "algorithm/递归.md",
     "class/cs61a/scip.md",
@@ -169,24 +182,17 @@
     "coding language/python/基础语法及函数.md",
     "未命名.canvas",
     "Blog/完成/由obsidian的git插件push失败后引申的ssh相关的问题.md",
-    "daily sum-up/2024-08-15.md",
-    "daily sum-up/2024-08-16.md",
     "coding language/python",
     "coding language",
     "weekly sum-up/2024-W32.md",
     "2024-08-06.md",
-    "daily sum-up",
-    "weekly sum-up/2024-W33.md",
-    "weekly sum-up",
+    "sumup/daily sum-up",
+    "sumup/weekly sum-up",
     "algorithm",
     "Blog/完成",
     "Blog/draft",
-    "proj",
     "Proj.md",
-    "class/cs61a",
     "Blog/new1.md",
-    "2024-08-04.md",
-    "ceshi.md",
-    "欢迎.md"
+    "2024-08-04.md"
   ]
 }

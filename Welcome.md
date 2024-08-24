@@ -19,17 +19,20 @@ dv.paragraph(
 ```
 ### 正在进行
 
-| 标签    | 事项               | DDL       | 进度  |
-| ----- | ---------------- | --------- | --- |
-| #学习   | [[Javascript]]学习 | 2024-8-31 | 10% |
-|       | #cs61a           | 2024-8-29 | 55% |
-| #proj | [[easyvidshare]] | 2024-8-31 | 20% |
+| 标签    | 事项                                                         | DDL       | 进度                                                   |
+| ----- | ---------------------------------------------------------- | --------- | ---------------------------------------------------- |
+| #学习   | [[Javascript]]学习                                           | 2024-8-31 | 10%                                                  |
+|       | #cs61a                                                     | 2024-8-29 | 60%                                                  |
+|       | [[leetcode刷题记录]]                                           | 每天一小时     | [题单](https://huxulm.github.io/lc-rating/list/sw<br>) |
+|       | [机器学习吴恩达](https://www.coursera.org/learn/machine-learning) |           | 0%                                                   |
+| #proj | [[easyvidshare]]                                           | 2024-8-31 | 20%                                                  |
+|       |                                                            |           |                                                      |
 
 ### ⏰将要进行
 
 | 标签    | 事项                                                                |
 | ----- | ----------------------------------------------------------------- |
-| #学习   | [机器学习吴恩达](https://www.coursera.org/learn/machine-learning)        |
+| #学习   |                                                                   |
 |       | [深度学习吴恩达](https://www.coursera.org/specializations/deep-learning) |
 | #proj | cuan                                                              |
 

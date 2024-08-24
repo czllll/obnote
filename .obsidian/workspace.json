@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f0e381506213a723",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "💻CODING/coding language/javascript/Javascript.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "dc258f207dd82a33",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💻CODING/coding language/javascript/Javascript.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0fb13a6ca9980855",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "💻CODING/coding language/javascript/Javascript.md",
+                "file": "💻CODING/algorithm/leetcode刷题记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,14 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-08-22.md",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-08-24.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2cee42ecb2a98253",
+            "id": "44cc3d20498a1764",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -66,9 +42,32 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "62902667a08d8d3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🌈LIFE/sumup/daily sum-up/2024-08-24.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7f56caafaee6cb07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🌈LIFE/sumup/daily sum-up/2024-08-24.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#学习",
+                "query": "定长滑动窗口",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "💻CODING/algorithm/leetcode刷题记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "💻CODING/algorithm/leetcode刷题记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
+                "file": "💻CODING/algorithm/leetcode刷题记录.md"
               }
             }
           },
@@ -204,11 +203,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2cee42ecb2a98253",
+  "active": "dc258f207dd82a33",
   "lastOpenFiles": [
-    "🌈LIFE/sumup/daily sum-up/2024-08-22.md",
     "💻CODING/coding language/javascript/Javascript.md",
+    "🌈LIFE/sumup/daily sum-up/2024-08-24.md",
+    "💻CODING/algorithm/leetcode刷题记录.md",
     "Welcome.md",
+    "2024-08-24.md",
+    "🌈LIFE/sumup/daily sum-up/2024-08-22.md",
     "🖊️Blog/完成/由obsidian的git插件push失败后引申的ssh相关的问题.md",
     "@template/nebula.jpg",
     "📖READING/ibook/04-左耳听风.md",
@@ -236,8 +238,6 @@
     "📖READING",
     "🌈LIFE/sumup/daily sum-up/2024-08-21.md",
     "🌈LIFE/sumup/daily sum-up/2024-08-15.md",
-    "sumup/daily sum-up/2024-08-19.md",
-    "🌈LIFE/sumup/daily sum-up/2024-08-16.md",
     "🌈LIFE/sumup",
     "@template",
     "💻CODING/coding language/javascript",

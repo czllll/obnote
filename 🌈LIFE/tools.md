@@ -1,1 +1,0 @@
-* macos本地ai：ollama.com

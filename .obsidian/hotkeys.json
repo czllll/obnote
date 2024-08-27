@@ -7,5 +7,14 @@
       ],
       "key": "D"
     }
+  ],
+  "templater-obsidian:@template/Blog Reading Template.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "B"
+    }
   ]
 }

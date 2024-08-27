@@ -13,7 +13,7 @@
   "Appearance-light@@background-primary-alt@@light": "#EFEFC7",
   "Appearance-light@@background-secondary@@light": "#EFEFC7",
   "Appearance-light@@background-secondary-alt@@light": "#EFEFC7",
-  "Editor@@codeblock-style-select": "codeblock-style-dracula",
+  "Editor@@codeblock-style-select": "codeblock-style-customize",
   "Editor@@p-spacing": "1.1em",
   "Editor@@p-spacing-br": true,
   "Plugin@@colorful-checkbox": true

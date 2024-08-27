@@ -1,4 +1,4 @@
-##### 📅今天是`=dateformat(date(today),"DD")`，`=date(today).year` 年已经过去了 `=(date(today)-date(date(today).year + "-01-01")).days` 天，约占`=floor((date(today) - date(date(today).year + "-01-01")).days / 365 * 100) + "%"`
+📅今天是`=dateformat(date(today),"DD")`，`=date(today).year` 年已经过去了 `=(date(today)-date(date(today).year + "-01-01")).days` 天，约占`=floor((date(today) - date(date(today).year + "-01-01")).days / 365 * 100) + "%"`
 ```dataviewjs
 let ftMd = dv.pages("").file.sort(t => t.cday)[0]
 let total = parseInt([new Date() - ftMd.ctime] / (60*60*24*1000))
@@ -15,9 +15,14 @@ dv.paragraph(
 ```
 📚博文阅读在这里：[[Blog Overview]]
 📁等待被学习的代码仓库在这里：[[TODO repository]]
-📝最近创建的文件：
+📝**最近**文档：
 ```dataview
 table file.ctime as "Creation Time" from "" sort file.ctime desc limit 5
+```
+📝**todo**文档：
+```dataview 
+table file.ctime as "Creation Time" from #todo
+sort file.ctime desc
 ```
 ### ⏳正在进行
 
@@ -27,7 +32,6 @@ table file.ctime as "Creation Time" from "" sort file.ctime desc limit 5
 |       | #cs61a             | 2024-8-29 | 65% |                                                      |
 |       | [[leetcode刷题记录]]   | 每天一小时     |     | [题单](https://huxulm.github.io/lc-rating<br>)         |
 | #proj | [[easyvidshare]]   | 2024-8-31 | 20% |                                                      |
-
 ### ⏰将要进行
 
 | 标签    | 事项                                                                |
@@ -39,7 +43,3 @@ table file.ctime as "Creation Time" from "" sort file.ctime desc limit 5
 |       | chatbox                                                           |
 
 
-
-
-
- 

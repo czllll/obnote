@@ -231,11 +231,35 @@ let sayHi = function func(who) {
 * **箭头函数**：不绑定自己的this，从外部作用域继承this
 ### call、apply、bind三个方法
 #### call
-* `func.call(thisArg, arg1, arg2, ...)
+* `func.call(thisArg, arg1, arg2, ...)`
 * 立即调用一个函数，并显式指定this的值
 #### apply
-* `func.apply(thisArg, [argsArray])
+* `func.apply(thisArg, [argsArray])`
 * 立即调用一个函数，使用数组或类数组传递参数
 #### bind
-* `let boundFunc = func.bind(thisArg, arg1, arg2, ...)
+* `let boundFunc = func.bind(thisArg, arg1, arg2, ...)`
 * 创建一个新的函数，并永久绑定`this`,不会立即调用函数，而是返回一个新函数
+
+## 原型继承
+### 原型链
+* 当读取/删除对象属性时，js会现在对象本身查找；若未找到则沿着原型链向上查找，直到找到或到顶
+### 方法
+#### 设置\[\[\Prototype]]
+* 对对象
+```js
+let animal = {
+	eat: true
+};
+let rabbit = {
+	jumps: true
+}
+
+rabbit.__proto__ = animal; //deprecated
+Object.getPrototypeOf(rabbit)
+Object.setPrototypeOf(rabbit, animal)
+```
+* 当使用new F()这样的构造函数创建新对象时,如下，new Rabbit的时候即设置了\[\[\Prototype]]为 animal
+```js
+Rabbit.prototype = animal;
+let rabbit = new Rabbit("White Rabbit");
+```

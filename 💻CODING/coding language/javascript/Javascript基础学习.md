@@ -39,15 +39,20 @@ typeof true // "boolean"
 		* `-Infininty`
 		* `NaN`:代表计算错误
 			* 特殊的：`NaN ** 0 == 1`
+	* num.toString(base)
+		* base表示进制数
+		* 若num不是变量而是数字，则需要两个点来调用该方法，因为js引擎默认数字后第一个小数点的后为小数部分：``123456.``.``toString``(``36``)``
 * BigInt类型
 	*  Number是基于IEEE 754 双精度浮点数标准的，“number” 类型无法安全地表示大于 $(2^{53}-1)$，或小于 $-(2^{53}-1)$ 的整数。
 	* BigInt用于表示任意长度整数，将`n`添加到末尾来创建BigInt值
 * String类型
 	* 单引号和双引号：简单引用，几乎无差别
 	* 反引号：代表*功能扩展*引号，允许将变量和表达式包装在`${...}`中
-```javascript
-alert( `the result is ${1 + 2}` ); 
-```
+		* `alert( `the result is ${1 + 2}` ); `
+	* 可使用`for .. of`遍历字符
+		* `for (let char of "Hello")`
+	* 字符串不可变
+      
 * Boolean类型
 	* true/false
 * null值
@@ -59,8 +64,55 @@ alert( `the result is ${1 + 2}` );
 	* 用于创建对象的唯一标识符
 	* 
 #### 引用类型
-* Object类型
-	* 用于存储集合和更复杂的实体
+##### Object类型
+* 用于存储集合和更复杂的实体
+###### 数组
+* 数组是一种种特殊的对象
+* 方法
+	* **字符串操作**
+		* 栈和队列
+			* push/pop:末端进出
+			* pus/shift：末端进，首端出
+			* unshift：首端进
+		* `splice(start, deleteCount, elem1,..., elemN`
+			* 从索引start开始修改：删除deleteCount个元素，并在当前位置插入elem1，...,elemN元素
+		* `arr1.concat(arr2,arr3)`合并生成新数组
+	* **遍历**
+		* 使用`arr.forEach`方法允许为数组的每个元素都运行一个函数
+			* `arr.forEach(function(item, index, array){...});`
+			* `arr.forEach((item, index, array) => {...});`
+	* **查找**
+		* 要取最后一个元素可以使用`.at(-1)`
+		* arr.find() -- 查找数组中满足提供的测试函数的第一个元素
+		* arr.filter() -- 查找所有匹配元素组成的数组
+	* **map**
+		* 对数组每个元素都调用函数，返回结果数组
+	* **排序**
+		* arr.sort()原位排序；默认按照字符串，可提供参数修改排序方法
+* 循环
+	* 可使用for或for .. of
+	* 不建议是使用for .. in
+
+###### iterable object
+* `for .. of`以来对象的可迭代性，普通的js对象并没有默认的迭代器，因此不能直接用`for of`
+* 通过实现`Symbol.iterator`方法，对象可转变为可迭代的对象
+* 类数组是什么？
+	*  **Array-like** 是有索引和 `length` 属性的对象，所以它们看起来很像数组。
+	* Array.from()方法接受u一个可迭代或类数组的值，并从中获取一个真正的数组
+###### map
+* 普通的Object会将key转换为字符串，而map不会
+* 迭代方法
+	* map.keys(),遍历并发会一个包含所有key的可迭代对象
+	* map.value()
+	* map.entries(),返回所有实体\[k,v]的可迭代对象
+* 创建
+	* Object->Map:_`new Map(Object.entries(obj))
+	* Map->Object:`Object.fromEntries(map.entries())`
+###### Set
+* value的集合，每个值只出现一次
+* 迭代方法
+	* for ... of
+	* for each
 ### 运算符
 #### 一元运算符+
 * 对数字没有任何作用
@@ -144,5 +196,46 @@ let bag = {
 		* 当js需要字符串作为结果时，如`alert(obj)`
 	* number
 		* 如`obj+1`
-	* default
+	* default2
 		* 通常出现在比较中（对象与字符串或数字进行比较时）
+### json
+* 方法
+	* `JSON.stringify` 将对象转换为 JSON。
+	* `JSON.parse` 将 JSON 转换回对象。
+
+
+## 函数进阶
+### 全局对象
+* 在浏览器中是 window，在Node.js中是 global。
+* ES11中 globalThis 作为标准名称被加入到js
+### 函数对象
+* 函数在js中是一种值，类型是对象
+* 属性
+	* name
+	* length，返回入参个数，rest参数不参与计数
+### 命名函数表达式 NFE
+* 是什么？
+	* 带有名字的函数表达式
+```javascript
+let sayHi = function func(who) {
+  alert(`Hello, ${who}`);
+};
+```
+* func即为名字，供函数内部调用，不实用外部变量sayHi是因为sayHi在外部的词法作用域中，可能会被改变
+### 装饰器模式
+* 装饰器可以在不修改源头代码的情况下，动态地对函数进行添加修改增强
+#### this绑定规则
+* **默认绑定**：函数子啊全局作用域被调用时，this默认指向全局对象
+* **隐式绑定**：使用点符号调用对象方法时，this绑定到该对象
+* **显式绑定**：通过call(),apply(),bind()方法，可以显式设置this的值
+* **箭头函数**：不绑定自己的this，从外部作用域继承this
+### call、apply、bind三个方法
+#### call
+* `func.call(thisArg, arg1, arg2, ...)
+* 立即调用一个函数，并显式指定this的值
+#### apply
+* `func.apply(thisArg, [argsArray])
+* 立即调用一个函数，使用数组或类数组传递参数
+#### bind
+* `let boundFunc = func.bind(thisArg, arg1, arg2, ...)
+* 创建一个新的函数，并永久绑定`this`,不会立即调用函数，而是返回一个新函数

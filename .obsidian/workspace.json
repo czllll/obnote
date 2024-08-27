@@ -4,35 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "45a045a96f5547f4",
+        "id": "7174ab59cf2e5da5",
         "type": "tabs",
         "children": [
           {
-            "id": "8a246509093a30e7",
+            "id": "fb1a4ae3c2e838b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💻CODING/DB/Mysql/Bufferpool详解.md",
+                "file": "💻CODING/coding language/javascript/Javascript基础学习.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "77d5a3bd2330cffc",
+            "id": "3aa6309f84dbc06f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-08-26.md",
+                "file": "💻CODING/algorithm/leetcode刷题记录.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0b56142253617463",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Welcome.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -61,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#proj",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-08-26.md",
+                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-08-26.md",
+                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-08-26.md"
+                "file": "Welcome.md"
               }
             }
           },
@@ -151,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -170,33 +183,33 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "77d5a3bd2330cffc",
+  "active": "0b56142253617463",
   "lastOpenFiles": [
+    "💻CODING/algorithm/leetcode刷题记录.md",
+    "Welcome.md",
+    "💻CODING/coding language/javascript/Javascript基础学习.md",
+    "💻CODING/coding language/python/Python基础学习.md",
+    "🌈LIFE/TODO repository.md",
+    "💻CODING/algorithm/LRU算法.md",
+    "🖊️Blog/blog阅读/Blog Overview.md",
     "🖊️Blog/blog阅读/九大服务架构性能优化方式.md",
+    "💻CODING/DB/Mysql/mysql三大日志（binlog、redolog、undolog）.md",
     "🌈LIFE/sumup/daily sum-up/2024-08-26.md",
     "💻CODING/DB/Mysql/innoDB引擎.md",
     "💻CODING/DB/Mysql/MVCC.md",
     "💻CODING/DB/Redis/epoll.md",
-    "Welcome.md",
     "💻CODING/DB/Mysql/Bufferpool详解.md",
-    "💻CODING/DB/Mysql/mysql三大日志（binlog、redolog、undolog）.md",
     "💻CODING/DB/Redis",
     "🖊️Blog/blog阅读/软件开发者需要知道有关学习的10件事情.md",
-    "🖊️Blog/blog阅读/Blog Overview.md",
-    "💻CODING/coding language/javascript/Javascript基础学习.md",
-    "💻CODING/coding language/python/基础语法及函数.md",
     "💻CODING/系统设计/分布式锁.md",
-    "💻CODING/algorithm/LRU算法.md",
     "💻CODING/系统设计",
     "💻CODING/DB/Mysql",
     "💻CODING/DB",
     "@template/Blog Reading Template.md",
-    "🌈LIFE/TODO repository.md",
     "🌈LIFE/sumup/daily sum-up/2024-08-24.md",
     "🌈LIFE/sumup/weekly sum-up/2024-W34.md",
     "🖊️Blog/blog阅读",
     "💻CODING/未命名.md",
-    "💻CODING/algorithm/leetcode刷题记录.md",
     "@template/daily sum-up template.md",
     "@template/nebula.jpg",
     "@template/weekly sum-up template.md",

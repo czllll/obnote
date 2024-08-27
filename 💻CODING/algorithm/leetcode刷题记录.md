@@ -8,4 +8,6 @@
 | ----------------------------------------------------------------------------------------------------------- | -------------- |
 | [1456. 定长子串中元音的最大数目](https://leetcode.cn/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | [[2024-08-24]] |
 | [2269. 找到一个数字的 K 美丽值](https://leetcode.cn/problems/find-the-k-beauty-of-a-number/)                          | [[2024-08-24]] |
+| [1984. 学生分数的最小差值](https://leetcode.cn/problems/minimum-difference-between-highest-and-lowest-of-k-scores/)  | [[2024-08-27]] |
+| [643. 子数组最大平均数 I](https://leetcode.cn/problems/maximum-average-subarray-i/)                                 | [[2024-08-27]] |
 |                                                                                                             |                |

@@ -1,4 +1,38 @@
-📅今天是`=dateformat(date(today),"DD")`，`=date(today).year` 年已经过去了 `=(date(today)-date(date(today).year + "-01-01")).days` 天，约占`=floor((date(today) - date(date(today).year + "-01-01")).days / 365 * 100) + "%"`
+```dataviewjs
+// 获取当前日期
+const today = new Date();
+
+// 获取今年的开始和结束日期
+const startOfYear = new Date(today.getFullYear(), 0, 1);
+const endOfYear = new Date(today.getFullYear() + 1, 0, 1);
+
+// 计算当前日期是今年的第几天
+const dayOfYear = Math.floor((today - startOfYear) / (1000 * 60 * 60 * 24)) + 1;
+
+// 计算总天数和进度百分比
+const totalDays = (endOfYear - startOfYear) / (1000 * 60 * 60 * 24);
+const progress = (dayOfYear / totalDays) * 100;
+
+// 格式化日期
+const formattedDate = today.toLocaleDateString('zh-CN', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    weekday: 'long'
+});
+
+// 输出当前日期的天数、日期和模拟的绿色进度条
+dv.paragraph(`今天是 ${formattedDate}，是今年的第 ${dayOfYear} 天。`);
+dv.paragraph(`Year Progress: ${progress.toFixed(2)}%`);
+
+// 创建绿色的自定义进度条
+dv.paragraph(`
+<div style="background-color: #e0e0e0; width: 100%; height: 20px; border-radius: 10px;">
+    <div style="background-color: green; width: ${progress.toFixed(2)}%; height: 100%; border-radius: 10px;"></div>
+</div>
+`);
+
+```
 ```dataviewjs
 let ftMd = dv.pages("").file.sort(t => t.cday)[0]
 let total = parseInt([new Date() - ftMd.ctime] / (60*60*24*1000))
@@ -14,15 +48,17 @@ dv.paragraph(
 )
 ```
 📚博文阅读在这里：[[Blog Overview]]
-📁等待被学习的代码仓库在这里：[[TODO repository]]
-📝**最近**文档：
+📁TODO仓库在这里：[[TODO repository]]
+📝**最近更新**文档：
 ```dataview
-table file.ctime as "Creation Time" from "" sort file.ctime desc limit 5
+table file.mtime as "Update Time" from "" 
+where file.name != "Welcome"
+sort file.mtime desc limit 8
 ```
 📝**todo**文档：
 ```dataview 
-table file.ctime as "Creation Time" from #todo
-sort file.ctime desc
+table file.mtime as "Update Time" from #todo
+sort file.mtime desc
 ```
 ### ⏳正在进行
 
@@ -30,7 +66,7 @@ sort file.ctime desc
 | ----- | ------------------ | --------- | --- | ---------------------------------------------------- |
 | #学习   | [[Javascript基础学习]] | 2024-8-31 | 30% | [js现代教程](https://zh.javascript.info/object-copy?map) |
 |       | #cs61a             | 2024-8-29 | 65% |                                                      |
-|       | [[leetcode刷题记录]]   | 每天一小时     |     | [题单](https://huxulm.github.io/lc-rating<br>)         |
+|       | [[leetcode刷题记录]]   | 每天一小时     |     | [题单](https://huxulm.github.io/lc-rating)             |
 | #proj | [[easyvidshare]]   | 2024-8-31 | 20% |                                                      |
 ### ⏰将要进行
 

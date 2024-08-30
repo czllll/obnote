@@ -1,5 +1,4 @@
 #学习 #js
-# 简介
 ## 运行环境
 * 可在浏览器、服务端执行
 * 在搭载了Javascript引擎（专门处理Javascript脚本的虚拟机）的设备中执行
@@ -263,3 +262,13 @@ Object.setPrototypeOf(rabbit, animal)
 Rabbit.prototype = animal;
 let rabbit = new Rabbit("White Rabbit");
 ```
+## 类
+### Mixin
+* 是什么？
+	* 是一种设计模式，由于js只能继承一个对象，所以在需要继承多个对象时，Mixin允许你将多个类的功能混合到一个类中
+* 实现方法
+	* 简单对象扩展
+		* ```Object.assign(SomeClass.prototype, someObject)```
+	* ...
+## Promise、async、await
+* 

@@ -348,7 +348,7 @@ let example = new Promise(function(resolve, reject){
 //两者相同
 ```
 #### await关键字
-* 只能在async中使用，会暂停函数的执行，知道promise完成，并返回其结果
+* 只能在async中使用，会暂停函数的执行，直到promise完成，并返回其结果
 ```js
 async function fetchData() {
   let response = await fetch('https://api.example.com/data');
@@ -470,7 +470,7 @@ async function* asyncGenerator() {
 #### DOM属性
 * 如onclick
 #### addEventListener
-* `element.addEventListener(event, handler[, options]);`
+* `element.addEventListener(event, handler,[, options]);`
 	* event 事件名 如click
 	* handler 处理程序
 	* option
@@ -489,7 +489,7 @@ async function* asyncGenerator() {
 完整链路：点击某个元素，事件手贱通过祖先链向下到达元素，到达目标，最后上升，在途中调用处理程序
 
 #### 事件委托
-* 若有许多以类似方式处理的元素，不必为每个元素分配一个处理程序———— 而时间耽搁处理程序放在他们的共同祖先上
+* 若有许多以类似方式处理的元素，不必为每个元素分配一个处理程序———— 而时间耽搁处理程序放在他们的共同祖先上·。
 
 ### 浏览器行为
 * 阻止浏览器行为
@@ -498,3 +498,7 @@ async function* asyncGenerator() {
 or
 <a href="/" onclick="event.preventDefault()">here</a>
 ```
+
+## 接口
+### 可读流
+* Node.js中提供了一组操作和事件来处理数据流

@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
-                "mode": "preview",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-08-31.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💻CODING/coding language/javascript/Javascript基础学习.md",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-08-31.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💻CODING/coding language/javascript/Javascript基础学习.md",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-08-31.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💻CODING/coding language/javascript/Javascript基础学习.md"
+                "file": "🌈LIFE/sumup/daily sum-up/2024-08-31.md"
               }
             }
           },
@@ -169,15 +170,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5ab54dc1ef272a42",
+  "active": "1519489f01613f10",
   "lastOpenFiles": [
+    "💻CODING/coding language/javascript/Javascript基础学习.md",
+    "🌈LIFE/sumup/daily sum-up/2024-08-31.md",
+    "Welcome.md",
     "@asset/Pasted image 20240831144950.png",
     "@asset/Pasted image 20240831142343.png",
     "💻CODING/coding language/python/Python基础学习.md",
-    "💻CODING/coding language/javascript/Javascript基础学习.md",
     "@asset/Pasted image 20240830171239.png",
     "@asset",
-    "Welcome.md",
     "🌈LIFE/sumup/daily sum-up/2024-08-28.md",
     "🌈LIFE/sumup/daily sum-up/2024-08-29.md",
     "📖READING/blog阅读/Blog Overview.md",

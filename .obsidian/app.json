@@ -1,5 +1,7 @@
 {
   "promptDelete": false,
   "autoPairMarkdown": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "@asset"
 }

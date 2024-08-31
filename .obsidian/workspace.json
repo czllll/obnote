@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -151,11 +150,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,10 +169,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3ced3d74e2e29226",
+  "active": "5ab54dc1ef272a42",
   "lastOpenFiles": [
-    "Welcome.md",
+    "@asset/Pasted image 20240831144950.png",
+    "@asset/Pasted image 20240831142343.png",
+    "💻CODING/coding language/python/Python基础学习.md",
     "💻CODING/coding language/javascript/Javascript基础学习.md",
+    "@asset/Pasted image 20240830171239.png",
+    "@asset",
+    "Welcome.md",
     "🌈LIFE/sumup/daily sum-up/2024-08-28.md",
     "🌈LIFE/sumup/daily sum-up/2024-08-29.md",
     "📖READING/blog阅读/Blog Overview.md",
@@ -187,7 +191,6 @@
     "💻CODING/DB/Mysql/innoDB引擎.md",
     "💻CODING/DB/Mysql/Bufferpool详解.md",
     "💻CODING/algorithm/LRU算法.md",
-    "💻CODING/coding language/python/Python基础学习.md",
     "🌈LIFE/TODO repository.md",
     "📖READING/blog阅读/九大服务架构性能优化方式.md",
     "💻CODING/DB/Redis",
@@ -203,12 +206,10 @@
     "@template/daily sum-up template.md",
     "@template/nebula.jpg",
     "@template/weekly sum-up template.md",
-    "💻CODING/思考/读'软件开发者应该学习的10件事'思考.md",
     "💻CODING/思考",
     "📖READING/ibook",
     "sumup/weekly sum-up",
     "sumup",
-    "💻CODING",
     "未命名.canvas"
   ]
 }

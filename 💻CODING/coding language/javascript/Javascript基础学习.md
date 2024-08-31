@@ -271,4 +271,230 @@ let rabbit = new Rabbit("White Rabbit");
 		* ```Object.assign(SomeClass.prototype, someObject)```
 	* ...
 ## Promise、async、await
-* 
+### promise
+* 用来处理异步操作的工具
+#### 创建promise
+```js
+let promise = new Promise(function(resolve, reject){
+	// 异步操作，比如网络请求或定时器 
+	const success = true; // 假设操作成功 
+	if (success) { 
+		resolve('操作成功'); 
+	} else { 
+		reject('操作失败'); 
+	}
+});
+```
+* promise的两种状态![[Pasted image 20240830171239.png]]
+#### 消费者：then catch
+* 使用then处理成功的结果
+	* 当promise被成功resolve时，then方法会被调用第一个函数，并且会接收到resolve传递的值
+	* 第二个参数当promise被reject时被调用
+```js
+promise.then(
+  function(result){...}
+  function(error){}
+)
+```
+`.catch(f)` 调用是 `.then(null, f)`
+#### finally 清理
+* finally 总是会在promise状态变为settled（fulfilled或rejected）时首先执行，即在promise结束无论成功还是失败时被调用，用于执行清理操作，then在finally执行完之后才会执行
+#### promise API
+* Promise类中有6种静态方法
+##### promise.all
+* 希望并行执行多个promise，并等待所有promise都准备就绪
+`let promise = Promise.all(iterable)`
+##### promise.allSettled
+* 如果任意的promise reject,则整个Promise.all整个将会reject
+##### promise.race
+* 与Promise.all类似，但只等待第一个settled的promise并获取结果或error
+##### promise.any
+* 与promise.race类似，但是等待第一个fulfilled的promise，并将这个fulfilled的promise返回
+##### promise.resolve/reject
+* 基本不使用，因为有async/await
+
+#### promisification
+* 核心是将一个基于回调的函数包装成返回 `Promise` 的函数
+* 可使用Node.js中的`util.promisify`来进行自动化
+```js
+const readFile = util.promisify(fs.readFile); 
+readFile('example.txt', 'utf8') 
+	.then(content => { console.log(content); }) 
+	.catch(error => { console.error(error); });
+```
+#### 微任务
+* 一种异步任务，执行优先级高于普通的宏任务，通常是在当前**事件循环**的一轮执行完后立即执行的，确保在下一个事件循环开始之前完成。
+##### 来源
+* promise
+	* Promise的then catch finally回调会被添加到微任务队列中
+* MutationObserver
+	* 监控DOM变化的MutationObserver回调也是微任务
+* queueMicrotask
+	* 显式将一个函数添加到微任务队列中
+##### 宏任务是什么？
+* 另一类异步任务，包含常见setTimeout、setInterval，IO操作，DOM事件等
+### async/await
+* 为了使异步代码更容易书写和理解，使其更像同步代码
+#### async关键字
+* 声明一个函数为异步函数，async函数会返回一个promise对象，即使你在函数中直接返回一个值，这个值也会包装在一个promise中
+```js
+async function example(){
+	return "hello"
+}
+
+let example = new Promise(function(resolve, reject){
+	resolve("hello)
+});
+//两者相同
+```
+#### await关键字
+* 只能在async中使用，会暂停函数的执行，知道promise完成，并返回其结果
+```js
+async function fetchData() {
+  let response = await fetch('https://api.example.com/data');
+  let data = await response.json();
+  console.log(data);
+}
+```
+
+## Generator
+* 生成器是一种特殊类型的函数，允许函数在执行过程中暂停和恢复，通过`yield`关键字生成多个值，生成器函数的调用不会立即执行，而是返回一个生成器对象，该对象可以通过调用'next()'方法逐步执行
+```js
+function* myGenerator() { yield '第一项'; yield '第二项'; }
+const gen = myGenerator(); 
+console.log(gen.next()); // { value: '第一项', done: false } 
+console.log(gen.next()); // { value: '第二项', done: false } 
+console.log(gen.next()); // { value: undefined, done: true }
+```
+### 异步迭代
+* 用于处理需要逐步获取的数据流
+#### 异步生成器
+```js
+async function* asyncGenerator() {
+  yield await new Promise(resolve => setTimeout(() => resolve('First'), 1000));
+  yield await new Promise(resolve => setTimeout(() => resolve('Second'), 1000));
+  yield await new Promise(resolve => setTimeout(() => resolve('Third'), 1000));
+}
+
+```
+#### for wait... of
+```js
+(async () => {
+  for await (let value of asyncGenerator()) {
+    console.log(value);
+  }
+})();
+
+```
+
+## 导入
+### 动态导入
+* import(module)家在模块并返回一个promise
+## Proxy和Reflect
+#todo 
+## Document
+### 文档对象模型DOM
+* 将所有页面内容表示为可以修改的对象
+#### DOM树
+* `<html> = document.documentElement`
+* `<body>` = `document.body`
+* `<head>` = `document.head`
+##### 搜索
+* `document.getElementById(id)`
+* `elem.querySelectorAll(css)`:返回与指定css选择器匹配的所有元素的NodeList
+* `elem.matches(css)`:检查elem是否与给定的css选择器相匹配，返回true或false
+* `elem.closest(css)` 方法会查找与 CSS 选择器匹配的最近的祖先。`elem` 自己也会被搜索。
+##### 节点属性
+![[Pasted image 20240831142343.png]]
+* nodeName和tagName
+	* 给定DOM节点可以从nodeName或者tagName属性读取标签名
+	* tagname仅适用于Element节点
+	* nodeName适用于任何Node
+* innerHTML
+	* 将元素的HTML获取为字符串形式
+* outerHTML
+	* 包含元素本身的完整HTML
+* nodeValue/data：文本节点的内容
+	* 两者只有规范上细微差别
+* textContent：纯文本
+	* 对元素内文本的访问权限
+* hidden属性
+	* 指定元素是否可见 true/false
+
+
+#### 特性和属性
+* 浏览器加载页面会读取HTML并从中生成DOM对象，大多数特性属性会一一对应
+	* 标签《特性》：`<body id="page">`-> DOM 对象《属性》: `body.id="page"`
+* HTML特性特征
+	* 大小写不敏感
+	* 值是字符串类型
+#### DOM修改
+* 创建新元素节点：`document.createElement(tag)`
+* 创建文本节点：`document.createTextNode(text)`
+* 元素插入
+	* `node.append(...nodes or strings)` —— 在 `node` **末尾** 插入节点或字符串，
+	- `node.prepend(...nodes or strings)` —— 在 `node` **开头** 插入节点或字符串，
+	- `node.before(...nodes or strings)` —— 在 `node` **前面** 插入节点或字符串，
+	- `node.after(...nodes or strings)` —— 在 `node` **后面** 插入节点或字符串，
+	- `node.replaceWith(...nodes or strings)` —— 将 `node` 替换为给定的节点或字符串。
+#### 样式和类
+* 两种方式添加样式
+	* 在 CSS 中创建一个类，并添加它：`<div class="...">`
+	* 将属性直接写入 `style`：`<div style="...">`
+#### 元素大小
+![[Pasted image 20240831144950.png]]
+### 浏览器对象模型BOM
+* 由浏览器提供的用于处理文档之外的所有内容的其他对象
+
+## 事件
+* 是某事发生的信号，所有的DOM节点都生成这样的信号（不限于DOM）
+### 事件类别
+* 鼠标事件
+	* - `click` —— 当鼠标点击一个元素时（触摸屏设备会在点击时生成）。
+	- `contextmenu` —— 当鼠标右键点击一个元素时。
+	- `mouseover` / `mouseout` —— 当鼠标指针移入/离开一个元素时。
+	- `mousedown` / `mouseup` —— 当在元素上按下/释放鼠标按钮时。
+	- `mousemove` —— 当鼠标移动时。
+- 键盘事件：
+	- `keydown` 和 `keyup` —— 当按下和松开一个按键时。
+* 表单（form）元素事件：
+	- `submit` —— 当访问者提交了一个 `<form>` 时。
+	- `focus` —— 当访问者聚焦于一个元素时，例如聚焦于一个 `<input>`。
+* Document 事件：
+	- `DOMContentLoaded` —— 当 HTML 的加载和处理均完成，DOM 被完全构建完成时。
+* CSS 事件：
+	- `transitionend` —— 当一个 CSS 动画完成时。
+### 事件响应
+#### HTML特性
+* 如onclick
+#### DOM属性
+* 如onclick
+#### addEventListener
+* `element.addEventListener(event, handler[, options]);`
+	* event 事件名 如click
+	* handler 处理程序
+	* option
+		* once：true则代表被处罚后自动删除监听器
+		* capture：事件处理阶段
+		* passive：若为true，处理程序不会调用preventDefault()
+* `element.removeEventListener(event, handler[, options]);`
+#### 冒泡
+* 是一种时间传播机制，指事件从最具体的元素（目标元素）开始触发，然后逐级向上传播到较不具体的节点（父级元素）的过程
+* 阻止冒泡
+	* event.stopPropagation()
+##### 事件传播的三个阶段
+* 捕获阶段：事件从window向下走近元素
+* 目标阶段：事件到达目标元素
+* 冒泡阶段：事件从元素开始冒泡
+完整链路：点击某个元素，事件手贱通过祖先链向下到达元素，到达目标，最后上升，在途中调用处理程序
+
+#### 事件委托
+* 若有许多以类似方式处理的元素，不必为每个元素分配一个处理程序———— 而时间耽搁处理程序放在他们的共同祖先上
+
+### 浏览器行为
+* 阻止浏览器行为
+```js
+<a href="/" onclick="return false">Click here</a>
+or
+<a href="/" onclick="event.preventDefault()">here</a>
+```

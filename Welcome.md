@@ -62,20 +62,22 @@ sort file.mtime desc
 ```
 ### ⏳正在进行
 
-| 标签    | 事项                 | DDL       | 进度  | 资源                                                   |
-| ----- | ------------------ | --------- | --- | ---------------------------------------------------- |
-| #学习   | [[Javascript基础学习]] | 2024-8-31 | 30% | [js现代教程](https://zh.javascript.info/object-copy?map) |
-|       | #cs61a             | 2024-8-29 | 65% |                                                      |
-|       | [[leetcode刷题记录]]   | 每天一小时     |     | [题单](https://huxulm.github.io/lc-rating)             |
-| #proj | [[easyvidshare]]   | 2024-8-31 | 20% |                                                      |
+| 标签    | 事项                                                         | DDL            | 进度  | 资源                                       |
+| ----- | ---------------------------------------------------------- | -------------- | --- | ---------------------------------------- |
+| #学习   | [机器学习吴恩达](https://www.coursera.org/learn/machine-learning) | [[2024-09-15]] | 0   |                                          |
+|       | [[leetcode刷题记录]]                                           | 每天一小时          |     | [题单](https://huxulm.github.io/lc-rating) |
+| #proj | [[easyvidshare]]                                           | 2024-8-31      | 20% |                                          |
 ### ⏰将要进行
 
 | 标签    | 事项                                                                |
 | ----- | ----------------------------------------------------------------- |
-| #学习   | [机器学习吴恩达](https://www.coursera.org/learn/machine-learning)        |
+| #学习   | 🌹                                                                |
 |       | [深度学习吴恩达](https://www.coursera.org/specializations/deep-learning) |
 | #proj | cuan-机器学习？                                                        |
 |       | temp-email                                                        |
 |       | chatbox                                                           |
-
+暂缓进行
+学习：
+* [[Javascript基础学习]] ---基本学完，除了网络还有前面有一些没看
+* #cs61a  --- 还有后面两个星期没看
 

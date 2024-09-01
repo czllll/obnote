@@ -14,3 +14,5 @@
 | [2090. 半径为 k 的子数组平均值](https://leetcode.cn/problems/k-radius-subarray-averages/)                                                             | [[2024-08-28]] |
 | [2379. 得到 K 个黑块的最少涂色次数](https://leetcode.cn/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)                                   | [[2024-08-29]] |
 | [1052. 爱生气的书店老板](https://leetcode.cn/problems/grumpy-bookstore-owner/)                                                                      | [[2024-08-29]] |
+| [2841. 几乎唯一子数组的最大和](https://leetcode.cn/problems/maximum-sum-of-almost-unique-subarray/)                                                    | [[2024-09-01]] |
+| [2461. 长度为 K 子数组中的最大和](https://leetcode.cn/problems/maximum-sum-of-distinct-subarrays-with-length-k/)                                       | [[2024-09-01]] |

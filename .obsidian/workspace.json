@@ -73,7 +73,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "💻CODING/coding language/javascript/service worker.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e36ca8d6532ee7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "💻CODING/algorithm/leetcode刷题记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -144,7 +156,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -210,7 +222,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "💻CODING/algorithm/leetcode刷题记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -227,7 +239,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "💻CODING/algorithm/leetcode刷题记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -250,7 +262,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
+                "file": "💻CODING/algorithm/leetcode刷题记录.md"
               }
             }
           },
@@ -282,24 +294,24 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "922bcdb34f98cbcf",
+  "active": "4e36ca8d6532ee7b",
   "lastOpenFiles": [
+    "Welcome.md",
+    "💻CODING/coding language/javascript/service worker.md",
+    "💻CODING/coding language/javascript/JS网络请求.md",
+    "💻CODING/coding language/javascript/Javascript基础学习.md",
+    "💻CODING/coding language/javascript/css.md",
     "@template/Blog Reading Template.md",
     "@template/daily sum-up template.md",
     "@template/weekly sum-up template.md",
     "🌈LIFE/sumup/daily sum-up/2024-09-03.md",
     "🌈LIFE/sumup/weekly sum-up/2024-W35.md",
-    "💻CODING/coding language/javascript/css.md",
     "@template/nebula.jpg",
-    "Welcome.md",
     "🌈LIFE/sumup/daily sum-up/2024-09-01.md",
     "💻CODING/proj/easyvidshare.md",
     "@asset/Pasted image 20240902135159.png",
     "🌈LIFE/TODO repository.md",
-    "💻CODING/coding language/javascript/Javascript基础学习.md",
     "🌈LIFE/sumup/daily sum-up/2024-08-31.md",
-    "💻CODING/coding language/javascript/JS网络请求.md",
-    "💻CODING/coding language/javascript/service worker.md",
     "🖊️Blog/draft/跨域是什么.md",
     "💻CODING/algorithm/leetcode刷题记录.md",
     "📖READING/blog阅读/九大服务架构性能优化方式.md",

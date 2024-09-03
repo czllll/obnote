@@ -66,8 +66,8 @@ sort file.mtime desc
 | -------- | ---------------------------------------------------------- | -------------- | ----- | ---------------------------------------- |
 | #学习      | [机器学习吴恩达](https://www.coursera.org/learn/machine-learning) | [[2024-09-15]] | 0     |                                          |
 | #reading | 机器学习周志华                                                    |                |       |                                          |
-|          | [[leetcode刷题记录]]                                           | 每天一小时          |       | [题单](https://huxulm.github.io/lc-rating) |
-| #proj    | [[easyvidshare]]                                           | 2024-8-31      | MVP完成 |                                          |
+|          | [[leetcode刷题记录]]                                           |                |       | [题单](https://huxulm.github.io/lc-rating) |
+| #proj    | [[easyvidshare]]                                           |                | MVP完成 |                                          |
 ### ⏰将要进行
 
 | 标签    | 事项                                                                |

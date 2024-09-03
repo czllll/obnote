@@ -272,7 +272,7 @@ let rabbit = new Rabbit("White Rabbit");
 	* ...
 ## Promise、async、await
 ### promise
-* 用来处理异步操作的工具
+* 用来处理异步操作的工具，通俗地说，Promise就像一个承诺，它表示某个操作将在未来某个时刻完成，并且会产生一个结果或错误。
 #### 创建promise
 ```js
 let promise = new Promise(function(resolve, reject){

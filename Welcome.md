@@ -65,7 +65,7 @@ sort file.mtime desc
 | 标签       | 事项                                                         | DDL            | 进度    | 资源                                       |
 | -------- | ---------------------------------------------------------- | -------------- | ----- | ---------------------------------------- |
 | #学习      | [机器学习吴恩达](https://www.coursera.org/learn/machine-learning) | [[2024-09-15]] | 0     |                                          |
-| #reading | 机器学习周志华                                                    |                |       |                                          |
+| #reading | 机器学习周志华[[基本概念]]                                            |                |       |                                          |
 |          | [[leetcode刷题记录]]                                           |                |       | [题单](https://huxulm.github.io/lc-rating) |
 | #proj    | [[easyvidshare]]                                           |                | MVP完成 |                                          |
 ### ⏰将要进行

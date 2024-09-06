@@ -4,83 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "7174ab59cf2e5da5",
+        "id": "6341bb64c0c0c170",
         "type": "tabs",
         "children": [
           {
-            "id": "5ab54dc1ef272a42",
+            "id": "9a91398d39fa8098",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💻CODING/coding language/javascript/Javascript基础学习.md",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-09-03.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1519489f01613f10",
+            "id": "98d3e09ab3bd87e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💻CODING/proj/easyvidshare.md",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-09-07.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "90e74d5c975b9a63",
+            "id": "a5e69820f2d3d3da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💻CODING/coding language/javascript/css.md",
+                "file": "💻CODING/机器学习/machine-learning-learning-path.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6855c1ff394d45a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🌈LIFE/sumup/weekly sum-up/2024-W35.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d1c94c1c555b7483",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "@template/Blog Reading Template.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "922bcdb34f98cbcf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "💻CODING/coding language/javascript/service worker.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e36ca8d6532ee7b",
+            "id": "abb2df4c941d6de1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -89,74 +53,10 @@
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "ec0c5ea16c69ee89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "💻CODING/proj/easyvidshare.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "082ede7fd4e0740e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "b9e48ed5f9e7a464",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-08-31.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "85cefca5fb0b9ff5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "💻CODING/algorithm/leetcode刷题记录.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0b7567f41d31befa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "💻CODING/proj/easyvidshare.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "79e120167157858c",
-            "type": "leaf",
-            "state": {
-              "type": "daily-note-editor-view",
-              "state": {}
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50390243530273
+    "width": 237.50390243530273,
+    "collapsed": true
   },
   "right": {
     "id": "3085a088a655b4cf",
@@ -222,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💻CODING/algorithm/leetcode刷题记录.md",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-09-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -239,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💻CODING/algorithm/leetcode刷题记录.md",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-09-07.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💻CODING/algorithm/leetcode刷题记录.md"
+                "file": "🌈LIFE/sumup/daily sum-up/2024-09-07.md"
               }
             }
           },
@@ -275,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -294,26 +195,31 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4e36ca8d6532ee7b",
+  "active": "98d3e09ab3bd87e5",
   "lastOpenFiles": [
+    "💻CODING/机器学习/基本概念.md",
+    "🌈LIFE/sumup/daily sum-up/2024-09-07.md",
+    "💻CODING/LLM/学习路径.md",
+    "💻CODING/LLM",
+    "💻CODING/机器学习/machine-learning-learning-path.md",
+    "💻CODING/algorithm/leetcode刷题记录.md",
     "Welcome.md",
+    "🌈LIFE/sumup/daily sum-up/2024-09-03.md",
+    "💻CODING/proj/easyvidshare.md",
+    "💻CODING/coding language/javascript/Javascript基础学习.md",
     "💻CODING/coding language/javascript/service worker.md",
     "💻CODING/coding language/javascript/JS网络请求.md",
-    "💻CODING/coding language/javascript/Javascript基础学习.md",
     "💻CODING/coding language/javascript/css.md",
     "@template/Blog Reading Template.md",
     "@template/daily sum-up template.md",
     "@template/weekly sum-up template.md",
-    "🌈LIFE/sumup/daily sum-up/2024-09-03.md",
     "🌈LIFE/sumup/weekly sum-up/2024-W35.md",
     "@template/nebula.jpg",
     "🌈LIFE/sumup/daily sum-up/2024-09-01.md",
-    "💻CODING/proj/easyvidshare.md",
     "@asset/Pasted image 20240902135159.png",
     "🌈LIFE/TODO repository.md",
     "🌈LIFE/sumup/daily sum-up/2024-08-31.md",
     "🖊️Blog/draft/跨域是什么.md",
-    "💻CODING/algorithm/leetcode刷题记录.md",
     "📖READING/blog阅读/九大服务架构性能优化方式.md",
     "@asset/Pasted image 20240830171239.png",
     "@asset/Pasted image 20240831144950.png",
@@ -324,10 +230,6 @@
     "🌈LIFE/sumup/daily sum-up/2024-08-29.md",
     "📖READING/blog阅读/Blog Overview.md",
     "🌈LIFE/sumup/daily sum-up/2024-08-27.md",
-    "🌈LIFE/sumup/daily sum-up/2024-08-26.md",
-    "💻CODING/DB/Redis/epoll.md",
-    "💻CODING/DB/Mysql/mysql三大日志（binlog、redolog、undolog）.md",
-    "💻CODING/DB/Mysql/MVCC.md",
     "💻CODING/DB/Redis",
     "💻CODING/系统设计",
     "💻CODING/DB/Mysql",
@@ -336,7 +238,6 @@
     "💻CODING/思考",
     "📖READING/ibook",
     "sumup/weekly sum-up",
-    "sumup",
     "未命名.canvas"
   ]
 }

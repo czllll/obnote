@@ -17,5 +17,6 @@
 | [2841. 几乎唯一子数组的最大和](https://leetcode.cn/problems/maximum-sum-of-almost-unique-subarray/)                                                    | [[2024-09-01]] | 9   |     |
 | [2461. 长度为 K 子数组中的最大和](https://leetcode.cn/problems/maximum-sum-of-distinct-subarrays-with-length-k/)                                       | [[2024-09-01]] | 10  |     |
 | [1423. 可获得的最大点数](https://leetcode.cn/problems/maximum-points-you-can-obtain-from-cards/)                                                    | [[2024-09-03]] | 11  |     |
-| [2134. 最少交换次数来组合所有的 1 II](https://leetcode.cn/problems/minimum-swaps-to-group-all-1s-together-ii/)                                          | [[2024-09-03]] | 12  | *   |
-|                                                                                                                                             |                |     |     |
+| [2653. 滑动子数组的美丽值](https://leetcode.cn/problems/sliding-subarray-beauty/)                                                                    | [[2024-09-03]] | 12  | *   |
+| [2134. 最少交换次数来组合所有的 1 II](https://leetcode.cn/problems/minimum-swaps-to-group-all-1s-together-ii/)                                          | [[2024-09-06]] | 13  |     |
+| [567. 字符串的排列](https://leetcode.cn/problems/permutation-in-string/)                                                                          | [[2024-09-06]] | 14  |     |

@@ -1,4 +1,6 @@
-#定长滑动窗口
+星号（* ）代表看解析做出来的
+# 滑动窗口
+## 定长滑动窗口
 * 套路
 	* **入**：下标为 i 的元素进入窗口，更新相关统计量。如果 i<k−1 则重复第一步。
 	* **更新**：更新答案。一般是更新最大值/最小值。
@@ -20,3 +22,13 @@
 | [2653. 滑动子数组的美丽值](https://leetcode.cn/problems/sliding-subarray-beauty/)                                                                    | [[2024-09-03]] | 12  | *   |
 | [2134. 最少交换次数来组合所有的 1 II](https://leetcode.cn/problems/minimum-swaps-to-group-all-1s-together-ii/)                                          | [[2024-09-06]] | 13  |     |
 | [567. 字符串的排列](https://leetcode.cn/problems/permutation-in-string/)                                                                          | [[2024-09-06]] | 14  |     |
+| [438. 找到字符串中所有字母异位词](https://leetcode.cn/problems/find-all-anagrams-in-a-string/description/)                                               | [[2024-09-07]] | 15  |     |
+## 不定长滑动窗口（求最长/最大）
+
+| [3. 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/description/) | [[2024-09-07]]        | 16  | *   |
+| --------------------------------------------------------------------------------------------------------- | --------------------- | --- | --- |
+|                                                                                                           | [[2024-09-08]]开始用英文刷题 |     |     |
+|                                                                                                           |                       |     |     |
+|                                                                                                           |                       |     |     |
+|                                                                                                           |                       |     |     |
+|                                                                                                           |                       |     |     |

@@ -4,59 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "6341bb64c0c0c170",
+        "id": "7c6783d10adbac67",
         "type": "tabs",
         "children": [
           {
-            "id": "9a91398d39fa8098",
+            "id": "f6df500888fa3578",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🏠Welcome.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "a720acc410bb201f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-09-03.md",
+                "file": "📖READING/blog阅读/软件开发者需要知道有关学习的10件事情.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "98d3e09ab3bd87e5",
+            "id": "1e48eb8e702a6693",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-09-07.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a5e69820f2d3d3da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "💻CODING/机器学习/machine-learning-learning-path.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "abb2df4c941d6de1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "💻CODING/algorithm/leetcode刷题记录.md",
+                "file": "📖READING/blog阅读/LLMs and Programming in the first days of 2024.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#proj",
+                "query": "tag:#成长",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,12 +92,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 237.50390243530273,
-    "collapsed": true
+    "width": 237.50390243530273
   },
   "right": {
     "id": "3085a088a655b4cf",
@@ -123,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-09-07.md",
+                "file": "📖READING/blog阅读/LLMs and Programming in the first days of 2024.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-09-07.md",
+                "file": "📖READING/blog阅读/LLMs and Programming in the first days of 2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-09-07.md"
+                "file": "📖READING/blog阅读/LLMs and Programming in the first days of 2024.md"
               }
             }
           },
@@ -176,7 +166,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -195,49 +185,50 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "98d3e09ab3bd87e5",
+  "active": "1e48eb8e702a6693",
   "lastOpenFiles": [
-    "💻CODING/机器学习/基本概念.md",
-    "🌈LIFE/sumup/daily sum-up/2024-09-07.md",
-    "💻CODING/LLM/学习路径.md",
-    "💻CODING/LLM",
-    "💻CODING/机器学习/machine-learning-learning-path.md",
-    "💻CODING/algorithm/leetcode刷题记录.md",
-    "Welcome.md",
-    "🌈LIFE/sumup/daily sum-up/2024-09-03.md",
-    "💻CODING/proj/easyvidshare.md",
-    "💻CODING/coding language/javascript/Javascript基础学习.md",
-    "💻CODING/coding language/javascript/service worker.md",
-    "💻CODING/coding language/javascript/JS网络请求.md",
-    "💻CODING/coding language/javascript/css.md",
-    "@template/Blog Reading Template.md",
-    "@template/daily sum-up template.md",
-    "@template/weekly sum-up template.md",
-    "🌈LIFE/sumup/weekly sum-up/2024-W35.md",
+    "🏠Welcome.md",
+    "📖READING/blog阅读/软件开发者需要知道有关学习的10件事情.md",
+    "💻CODING/🤖AI/机器学习/machine-learning-learning-path.md",
+    "📖READING/blog阅读/LLMs and Programming in the first days of 2024.md",
+    "📖READING/blog阅读/Blog Overview.md",
+    "💻CODING/TODO repository.md",
+    "💻CODING/🧑‍💻开发/coding language/python/python包装在哪里了.md",
+    "💻CODING/🧑‍💻开发/coding language/Typescript/教程.md",
+    "💻CODING/🧑‍💻开发/日志服务.md",
+    "💻CODING/🧑‍💻开发/coding language/Typescript",
+    "💻CODING/🤖AI/LLM/神经网络-》复现gpt2.md",
+    "💻CODING/🤖AI",
+    "💻CODING/🧑‍💻开发",
+    "💻CODING/🤖AI/LLM/学习路径.md",
+    "💻CODING/🧑‍💻开发/coding language/python/Python基础学习.md",
+    "🌈LIFE/面试/面试要点.md",
+    "💻CODING/🧑‍💻开发/系统设计/敏捷开发.md",
+    "💻CODING/🔨工具/LaTex.md",
+    "💻CODING/软件工程/敏捷开发.md",
+    "💻CODING/软件工程",
+    "💻CODING/🔢cs理论/图灵机.md",
+    "💻CODING/🔢cs理论",
+    "💻CODING/🐧Linux/问题.md",
+    "@asset/Pasted image 20240908174614.png",
+    "💻CODING/未命名.md",
+    "💻CODING/🐧Linux",
+    "💻CODING/🧑‍💻开发/容器/docker.md",
+    "💻CODING/容器/未命名 1.md",
+    "💻CODING/🧑‍💻开发/系统设计/资料.md",
+    "💻CODING/🧑‍💻开发/容器",
+    "💻CODING/🤖AI/机器学习/Numpy.md",
+    "💻CODING/🤖AI/机器学习/基本概念.md",
+    "💻CODING/🗃️PROJECT/chatbox.md",
+    "💻CODING/🗃️PROJECT/easyvidshare.md",
+    "🌈LIFE/面试",
+    "💻CODING/🔨工具",
+    "💻CODING/🤖AI/LLM",
     "@template/nebula.jpg",
-    "🌈LIFE/sumup/daily sum-up/2024-09-01.md",
     "@asset/Pasted image 20240902135159.png",
-    "🌈LIFE/TODO repository.md",
-    "🌈LIFE/sumup/daily sum-up/2024-08-31.md",
-    "🖊️Blog/draft/跨域是什么.md",
-    "📖READING/blog阅读/九大服务架构性能优化方式.md",
     "@asset/Pasted image 20240830171239.png",
     "@asset/Pasted image 20240831144950.png",
     "@asset/Pasted image 20240831142343.png",
-    "💻CODING/coding language/python/Python基础学习.md",
-    "@asset",
-    "🌈LIFE/sumup/daily sum-up/2024-08-28.md",
-    "🌈LIFE/sumup/daily sum-up/2024-08-29.md",
-    "📖READING/blog阅读/Blog Overview.md",
-    "🌈LIFE/sumup/daily sum-up/2024-08-27.md",
-    "💻CODING/DB/Redis",
-    "💻CODING/系统设计",
-    "💻CODING/DB/Mysql",
-    "💻CODING/DB",
-    "📖READING/blog阅读",
-    "💻CODING/思考",
-    "📖READING/ibook",
-    "sumup/weekly sum-up",
     "未命名.canvas"
   ]
 }

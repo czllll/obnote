@@ -22,31 +22,51 @@
             }
           },
           {
-            "id": "a720acc410bb201f",
+            "id": "6bf188834a47ac7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📖READING/blog阅读/软件开发者需要知道有关学习的10件事情.md",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-09-08.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1e48eb8e702a6693",
+            "id": "a6bf5518250abd54",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📖READING/blog阅读/LLMs and Programming in the first days of 2024.md",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-09-08.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dfd5197313964d14",
+            "type": "leaf",
+            "state": {
+              "type": "daily-note-editor-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "e352f42a113a3418",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🌈LIFE/sumup/weekly sum-up/2024-W36.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -92,8 +112,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -113,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📖READING/blog阅读/LLMs and Programming in the first days of 2024.md",
+                "file": "🌈LIFE/sumup/weekly sum-up/2024-W36.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📖READING/blog阅读/LLMs and Programming in the first days of 2024.md",
+                "file": "🌈LIFE/sumup/weekly sum-up/2024-W36.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📖READING/blog阅读/LLMs and Programming in the first days of 2024.md"
+                "file": "🌈LIFE/sumup/weekly sum-up/2024-W36.md"
               }
             }
           },
@@ -166,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -185,12 +204,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1e48eb8e702a6693",
+  "active": "e352f42a113a3418",
   "lastOpenFiles": [
+    "🌈LIFE/sumup/daily sum-up/2024-09-08.md",
+    "🌈LIFE/sumup/weekly sum-up/2024-W36.md",
     "🏠Welcome.md",
     "📖READING/blog阅读/软件开发者需要知道有关学习的10件事情.md",
-    "💻CODING/🤖AI/机器学习/machine-learning-learning-path.md",
     "📖READING/blog阅读/LLMs and Programming in the first days of 2024.md",
+    "💻CODING/🤖AI/机器学习/machine-learning-learning-path.md",
     "📖READING/blog阅读/Blog Overview.md",
     "💻CODING/TODO repository.md",
     "💻CODING/🧑‍💻开发/coding language/python/python包装在哪里了.md",
@@ -219,8 +240,6 @@
     "💻CODING/🧑‍💻开发/容器",
     "💻CODING/🤖AI/机器学习/Numpy.md",
     "💻CODING/🤖AI/机器学习/基本概念.md",
-    "💻CODING/🗃️PROJECT/chatbox.md",
-    "💻CODING/🗃️PROJECT/easyvidshare.md",
     "🌈LIFE/面试",
     "💻CODING/🔨工具",
     "💻CODING/🤖AI/LLM",

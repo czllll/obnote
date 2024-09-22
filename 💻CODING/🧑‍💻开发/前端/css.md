@@ -12,4 +12,3 @@
 	* absolute
 	* fixed
 	* sticky
-	* 

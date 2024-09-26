@@ -24,11 +24,13 @@
 | [567. 字符串的排列](https://leetcode.cn/problems/permutation-in-string/)                                                                          | [[2024-09-06]] | 14  |     |
 | [438. 找到字符串中所有字母异位词](https://leetcode.cn/problems/find-all-anagrams-in-a-string/description/)                                               | [[2024-09-07]] | 15  |     |
 ## 不定长滑动窗口（求最长/最大）
+* 固定一遍，调整另一边
 
-| [3. 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/description/) | [[2024-09-07]]        | 16  | *   |
-| --------------------------------------------------------------------------------------------------------- | --------------------- | --- | --- |
-|                                                                                                           | [[2024-09-08]]开始用英文刷题 |     |     |
-|                                                                                                           |                       |     |     |
-|                                                                                                           |                       |     |     |
-|                                                                                                           |                       |     |     |
-|                                                                                                           |                       |     |     |
+| [3. 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/description/)                                                                     | [[2024-09-07]]        | 16  | *   |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | --- | --- |
+|                                                                                                                                                                               | [[2024-09-08]]开始用英文刷题 |     |     |
+| [1493.Longest Subarray of 1's After Deleting One Element - LeetCode](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/submissions/1400472580/) | [[2024-09-24]]        |     |     |
+| [2730.Find the Longest Semi-Repetitive Substring - LeetCode](https://leetcode.com/problems/find-the-longest-semi-repetitive-substring/submissions/1400487864/)                | [[2024-09-24]]        |     |     |
+|                                                                                                                                                                               |                       |     |     |
+|                                                                                                                                                                               |                       |     |     |
+|                                                                                                                                                                               |                       |     |     |

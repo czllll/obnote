@@ -121,6 +121,6 @@ sort file.mtime desc
 |     | chatbox                                                           |
 暂缓进行
 学习：
-* [[Javascript基础学习]] ---基本学完，除了网络还有前面有一些没看
+* [[💻CODING/🧑‍💻开发/前端/javascript/基础]] ---基本学完，除了网络还有前面有一些没看
 * #cs61a  --- 还有后面两个星期没看
 

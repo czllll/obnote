@@ -8,39 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dfd5197313964d14",
-            "type": "leaf",
-            "state": {
-              "type": "daily-note-editor-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "d22b3f9fd782f8b2",
+            "id": "de2ab32fb325e5a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🖊️Blog/draft/如何理解React中的Hook？.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d80cff1de936341f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🖊️Blog/draft/未命名.md",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-09-25.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🖊️Blog/draft/未命名.md",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-09-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🖊️Blog/draft/未命名.md",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-09-25.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🖊️Blog/draft/未命名.md"
+                "file": "🌈LIFE/sumup/daily sum-up/2024-09-25.md"
               }
             }
           },
@@ -159,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -178,36 +157,36 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d80cff1de936341f",
+  "active": "de2ab32fb325e5a8",
   "lastOpenFiles": [
-    "🌈LIFE/面试/面试要点.md",
-    "🖊️Blog/draft/未命名.md",
     "🏠Welcome.md",
+    "🌈LIFE/sumup/daily sum-up/2024-09-25.md",
+    "💻CODING/🧑‍💻开发/前端/javascript/基础.md",
+    "💻CODING/🧑‍💻开发/前端/HTML.md",
+    "💻CODING/🧑‍💻开发/前端/Typescript/基础.md",
+    "💻CODING/🧑‍💻开发/前端/Typescript/教程.md",
+    "🖊️Blog/draft/跨域是什么.md",
     "🖊️Blog/draft/如何理解React中的Hook？.md",
+    "🖊️Blog/draft/common JS 和 ES.md",
+    "💻CODING/🧮algorithm/leetcode刷题记录.md",
+    "💻CODING/TODO repository.md",
+    "🌈LIFE/sumup/weekly sum-up/2024-W38.md",
+    "🌈LIFE/sumup/weekly sum-up/2024-W36.md",
+    "🌈LIFE/sumup/weekly sum-up/2024-W35.md",
+    "🌈LIFE/sumup/weekly sum-up/2024-W33.md",
+    "🌈LIFE/sumup/weekly sum-up/2024-W34.md",
+    "💻CODING/🧑‍💻开发/python/Python基础学习.md",
+    "💻CODING/🧑‍💻开发/python/python包装在哪里了.md",
+    "💻CODING/🧑‍💻开发/前端/css.md",
+    "💻CODING/🧑‍💻开发/前端/javascript/service worker.md",
+    "💻CODING/🧑‍💻开发/前端/javascript/JS网络请求.md",
+    "🖊️Blog/draft/未命名.md",
+    "🌈LIFE/面试/面试要点.md",
     "💻CODING/🧑‍💻开发/前端/React.md",
     "🌈LIFE/sumup/daily sum-up/2024-09-08.md",
-    "💻CODING/🧑‍💻开发/前端/javascript/Javascript基础学习.md",
-    "💻CODING/🧑‍💻开发/python/Python基础学习.md",
-    "💻CODING/🧑‍💻开发/前端/javascript/JS网络请求.md",
-    "💻CODING/🧑‍💻开发/前端/javascript/service worker.md",
-    "💻CODING/🧑‍💻开发/前端/css.md",
-    "💻CODING/🧑‍💻开发/前端/Typescript/教程.md",
     "📖READING/websiteCut.md",
     "📖READING/websiteCut.md.crswap",
     "💻CODING/🧑‍💻开发/前端",
-    "💻CODING/🤖AI/机器学习/基本概念.md",
-    "💻CODING/🤖AI/机器学习/machine-learning-learning-path.md",
-    "💻CODING/🤖AI/机器学习/Numpy.md",
-    "💻CODING/🤖AI/机器学习/plan ml and dl.md",
-    "💻CODING/🤖AI/LLM/学习路径.md",
-    "💻CODING/🔨工具/LaTex.md",
-    "🌈LIFE/sumup/weekly sum-up/2024-W36.md",
-    "📖READING/blog阅读/软件开发者需要知道有关学习的10件事情.md",
-    "📖READING/blog阅读/LLMs and Programming in the first days of 2024.md",
-    "📖READING/blog阅读/Blog Overview.md",
-    "💻CODING/TODO repository.md",
-    "💻CODING/🧑‍💻开发/python/python包装在哪里了.md",
-    "💻CODING/🧑‍💻开发/日志服务.md",
     "💻CODING/🧑‍💻开发/前端/Typescript",
     "💻CODING/🤖AI",
     "💻CODING/🧑‍💻开发",

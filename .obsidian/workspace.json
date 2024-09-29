@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a3db967b3d12761c",
+            "id": "65c2a0f58fe00933",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-09-26.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f5ffd0db44120eb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🏠Welcome.md",
+                "file": "💻CODING/🗃️PROJECT/chatbox.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "闭包",
+                "query": "proj",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏠Welcome.md",
+                "file": "💻CODING/🗃️PROJECT/chatbox.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏠Welcome.md",
+                "file": "💻CODING/🗃️PROJECT/chatbox.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏠Welcome.md"
+                "file": "💻CODING/🗃️PROJECT/chatbox.md"
               }
             }
           },
@@ -170,11 +157,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5ffd0db44120eb5",
+  "active": "65c2a0f58fe00933",
   "lastOpenFiles": [
+    "💻CODING/🗃️PROJECT/easyvidshare.md",
+    "💻CODING/🧑‍💻开发/日志服务.md",
+    "💻CODING/TODO repository.md",
+    "🌈LIFE/sumup/daily sum-up/2024-09-29.md",
+    "💻CODING/🧮algorithm/leetcode刷题记录.md",
+    "🏠Welcome.md",
+    "🌈LIFE/sumup/daily sum-up/2024-09-27.md",
     "🌈LIFE/sumup/daily sum-up/2024-09-26.md",
     "🖊️Blog/完成/由obsidian的git插件push失败后引申的ssh相关的问题.md",
-    "🏠Welcome.md",
     "🌈LIFE/sumup/daily sum-up/2024-09-25.md",
     "💻CODING/🧑‍💻开发/前端/javascript/基础.md",
     "💻CODING/🧑‍💻开发/前端/HTML.md",
@@ -183,8 +176,6 @@
     "🖊️Blog/draft/跨域是什么.md",
     "🖊️Blog/draft/如何理解React中的Hook？.md",
     "🖊️Blog/draft/common JS 和 ES.md",
-    "💻CODING/🧮algorithm/leetcode刷题记录.md",
-    "💻CODING/TODO repository.md",
     "🌈LIFE/sumup/weekly sum-up/2024-W38.md",
     "🌈LIFE/sumup/weekly sum-up/2024-W36.md",
     "🌈LIFE/sumup/weekly sum-up/2024-W35.md",
@@ -194,10 +185,6 @@
     "💻CODING/🧑‍💻开发/python/python包装在哪里了.md",
     "💻CODING/🧑‍💻开发/前端/css.md",
     "💻CODING/🧑‍💻开发/前端/javascript/service worker.md",
-    "💻CODING/🧑‍💻开发/前端/javascript/JS网络请求.md",
-    "🖊️Blog/draft/未命名.md",
-    "🌈LIFE/面试/面试要点.md",
-    "💻CODING/🧑‍💻开发/前端/React.md",
     "📖READING/websiteCut.md.crswap",
     "💻CODING/🧑‍💻开发/前端",
     "💻CODING/🧑‍💻开发/前端/Typescript",

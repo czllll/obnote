@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏫COURSE/未命名.md",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-10-02.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b05f8f1f7d2917b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "💻CODING/🔨工具/LaTex.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "3085a088a655b4cf",
@@ -86,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏫COURSE/未命名.md",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-10-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏫COURSE/未命名.md",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-10-02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏫COURSE/未命名.md"
+                "file": "🌈LIFE/sumup/daily sum-up/2024-10-02.md"
               }
             }
           },
@@ -160,10 +171,14 @@
   },
   "active": "fa2f61c45a0f0c5f",
   "lastOpenFiles": [
+    "🏫COURSE/KRR.md",
+    "🌈LIFE/sumup/daily sum-up/2024-10-02.md",
+    "English/new.md",
+    "🌈LIFE/Blockchian/未命名.md",
+    "🌈LIFE/Blockchian",
+    "💻CODING/🔨工具/LaTex.md",
     "@asset/Pasted image 20241001113027.png",
     "@asset/Pasted image 20241001111730.png",
-    "English/new.md",
-    "🏫COURSE/未命名.md",
     "English",
     "🏠Welcome.md",
     "🏫COURSE",
@@ -187,8 +202,6 @@
     "🖊️Blog/draft/如何理解React中的Hook？.md",
     "🖊️Blog/draft/common JS 和 ES.md",
     "🌈LIFE/sumup/weekly sum-up/2024-W38.md",
-    "🌈LIFE/sumup/weekly sum-up/2024-W36.md",
-    "🌈LIFE/sumup/weekly sum-up/2024-W35.md",
     "📖READING/websiteCut.md.crswap",
     "💻CODING/🧑‍💻开发/前端",
     "💻CODING/🧑‍💻开发/前端/Typescript",
@@ -197,7 +210,6 @@
     "💻CODING/软件工程",
     "💻CODING/🔢cs理论",
     "@asset/Pasted image 20240908174614.png",
-    "💻CODING/🐧Linux",
     "@template/nebula.jpg",
     "@asset/Pasted image 20240902135159.png",
     "@asset/Pasted image 20240830171239.png",

@@ -1,3 +1,14 @@
+
+| 剩余                       | 正在                                                            | （部分）完成                   |
+| ------------------------ | ------------------------------------------------------------- | ------------------------ |
+| 【P】[[chatbox]] **10-20** | 【课】[[KRR]]                                                    | 【P】ezvidshare（有进一步想法）    |
+|                          | 【课】Algorithm                                                  | 【自学】cs61a -- 收获不大        |
+| 【P】第二版ezvidshare         | 【课】PDS                                                        | 【自学】js tutorial -- 基础过完了 |
+| 【P】cuan                  |                                                               |                          |
+| 【自学】机器学习[[基本概念]]         | 【daily】[[leetcode刷题]][题单](https://huxulm.github.io/lc-rating) |                          |
+|                          | 【weekly】[[Blog Overview]]                                     |                          |
+|                          |                                                               |                          |
+
 ```dataviewjs
 // 获取当前日期
 const today = new Date();
@@ -86,41 +97,3 @@ cellStyle:
   minHeight: 9px
 
 ```
-
-📚博文阅读在这里：[[Blog Overview]]
-📁TODO仓库在这里：[[TODO repository]]
-📝**最近更新**文档：
-```dataview
-table file.mtime as "Update Time" from "" 
-where file.name != "Welcome"
-sort file.mtime desc limit 8
-```
-📝**todo**文档：
-```dataview 
-table file.mtime as "Update Time" from #todo
-sort file.mtime desc
-```
-### ⏳正在进行
-
-| 标签  | 事项               | DDL            | 进度    | 资源                                                         |
-| --- | ---------------- | -------------- | ----- | ---------------------------------------------------------- |
-| 学习  | 机器学习[[基本概念]]     | [[2024-09-16]] | 1/9   | [机器学习吴恩达](https://www.coursera.org/learn/machine-learning) |
-|     |                  |                |       |                                                            |
-|     | [[leetcode刷题记录]] | 每天             |       | [题单](https://huxulm.github.io/lc-rating)                   |
-| 项目  | [[easyvidshare]] |                | MVP完成 |                                                            |
-| 读书  |                  |                |       |                                                            |
-### ⏰将要进行
-
-| 标签  | 事项                                                                |
-| --- | ----------------------------------------------------------------- |
-| 学习  | [深度学习吴恩达](https://www.coursera.org/specializations/deep-learning) |
-|     | 机器学习吴恩达                                                           |
-|     |                                                                   |
-| 项目  | cuan-机器学习？                                                        |
-|     | temp-email                                                        |
-|     | chatbox                                                           |
-暂缓进行
-学习：
-* [[💻CODING/🧑‍💻开发/前端/javascript/基础]] ---基本学完，除了网络还有前面有一些没看
-* #cs61a  --- 还有后面两个星期没看
-

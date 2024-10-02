@@ -20,6 +20,74 @@
             }
           },
           {
+            "id": "314ce004390d824b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "💻CODING/🧑‍💻开发/前端/javascript/基础.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bfc10bc1a0659cde",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "💻CODING/TODO repository.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "64211aeb7d20c79e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "💻CODING/🧮algorithm/leetcode刷题.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1c889284c1e440f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🌈LIFE/sumup/daily sum-up/2024-10-02.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "afb6d6777dbb2f69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🌈LIFE/sumup/weekly sum-up/2024-W38.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ff4f537b32f9cef7",
+            "type": "leaf",
+            "state": {
+              "type": "daily-note-editor-view",
+              "state": {}
+            }
+          },
+          {
             "id": "b05f8f1f7d2917b6",
             "type": "leaf",
             "state": {
@@ -30,8 +98,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "631e103b575d0a11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🌈LIFE/sumup/daily sum-up/2024-09-30.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "291da74c2b003503",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🏠Welcome.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -60,7 +153,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "proj",
+                "query": "tag:#cs61a",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-10-02.md",
+                "file": "🏠Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-10-02.md",
+                "file": "🏠Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-10-02.md"
+                "file": "🏠Welcome.md"
               }
             }
           },
@@ -150,7 +243,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -169,39 +262,39 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fa2f61c45a0f0c5f",
+  "active": "291da74c2b003503",
   "lastOpenFiles": [
-    "🏫COURSE/KRR.md",
     "🌈LIFE/sumup/daily sum-up/2024-10-02.md",
-    "English/new.md",
-    "🌈LIFE/Blockchian/未命名.md",
+    "🌈LIFE/sumup/daily sum-up/2024-10-03.md",
+    "@template/daily sum-up template.md",
+    "@template/Blog Reading Template.md",
+    "🌈LIFE/sumup/daily sum-up/2024-10-01.md",
+    "🌈LIFE/sumup/daily sum-up/2024-09-30.md",
+    "🏠Welcome.md",
+    "@template/weekly sum-up template.md",
+    "🌈LIFE/sumup/weekly sum-up/2024-W39.md",
+    "🌈LIFE/sumup/weekly sum-up/2024-W38.md",
+    "🌈LIFE/Blockchian/==.md",
+    "🌈LIFE/面试/面试要点.md",
+    "English/生词.md",
+    "🖊️Blog/draft/未命名.md",
+    "📖READING/blog阅读/LLMs and Programming in the first days of 2024.md",
+    "📖READING/blog阅读/Blog Overview.md",
+    "💻CODING/🗃️PROJECT/chatbox.md",
+    "💻CODING/🧮algorithm/leetcode刷题.md",
+    "💻CODING/TODO repository.md",
+    "💻CODING/🧑‍💻开发/前端/javascript/基础.md",
+    "🏫COURSE/KRR.md",
     "🌈LIFE/Blockchian",
     "💻CODING/🔨工具/LaTex.md",
     "@asset/Pasted image 20241001113027.png",
     "@asset/Pasted image 20241001111730.png",
     "English",
-    "🏠Welcome.md",
     "🏫COURSE",
     "💻CODING/🔢cs理论/图灵机.md",
     "💻CODING/🐧Linux/问题.md",
-    "💻CODING/🗃️PROJECT/chatbox.md",
     "💻CODING/🗃️PROJECT/easyvidshare.md",
     "💻CODING/🧑‍💻开发/日志服务.md",
-    "💻CODING/TODO repository.md",
-    "🌈LIFE/sumup/daily sum-up/2024-09-29.md",
-    "💻CODING/🧮algorithm/leetcode刷题记录.md",
-    "🌈LIFE/sumup/daily sum-up/2024-09-27.md",
-    "🌈LIFE/sumup/daily sum-up/2024-09-26.md",
-    "🖊️Blog/完成/由obsidian的git插件push失败后引申的ssh相关的问题.md",
-    "🌈LIFE/sumup/daily sum-up/2024-09-25.md",
-    "💻CODING/🧑‍💻开发/前端/javascript/基础.md",
-    "💻CODING/🧑‍💻开发/前端/HTML.md",
-    "💻CODING/🧑‍💻开发/前端/Typescript/基础.md",
-    "💻CODING/🧑‍💻开发/前端/Typescript/教程.md",
-    "🖊️Blog/draft/跨域是什么.md",
-    "🖊️Blog/draft/如何理解React中的Hook？.md",
-    "🖊️Blog/draft/common JS 和 ES.md",
-    "🌈LIFE/sumup/weekly sum-up/2024-W38.md",
     "📖READING/websiteCut.md.crswap",
     "💻CODING/🧑‍💻开发/前端",
     "💻CODING/🧑‍💻开发/前端/Typescript",

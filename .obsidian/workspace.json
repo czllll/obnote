@@ -117,14 +117,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏠Welcome.md",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-10-03.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e9552cc1b91275c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🌈LIFE/sumup/daily sum-up/2024-10-04.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -190,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏠Welcome.md",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-10-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏠Welcome.md",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-10-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏠Welcome.md"
+                "file": "🌈LIFE/sumup/daily sum-up/2024-10-04.md"
               }
             }
           },
@@ -247,7 +259,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5
+    "width": 309.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -262,15 +275,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "291da74c2b003503",
+  "active": "4e9552cc1b91275c",
   "lastOpenFiles": [
-    "🌈LIFE/sumup/daily sum-up/2024-10-02.md",
+    "💻CODING/🧑‍💻开发/python/Python基础学习.md",
+    "🌈LIFE/sumup/daily sum-up/2024-10-04.md",
+    "💻CODING/🧑‍💻开发/python/python包装在哪里了.md",
+    "🏫COURSE/Programming for data science.md",
+    "🏠Welcome.md",
     "🌈LIFE/sumup/daily sum-up/2024-10-03.md",
+    "🏫COURSE/KRR.md",
+    "🌈LIFE/sumup/daily sum-up/2024-10-02.md",
     "@template/daily sum-up template.md",
     "@template/Blog Reading Template.md",
     "🌈LIFE/sumup/daily sum-up/2024-10-01.md",
     "🌈LIFE/sumup/daily sum-up/2024-09-30.md",
-    "🏠Welcome.md",
     "@template/weekly sum-up template.md",
     "🌈LIFE/sumup/weekly sum-up/2024-W39.md",
     "🌈LIFE/sumup/weekly sum-up/2024-W38.md",
@@ -284,17 +302,12 @@
     "💻CODING/🧮algorithm/leetcode刷题.md",
     "💻CODING/TODO repository.md",
     "💻CODING/🧑‍💻开发/前端/javascript/基础.md",
-    "🏫COURSE/KRR.md",
     "🌈LIFE/Blockchian",
     "💻CODING/🔨工具/LaTex.md",
     "@asset/Pasted image 20241001113027.png",
     "@asset/Pasted image 20241001111730.png",
     "English",
     "🏫COURSE",
-    "💻CODING/🔢cs理论/图灵机.md",
-    "💻CODING/🐧Linux/问题.md",
-    "💻CODING/🗃️PROJECT/easyvidshare.md",
-    "💻CODING/🧑‍💻开发/日志服务.md",
     "📖READING/websiteCut.md.crswap",
     "💻CODING/🧑‍💻开发/前端",
     "💻CODING/🧑‍💻开发/前端/Typescript",

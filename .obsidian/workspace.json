@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏫COURSE/Algorithm.md",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-10-10.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏫COURSE/Algorithm.md",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-10-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏫COURSE/Algorithm.md",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-10-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏫COURSE/Algorithm.md"
+                "file": "🌈LIFE/sumup/daily sum-up/2024-10-10.md"
               }
             }
           },
@@ -159,9 +159,11 @@
   },
   "active": "737a2475a226a1b0",
   "lastOpenFiles": [
+    "🏫COURSE/Algorithm.md",
+    "🌈LIFE/sumup/daily sum-up/2024-10-10.md",
+    "@asset/Pasted image 20241010215540.png",
     "@asset/Pasted image 20241010192131.png",
     "🏠Welcome.md",
-    "🏫COURSE/Algorithm.md",
     "🏫COURSE/KRR.md",
     "🏫COURSE/Programming for data science.md",
     "@asset/Pasted image 20241008152019.png",
@@ -203,8 +205,6 @@
     "@template/nebula.jpg",
     "@asset/Pasted image 20240902135159.png",
     "@asset/Pasted image 20240830171239.png",
-    "@asset/Pasted image 20240831144950.png",
-    "@asset/Pasted image 20240831142343.png",
     "未命名.canvas"
   ]
 }

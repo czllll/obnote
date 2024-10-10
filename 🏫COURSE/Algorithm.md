@@ -244,4 +244,60 @@ $$
 	* reflexive, transitive, antisymmetric and total
 *Example*
 * $\leq 、\geq$
-* 
+## Functions
+### Definition
+* A function f from A to B is an **assignment** of exactly one element of B to each element of A.(将B中恰好一个元素分配给A中的每一个元素)
+* 即A中的每个元素唯一地对应到B中的一个元素
+* also called "mappings" "transformations"
+* Functions are special **relations**
+### Concepts
+#### Domain(定义域)
+* The set of all possible input values for a function（输入值的集合）
+#### Codomain（陪域）
+* The set of potential output values specified when a function is defined.
+* **注意**：image/range是codomain的子集
+#### Image（像）/range（值域）
+* The set of actual output values produced by a function, a subset of the codomain.
+#### Pre-image（原像）
+* If f (a) = b, we say that b is the image of a, and a is the **pre-image** of b
+#### injective（单射）
+* **Definition**
+	* A function f : A → B is said to be injective (or one-to-one), **if and only if** $f (a) = f (b)$ implies that $a = b$ for all a and b in the domain A of $f$
+	* 能够保证不同的输入有不同的输出，但是不一定覆盖陪域的所有元素
+		* 例如在R的范围里，$f = e^x$
+* **Attention**
+	* injectivity(单射) is not the same as monotonically(单调性) 
+		* Injectivity makes sense for functions between arbitrary sets
+		* But for monotonicity we need to order on the domain and codomain
+		* e.g. ![[Pasted image 20241010215540.png]]
+		* 单调函数在定义域上是一直单调的，而不是一会单调递增，一会单调递减
+#### Surjective(满射)
+* **Definition**
+	* A function f : A → B is said to be **surjective** (or **onto**), *if and only if*  for every element $b ∈ B$ there is an element $a ∈ A$ with $f (a) = b$
+	* 即B中的某个元素都是A中某个（某些）元素的像
+#### Bijective（双射）
+* both injective and surjective
+* also call the bijective function a bijection
+#### Real-valued(实值函数)/integer-valued function（整数值函数）
+* if its codomain is the set of real numbers --> real-valued function
+* if its codomain is the set of integers --> integer-valued function
+* 具有相同定义域的两个实值函数或两个整数值函数可以相加也可以相乘
+#### composition of function(复合函数)
+* $(g ◦ f )(a):= g(f (a))$
+* ‘g circle f ’ or as ‘g after f ’
+#### Identity function(恒等函数)
+* f(x) = x，对于所有的 x 在函数的定义域内
+* 是双射的
+#### Inverse function(反函数/逆函数)
+* 等价结论
+	* 设 A, B 为集合，f: A → B 为一个函数。则以下陈述等价：
+		(a) f 是可逆的，  
+		(b) f 是双射的，  
+		(c) 存在一个函数 g: B → A，使得 (g ∘ f) = ιA 且 (f ∘ g) = ιB。
+
+## Stable Matching
+
+
+
+
+

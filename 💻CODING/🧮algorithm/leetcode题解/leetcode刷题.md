@@ -26,11 +26,13 @@
 ## 不定长滑动窗口（求最长/最大）
 * 固定一遍，调整另一边
 
-| [3. 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/description/)                                                                     | [[2024-09-07]]        | 16  | *   |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | --- | --- |
-|                                                                                                                                                                               | [[2024-09-08]]开始用英文刷题 |     |     |
-| [1493.Longest Subarray of 1's After Deleting One Element - LeetCode](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/submissions/1400472580/) | [[2024-09-24]]        |     |     |
-| [2730.Find the Longest Semi-Repetitive Substring - LeetCode](https://leetcode.com/problems/find-the-longest-semi-repetitive-substring/submissions/1400487864/)                | [[2024-09-24]]        |     |     |
-|                                                                                                                                                                               |                       |     |     |
-|                                                                                                                                                                               |                       |     |     |
-|                                                                                                                                                                               |                       |     |     |
+| [3. 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/description/)                                                                     | [[2024-09-07]]        | 16  | *        |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | --- | -------- |
+|                                                                                                                                                                               | [[2024-09-08]]开始用英文刷题 |     |          |
+| [1493.Longest Subarray of 1's After Deleting One Element - LeetCode](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/submissions/1400472580/) | [[2024-09-24]]        | 17  |          |
+| [2730.Find the Longest Semi-Repetitive Substring - LeetCode](https://leetcode.com/problems/find-the-longest-semi-repetitive-substring/submissions/1400487864/)                | [[2024-09-24]]        | 18  |          |
+| [904. 水果成篮 - 力扣（LeetCode）](https://leetcode.cn/problems/fruit-into-baskets/description/)                                                                                      | [[2024-10-05]]        | 19  |          |
+| [1695. 删除子数组的最大得分 - 力扣（LeetCode）](https://leetcode.cn/problems/maximum-erasure-value/description/)                                                                            | [[2024-10-05]]        | 20  |          |
+| [2958. Length of Longest Subarray With at Most K Frequency - LeetCode](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/)                    | [[2024-10-05]]        | 21  | [[2958]] |
+| [2779.Maximum Beauty of an Array After Applying Operation - LeetCode](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/description/)         | [[2024-10-05]]        | 22  |          |
+|                                                                                                                                                                               |                       |     |          |

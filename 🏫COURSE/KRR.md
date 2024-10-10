@@ -49,12 +49,12 @@
 ### Ontology
 * a structured way to represent knowledge about a specific field or area
 * **defining** its key **elements** and how they **relate** to each other in a logically consistent manner.
-
 # classical logic: concepts and uses of logic
 ## Propositional logic(命题逻辑)
 * A proposition is an expression of a fact.
-* classical proposition logic --> Every proposition is either true or false and not both
+* classical proposition logic --> Every proposition is either true or false and **not both**
 * ∧(conjunction)  ∨(disjunction)  →  ¬(negation)
+* p -> q <=> ¬p v q
 ### proposition Symbols and Schematic variables
 * P Q -- abbreviations(缩写) for actual propositions
 * α, β -- stand for arbitrary(任意的) propositional formulae
@@ -88,6 +88,7 @@ P1, . . . , Pn ⊢S C
 * we can verify  $\Theta \models \pi$ by using a proof system S $\Theta \vdash_S \pi$
 * 关注点：命题的真值和语义
 > this statement is based on the **soundness**(可靠性) property of logical systems.
+![[Pasted image 20241008123952.png]]
 ### Turnstile(推理)
 * $\vdash$ vdash
 *  表示语法**推导**关系，一般链接两个表达式
@@ -108,12 +109,10 @@ P1, . . . , Pn ⊢S C
 * For any formula ,it is impossible to have both $\Theta \vdash \pi \text{ and } \Theta \vdash \neg \pi$
 #### Determining Entailment  from Inconsistency（通过不一致性来确定 ）
 * A1, ..., An |= C  iff（当且仅当） the formula set {A1, ..., An, ¬C} is **inconsistent**.
-### refutation complete(反驳完备性)
+#### refutation complete(反驳完备性)
 * A formal system S is refutation-complete if it is able to derive false from every unsatisfiable set of formulas
-
-
 # Propositional Resolution(命题消解)
-## ADD：NP-Complete
+## sideby：NP-Complete
 * Problems in NP (Nondeterministic Polynomial time) are those for which a solution can be verified in polynomial time.
 ## Process of Resolution 
 1. Convert all premises and the **negation** of the conclusion to **CNF**.
@@ -125,6 +124,7 @@ P1, . . . , Pn ⊢S C
 4. Interpret the results
 	1. If an empty clause is derived（空子句）, the original proposition is proved (by contradiction).
 	2. If no empty clause is derived and no new clauses can be generated, the proof is inconclusive.
+
 ## concept
 ### disjunction（析取式）
 * A disjunction is a compound proposition formed by connecting two or more propositions using the logical "or" operator.

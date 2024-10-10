@@ -4,6 +4,8 @@
   "baseFontSizeAction": true,
   "theme": "moonstone",
   "accentColor": "#2c9aaf",
-  "textFontFamily": "Chalkboard",
-  "interfaceFontFamily": "Chalkboard"
+  "textFontFamily": "Arial",
+  "interfaceFontFamily": "Arial",
+  "nativeMenus": false,
+  "translucency": false
 }

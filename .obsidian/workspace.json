@@ -4,139 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "4783925b53097f3c",
+        "id": "aacc882a2d4f6fb8",
         "type": "tabs",
         "children": [
           {
-            "id": "fa2f61c45a0f0c5f",
+            "id": "737a2475a226a1b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-10-02.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "314ce004390d824b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "💻CODING/🧑‍💻开发/前端/javascript/基础.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bfc10bc1a0659cde",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "💻CODING/TODO repository.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "64211aeb7d20c79e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "💻CODING/🧮algorithm/leetcode刷题.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1c889284c1e440f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-10-02.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "afb6d6777dbb2f69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🌈LIFE/sumup/weekly sum-up/2024-W38.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ff4f537b32f9cef7",
-            "type": "leaf",
-            "state": {
-              "type": "daily-note-editor-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "b05f8f1f7d2917b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "💻CODING/🔨工具/LaTex.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "631e103b575d0a11",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-09-30.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "291da74c2b003503",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-10-03.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e9552cc1b91275c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-10-04.md",
+                "file": "🏫COURSE/Algorithm.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 10
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-10-04.md",
+                "file": "🏫COURSE/Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-10-04.md",
+                "file": "🏫COURSE/Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-10-04.md"
+                "file": "🏫COURSE/Algorithm.md"
               }
             }
           },
@@ -255,12 +138,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 309.5,
-    "collapsed": true
+    "width": 309.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -275,35 +157,38 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4e9552cc1b91275c",
+  "active": "737a2475a226a1b0",
   "lastOpenFiles": [
-    "💻CODING/🧑‍💻开发/python/Python基础学习.md",
-    "🌈LIFE/sumup/daily sum-up/2024-10-04.md",
-    "💻CODING/🧑‍💻开发/python/python包装在哪里了.md",
-    "🏫COURSE/Programming for data science.md",
     "🏠Welcome.md",
-    "🌈LIFE/sumup/daily sum-up/2024-10-03.md",
+    "🏫COURSE/Algorithm.md",
     "🏫COURSE/KRR.md",
+    "🏫COURSE/Programming for data science.md",
+    "@asset/Pasted image 20241008152019.png",
+    "@asset/Pasted image 20241008123952.png",
+    "💻CODING/🧮algorithm/leetcode题解/leetcode刷题.md",
+    "💻CODING/🧮algorithm/leetcode题解/2958.md",
+    "💻CODING/🧮algorithm/leetcode题解/2779.md",
+    "💻CODING/🧮algorithm/leetcode题解/2779~.md",
+    "💻CODING/🧮algorithm/leetcode题解/Untitled.md",
+    "💻CODING/🤖AI/深度学习/资料.md",
+    "@template/【题号】2958.md",
+    "💻CODING/🧮algorithm/leetcode题解",
+    "💻CODING/🤖AI/LLM/资料.md",
+    "🌈LIFE/sumup/daily sum-up/2024-10-04.md",
+    "💻CODING/🤖AI/深度学习",
+    "🌈LIFE/sumup/daily sum-up/2024-10-03.md",
     "🌈LIFE/sumup/daily sum-up/2024-10-02.md",
-    "@template/daily sum-up template.md",
-    "@template/Blog Reading Template.md",
     "🌈LIFE/sumup/daily sum-up/2024-10-01.md",
     "🌈LIFE/sumup/daily sum-up/2024-09-30.md",
+    "💻CODING/🧑‍💻开发/python/Python基础学习.md",
+    "💻CODING/🧑‍💻开发/python/python包装在哪里了.md",
+    "@template/daily sum-up template.md",
+    "@template/Blog Reading Template.md",
     "@template/weekly sum-up template.md",
     "🌈LIFE/sumup/weekly sum-up/2024-W39.md",
     "🌈LIFE/sumup/weekly sum-up/2024-W38.md",
     "🌈LIFE/Blockchian/==.md",
-    "🌈LIFE/面试/面试要点.md",
-    "English/生词.md",
-    "🖊️Blog/draft/未命名.md",
-    "📖READING/blog阅读/LLMs and Programming in the first days of 2024.md",
-    "📖READING/blog阅读/Blog Overview.md",
-    "💻CODING/🗃️PROJECT/chatbox.md",
-    "💻CODING/🧮algorithm/leetcode刷题.md",
-    "💻CODING/TODO repository.md",
-    "💻CODING/🧑‍💻开发/前端/javascript/基础.md",
     "🌈LIFE/Blockchian",
-    "💻CODING/🔨工具/LaTex.md",
     "@asset/Pasted image 20241001113027.png",
     "@asset/Pasted image 20241001111730.png",
     "English",
@@ -313,8 +198,6 @@
     "💻CODING/🧑‍💻开发/前端/Typescript",
     "💻CODING/🤖AI",
     "💻CODING/🧑‍💻开发",
-    "💻CODING/软件工程",
-    "💻CODING/🔢cs理论",
     "@asset/Pasted image 20240908174614.png",
     "@template/nebula.jpg",
     "@asset/Pasted image 20240902135159.png",

@@ -176,7 +176,72 @@ $$
 * Identity laws(同一律)
 	* A ∩ U = A 
 	* A ∪ ∅ = A
-#### 
+#### Cartesian product（笛卡尔积）
+#####  Cartesian product of two sets
+* A × B
+* A × B = {(a, b) | a ∈ A 且 b ∈ B}
+* 可以类比二维数组
+##### Cartesian Product
+* 就类比多维数组
+* Notation
+	* $A^2$
+	* $A^n$
 ### Pairs and tuples
-* they ordered
+* they are ordered
 ### Relations
+####  Definition
+* relations are subsets of Cartesian products
+#### Properties
+##### Reflexive(反身性)
+* **Definition**
+	* A relation R on a set A is called reflexive if (a, a) ∈ R for every element a ∈ A
+* **Example**
+	* = “等于”这个关系就是反身的
+##### Symmetric, antiSymmetric（对称性和反对称性）
+* **Definition**
+	* A relation R on a set A is called symmetric, if $(a, b) ∈ R$ implies $(b, a) ∈ R$ for all $a, b ∈ A$. 
+	* A relation R on a set A such that for all $a, b ∈ A$, if $(a, b) ∈ R$ and $(b, a) ∈ R$, then $a = b$, is called antisymmetric.
+* **Formalized in predicate logic**
+	* Symmetry:  $∀x∀y ((x,y) ∈ R → (y,x)) ∈ R$
+	* Antisymmetry:  $∀x∀y (((x,y) ∈ R ∧ (y,x) ∈ R) → x = y)$
+* **Remark**
+	* 对称关系要求是双向的；反对称关系允许单向关系，若有双向关系则为两者相同
+##### Transitive
+* **Definition**
+	* A relation R on a set A is called transitive if whenever  $(a, b) ∈ R$ and $(b, c) ∈ R$, then $(a, c) ∈ R$, for all $a, b, c ∈ A$.
+* **Formalized**
+	* $∀x∀y∀z (x, y) ∈ R ∧ (y, z) ∈ R → (x, z) ∈ R$
+* Example
+	* > , = 
+##### total （全序关系/完全关系）
+*  **Definition**
+	* A relation R on a set A is called total if all $a, b ∈ A$ satisfy: $(a, b) ∈ R$ or $(b, a) ∈ R$
+	* 要么是这个关系，要么是那个关系
+* **Formalized**
+	* $∀x∀y (x, y) ∈ R ∨ (y, x) ∈ R$
+* **Example**
+	* 实数上的 "≤" 关系是全序的：对于任意两个实数，一个总是小于等于另一个
+##### Equivalence relation(等价关系)
+* An equivalence relation is a binary relation, that is 
+	* reflexive
+	* transitive
+	* symmetric
+* Equivalence classes, representatives(等价类和代表元)
+	* 等价类：等价类是指在给定的等价关系下,所有与某个元素等价的元素的集合
+		* $[v]_E := \{v' ∈ V | (v,v') ∈ E \}$ (E是等价关系)
+		* v就是代表元
+	* **example**：
+		* The relation $R := \{(a, b) | a = b \ or \ a = −b\}$ over the integers
+			* $[0]_R = \{0\}$
+			* $[1]_R = \{-1, 1\}$
+			* 对于任意非零整数 n,$[n]_R = \{-n,n\}$
+##### Order Relations(序关系)
+* **Preorder**前序
+	* reflexive and transitive
+* **partial order**偏序
+	* reflexive, transitive and antisymmetric
+* **linear order / total order**全序
+	* reflexive, transitive, antisymmetric and total
+*Example*
+* $\leq 、\geq$
+* 

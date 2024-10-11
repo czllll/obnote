@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏫COURSE/Algorithm.md",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-10-11.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏫COURSE/Algorithm.md",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-10-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏫COURSE/Algorithm.md",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-10-11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏫COURSE/Algorithm.md"
+                "file": "🌈LIFE/sumup/daily sum-up/2024-10-11.md"
               }
             }
           },
@@ -138,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -157,10 +157,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "737a2475a226a1b0",
+  "active": "3ced3d74e2e29226",
   "lastOpenFiles": [
-    "🌈LIFE/sumup/daily sum-up/2024-10-10.md",
     "🏫COURSE/Algorithm.md",
+    "🌈LIFE/sumup/daily sum-up/2024-10-11.md",
+    "🌈LIFE/sumup/daily sum-up/2024-10-10.md",
     "@asset/Pasted image 20241010215540.png",
     "@asset/Pasted image 20241010192131.png",
     "🏠Welcome.md",
@@ -190,7 +191,6 @@
     "@template/weekly sum-up template.md",
     "🌈LIFE/sumup/weekly sum-up/2024-W39.md",
     "🌈LIFE/sumup/weekly sum-up/2024-W38.md",
-    "🌈LIFE/Blockchian/==.md",
     "🌈LIFE/Blockchian",
     "@asset/Pasted image 20241001113027.png",
     "@asset/Pasted image 20241001111730.png",

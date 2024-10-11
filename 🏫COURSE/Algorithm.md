@@ -130,7 +130,6 @@
 * ℝ>0 := the set of positive real numbers
 #### Empty set
 * ∅, or by {}
-
 #### Cardinality（基数）
 ##### Definition
 * 是一个描述集合大小或元素数量的概念
@@ -295,7 +294,34 @@ $$
 		(b) f 是双射的，  
 		(c) 存在一个函数 g: B → A，使得 (g ∘ f) = ιA 且 (f ∘ g) = ιB。
 
-## Stable Matching
+## Stable Matching（稳定匹配）
+### Definition
+* perfect matching with no unstable pairs
+	* **unstable pairs:** Given a matching M, a pair <h, p> (where h represents a hospital and p represents a patient) is considered **unstable** if both of these conditions are met:
+		1. h prefers p to its current match p' in M
+		2. p prefers h to its current match h' in M
+### Gale-Shapley-Algorithm
+* 也被称为延迟接受算法(Deferred Acceptance Algorithm)
+```python
+初始化所有人为未配对状态
+while 存在未配对的男性 且 该男性还有未求婚的对象:
+    选择一个未配对的男性 m
+    w = m偏好列表中下一个未求婚的女性
+    if w 是未配对的:
+        将 m 和 w 配对
+    else if w 更喜欢 m 而不是她当前的配偶 m':
+        将 w 和 m 配对
+        将 m' 设为未配对
+    else:
+        w 拒绝 m (m 保持未配对状态)
+返回最终的配对结果
+```
+### 5 representative problems
+* Interval scheduling: n log n greedy algorithm. 
+* Weighted interval scheduling: n log n dynamic programmigg algorithm. 
+* Bipartite matching: nk max-flow based algorithm.  二分图最大匹配
+* Independent set: NP-complete. 独立集
+* Competitive facility location: PSPACE-complete. Polynomial Space（多项式空间）
 
 
 

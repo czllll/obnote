@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-10-10.md",
+                "file": "🏫COURSE/Algorithm.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-10-10.md",
+                "file": "🏫COURSE/Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-10-10.md",
+                "file": "🏫COURSE/Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-10-10.md"
+                "file": "🏫COURSE/Algorithm.md"
               }
             }
           },
@@ -159,8 +159,8 @@
   },
   "active": "737a2475a226a1b0",
   "lastOpenFiles": [
-    "🏫COURSE/Algorithm.md",
     "🌈LIFE/sumup/daily sum-up/2024-10-10.md",
+    "🏫COURSE/Algorithm.md",
     "@asset/Pasted image 20241010215540.png",
     "@asset/Pasted image 20241010192131.png",
     "🏠Welcome.md",

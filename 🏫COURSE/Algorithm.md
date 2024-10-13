@@ -322,6 +322,134 @@ while 存在未配对的男性 且 该男性还有未求婚的对象:
 * Bipartite matching: nk max-flow based algorithm.  二分图最大匹配
 * Independent set: NP-complete. 独立集
 * Competitive facility location: PSPACE-complete. Polynomial Space（多项式空间）
+## induction 数学归纳法
+### 结构
+* 基本情况：证明命题对最小值成立
+* 归纳步骤：假设命题对某个任意的k成立，然后证明它对k+1也成立
+### 原理
+* 若一个命题P(n)满足
+	* P(1) 为真（基本情况）
+	* 对于任意k >= 1,若p(k)为真，那么P(k+1)也为真
+* 则，P(n)对所有自然数n都成立
+
+
+# Analysis
+## Measures(标准/方法) efficiency of algorithm
+### Run-time
+#### machine model
+* RAM(Random Access Machine) 随机存取机模型
+	* One cpu
+	* all data in main memory
+	* all memory accesses require the same amount of time
+#### atomic operations(原子操作)
+* time for one operation: 
+	* the execution of one atomic operation as **one time step**
+* operations:
+	* Assignments: a ← b
+	* Arithmetic operations: +-* /
+	* Logical operations:∧, ∨, ¬
+	* Comparison operations:> < 
+* ignored operation：
+	* Index calculations  
+	* Type of operands  
+	* Size of operands
+#### Run-time definition
+* Is the number of atomic operations executed by the algorithm.
+#### 3 Situations
+##### worst case
+* Is the *largest possible* run-time of an algorithm for input size n
+* Dominant model in practice(最常用模型)
+##### Average case
+* Is the *average* run-time of an algorithm measured across all possible inputs of size n
+##### Best case
+* Is the smallest possible run-time of an algorithm for input size n.
+### Memory usage
+### Problem specific parameters
+
+## Pseudocode
+- Keywords: Bold and black (e.g., while, for, if)
+- Assignments: Use ← (e.g., i ← 1)
+- Comparisons: Use <, ≤, =, ≠, >, ≥
+- Negation: Use ! (e.g., if !finished)
+- Conditions:
+    - No parentheses if easily deductable
+    - Complex conditions in plain English
+- Block structure:
+    - No parentheses
+    - Use indentation
+    - Separate commands with ";" if on one line
+- Functions:
+    - Define as "procedure/function name(parameters)"
+    - Arrays passed by reference
+    - Explicitly indicate other pass-by-reference parameters
+- Memory:
+    - Assume automatic garbage collection
+    - No explicit memory freeing
+- For coursework/exams:
+    - Plain English allowed
+    - Use parentheses for blocks
+### example
+![[Pasted image 20241013160755.png]]
+
+## Asymptotic Analysis(渐进分析)
+### asymptotic growth
+#### Definition
+* Asymptotic growth refers to the behavior of a function as its input approaches infinity. It describes the rate at which a function grows as its input tends towards infinity, typically expressed using Big O notation (O) or Big Theta (Θ)
+* In analysis in **algorithm**, it specifically describes how the time or space complexity of an algorithm increases as the input size grows.(算法的时间空间复杂度是如何随着输入大小的增加而增加的)
+### Definition of Θ(g(n))
+* For non-negative function g(n), Θ(g(n)) is the set of functions f(n) where:
+* $Θ(g(n)) = {f(n) | ∃ \ constants 0 < c₁ ≤ c₂ and \ n₀ such \ that  c₁g(n) ≤ f(n) ≤ c₂g(n) for all n ≥ n₀}$
+* Intuition: f(n) ∈ Θ(g(n)) if f(n) can be "sandwiched" between c₁g(n) and c₂g(n) for sufficiently large n.(如果 f(n) 能够在足够大的 n 值下被 c₁g(n) 和 c₂g(n) "夹住"，则 f(n) ∈ Θ(g(n))。)
+### further notation:Θ, O, Ω
+* Θ: tight upper and lower bounds on f(n)
+* O:upper bound
+* Ω: lower bound
+![[Pasted image 20241013165245.png]]
+### Properties
+#### Additivity
+* example
+	* $f(n) = 2n + 3, g(n) = 5n^2, \text{ where } f(n), g(n) \in O(n^2)$
+	* $f(n) + g(n) = 5n^2 + 2n + 3 \,(= O(n^2))$
+* one application:
+	* $\text{If } g(n) = O(f (n)), then \ f (n) + g(n) = Θ(f (n))$
+#### Transitivity
+$$
+\begin{align*}
+\text{Property: transitivity} \\[1em]
+
+\text{Upper bounds:} & \text{ If } f = O(g) \text{ and } g = O(h), \text{ then } f = O(h). \\[1em]
+
+\text{Lower bounds:} & \text{ If } f = \Omega(g) \text{ and } g = \Omega(h), \text{ then } f = \Omega(h). \\[1em]
+
+\text{Tight bounds:} & \text{ If } f = \Theta(g) \text{ and } g = \Theta(h), \text{ then } f = \Theta(h).
+\end{align*}
+$$
+#### Asymptotic equivalence
+* The binary relation f (n) = Θ(g(n)) between functions is an equivalence relation
+* 因为具有 symmetric transitive and reflexive
+
+### Asymptotic dominance
+#### dominance between functions
+* $f (n) \text{ is dominated by }g(n), if \ f (n) = O(g(n)) \ but \ not \ g(n) = O(f (n))$.
+* Or we define **dominance** like this: $g(n) \ dominates \ f (n),\ if \ \lim_{n \to \infty} \frac{f(n)}{g(n)} = 0.$
+* g 是 f 的高阶无穷大
+* We write $f (n) ≪ g(n) (alternatively: f (n) ∈ o(g(n))).$
+
+### Asymptotic bounds for common functions
+* **Polynomial-time**: Run-time lies in $O(n^d)$ for some constant d that is independent of n.
+* **Logarithms**: For constants a, b > 0, it holds: Θ(loga n) = Θ(logb n).
+* **Exponential**（指数）:比多项式快
+#### 时间复杂度
+* O(n log n) growth ： 
+	* 归并排序：每次将问题规模减半，这个过程是logn层；每一层都需要O(n)的时间来合并有序子数组
+
+
+
+
+
+
+
+
 
 
 

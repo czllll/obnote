@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "aacc882a2d4f6fb8",
+        "id": "11b98faa2aaacee8",
         "type": "tabs",
         "children": [
           {
-            "id": "737a2475a226a1b0",
+            "id": "9212475e40dab920",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-10-11.md",
+                "file": "🌈LIFE/sumup/weekly sum-up/2024-W41.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "743fd0bd1a08284b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🏠Welcome.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#cs61a",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-10-11.md",
+                "file": "🌈LIFE/sumup/weekly sum-up/2024-W41.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-10-11.md",
+                "file": "🌈LIFE/sumup/weekly sum-up/2024-W41.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-10-11.md"
+                "file": "🌈LIFE/sumup/weekly sum-up/2024-W41.md"
               }
             }
           },
@@ -157,15 +169,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3ced3d74e2e29226",
+  "active": "9212475e40dab920",
   "lastOpenFiles": [
+    "🌈LIFE/sumup/daily sum-up/2024-10-13.md",
+    "🌈LIFE/sumup/weekly sum-up/2024-W41.md",
     "🏫COURSE/Algorithm.md",
+    "@asset/Pasted image 20241013165245.png",
+    "🏫COURSE/KRR.md",
+    "@asset/Pasted image 20241013160755.png",
+    "🏠Welcome.md",
+    "💻CODING/🤖AI/LLM/学习路径.md",
+    "💻CODING/🤖AI/LLM/资料.md",
     "🌈LIFE/sumup/daily sum-up/2024-10-11.md",
     "🌈LIFE/sumup/daily sum-up/2024-10-10.md",
     "@asset/Pasted image 20241010215540.png",
     "@asset/Pasted image 20241010192131.png",
-    "🏠Welcome.md",
-    "🏫COURSE/KRR.md",
     "🏫COURSE/Programming for data science.md",
     "@asset/Pasted image 20241008152019.png",
     "@asset/Pasted image 20241008123952.png",
@@ -177,7 +195,6 @@
     "💻CODING/🤖AI/深度学习/资料.md",
     "@template/【题号】2958.md",
     "💻CODING/🧮algorithm/leetcode题解",
-    "💻CODING/🤖AI/LLM/资料.md",
     "🌈LIFE/sumup/daily sum-up/2024-10-04.md",
     "💻CODING/🤖AI/深度学习",
     "🌈LIFE/sumup/daily sum-up/2024-10-03.md",
@@ -188,9 +205,6 @@
     "💻CODING/🧑‍💻开发/python/python包装在哪里了.md",
     "@template/daily sum-up template.md",
     "@template/Blog Reading Template.md",
-    "@template/weekly sum-up template.md",
-    "🌈LIFE/sumup/weekly sum-up/2024-W39.md",
-    "🌈LIFE/sumup/weekly sum-up/2024-W38.md",
     "🌈LIFE/Blockchian",
     "@asset/Pasted image 20241001113027.png",
     "@asset/Pasted image 20241001111730.png",
@@ -203,8 +217,6 @@
     "💻CODING/🧑‍💻开发",
     "@asset/Pasted image 20240908174614.png",
     "@template/nebula.jpg",
-    "@asset/Pasted image 20240902135159.png",
-    "@asset/Pasted image 20240830171239.png",
     "未命名.canvas"
   ]
 }

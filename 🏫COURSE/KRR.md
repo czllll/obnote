@@ -124,7 +124,6 @@ P1, . . . , Pn ⊢S C
 4. Interpret the results
 	1. If an empty clause is derived（空子句）, the original proposition is proved (by contradiction).
 	2. If no empty clause is derived and no new clauses can be generated, the proof is inconclusive.
-
 ## concept
 ### disjunction（析取式）
 * A disjunction is a compound proposition formed by connecting two or more propositions using the logical "or" operator.

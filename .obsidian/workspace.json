@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏫COURSE/Programming for data science.md",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-10-14.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏫COURSE/Programming for data science.md",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-10-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏫COURSE/Programming for data science.md",
+                "file": "🌈LIFE/sumup/daily sum-up/2024-10-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏫COURSE/Programming for data science.md"
+                "file": "🌈LIFE/sumup/daily sum-up/2024-10-14.md"
               }
             }
           },
@@ -159,8 +159,9 @@
   },
   "active": "743fd0bd1a08284b",
   "lastOpenFiles": [
-    "🏫COURSE/Algorithm.md",
     "🏫COURSE/Programming for data science.md",
+    "🌈LIFE/sumup/daily sum-up/2024-10-14.md",
+    "🏫COURSE/Algorithm.md",
     "🏫COURSE/KRR.md",
     "🏠Welcome.md",
     "English/生词.md",
@@ -192,7 +193,6 @@
     "🌈LIFE/sumup/daily sum-up/2024-09-30.md",
     "💻CODING/🧑‍💻开发/python/Python基础学习.md",
     "💻CODING/🧑‍💻开发/python/python包装在哪里了.md",
-    "@template/daily sum-up template.md",
     "🌈LIFE/Blockchian",
     "@asset/Pasted image 20241001113027.png",
     "@asset/Pasted image 20241001111730.png",

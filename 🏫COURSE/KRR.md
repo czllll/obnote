@@ -156,7 +156,7 @@ P1, . . . , Pn ⊢S C
 * 用于描述个体的属性或关系
 * `Fast(x)`: 表示 x 是快的（属性）。
 - `Loves(x, y)`: 表示 x 爱 y（关系）。
-# add
+# aside
 ## reflexive（自反性）
 ### definition
 * A relation R on set A is reflexive if ∀x ∈ A, xRx holds
@@ -166,6 +166,8 @@ P1, . . . , Pn ⊢S C
 * =
 * >=
 * ⊆
+
+
 
 
 

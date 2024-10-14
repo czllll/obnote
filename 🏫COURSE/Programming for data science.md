@@ -27,3 +27,74 @@
 >Although the effect of running the code of either **Example 1** or **Example 2** is the same, most programmers would find **Example 2** far less appealing. Why is this?
 
 * Because the variable names of example 1 are more intuitive than those in example 2. The variable names in Example 2 lack clear meaning and are difficult to understand. If we obey the same variable naming rules, the situation in example2 basically will be not appear. 
+
+
+## outline
+### 2. the role of data in computer programming
+* function
+* OOP
+* manipulating in files
+* the development of data structure and data
+
+### 文件操作
+#### 常规操作
+*  `f = open('my_example_file.txt', 'x')  # 创建文件`
+	* x 排他性的创建文件，若文件存在则会引发错误
+#### csv库
+* csv.reader() 读取
+```python
+with open('names.csv', 'r') as f:
+    reader = csv.reader(f, delimiter=',')
+    
+    i = 0
+    for row in reader:
+        print(row)
+        
+        i += 1
+        if i == 10:
+            break
+```
+* csv.writer()
+```python
+with open('output.csv', 'w') as write_file:
+    csv_writer = csv.writer(write_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+
+```
+* quotechar-- 指定CSV文件中包裹字段的字符，通常包含特殊字符（换行符或分隔符）
+* quoting=csv.QUOTE_MINIMAL --控制哪些字段需要用quotechar包裹，这个值表示仅在必要时才添加，即特殊字符才添加
+	* `csv.QUOTE_ALL`：所有字段都会被引号包裹。
+	- `csv.QUOTE_MINIMAL`：仅在需要时（例如字段包含特殊字符时）才包裹。
+	- `csv.QUOTE_NONNUMERIC`：所有非数字的字段都会被引号包裹。
+	- `csv.QUOTE_NONE`：不使用引号包裹字段，甚至会抛出错误，要求避免任何字段中的特殊字符。
+* csv.DictReader(f) 转python字典
+```python
+with open('passwords.csv', mode='r') as f:
+    dict_reader = csv.DictReader(f)
+    for row in dict_reader:
+        print(row)
+```
+* csv.DictWrriter(f, fildnames = headers)
+	* header 是 自定义的头部 通常是可迭代对象，列表或tuple
+
+### matplotlib.pyplot
+```python
+# 使用 matplotlib 绘制散点图
+# gdppc 是 x 轴数据 (GDP 百分比变化)，mmpc 是 y 轴数据 (孕产妇死亡率百分比变化)
+# alpha=0.5 表示点的透明度，0 为完全透明，1 为完全不透明
+# 前两个参数是可迭代的数据类型
+plt.scatter(gdppc, mmpc, alpha=0.5)
+
+# 设置 y 轴标签为 'Maternal Mortality % Change'
+plt.ylabel('Maternal Mortality % Change')
+
+# 设置 x 轴标签为 'GDP % Change'
+plt.xlabel('GDP % Change')
+
+# 设置图表的标题为 'Maternal Mortality vs GDP Change'
+plt.title('Maternal Mortality vs GDP Change')
+
+# 显示绘制的图表
+plt.show()
+
+
+```

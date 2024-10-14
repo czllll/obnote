@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9212475e40dab920",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🌈LIFE/sumup/weekly sum-up/2024-W41.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "743fd0bd1a08284b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏠Welcome.md",
+                "file": "🏫COURSE/Programming for data science.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🌈LIFE/sumup/weekly sum-up/2024-W41.md",
+                "file": "🏫COURSE/Programming for data science.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🌈LIFE/sumup/weekly sum-up/2024-W41.md",
+                "file": "🏫COURSE/Programming for data science.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🌈LIFE/sumup/weekly sum-up/2024-W41.md"
+                "file": "🏫COURSE/Programming for data science.md"
               }
             }
           },
@@ -150,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -169,22 +157,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9212475e40dab920",
+  "active": "743fd0bd1a08284b",
   "lastOpenFiles": [
-    "🌈LIFE/sumup/daily sum-up/2024-10-13.md",
-    "🌈LIFE/sumup/weekly sum-up/2024-W41.md",
     "🏫COURSE/Algorithm.md",
-    "@asset/Pasted image 20241013165245.png",
+    "🏫COURSE/Programming for data science.md",
     "🏫COURSE/KRR.md",
-    "@asset/Pasted image 20241013160755.png",
     "🏠Welcome.md",
+    "English/生词.md",
+    "🌈LIFE/sumup/weekly sum-up/2024-W41.md",
+    "🌈LIFE/sumup/daily sum-up/2024-10-13.md",
+    "@asset/Pasted image 20241013165245.png",
+    "@asset/Pasted image 20241013160755.png",
     "💻CODING/🤖AI/LLM/学习路径.md",
     "💻CODING/🤖AI/LLM/资料.md",
     "🌈LIFE/sumup/daily sum-up/2024-10-11.md",
     "🌈LIFE/sumup/daily sum-up/2024-10-10.md",
     "@asset/Pasted image 20241010215540.png",
     "@asset/Pasted image 20241010192131.png",
-    "🏫COURSE/Programming for data science.md",
     "@asset/Pasted image 20241008152019.png",
     "@asset/Pasted image 20241008123952.png",
     "💻CODING/🧮algorithm/leetcode题解/leetcode刷题.md",
@@ -204,7 +193,6 @@
     "💻CODING/🧑‍💻开发/python/Python基础学习.md",
     "💻CODING/🧑‍💻开发/python/python包装在哪里了.md",
     "@template/daily sum-up template.md",
-    "@template/Blog Reading Template.md",
     "🌈LIFE/Blockchian",
     "@asset/Pasted image 20241001113027.png",
     "@asset/Pasted image 20241001111730.png",

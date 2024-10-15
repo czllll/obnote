@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-10-14.md",
+                "file": "🏫COURSE/KRR.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-10-14.md",
+                "file": "🏫COURSE/KRR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-10-14.md",
+                "file": "🏫COURSE/KRR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🌈LIFE/sumup/daily sum-up/2024-10-14.md"
+                "file": "🏫COURSE/KRR.md"
               }
             }
           },
@@ -159,8 +159,8 @@
   },
   "active": "743fd0bd1a08284b",
   "lastOpenFiles": [
-    "🏫COURSE/Programming for data science.md",
     "🌈LIFE/sumup/daily sum-up/2024-10-14.md",
+    "🏫COURSE/Programming for data science.md",
     "🏫COURSE/Algorithm.md",
     "🏫COURSE/KRR.md",
     "🏠Welcome.md",

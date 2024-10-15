@@ -97,7 +97,7 @@ P1, . . . , Pn ⊢S C
 * ->
 * 一般用于表示定理中的条件关系
 * 条件语句 (φ → ψ) 被定义为"只有当 φ 为真且 ψ 为假时，整个语句才为假，**其他都为真**
-## Addition -- properties of logical systems.
+## Aside -- properties of logical systems.
 ### Soundness(可靠性)
 * the system does not allow deriving false conclusions from true premises
 * $\text{If } \Theta \vdash \pi \text{ , then } \Theta \models \pi$
@@ -156,7 +156,7 @@ P1, . . . , Pn ⊢S C
 * 用于描述个体的属性或关系
 * `Fast(x)`: 表示 x 是快的（属性）。
 - `Loves(x, y)`: 表示 x 爱 y（关系）。
-# aside
+# Aside
 ## reflexive（自反性）
 ### definition
 * A relation R on set A is reflexive if ∀x ∈ A, xRx holds
@@ -167,7 +167,17 @@ P1, . . . , Pn ⊢S C
 * >=
 * ⊆
 
+# Classical Logic
+## Formal Proofs in Sequent Calculus
 
+
+
+
+* at most 
+* at least
+*\
+* sytax suger
+* 
 
 
 

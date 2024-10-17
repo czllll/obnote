@@ -4,22 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "11b98faa2aaacee8",
+        "id": "729a7eef12aea83c",
         "type": "tabs",
         "children": [
           {
-            "id": "743fd0bd1a08284b",
+            "id": "a7adbbe9e6a2f6f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏫COURSE/KRR.md",
+                "file": "📖技术吸收/Ilya 播客要点.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0e73c920a4902f04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🌈Archive/🏠Welcome.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f9ed6be59c25e968",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "872d316cc9e52175",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📖技术吸收/Ilya 播客要点.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "938a3abd15b84bfe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "💻CODING/🧮algorithm/leetcode题解/1004.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏫COURSE/KRR.md",
+                "file": "💻CODING/🧮algorithm/leetcode题解/1004.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏫COURSE/KRR.md",
+                "file": "💻CODING/🧮algorithm/leetcode题解/1004.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏫COURSE/KRR.md"
+                "file": "💻CODING/🧮algorithm/leetcode题解/1004.md"
               }
             }
           },
@@ -157,54 +202,54 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "743fd0bd1a08284b",
+  "active": "938a3abd15b84bfe",
   "lastOpenFiles": [
-    "🌈LIFE/sumup/daily sum-up/2024-10-14.md",
+    "💻CODING/🧮algorithm/leetcode题解/1004~.md",
+    "💻CODING/🧮algorithm/leetcode题解/2024.md",
+    "💻CODING/🧮algorithm/leetcode题解/1004.md",
+    "@template/lc template.md",
+    "💻CODING/🧮algorithm/leetcode题解/leetcode刷题.md",
+    "💻CODING/🧮algorithm/leetcode题解/2024~.md",
+    "💻CODING/🧮algorithm/leetcode题解/2958.md",
+    "💻CODING/🧮algorithm/leetcode题解/2779.md",
+    "📕English/生词.md",
+    "📖技术吸收/Ilya 播客要点.md",
+    "📖技术吸收/blog阅读/九大服务架构性能优化方式.md",
+    "🌈Archive/sumup/daily sum-up/2024-10-16.md",
+    "🌈LIFE/sumup/daily sum-up/2024-10-16.md",
+    "🌈LIFE/sumup/daily sum-up",
+    "🌈LIFE/sumup",
+    "🌈LIFE",
+    "🌈Archive/🏠Welcome.md",
+    "@asset/Pasted image 20241016134949.png",
+    "Blockchian/==.md",
+    "面试/面试要点.md",
+    "💻CODING/🧑‍💻开发/前端/next js.md",
+    "📖READING/websiteCut.md",
+    "🌈Archive/sumup/daily sum-up/2024-10-15.md",
+    "🏫COURSE/KRR.md",
+    "🌈Archive/sumup/daily sum-up/2024-10-14.md",
     "🏫COURSE/Programming for data science.md",
     "🏫COURSE/Algorithm.md",
-    "🏫COURSE/KRR.md",
-    "🏠Welcome.md",
-    "English/生词.md",
-    "🌈LIFE/sumup/weekly sum-up/2024-W41.md",
-    "🌈LIFE/sumup/daily sum-up/2024-10-13.md",
+    "🌈Archive/sumup/weekly sum-up/2024-W41.md",
+    "🌈Archive/sumup/daily sum-up/2024-10-13.md",
     "@asset/Pasted image 20241013165245.png",
     "@asset/Pasted image 20241013160755.png",
     "💻CODING/🤖AI/LLM/学习路径.md",
-    "💻CODING/🤖AI/LLM/资料.md",
-    "🌈LIFE/sumup/daily sum-up/2024-10-11.md",
-    "🌈LIFE/sumup/daily sum-up/2024-10-10.md",
     "@asset/Pasted image 20241010215540.png",
     "@asset/Pasted image 20241010192131.png",
     "@asset/Pasted image 20241008152019.png",
     "@asset/Pasted image 20241008123952.png",
-    "💻CODING/🧮algorithm/leetcode题解/leetcode刷题.md",
-    "💻CODING/🧮algorithm/leetcode题解/2958.md",
-    "💻CODING/🧮algorithm/leetcode题解/2779.md",
-    "💻CODING/🧮algorithm/leetcode题解/2779~.md",
-    "💻CODING/🧮algorithm/leetcode题解/Untitled.md",
-    "💻CODING/🤖AI/深度学习/资料.md",
-    "@template/【题号】2958.md",
     "💻CODING/🧮algorithm/leetcode题解",
-    "🌈LIFE/sumup/daily sum-up/2024-10-04.md",
     "💻CODING/🤖AI/深度学习",
-    "🌈LIFE/sumup/daily sum-up/2024-10-03.md",
-    "🌈LIFE/sumup/daily sum-up/2024-10-02.md",
-    "🌈LIFE/sumup/daily sum-up/2024-10-01.md",
-    "🌈LIFE/sumup/daily sum-up/2024-09-30.md",
-    "💻CODING/🧑‍💻开发/python/Python基础学习.md",
-    "💻CODING/🧑‍💻开发/python/python包装在哪里了.md",
-    "🌈LIFE/Blockchian",
+    "Blockchian",
     "@asset/Pasted image 20241001113027.png",
     "@asset/Pasted image 20241001111730.png",
-    "English",
+    "📕English",
     "🏫COURSE",
     "📖READING/websiteCut.md.crswap",
     "💻CODING/🧑‍💻开发/前端",
-    "💻CODING/🧑‍💻开发/前端/Typescript",
-    "💻CODING/🤖AI",
-    "💻CODING/🧑‍💻开发",
     "@asset/Pasted image 20240908174614.png",
-    "@template/nebula.jpg",
     "未命名.canvas"
   ]
 }

@@ -34,5 +34,6 @@
 | [904. 水果成篮 - 力扣（LeetCode）](https://leetcode.cn/problems/fruit-into-baskets/description/)                                                                                      | [[2024-10-05]]        | 19  |          |
 | [1695. 删除子数组的最大得分 - 力扣（LeetCode）](https://leetcode.cn/problems/maximum-erasure-value/description/)                                                                            | [[2024-10-05]]        | 20  |          |
 | [2958. Length of Longest Subarray With at Most K Frequency - LeetCode](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/)                    | [[2024-10-05]]        | 21  | [[2958]] |
-| [2779.Maximum Beauty of an Array After Applying Operation - LeetCode](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/description/)         | [[2024-10-05]]        | 22  |          |
-|                                                                                                                                                                               |                       |     |          |
+| [2779.Maximum Beauty of an Array After Applying Operation - LeetCode](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/description/)         | [[2024-10-05]]        | 22  | [[2779]] |
+| [2024. 考试的最大困扰度 - 力扣（LeetCode）](https://leetcode.cn/problems/maximize-the-confusion-of-an-exam/)                                                                              | [[2024-10-17]]        | 23  | [[2024]] |
+| [1004. 最大连续1的个数 III - 力扣（LeetCode）](https://leetcode.cn/problems/max-consecutive-ones-iii/description/)                                                                       | [[2024-10-17]]        | 24  |          |

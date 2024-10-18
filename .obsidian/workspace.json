@@ -57,14 +57,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💻CODING/🧮algorithm/leetcode题解/1004.md",
+                "file": "🏫COURSE/Programming for data science.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "89c8ce0d42f527f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "💻CODING/🧮algorithm/leetcode题解/1838.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💻CODING/🧮algorithm/leetcode题解/1004.md",
+                "file": "💻CODING/🧮algorithm/leetcode题解/1838.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💻CODING/🧮algorithm/leetcode题解/1004.md",
+                "file": "💻CODING/🧮algorithm/leetcode题解/1838.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💻CODING/🧮algorithm/leetcode题解/1004.md"
+                "file": "💻CODING/🧮algorithm/leetcode题解/1838.md"
               }
             }
           },
@@ -202,13 +214,25 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "938a3abd15b84bfe",
+  "active": "89c8ce0d42f527f8",
   "lastOpenFiles": [
+    "💻CODING/🧮algorithm/leetcode题解/1838~.md",
+    "💻CODING/🧮algorithm/leetcode题解/1658.md",
+    "💻CODING/🧮algorithm/leetcode题解/1838.md",
+    "💻CODING/🧮algorithm/leetcode题解/leetcode刷题.md",
+    "💻CODING/🧮algorithm/leetcode题解/1658~.md",
+    "💻CODING/🧮algorithm/LRU算法.md",
+    "🏫COURSE/KRR.md",
+    "@asset/Pasted image 20241017194009.png",
+    "@asset/Pasted image 20241017184856.png",
+    "@asset/Pasted image 20241017184750.png",
+    "🏫COURSE/Algorithm.md",
+    "🌈Archive/🏠Welcome.md",
+    "🏫COURSE/Programming for data science.md",
+    "💻CODING/🧮algorithm/leetcode题解/1004.md",
     "💻CODING/🧮algorithm/leetcode题解/1004~.md",
     "💻CODING/🧮algorithm/leetcode题解/2024.md",
-    "💻CODING/🧮algorithm/leetcode题解/1004.md",
     "@template/lc template.md",
-    "💻CODING/🧮algorithm/leetcode题解/leetcode刷题.md",
     "💻CODING/🧮algorithm/leetcode题解/2024~.md",
     "💻CODING/🧮algorithm/leetcode题解/2958.md",
     "💻CODING/🧮algorithm/leetcode题解/2779.md",
@@ -220,22 +244,13 @@
     "🌈LIFE/sumup/daily sum-up",
     "🌈LIFE/sumup",
     "🌈LIFE",
-    "🌈Archive/🏠Welcome.md",
     "@asset/Pasted image 20241016134949.png",
     "Blockchian/==.md",
     "面试/面试要点.md",
     "💻CODING/🧑‍💻开发/前端/next js.md",
     "📖READING/websiteCut.md",
-    "🌈Archive/sumup/daily sum-up/2024-10-15.md",
-    "🏫COURSE/KRR.md",
-    "🌈Archive/sumup/daily sum-up/2024-10-14.md",
-    "🏫COURSE/Programming for data science.md",
-    "🏫COURSE/Algorithm.md",
-    "🌈Archive/sumup/weekly sum-up/2024-W41.md",
-    "🌈Archive/sumup/daily sum-up/2024-10-13.md",
     "@asset/Pasted image 20241013165245.png",
     "@asset/Pasted image 20241013160755.png",
-    "💻CODING/🤖AI/LLM/学习路径.md",
     "@asset/Pasted image 20241010215540.png",
     "@asset/Pasted image 20241010192131.png",
     "@asset/Pasted image 20241008152019.png",
@@ -243,13 +258,10 @@
     "💻CODING/🧮algorithm/leetcode题解",
     "💻CODING/🤖AI/深度学习",
     "Blockchian",
-    "@asset/Pasted image 20241001113027.png",
-    "@asset/Pasted image 20241001111730.png",
     "📕English",
     "🏫COURSE",
     "📖READING/websiteCut.md.crswap",
     "💻CODING/🧑‍💻开发/前端",
-    "@asset/Pasted image 20240908174614.png",
     "未命名.canvas"
   ]
 }

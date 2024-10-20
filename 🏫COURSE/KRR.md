@@ -179,7 +179,7 @@ P1, . . . , Pn ⊢S C
 * If the simple sequent $⇒ β$ is valid, then $β$ is called a  logical theorem.
 
 ### Inference rules of Sequent Calculus
-#### conjunction introduction/elimination rule(合#规则)
+#### conjunction introduction/elimination rule(合取规则)
 * $\frac{\Gamma \Rightarrow \alpha, \Delta \ and \ \Gamma \Rightarrow \beta, \Delta}{\Gamma \Rightarrow (\alpha \land \beta), \Delta} \ [\Rightarrow \land]$
 * $\frac{\alpha, \beta, \Gamma \Rightarrow \Delta}{(\alpha \land \beta), \Gamma \Rightarrow \Delta} \ [\land \Rightarrow]$
 #### Disjunction Rules(析取规则)

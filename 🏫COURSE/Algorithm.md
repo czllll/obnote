@@ -34,7 +34,8 @@
 - Distributive laws分配律
 	- *p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)* 
 	- *p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r)*
-- Double negation
+- 
+
 - De Morgan's laws
 	- *¬(p ∧ q) ≡ (¬p ∨ ¬q) *
 	- *¬(p ∨ q) ≡ (¬p ∧ ¬q)*

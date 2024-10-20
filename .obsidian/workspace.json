@@ -4,79 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "729a7eef12aea83c",
+        "id": "14157f22c89a3e56",
         "type": "tabs",
         "children": [
           {
-            "id": "a7adbbe9e6a2f6f5",
+            "id": "f1f167883e80c4a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📖技术吸收/Ilya 播客要点.md",
+                "file": "🌈LIFE/sumup/weekly sum-up/2024-W42.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0e73c920a4902f04",
+            "id": "615f81fd4823655a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🌈Archive/🏠Welcome.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f9ed6be59c25e968",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
+              "type": "daily-note-editor-view",
               "state": {}
             }
-          },
-          {
-            "id": "872d316cc9e52175",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📖技术吸收/Ilya 播客要点.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "938a3abd15b84bfe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🏫COURSE/Programming for data science.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "89c8ce0d42f527f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "💻CODING/🧮algorithm/leetcode题解/1838.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -142,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💻CODING/🧮algorithm/leetcode题解/1838.md",
+                "file": "🌈LIFE/sumup/weekly sum-up/2024-W42.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💻CODING/🧮algorithm/leetcode题解/1838.md",
+                "file": "🌈LIFE/sumup/weekly sum-up/2024-W42.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💻CODING/🧮algorithm/leetcode题解/1838.md"
+                "file": "🌈LIFE/sumup/weekly sum-up/2024-W42.md"
               }
             }
           },
@@ -195,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -214,41 +165,42 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "89c8ce0d42f527f8",
+  "active": "f1f167883e80c4a1",
   "lastOpenFiles": [
+    "🌈Archive/sumup/daily sum-up/2024-10-20.md",
+    "🌈LIFE/sumup/weekly sum-up/2024-W42.md",
+    "🌈LIFE/sumup/weekly sum-up",
+    "🌈LIFE/sumup",
+    "🌈LIFE",
+    "🌈Archive/sumup/daily sum-up/2024-10-19.md",
+    "💻CODING/🧑‍💻开发/前端/javascript/基础.md",
+    "💻CODING/🧑‍💻开发/前端/css.md",
+    "💻CODING/🧑‍💻开发/前端/Typescript/基础.md",
+    "💻CODING/🧑‍💻开发/前端/Typescript/教程.md",
+    "📖技术吸收/Ilya 播客要点.md",
+    "🌈Archive/🏠Welcome.md",
+    "🏫COURSE/Programming for data science.md",
+    "💻CODING/🧮algorithm/leetcode题解/leetcode刷题.md",
+    "@template/lc zhuanti template.md",
+    "💻CODING/🧮algorithm/leetcode题解/2875.md",
+    "💻CODING/🧮algorithm/leetcode题解/2958.md",
+    "💻CODING/🧮algorithm/leetcode题解/1234.md",
+    "💻CODING/🧮algorithm/leetcode题解/Untitled.md",
+    "💻CODING/🧮algorithm/leetcode题解/1234~.md",
+    "💻CODING/🧮algorithm/leetcode题解/209.md",
+    "🏫COURSE/KRR.md",
+    "🏫COURSE/Algorithm.md",
+    "🌈Archive/sumup/daily sum-up/2024-10-17.md",
+    "💻CODING/🧮algorithm/leetcode题解/1838.md",
     "💻CODING/🧮algorithm/leetcode题解/1838~.md",
     "💻CODING/🧮algorithm/leetcode题解/1658.md",
-    "💻CODING/🧮algorithm/leetcode题解/1838.md",
-    "💻CODING/🧮algorithm/leetcode题解/leetcode刷题.md",
     "💻CODING/🧮algorithm/leetcode题解/1658~.md",
     "💻CODING/🧮algorithm/LRU算法.md",
-    "🏫COURSE/KRR.md",
     "@asset/Pasted image 20241017194009.png",
     "@asset/Pasted image 20241017184856.png",
     "@asset/Pasted image 20241017184750.png",
-    "🏫COURSE/Algorithm.md",
-    "🌈Archive/🏠Welcome.md",
-    "🏫COURSE/Programming for data science.md",
-    "💻CODING/🧮algorithm/leetcode题解/1004.md",
-    "💻CODING/🧮algorithm/leetcode题解/1004~.md",
-    "💻CODING/🧮algorithm/leetcode题解/2024.md",
-    "@template/lc template.md",
-    "💻CODING/🧮algorithm/leetcode题解/2024~.md",
-    "💻CODING/🧮algorithm/leetcode题解/2958.md",
-    "💻CODING/🧮algorithm/leetcode题解/2779.md",
-    "📕English/生词.md",
-    "📖技术吸收/Ilya 播客要点.md",
-    "📖技术吸收/blog阅读/九大服务架构性能优化方式.md",
-    "🌈Archive/sumup/daily sum-up/2024-10-16.md",
-    "🌈LIFE/sumup/daily sum-up/2024-10-16.md",
     "🌈LIFE/sumup/daily sum-up",
-    "🌈LIFE/sumup",
-    "🌈LIFE",
     "@asset/Pasted image 20241016134949.png",
-    "Blockchian/==.md",
-    "面试/面试要点.md",
-    "💻CODING/🧑‍💻开发/前端/next js.md",
-    "📖READING/websiteCut.md",
     "@asset/Pasted image 20241013165245.png",
     "@asset/Pasted image 20241013160755.png",
     "@asset/Pasted image 20241010215540.png",
@@ -261,7 +213,6 @@
     "📕English",
     "🏫COURSE",
     "📖READING/websiteCut.md.crswap",
-    "💻CODING/🧑‍💻开发/前端",
     "未命名.canvas"
   ]
 }

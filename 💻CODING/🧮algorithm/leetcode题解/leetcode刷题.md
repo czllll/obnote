@@ -37,8 +37,17 @@
 | [2779.Maximum Beauty of an Array After Applying Operation - LeetCode](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/description/)         | [[2024-10-05]]        | 22  | [[2779]] |
 | [2024. 考试的最大困扰度 - 力扣（LeetCode）](https://leetcode.cn/problems/maximize-the-confusion-of-an-exam/)                                                                              | [[2024-10-17]]        | 23  | [[2024]] |
 | [1004. 最大连续1的个数 III - 力扣（LeetCode）](https://leetcode.cn/problems/max-consecutive-ones-iii/description/)                                                                       | [[2024-10-17]]        | 24  | [[1004]] |
-| [1658. 将 x 减到 0 的最小操作数 - 力扣（LeetCode）](https://leetcode.cn/problems/minimum-operations-to-reduce-x-to-zero/description/)                                                      | [[2024-10-18]]        | 25  |          |
-| [1838. 最高频元素的频数 - 力扣（LeetCode）](https://leetcode.cn/problems/frequency-of-the-most-frequent-element/description/)                                                             |                       |     |          |
-|                                                                                                                                                                               |                       |     |          |
-|                                                                                                                                                                               |                       |     |          |
-|                                                                                                                                                                               |                       |     |          |
+| [1658. 将 x 减到 0 的最小操作数 - 力扣（LeetCode）](https://leetcode.cn/problems/minimum-operations-to-reduce-x-to-zero/description/)                                                      | [[2024-10-18]]        | 25  | [[1658]] |
+| [1838. 最高频元素的频数 - 力扣（LeetCode）](https://leetcode.cn/problems/frequency-of-the-most-frequent-element/description/)                                                             | [[2024-10-19]]        | 26  | [[1838]] |
+| [209. 长度最小的子数组 - 力扣（LeetCode）](https://leetcode.cn/problems/minimum-size-subarray-sum/description/)                                                                           | [[2024-10-19]]        | 27  | [[209]]  |
+| [1234. 替换子串得到平衡字符串 - 力扣（LeetCode）](https://leetcode.cn/problems/replace-the-substring-for-balanced-string/)                                                                   | [[2024-10-20]]        | 28  | [[1234]] |
+| [2875. 无限数组的最短子数组 - 力扣（LeetCode）](https://leetcode.cn/problems/minimum-size-subarray-in-infinite-array/description/)                                                          | [[2024-10-20]]        | 29  | [[2875]] |
+从2024-10-21开始，每天一个小专题，每天至少5道题，用时3*（45） 左右
+时间：
+专题：
+
+| 题目  | 题解  |
+| --- | --- |
+|     |     |
+|     |     |
+方法论：

@@ -177,10 +177,10 @@ P1, . . . , Pn ⊢S C
 	* ![[Pasted image 20241017184856.png]]
 #### logical theorem（逻辑定理）
 * If the simple sequent $⇒ β$ is valid, then $β$ is called a  logical theorem.
-
+*  => $\alpha_1$ inconsistence
 ### Inference rules of Sequent Calculus
 #### conjunction introduction/elimination rule(合取规则)
-* $\frac{\Gamma \Rightarrow \alpha, \Delta \ and \ \Gamma \Rightarrow \beta, \Delta}{\Gamma \Rightarrow (\alpha \land \beta), \Delta} \ [\Rightarrow \land]$
+* $\frac{\Gamma \Rightarrow \alpha, \Delta \ and \ \Gamma \Rightarrow \beta, \Delta}{\Gamma \Rightarrow (\alpha \land \beta), \Delta} \ [\Rightarrow \land]$ and on the right
 * $\frac{\alpha, \beta, \Gamma \Rightarrow \Delta}{(\alpha \land \beta), \Gamma \Rightarrow \Delta} \ [\land \Rightarrow]$
 #### Disjunction Rules(析取规则)
 * $\frac{\alpha, \Gamma \Rightarrow \Delta \quad \beta, \Gamma \Rightarrow \Delta}{(\alpha \lor \beta), \Gamma \Rightarrow \Delta} [\lor\Rightarrow]$
@@ -189,7 +189,7 @@ P1, . . . , Pn ⊢S C
 * $\frac{\Gamma \Rightarrow \alpha, \Delta}{\lnot\alpha, \Gamma \Rightarrow \Delta} [\lnot\Rightarrow]$
 * $\frac{\Gamma, \alpha \Rightarrow \Delta}{\Gamma \Rightarrow \lnot\alpha, \Delta} [\Rightarrow\lnot]$
 ### Sequent Calculus Proof Systems(序列演算证明系统)
-* we use $\vdash_{SC} \ \alpha_1, \ldots, \alpha_m \Rightarrow \beta_1, \ldots, \beta_n$, to assert that a sequent is provable in a sequent calculus system.
+* we use . , to assert that a sequent is provable in a sequent calculus system.
 * rule: 
 	* We start by stipulating that all sequents of the form  $α, Γ ⇒ α, ∆$  are immediately provable.
 

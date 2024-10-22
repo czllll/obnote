@@ -13,18 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌈LIFE/sumup/weekly sum-up/2024-W42.md",
+                "file": "🌈Archive/sumup/daily sum-up/2024-10-22.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "615f81fd4823655a",
-            "type": "leaf",
-            "state": {
-              "type": "daily-note-editor-view",
-              "state": {}
             }
           }
         ]
@@ -93,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🌈LIFE/sumup/weekly sum-up/2024-W42.md",
+                "file": "🌈Archive/sumup/daily sum-up/2024-10-22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🌈LIFE/sumup/weekly sum-up/2024-W42.md",
+                "file": "🌈Archive/sumup/daily sum-up/2024-10-22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🌈LIFE/sumup/weekly sum-up/2024-W42.md"
+                "file": "🌈Archive/sumup/daily sum-up/2024-10-22.md"
               }
             }
           },
@@ -167,8 +159,17 @@
   },
   "active": "f1f167883e80c4a1",
   "lastOpenFiles": [
-    "🌈Archive/sumup/daily sum-up/2024-10-20.md",
+    "🌈Archive/sumup/daily sum-up/2024-10-21.md",
+    "🌈Archive/sumup/daily sum-up/2024-10-22.md",
+    "💻CODING/🧮algorithm/leetcode题解/leetcode刷题.md",
+    "💻CODING/🧮algorithm/leetcode题解/2962.md",
+    "💻CODING/🧮algorithm/leetcode题解/2962~.md",
+    "💻CODING/🧮algorithm/leetcode题解/1358.md",
+    "💻CODING/🧮algorithm/leetcode题解/Untitled.md",
+    "💻CODING/🧮algorithm/leetcode题解/1358~.md",
+    "💻CODING/🧑‍💻开发/前端/React.md",
     "🌈LIFE/sumup/weekly sum-up/2024-W42.md",
+    "🌈Archive/sumup/daily sum-up/2024-10-20.md",
     "🌈LIFE/sumup/weekly sum-up",
     "🌈LIFE/sumup",
     "🌈LIFE",
@@ -180,22 +181,13 @@
     "📖技术吸收/Ilya 播客要点.md",
     "🌈Archive/🏠Welcome.md",
     "🏫COURSE/Programming for data science.md",
-    "💻CODING/🧮algorithm/leetcode题解/leetcode刷题.md",
     "@template/lc zhuanti template.md",
     "💻CODING/🧮algorithm/leetcode题解/2875.md",
     "💻CODING/🧮algorithm/leetcode题解/2958.md",
     "💻CODING/🧮algorithm/leetcode题解/1234.md",
-    "💻CODING/🧮algorithm/leetcode题解/Untitled.md",
     "💻CODING/🧮algorithm/leetcode题解/1234~.md",
     "💻CODING/🧮algorithm/leetcode题解/209.md",
     "🏫COURSE/KRR.md",
-    "🏫COURSE/Algorithm.md",
-    "🌈Archive/sumup/daily sum-up/2024-10-17.md",
-    "💻CODING/🧮algorithm/leetcode题解/1838.md",
-    "💻CODING/🧮algorithm/leetcode题解/1838~.md",
-    "💻CODING/🧮algorithm/leetcode题解/1658.md",
-    "💻CODING/🧮algorithm/leetcode题解/1658~.md",
-    "💻CODING/🧮algorithm/LRU算法.md",
     "@asset/Pasted image 20241017194009.png",
     "@asset/Pasted image 20241017184856.png",
     "@asset/Pasted image 20241017184750.png",

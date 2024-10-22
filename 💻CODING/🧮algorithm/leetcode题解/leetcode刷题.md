@@ -43,11 +43,16 @@
 | [1234. 替换子串得到平衡字符串 - 力扣（LeetCode）](https://leetcode.cn/problems/replace-the-substring-for-balanced-string/)                                                                   | [[2024-10-20]]        | 28  | [[1234]] |
 | [2875. 无限数组的最短子数组 - 力扣（LeetCode）](https://leetcode.cn/problems/minimum-size-subarray-in-infinite-array/description/)                                                          | [[2024-10-20]]        | 29  | [[2875]] |
 从2024-10-21开始，每天一个小专题，每天至少5道题，用时3*（45） 左右
-时间：
-专题：
+时间：[[2024-10-21]]
+专题：2.3.1 滑动窗口-不定长-越长越合法
 
-| 题目  | 题解  |
-| --- | --- |
-|     |     |
-|     |     |
+| 题目                                                                                                                                     | 题解  | 序号  |
+| -------------------------------------------------------------------------------------------------------------------------------------- | --- | --- |
+| [1358. 包含所有三种字符的子字符串数目 - 力扣（LeetCode）](https://leetcode.cn/problems/number-of-substrings-containing-all-three-characters/description/) |     | 30  |
+| [2962. 统计最大元素出现至少 K 次的子数组](https://leetcode.cn/problems/count-subarrays-where-max-element-appears-at-least-k-times/)                   |     | 31  |
+| [2799. 统计完全子数组的数目](https://leetcode.cn/problems/count-complete-subarrays-in-an-array/)                                                 |     | 32  |
+| [2537. 统计好子数组的数目](https://leetcode.cn/problems/count-the-number-of-good-subarrays/)                                                    |     | 33  |
+| [3298. 统计重新排列后包含另一个字符串的子字符串数目 II](https://leetcode.cn/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii/)        |     | 34  |
+|                                                                                                                                        |     |     |
 方法论：
+* 找到符合题意的窗口后，考虑在此情况下有多少种情况可以加到答案中

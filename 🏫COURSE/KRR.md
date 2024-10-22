@@ -202,7 +202,6 @@ P1, . . . , Pn ⊢S C
 * at least
 *\
 * sytax suger
-* 
 
 
 

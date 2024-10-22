@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏫COURSE/Algorithm.md",
+                "file": "💻CODING/🧮algorithm/leetcode题解/leetcode刷题.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏫COURSE/Algorithm.md",
+                "file": "💻CODING/🧮algorithm/leetcode题解/leetcode刷题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏫COURSE/Algorithm.md",
+                "file": "💻CODING/🧮algorithm/leetcode题解/leetcode刷题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏫COURSE/Algorithm.md"
+                "file": "💻CODING/🧮algorithm/leetcode题解/leetcode刷题.md"
               }
             }
           },
@@ -160,8 +160,9 @@
   "active": "f1f167883e80c4a1",
   "lastOpenFiles": [
     "🏫COURSE/KRR.md",
-    "🏫COURSE/Programming for data science.md",
+    "@asset/Pasted image 20241022123643.png",
     "🏫COURSE/Algorithm.md",
+    "🏫COURSE/Programming for data science.md",
     "🌈Archive/sumup/daily sum-up/2024-10-22.md",
     "🌈Archive/sumup/daily sum-up/2024-10-21.md",
     "💻CODING/🧮algorithm/leetcode题解/leetcode刷题.md",
@@ -187,7 +188,6 @@
     "💻CODING/🧮algorithm/leetcode题解/2875.md",
     "💻CODING/🧮algorithm/leetcode题解/2958.md",
     "💻CODING/🧮algorithm/leetcode题解/1234.md",
-    "💻CODING/🧮algorithm/leetcode题解/1234~.md",
     "@asset/Pasted image 20241017194009.png",
     "@asset/Pasted image 20241017184856.png",
     "@asset/Pasted image 20241017184750.png",
@@ -198,7 +198,6 @@
     "@asset/Pasted image 20241010215540.png",
     "@asset/Pasted image 20241010192131.png",
     "@asset/Pasted image 20241008152019.png",
-    "@asset/Pasted image 20241008123952.png",
     "💻CODING/🧮algorithm/leetcode题解",
     "💻CODING/🤖AI/深度学习",
     "Blockchian",

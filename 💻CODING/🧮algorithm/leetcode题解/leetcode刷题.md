@@ -46,13 +46,26 @@
 时间：[[2024-10-21]]
 专题：2.3.1 滑动窗口-不定长-越长越合法
 
-| 题目                                                                                                                                     | 题解  | 序号  |
-| -------------------------------------------------------------------------------------------------------------------------------------- | --- | --- |
-| [1358. 包含所有三种字符的子字符串数目 - 力扣（LeetCode）](https://leetcode.cn/problems/number-of-substrings-containing-all-three-characters/description/) |     | 30  |
-| [2962. 统计最大元素出现至少 K 次的子数组](https://leetcode.cn/problems/count-subarrays-where-max-element-appears-at-least-k-times/)                   |     | 31  |
-| [2799. 统计完全子数组的数目](https://leetcode.cn/problems/count-complete-subarrays-in-an-array/)                                                 |     | 32  |
-| [2537. 统计好子数组的数目](https://leetcode.cn/problems/count-the-number-of-good-subarrays/)                                                    |     | 33  |
-| [3298. 统计重新排列后包含另一个字符串的子字符串数目 II](https://leetcode.cn/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii/)        |     | 34  |
-|                                                                                                                                        |     |     |
+| 题目                                                                                                                                     | 题解       | 序号  |
+| -------------------------------------------------------------------------------------------------------------------------------------- | -------- | --- |
+| [1358. 包含所有三种字符的子字符串数目 - 力扣（LeetCode）](https://leetcode.cn/problems/number-of-substrings-containing-all-three-characters/description/) | [[1358]] | 30  |
+| [2962. 统计最大元素出现至少 K 次的子数组](https://leetcode.cn/problems/count-subarrays-where-max-element-appears-at-least-k-times/)                   | [[2962]] | 31  |
+| [2799. 统计完全子数组的数目](https://leetcode.cn/problems/count-complete-subarrays-in-an-array/)                                                 |          | 32  |
+| [2537. 统计好子数组的数目](https://leetcode.cn/problems/count-the-number-of-good-subarrays/)                                                    |          | 33  |
+| [3298. 统计重新排列后包含另一个字符串的子字符串数目 II](https://leetcode.cn/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii/)        |          | 34  |
+|                                                                                                                                        |          |     |
 方法论：
 * 找到符合题意的窗口后，考虑在此情况下有多少种情况可以加到答案中
+
+时间：[[2024-10-22]]
+专题： 2.3.2 滑动窗口-不定长-越短越合法
+
+| 题目                                                                                                     | 题解  | 序号  |
+| ------------------------------------------------------------------------------------------------------ | --- | --- |
+| [713. 乘积小于 K 的子数组](https://leetcode.cn/problems/subarray-product-less-than-k/)                         |     | 35  |
+| [3258. 统计满足 K 约束的子字符串数量 I](https://leetcode.cn/problems/count-substrings-that-satisfy-k-constraint-i/) |     | 36  |
+| [2302. 统计得分小于 K 的子数组数目](https://leetcode.cn/problems/count-subarrays-with-score-less-than-k/)          |     | 37  |
+| [2762. 不间断子数组](https://leetcode.cn/problems/continuous-subarrays/)                                     |     | 38  |
+| [LCP 68. 美观的花束](https://leetcode.cn/problems/1GxJYY/)                                                  |     | 39  |
+方法论：
+* 同上，找到符合题意的窗口后，考虑在此情况下有多少种情况可以加到答案中。一般是累加窗口长度。

@@ -1,17 +1,3 @@
-![[Pasted image 20241016134949.png]]
-
-| 剩余                       | 正在                                                            | （部分）完成                   |
-| ------------------------ | ------------------------------------------------------------- | ------------------------ |
-| 【P】[[chatbox]] **10-20** | 【课】[[KRR]]                                                    | 【P】ezvidshare（有进一步想法）    |
-|                          | 【课】Algorithm                                                  | 【自学】cs61a -- 收获不大        |
-| 【P】第二版ezvidshare         | 【课】PDS                                                        | 【自学】js tutorial -- 基础过完了 |
-| 【P】cuan                  |                                                               |                          |
-| 【自学】机器学习[[基本概念]]         | 【daily】[[leetcode刷题]][题单](https://huxulm.github.io/lc-rating) |                          |
-|                          | 【weekly】[[Blog Overview]]                                     |                          |
-|                          |                                                               |                          |
-|                          |                                                               |                          |
-|                          |                                                               |                          |
-|                          |                                                               |                          |
 
 ```dataviewjs
 // 获取当前日期

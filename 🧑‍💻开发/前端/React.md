@@ -87,3 +87,33 @@ export default function Image() {
 ## 判断state
 * state使组件可以对一些信息保持追踪，并根据交互来改变
 * 会随着时间的推移而变化，并且无法从任何东西中计算出来。
+
+
+# React hook form
+* 在 `React Hook Form` 中，`formState` 是 `useForm` 钩子返回的对象的一部分，并且是默认包含在 `useForm` 的返回值中的。因此，尽管你在定义 `form` 时没有显式地定义 `formState` 参数，它实际上已经内置在 `useForm` 的返回值中了。
+* `useForm` 返回的对象 `form` 包含多种有用的属性和方法，比如：
+	- `register`：用于注册表单字段。
+	- `handleSubmit`：用于处理表单提交。
+	- `setValue`、`getValues`：用于操作表单数据。
+	- **`formState`**：用于管理和追踪表单的状态。
+
+```typescript
+    const form = useForm<z.infer<typeof formSchema>>({
+        resolver: zodResolver(formSchema),
+        defaultValues:{prompt: ""}
+    });
+
+    const isLoading = form.formState.isSubmitting;//isSubmitting它会在表单提交时自动变为 true，表单提交完成后变回 false
+
+```
+
+
+
+# 条件渲染
+```typescript
+{messages.length === 0 && !isLoading && (
+	<div>
+		Empty!
+	</div>
+)}
+```

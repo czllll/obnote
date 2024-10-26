@@ -5,6 +5,6 @@
   "showWeeklyNote": true,
   "weeklyNoteFormat": "",
   "weeklyNoteTemplate": "@template/weekly sum-up template",
-  "weeklyNoteFolder": "🌈LIFE/sumup/weekly sum-up",
+  "weeklyNoteFolder": "🌈Archive/sumup/weekly sum-up",
   "localeOverride": "system-default"
 }

@@ -4,59 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "14157f22c89a3e56",
+        "id": "48b68cbd7c892e7a",
         "type": "tabs",
         "children": [
           {
-            "id": "f1f167883e80c4a1",
+            "id": "f602809331343cf8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🗃️PROJECT/chatbox（仿poe）.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1db24a6866109476",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/CV.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "290e534110f889f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🗃️PROJECT/chatbox（仿poe）.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8fa2f1eac087f6df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/面试要点.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试/面试要点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/面试要点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "面试/面试要点.md"
-              }
+              "state": {}
             }
           },
           {
@@ -194,16 +149,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "44c4af6550794709",
+  "active": "f602809331343cf8",
   "lastOpenFiles": [
+    "🌈Archive/sumup/daily sum-up/2024-10-27.md",
+    "面试/CV.md",
+    "🗃️PROJECT/echochat（仿poe）.md",
+    "🗃️PROJECT/AI-SAAS 教程.md",
+    "🌈Archive/🏠Welcome.md",
+    "面试/面试要点.md",
     "🔨工具/LaTex.md",
     "🌈Archive/sumup/weekly sum-up/2024-W42.md",
     "📕English/生词.md",
-    "🗃️PROJECT/chatbox（仿poe）.md",
     "💻CODING/TODO repository.md",
     "🗃️PROJECT/easyvidshare.md",
-    "🌈Archive/🏠Welcome.md",
-    "面试/CV.md",
     "🌈Archive/sumup/daily sum-up/2024-10-25.md",
     "🧑‍💻开发/前端/React.md",
     "🧑‍💻开发/前端/javascript/基础.md",
@@ -220,9 +178,6 @@
     "🏫COURSE/Programming for data science.md",
     "🌈Archive/sumup/daily sum-up/2024-10-22.md",
     "🌈Archive/sumup/daily sum-up/2024-10-21.md",
-    "🧮lc刷题/leetcode题解/2962.md",
-    "💻CODING/🧮algorithm/leetcode题解/2962~.md",
-    "🧮lc刷题/leetcode题解/1358.md",
     "🌈LIFE/sumup/weekly sum-up",
     "🌈LIFE/sumup",
     "🌈LIFE",

@@ -11,8 +11,12 @@
             "id": "f602809331343cf8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "🖊️Blog/draft/身份验证机制中的cookies,session,token概念解释.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "🖊️Blog/draft/身份验证机制中的cookies,session,token概念解释.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "🖊️Blog/draft/身份验证机制中的cookies,session,token概念解释.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "🖊️Blog/draft/身份验证机制中的cookies,session,token概念解释.md"
+              }
             }
           },
           {
@@ -130,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -151,17 +159,23 @@
   },
   "active": "f602809331343cf8",
   "lastOpenFiles": [
+    "@asset/Pasted image 20241030143916.png",
+    "🖊️Blog/draft/如何理解React中的Hook？.md",
+    "🖊️Blog/draft/common JS 和 ES.md",
+    "🖊️Blog/draft/未命名.md",
+    "🖊️Blog/draft/身份验证机制中的cookies,session,token概念解释.md",
+    "🌈Archive/sumup/daily sum-up/2024-10-30.md",
+    "🗃️PROJECT/echochat（仿poe）.md",
+    "🗃️PROJECT/easyvidshare.md",
+    "🗃️PROJECT/AI-SAAS 教程.md",
     "🌈Archive/sumup/daily sum-up/2024-10-27.md",
     "面试/CV.md",
-    "🗃️PROJECT/echochat（仿poe）.md",
-    "🗃️PROJECT/AI-SAAS 教程.md",
     "🌈Archive/🏠Welcome.md",
     "面试/面试要点.md",
     "🔨工具/LaTex.md",
     "🌈Archive/sumup/weekly sum-up/2024-W42.md",
     "📕English/生词.md",
     "💻CODING/TODO repository.md",
-    "🗃️PROJECT/easyvidshare.md",
     "🌈Archive/sumup/daily sum-up/2024-10-25.md",
     "🧑‍💻开发/前端/React.md",
     "🧑‍💻开发/前端/javascript/基础.md",
@@ -171,13 +185,7 @@
     "🧑‍💻开发/前端/css.md",
     "🧑‍💻开发/前端/jsx.md",
     "🧑‍💻开发/前端/next js.md",
-    "🧑‍💻开发/前端/Typescript/基础.md",
-    "🏫COURSE/KRR.md",
     "@asset/Pasted image 20241022123643.png",
-    "🏫COURSE/Algorithm.md",
-    "🏫COURSE/Programming for data science.md",
-    "🌈Archive/sumup/daily sum-up/2024-10-22.md",
-    "🌈Archive/sumup/daily sum-up/2024-10-21.md",
     "🌈LIFE/sumup/weekly sum-up",
     "🌈LIFE/sumup",
     "🌈LIFE",

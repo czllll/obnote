@@ -60,14 +60,14 @@
 	* describe patterns of inference
 ### proof
 * the concern of formal logic with the structure and validity of arguments, rather than the specific reasoning process.
-## provability
+## provability($\vdash$)
 ### definition
 * a **property** of an argument which depends on the inference rules of a logical proof system
 * eg:C can be proved from premisses {P1, . . . , Pn} in a  proof system S
 ```
 P1, . . . , Pn ⊢S C
 ```
-## validity
+## validity($\models$)
 ### Definition
 * An argument is valid if it is not possible  for its premisses to be true and its conclusion is false.(如果不可能出现前提为真而结论为假的情况，那么这个论证就是有效的)
 * PS:论证的有效性仅仅关注逻辑结构，而不是内容的真实性
@@ -99,9 +99,11 @@ P1, . . . , Pn ⊢S C
 ## Aside -- properties of logical systems.
 ### Soundness(可靠性)
 * the system does not allow deriving false conclusions from true premises
+* provability -> validity
 * $\text{If } \Theta \vdash \pi \text{ , then } \Theta \models \pi$
 ### Completeness（完备性）
 * 如果系统中的所有语义上有效的结论都可以通过系统的推理规则从前提出发推导出来
+* validity -> provability
 * $\text{If } \Theta \models \pi \text{ , then } \Theta \vdash \pi$
 ### Consistency（一致性）
 * A logical system is **consistent** if it does not allow the derivation of both a formula and its negation from the same set of premises
@@ -194,19 +196,109 @@ P1, . . . , Pn ⊢S C
 #### Implication rule
 * $\frac{\Gamma, A \Rightarrow B, \Delta}{\Gamma \Rightarrow A \rightarrow B, \Delta} \; [\Rightarrow \rightarrow]$
 * $\frac{\Gamma \Rightarrow A, \Delta \quad B, \Gamma \Rightarrow \Delta}{(A \rightarrow B), \Gamma \Rightarrow \Delta} \; [\rightarrow \Rightarrow]$
+#### Universal quantifier(∀⇒)
+* $\frac{\Gamma \Rightarrow A(t), \Delta}{\Gamma \Rightarrow \forall x A(x), \Delta} \; [\Rightarrow \forall]$
+* $\frac{A(t), \Gamma \Rightarrow \Delta}{\forall x A(x), \Gamma \Rightarrow \Delta} \; [\forall \Rightarrow]$
+	* which is not **reversible**, because the top part makes a much weaker claim than the bottom one.Here is a reversible one:
+	* $\frac{\varphi(\kappa), \forall \upsilon [\varphi(\upsilon)], \Gamma \Rightarrow \Delta}{\forall \upsilon [\varphi(\upsilon)], \Gamma \Rightarrow \Delta} \; [\forall \Rightarrow]$
+* 
 ### Sequent Calculus Proof Systems(序列演算证明系统)
 * we use $\vdash sc$, to assert that a sequent is provable in a sequent calculus system.SC
+### Decision Procedures(决策过程)
+* A decision procedure for some class of problems is an algorithm  which can solve any problem in that class **in a finite time**
+#### Decidability（可判定性）
+* 谓词逻辑（一阶逻辑）是不可判定的
+* Semi-decidablity
+	* we can verify every positive case in finite time, but cannot refute every negative case in finite time.
+##  Propositional Semantics(命题语义)
+### Model in True-Functional Semantics
+* Essentially, a model assigns **truth values** (true or false) to each **atomic proposition**.
+### Soundness and Completeness
+![[Pasted image 20241101191914.png]]
+if a proof system S to be both sound and complete. we have above.
+$\models_{TF}$ means that 真值功能语义（Truth-Functional Semantics）,限定在该语义下；与其同级的还有
+* 模态语义（Modal Semantics） 用于模态逻辑
+* 一阶语义（First-Order Semantics）用于谓词逻辑
+## Representation in First-Order Logic/Predicate Logic
+### Terminology
+* property (1 argument)
+* relation (at least 2 arguments)
+* predicate 
+### Formulae
+- **Atomic Formula**: An expression of the form:
+	- ρ(α₁, ..., αₙ)  
+	- (α₁ = α₂)
+  Where:
+  - ρ: A relation symbol of arity **n**.
+  - αᵢ: Either a **constant** or a **variable**.
+- **First-Order Logic Formula**:
+	- Either an **atomic formula** or a (finite) expression of one of the forms:
+	    - ¬α (Negation)
+	    - (α κ β) (Binary connective)
+	    - ∀x[α] (Universal quantifier)
+	    - ∃x[α] (Existential quantifier)
+  Where:
+  - α and β: First-order formulae.
+  - κ: Any of the binary connectives:
+    - ∧ (AND)
+    - ∨ (OR)
+    - → (IMPLIES)
+    - ↔ (IF AND ONLY IF)
+
+### how to define 
+#### Exactly
+To state that a property holds for exactly n objects, we need to  assert that it holds for at least n objects, but deny that it holds for  at least n + 1 objects:
+$$
+\forall t \Big[ \text{Triangle}(t) \to \\
+    \quad \big( \exists x \exists y \exists z [ \text{SideOf}(x, t) \land \text{SideOf}(y, t) \land \text{SideOf}(z, t) \\
+    \quad \land \neg (x = y) \land \neg (y = z) \land \neg (x = z) ] \big) \\
+    \quad \land \neg \exists x \exists y \exists z \exists w [ \text{SideOf}(x, t) \land \text{SideOf}(y, t) \land \text{SideOf}(z, t) \land \text{SideOf}(w, t) \\
+    \quad \land \neg (x = y) \land \neg (y = z) \land \neg (x = z) \land \neg (w = x) \land \neg (w = y) \land \neg (w = z) ] \Big]
+
+$$
+we can see that in pure first-order logic gets increasingly complex as the numbers increase.we can use **syntactic sugar**
+- Shorthand Quantifier Notations:
+	  - **∃>₂ x [Φ(x)]**: There are **at least 3** things with property **Φ**.
+	  - **∃<₄ x [Φ(x)]**: There are **at most 3** things with property **Φ**.
+	  - **∃₃ x [Φ(x)]**: There are **exactly 3** different things with property **Φ**.
+	  - **∃! x [Φ(x)]**: There is **exactly one** thing with property **Φ**.
+- Usage:
+	  - These notations are useful as **shorthand** (or "syntactic sugar") to simplify the representation of **quantifiers** in first-order logic.
+	  - They can be translated into equivalent first-order formulae, allowing the use of standard first-order inference rules after translation.
 
 
+## semantics of 1st-Order Logic
+### Model
+### Predicate Logic Model Cheat Sheet
 
+#### What is a Model in Predicate Logic?
+- A **model** $\mathcal{M} = \langle D, \delta \rangle$ is a mathematical structure used to evaluate the truth of predicate logic formulas.
+#### Components of a Model:
+1. **Domain (D)**:
+   - A non-empty set that represents all possible objects the variables can refer to.
+   - Example: $D = \{a, b, c, \ldots\}$
 
+2. **Interpretation Function ($ \delta $)**:
+   - A function that assigns:
+     - **Constants** to specific objects in $D$.
+     - **Predicate symbols** to relations over $D$.
+     - **Function symbols** to functions mapping $D^n$ to $D$ (where $n$ is the arity of the function).
 
+#### How Models Interpret Formulas:
+- **Atomic Formulas**:
+  - $\rho(\alpha_1, \ldots, \alpha_n)$ is true in $\mathcal{M}$ iff $\langle \delta(\sigma_1), \ldots, \delta(\sigma_n) \rangle \in \delta(\rho)$.
+  - $(\alpha = \beta)$ is true in $\mathcal{M}$ iff $\delta(\alpha) = \delta(\beta)$.
 
+- **Logical Connectives**:
+  - **Negation** ($\neg\phi$): true in $\mathcal{M}$ iff $\phi$ is not true in $\mathcal{M}$.
+  - **Conjunction** ($\phi \land \psi$): true in $\mathcal{M}$ iff both $\phi$ and $\psi$ are true in $\mathcal{M}$.
+  - **Disjunction** ($\phi \lor \psi$): true in $\mathcal{M}$ iff at least one of $\phi$ or $\psi$ is true in $\mathcal{M}$.
+  - **Implication** ($\phi \rightarrow \psi$): true in $\mathcal{M}$ iff $\phi$ is false or $\psi$ is true.
 
-* at most 
-* at least
-*\
-* sytax suger
+- **Quantifiers**:
+  - **Universal Quantifier** ($\forall x[\phi(x)]$): true in $\mathcal{M}$ iff $\phi(x)$ is true for every $x$ in $D$.
+  - **Existential Quantifier** ($\exists x[\phi(x)]$): true in $\mathcal{M}$ iff $\phi(x)$ is true for at least one $x$ in $D$.
+
 
 
 

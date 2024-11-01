@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🖊️Blog/draft/身份验证机制中的cookies,session,token概念解释.md",
+                "file": "🏫COURSE/KRR.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 208.50390243530273
   },
   "right": {
     "id": "3085a088a655b4cf",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🖊️Blog/draft/身份验证机制中的cookies,session,token概念解释.md",
+                "file": "🏫COURSE/KRR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🖊️Blog/draft/身份验证机制中的cookies,session,token概念解释.md",
+                "file": "🏫COURSE/KRR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🖊️Blog/draft/身份验证机制中的cookies,session,token概念解释.md"
+                "file": "🏫COURSE/KRR.md"
               }
             }
           },
@@ -159,15 +159,19 @@
   },
   "active": "f602809331343cf8",
   "lastOpenFiles": [
-    "@asset/Pasted image 20241030143916.png",
-    "🖊️Blog/draft/如何理解React中的Hook？.md",
-    "🖊️Blog/draft/common JS 和 ES.md",
-    "🖊️Blog/draft/未命名.md",
-    "🖊️Blog/draft/身份验证机制中的cookies,session,token概念解释.md",
-    "🌈Archive/sumup/daily sum-up/2024-10-30.md",
+    "@asset/Pasted image 20241031134316.png",
+    "🏫COURSE/Algorithm.md",
     "🗃️PROJECT/echochat（仿poe）.md",
     "🗃️PROJECT/easyvidshare.md",
     "🗃️PROJECT/AI-SAAS 教程.md",
+    "🖊️Blog/draft/跨域是什么.md",
+    "🖊️Blog/draft/如何理解React中的Hook？.md",
+    "🖊️Blog/draft/common JS 和 ES.md",
+    "@asset/Pasted image 20241030143916.png",
+    "@asset/Pasted image 20241017194009.png",
+    "🖊️Blog/完成/身份验证机制中的cookies,session,token概念解释.md",
+    "🖊️Blog/draft/未命名.md",
+    "🌈Archive/sumup/daily sum-up/2024-10-30.md",
     "🌈Archive/sumup/daily sum-up/2024-10-27.md",
     "面试/CV.md",
     "🌈Archive/🏠Welcome.md",
@@ -183,13 +187,10 @@
     "💻CODING/🧮algorithm/leetcode题解/2024-10-23.md",
     "🧑‍💻开发/日志服务.md",
     "🧑‍💻开发/前端/css.md",
-    "🧑‍💻开发/前端/jsx.md",
-    "🧑‍💻开发/前端/next js.md",
     "@asset/Pasted image 20241022123643.png",
     "🌈LIFE/sumup/weekly sum-up",
     "🌈LIFE/sumup",
     "🌈LIFE",
-    "@asset/Pasted image 20241017194009.png",
     "@asset/Pasted image 20241017184856.png",
     "@asset/Pasted image 20241017184750.png",
     "🌈LIFE/sumup/daily sum-up",
@@ -198,7 +199,6 @@
     "@asset/Pasted image 20241013160755.png",
     "@asset/Pasted image 20241010215540.png",
     "@asset/Pasted image 20241010192131.png",
-    "@asset/Pasted image 20241008152019.png",
     "🧮lc刷题/leetcode题解",
     "🤖AI/深度学习",
     "Blockchian",

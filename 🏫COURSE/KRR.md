@@ -177,7 +177,10 @@ P1, . . . , Pn ⊢S C
 	* ![[Pasted image 20241017184856.png]]
 #### logical theorem（逻辑定理）
 * If the simple sequent $⇒ β$ is valid, then $β$ is called a  logical theorem.
-*  => $\alpha_1$ inconsistence
+*  $α_1​,…,α_m​⇒$ 
+	* a sequent with an empty right-hand side  asserts that the set of premisses {$α_1​,…,α_m$} is inconsistent. 
+	* The sequent means that there is no possible way for all premises to be true simultaneously, because they lead to a logical contradiction.
+	* Explain: If it's impossible for all of them to be true at the same time, than  {$α_1​,…,α_m$} is considered as **inconsistent**.
 ### Inference rules of Sequent Calculus
 #### conjunction introduction/elimination rule(合取规则)
 * $\frac{\Gamma \Rightarrow \alpha, \Delta \ and \ \Gamma \Rightarrow \beta, \Delta}{\Gamma \Rightarrow (\alpha \land \beta), \Delta} \ [\Rightarrow \land]$ and on the right
@@ -188,10 +191,12 @@ P1, . . . , Pn ⊢S C
 #### Negation Rules(否定规则)
 * $\frac{\Gamma \Rightarrow \alpha, \Delta}{\lnot\alpha, \Gamma \Rightarrow \Delta} [\lnot\Rightarrow]$
 * $\frac{\Gamma, \alpha \Rightarrow \Delta}{\Gamma \Rightarrow \lnot\alpha, \Delta} [\Rightarrow\lnot]$
+#### Implication rule
+* $\frac{\Gamma, A \Rightarrow B, \Delta}{\Gamma \Rightarrow A \rightarrow B, \Delta} \; [\Rightarrow \rightarrow]$
+* $\frac{\Gamma \Rightarrow A, \Delta \quad B, \Gamma \Rightarrow \Delta}{(A \rightarrow B), \Gamma \Rightarrow \Delta} \; [\rightarrow \Rightarrow]$
 ### Sequent Calculus Proof Systems(序列演算证明系统)
-* we use . , to assert that a sequent is provable in a sequent calculus system.
-* rule: 
-	* We start by stipulating that all sequents of the form  $α, Γ ⇒ α, ∆$  are immediately provable.
+* we use $\vdash sc$, to assert that a sequent is provable in a sequent calculus system.SC
+
 
 
 

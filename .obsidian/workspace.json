@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏫COURSE/KRR.md",
-                "mode": "source",
+                "file": "🌈Archive/🏠Welcome.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏫COURSE/KRR.md",
+                "file": "🌈Archive/🏠Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏫COURSE/KRR.md",
+                "file": "🌈Archive/🏠Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏫COURSE/KRR.md"
+                "file": "🌈Archive/🏠Welcome.md"
               }
             }
           },
@@ -159,6 +159,14 @@
   },
   "active": "f602809331343cf8",
   "lastOpenFiles": [
+    "🌈Archive/日记.md",
+    "@template/weekly sum-up template.md",
+    "@template/daily sum-up template.md",
+    "@template/Blog Reading Template.md",
+    "@template/lc template.md",
+    "@template/lc zhuanti template.md",
+    "🌈Archive/sumup/daily sum-up/2024-11-02.md",
+    "🏫COURSE/KRR.md",
     "@asset/Pasted image 20241101191914.png",
     "@asset/Pasted image 20241031134316.png",
     "🏫COURSE/Algorithm.md",
@@ -181,13 +189,6 @@
     "🌈Archive/sumup/weekly sum-up/2024-W42.md",
     "📕English/生词.md",
     "💻CODING/TODO repository.md",
-    "🌈Archive/sumup/daily sum-up/2024-10-25.md",
-    "🧑‍💻开发/前端/React.md",
-    "🧑‍💻开发/前端/javascript/基础.md",
-    "🧮lc刷题/leetcode题解/leetcode刷题.md",
-    "💻CODING/🧮algorithm/leetcode题解/2024-10-23.md",
-    "🧑‍💻开发/日志服务.md",
-    "🧑‍💻开发/前端/css.md",
     "@asset/Pasted image 20241022123643.png",
     "🌈LIFE/sumup/weekly sum-up",
     "🌈LIFE/sumup",
@@ -198,7 +199,6 @@
     "@asset/Pasted image 20241016134949.png",
     "@asset/Pasted image 20241013165245.png",
     "@asset/Pasted image 20241013160755.png",
-    "@asset/Pasted image 20241010215540.png",
     "🧮lc刷题/leetcode题解",
     "🤖AI/深度学习",
     "Blockchian",

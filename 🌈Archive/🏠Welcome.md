@@ -1,4 +1,4 @@
-
+[[日记]]
 ```dataviewjs
 // 获取当前日期
 const today = new Date();

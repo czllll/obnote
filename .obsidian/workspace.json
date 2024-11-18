@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏫COURSE/KRR.md",
+                "file": "🖊️Blog/完成/blog阅读/九大服务架构性能优化方式.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "26ed5de2f7a14b7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🔢cs理论/图灵机.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏫COURSE/KRR.md",
+                "file": "🔢cs理论/图灵机.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏫COURSE/KRR.md",
+                "file": "🔢cs理论/图灵机.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏫COURSE/KRR.md"
+                "file": "🔢cs理论/图灵机.md"
               }
             }
           },
@@ -156,38 +169,38 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ce37c7de5e616678",
+  "active": "44c4af6550794709",
   "lastOpenFiles": [
-    "🌈Archive/🏠Welcome.md",
+    "🐧Linux/问题.md",
+    "🧑‍💻开发/DB/Mysql/innoDB引擎.md",
+    "🧑‍💻开发/DB/Mysql/Bufferpool详解.md",
+    "🧑‍💻开发/系统设计/资料.md",
+    "🧑‍💻开发/系统设计/敏捷开发.md",
+    "🧑‍💻开发/系统设计/分布式锁.md",
+    "🧑‍💻开发/容器/docker.md",
+    "🧮lc刷题/LRU算法.md",
+    "🧮lc刷题/leetcode题解/2962.md",
+    "面试/CV.md",
+    "Blockchian/==.md",
+    "🔢cs理论/图灵机.md",
+    "🔨工具/LaTex.md",
+    "🖊️Blog/完成/身份验证机制中的cookies,session,token概念解释.md",
+    "🖊️Blog/完成/由obsidian的git插件push失败后引申的ssh相关的问题.md",
+    "🖊️Blog/完成/Ilya 播客要点.md",
+    "🖊️Blog/完成/blog阅读/LLMs and Programming in the first days of 2024.md",
+    "🖊️Blog/完成/blog阅读/软件开发者需要知道有关学习的10件事情.md",
+    "🖊️Blog/完成/blog阅读/Blog Overview.md",
+    "🖊️Blog/完成/blog阅读/九大服务架构性能优化方式.md",
+    "@template/blog template.md",
     "🏫COURSE/KRR.md",
+    "🏫COURSE/Programming for data science.md",
     "🏫COURSE/Algorithm.md",
+    "🌈Archive/🏠Welcome.md",
     "🗃️PROJECT/echochat（仿poe）.md",
-    "🌈Archive/日记.md",
-    "@template/weekly sum-up template.md",
-    "@template/daily sum-up template.md",
-    "@template/Blog Reading Template.md",
-    "@template/lc template.md",
-    "@template/lc zhuanti template.md",
-    "🌈Archive/sumup/daily sum-up/2024-11-02.md",
     "@asset/Pasted image 20241101191914.png",
     "@asset/Pasted image 20241031134316.png",
-    "🗃️PROJECT/easyvidshare.md",
-    "🗃️PROJECT/AI-SAAS 教程.md",
-    "🖊️Blog/draft/跨域是什么.md",
-    "🖊️Blog/draft/如何理解React中的Hook？.md",
-    "🖊️Blog/draft/common JS 和 ES.md",
     "@asset/Pasted image 20241030143916.png",
     "@asset/Pasted image 20241017194009.png",
-    "🖊️Blog/完成/身份验证机制中的cookies,session,token概念解释.md",
-    "🖊️Blog/draft/未命名.md",
-    "🌈Archive/sumup/daily sum-up/2024-10-30.md",
-    "🌈Archive/sumup/daily sum-up/2024-10-27.md",
-    "面试/CV.md",
-    "面试/面试要点.md",
-    "🔨工具/LaTex.md",
-    "🌈Archive/sumup/weekly sum-up/2024-W42.md",
-    "📕English/生词.md",
-    "💻CODING/TODO repository.md",
     "@asset/Pasted image 20241022123643.png",
     "🌈LIFE/sumup/weekly sum-up",
     "🌈LIFE/sumup",

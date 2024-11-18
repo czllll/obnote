@@ -298,8 +298,113 @@ we can see that in pure first-order logic gets increasingly complex as the numbe
 - **Quantifiers**:
   - **Universal Quantifier** ($\forall x[\phi(x)]$): true in $\mathcal{M}$ iff $\phi(x)$ is true for every $x$ in $D$.
   - **Existential Quantifier** ($\exists x[\phi(x)]$): true in $\mathcal{M}$ iff $\phi(x)$ is true for at least one $x$ in $D$.
+# The Winograd Schema Challenge
+* definition：
+	* It consists of specially constructed sentences with ambiguous pronouns that can only be correctly resolved by understanding context and real-world knowledge.
+# Representing Time and change
+## Time into 1st-order Logic
+* $Happy(John, t)$
+* John is happy at time t
+## axiom
+* transitivity $∀t_1∀t_2∀t_3[(t_1 ≤ t_2 ∧ t_2 ≤ t_3) → t_1 ≤ t_3]$
+* linearity $∀t_1∀t_2[t_1 ≤ t_2 ∨ t_2 ≤ t_1]$
+* anti-symmetry $∀t_1∀t_2[(t_1 ≤ t_2 ∧ t_2 ≤ t_1) ↔ t_1 = t_2]$
+### further possible axioms
+* $∀t∃t′[t < t′]$
+* infinite divisibility of time(density)
+	* $∀t_1∀t_2[(t_1 < t_2) → ∃t_3[(t_1 < t_3) ∧ (t_3 < t_2)]$
+## Holds-at
+* Holds-at(f, t) means fluent f is true at time point t
+## Tense Logic
+* $P \phi$
+* $F \phi$
+* $H\phi \equiv_{def} \neg P\neg\phi$ (Historically)
+* $G\phi \equiv_{def} \neg F\neg\phi$ (Globally)
+### axioms
+* $F\phi \rightarrow \neg P \neg F\phi$
+* $P\phi \rightarrow \neg F \neg P\phi$
+## AI formalisms for representing actions and changes
+### STRIPS
+* a relatively simple algorithm for automated planning and reasoning about actions
+eg:
+```python
+# Define states
+initial_state = {
+    "at(box, locationA)",
+    "free(locationB)",
+    "movable(box)"
+}
 
+goal_state = {
+    "at(box, locationB)"
+}
 
+# Define actions
+actions = {
+    "move": {
+        "preconditions": ["at(x, loc1)", "movable(x)", "free(loc2)"],
+        "delete_list": ["at(x, loc1)", "free(loc2)"],
+        "add_list": ["at(x, loc2)", "free(loc1)"]
+    }
+}
+```
+* 动作名称：比如 移动(物体, 起点, 终点)
+* 前置条件：执行动作需要满足的条件
+* 删除列表：动作后不再为真的事实
+* 添加列表：动作后新增的事实
+#### Limitation
+* - Only handles discrete, deterministic actions
+- Cannot represent continuous state changes
+### Situation Calculus
+* Situation Calculus is a 1st-order language for representing  dynamically changing worlds.
+$holds(\phi, s)$ , $\phi$ is called a fluent, s is a state
+$result(α, s)$ denotes the **state** resulting from doing action $\alpha$ when in state s
+$holds(Light-Off, s) → holds(Light-On, result(switch, s))$
 
+#### Effect Axioms
+* $holds(φ, result(α, s)) ← poss(α, s)$
+* poss 实际上就是列出当前状态下可能或允许的操作
+#### Precondition Axioms
+* poss(α, s) ← holds(φ, s)
+#### Domain Axioms
+* conditions that must hold  in every possible situation.
+* $∀s∀x[¬(holds(happy(x), s) ∧ holds(sad(x), s)]$
 
+#### Frame Axioms
+* Frame axioms tell us what fluents **do not change** when an action  takes place.
+* $holds(dead(x), result(α, s)) ← holds(dead(x), s)$
+##### frame problem
+* difficulty of specifying what stays the same when actions occur.
+* how to solve
+	* Syntactic derivation of frame axioms from effect axioms.
+	* Use of Non-Monotonic reasoning techniques.
+		* ,假设除非明确说明会改变,其他属性都保持不变
+#### Intervals
+* Occurs(action, i)
+	* interval i.
 
+# prolog
+## The List Constructor Operator
+* $[ Head | Tail ]$
+	* 类似链表的头插
+## build-in predicates and operators
+1. is    % 数学求值操作符
+	1. $X \ is \ sqrt( 57 + log(10) )$
+	2. $X = 7.700817170469251$
+2. $\+$    % 否定操作符
+3. ;     % 析取/或操作符
+	1. $attractive( X ) :- (handsome(X) ; rich(X) ).$
+	2. $attractive( X ) :- handsome(X).  attractive( X ) :- rich(X).$
+4. !     % 剪枝/切除操作符
+
+1. setof/3  % 集合构建谓词:收集所有满足特定条件的解
+   使用方式: setof(Template, Goal, Set)
+	1. $?- setof(X, member(X, [1,2,2,3,1,4,3]), Result).$
+	2. output: Result = [1,2,3,4]
+2. findall/3  % 查找所有解
+3. bagof/3    % 类似setof但不去重
+4. call/1     % 调用目标
+5. fail/0     % 强制失败
+6. true/0     % 永远成功
+7. var/1      % 检查是否为变量
+8. nonvar/1   % 检查是否为非变量

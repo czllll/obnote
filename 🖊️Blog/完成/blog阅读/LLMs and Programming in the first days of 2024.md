@@ -1,8 +1,8 @@
 
-| 原文链接 | [LLMs and Programming in the first days of 2024 - <antirez>](http://antirez.com/news/140) |
-| ---- | ----------------------------------------------------------------------------------------- |
-| 日期   | [[2024-09-08]]                                                                            |
-| Tags | #blog-reading #llm                                                                        |
+| 原文链接 | [LLMs and Programming in the first days of 2024](http://antirez.com/news/140) |
+| ---- | ----------------------------------------------------------------------------- |
+| 日期   | [[2024-09-08]]                                                                |
+| Tags | #blog-reading #llm                                                            |
 
 ## 要点
 >They help those with the will, ability, and discipline, but they are of marginal benefit to those who have fallen behind.

@@ -16,7 +16,9 @@
                 "file": "🖊️Blog/完成/blog阅读/九大服务架构性能优化方式.md",
                 "mode": "source",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "九大服务架构性能优化方式"
             }
           },
           {
@@ -25,10 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🔢cs理论/图灵机.md",
+                "file": "🗃️PROJECT/apiport.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "apiport"
             }
           }
         ],
@@ -52,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -67,7 +73,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabeticalReverse"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -75,7 +83,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -98,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🔢cs理论/图灵机.md",
+                "file": "🖊️Blog/draft/构建EchoChat时遇到的问题及解决办法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +116,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "构建EchoChat时遇到的问题及解决办法 的反向链接列表"
             }
           },
           {
@@ -115,10 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🔢cs理论/图灵机.md",
+                "file": "🖊️Blog/draft/构建EchoChat时遇到的问题及解决办法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "构建EchoChat时遇到的问题及解决办法 的出链列表"
             }
           },
           {
@@ -129,7 +143,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -138,8 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🔢cs理论/图灵机.md"
-              }
+                "file": "🗃️PROJECT/apiport.md"
+              },
+              "icon": "lucide-list",
+              "title": "apiport 的大纲"
             }
           },
           {
@@ -147,7 +165,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ],
@@ -171,32 +191,32 @@
   },
   "active": "44c4af6550794709",
   "lastOpenFiles": [
+    "未命名",
+    "🖊️Blog/draft/注解是几把啥？.md",
+    "🗃️PROJECT/apiport.md",
+    "🗃️PROJECT/echochat（仿poe）.md",
+    "🗃️PROJECT/AI-SAAS 教程.md",
+    "🖊️Blog/draft/构建EchoChat时遇到的问题及解决办法.md",
+    "🖊️Blog/draft/如何理解React中的Hook？.md",
+    "🏫COURSE/KRR.md",
+    "🧑‍💻开发/容器/docker.md",
+    "🏫COURSE/Algorithm.md",
+    "🏫COURSE/Programming for data science.md",
+    "🔢cs理论/图灵机.md",
     "🐧Linux/问题.md",
     "🧑‍💻开发/DB/Mysql/innoDB引擎.md",
     "🧑‍💻开发/DB/Mysql/Bufferpool详解.md",
     "🧑‍💻开发/系统设计/资料.md",
     "🧑‍💻开发/系统设计/敏捷开发.md",
     "🧑‍💻开发/系统设计/分布式锁.md",
-    "🧑‍💻开发/容器/docker.md",
-    "🧮lc刷题/LRU算法.md",
-    "🧮lc刷题/leetcode题解/2962.md",
+    "🌈Archive/🧮lc刷题/LRU算法.md",
+    "🌈Archive/🧮lc刷题/leetcode题解/2962.md",
     "面试/CV.md",
     "Blockchian/==.md",
-    "🔢cs理论/图灵机.md",
     "🔨工具/LaTex.md",
     "🖊️Blog/完成/身份验证机制中的cookies,session,token概念解释.md",
     "🖊️Blog/完成/由obsidian的git插件push失败后引申的ssh相关的问题.md",
     "🖊️Blog/完成/Ilya 播客要点.md",
-    "🖊️Blog/完成/blog阅读/LLMs and Programming in the first days of 2024.md",
-    "🖊️Blog/完成/blog阅读/软件开发者需要知道有关学习的10件事情.md",
-    "🖊️Blog/完成/blog阅读/Blog Overview.md",
-    "🖊️Blog/完成/blog阅读/九大服务架构性能优化方式.md",
-    "@template/blog template.md",
-    "🏫COURSE/KRR.md",
-    "🏫COURSE/Programming for data science.md",
-    "🏫COURSE/Algorithm.md",
-    "🌈Archive/🏠Welcome.md",
-    "🗃️PROJECT/echochat（仿poe）.md",
     "@asset/Pasted image 20241101191914.png",
     "@asset/Pasted image 20241031134316.png",
     "@asset/Pasted image 20241030143916.png",
@@ -211,7 +231,7 @@
     "@asset/Pasted image 20241016134949.png",
     "@asset/Pasted image 20241013165245.png",
     "@asset/Pasted image 20241013160755.png",
-    "🧮lc刷题/leetcode题解",
+    "🌈Archive/🧮lc刷题/leetcode题解",
     "🤖AI/深度学习",
     "Blockchian",
     "📕English",

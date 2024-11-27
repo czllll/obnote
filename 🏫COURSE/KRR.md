@@ -408,3 +408,5 @@ $holds(Light-Off, s) → holds(Light-On, result(switch, s))$
 6. true/0     % 永远成功
 7. var/1      % 检查是否为变量
 8. nonvar/1   % 检查是否为非变量
+# Spatial Reasoning
+* 

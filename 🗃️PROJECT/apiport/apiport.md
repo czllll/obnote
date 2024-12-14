@@ -273,6 +273,7 @@ public interface UserMapper {
 
 1. 不用泛型的情况：
 
+
 java
 
 Copy
@@ -403,7 +404,8 @@ LambdaQueryWrapper<User> wrapper; // User表查询条件
 5. 注意泛型类型擦除的影响
 
 
-
+### 表达式
+getOne(this.lambdaQuery().eq(Model::getModelName, modelName)).getRealApiKey();
 
 ## 前端
 * 全局请求的响应拦截器和请求拦截器
@@ -739,5 +741,66 @@ Copy
    - Docker Compose
    - K8s编排
 ```
+
+# spring
+是的，添加扫描确实不太优雅。更好的方式是使用Spring Boot的自动配置机制：
+
+1. **在common包中创建自动配置类**：
+
+java
+
+Copy
+
+```
+// common/src/main/java/work/dirtsai/common/config/CommonAutoConfiguration.java
+@Configuration
+public class CommonAutoConfiguration {
+    @Bean
+    public JwtUtils jwtUtils() {
+        return new JwtUtils();
+    }
+}
+```
+
+2. **创建spring.factories文件**：
+
+properties
+
+Copy
+
+```
+# common/src/main/resources/META-INF/spring.factories
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+work.dirtsai.common.config.CommonAutoConfiguration
+```
+
+现在不需要在主应用程序添加@ComponentScan了，Spring Boot会自动加载这些配置。
+
+这种方式的优点：
+
+1. 遵循Spring Boot的自动配置机制
+2. 使用方不需要额外配置
+3. 解耦合，更优雅
+4. common包可以作为一个独立的starter
+
+另外，如果需要条件装配：
+
+java
+
+Copy
+
+```
+@Configuration
+@ConditionalOnClass(JwtUtils.class)  // 当类路径下有JwtUtils时才装配
+public class CommonAutoConfiguration {
+    @ConditionalOnMissingBean  // 当容器中没有该Bean时才创建
+    @Bean
+    public JwtUtils jwtUtils() {
+        return new JwtUtils();
+    }
+}
+```
+
+这样的设计更符合Spring Boot的规范。
 
 

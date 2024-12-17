@@ -1,14 +1,12 @@
 [
   "obsidian-git",
   "obsidian-style-settings",
-  "calendar",
   "obsidian-outliner",
   "homepage",
   "dataview",
   "obsidian-banners",
-  "ibook",
-  "nldates-obsidian",
   "templater-obsidian",
   "shortcuts-extender",
-  "contribution-graph"
+  "contribution-graph",
+  "obsidian-image-auto-upload-plugin"
 ]

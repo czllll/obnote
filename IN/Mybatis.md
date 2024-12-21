@@ -139,6 +139,9 @@ public class PropertyParser {
 
 * 而`#{}` 用于 SQL 中的**参数绑定**，在运行时处理
 
+### 反射模块
+mybatis对常见的反射做了封装，提供更简洁方便的反射API
+
 
 
 

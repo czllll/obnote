@@ -22,27 +22,35 @@
             }
           },
           {
-            "id": "5e625982a8e300e8",
+            "id": "8f4557c520c8a00c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "IN/Java反射.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Java反射"
             }
           },
           {
-            "id": "983ea715dd387351",
+            "id": "19cad34486d50626",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "IN/Java反射.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Java反射"
             }
           },
           {
-            "id": "3b274fba4e1f53f7",
+            "id": "55e4132a8fcb3991",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,55 +64,17 @@
             }
           },
           {
-            "id": "8f4557c520c8a00c",
+            "id": "4fd3a612466b7b76",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN/Mybatis.md",
+                "file": "IN/Java 9 特性.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mybatis"
-            }
-          },
-          {
-            "id": "216336c5348f2fb7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ACTION/anki.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "anki"
-            }
-          },
-          {
-            "id": "3b2aa442395fdfac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IN/XPath.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "XPath"
-            }
-          },
-          {
-            "id": "3dae3a6eab890a65",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Java 9 特性"
             }
           }
         ],
@@ -137,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 208.50390243530273,
-    "collapsed": true
+    "width": 208.50390243530273
   },
   "right": {
     "id": "3085a088a655b4cf",
@@ -168,8 +137,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IN/Mybatis.md",
-                "collapseAll": false,
+                "file": "IN/Java 9 特性.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -178,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Mybatis 的反向链接列表"
+              "title": "Java 9 特性 的反向链接列表"
             }
           },
           {
@@ -201,10 +170,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IN/Mybatis.md"
+                "file": "IN/Java 9 特性.md"
               },
               "icon": "lucide-list",
-              "title": "Mybatis 的大纲"
+              "title": "Java 9 特性 的大纲"
             }
           },
           {
@@ -258,35 +227,37 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "8f4557c520c8a00c",
+  "active": "4fd3a612466b7b76",
   "lastOpenFiles": [
-    "ACTION/anki.md",
-    "IN/Mybatis.md",
-    "IN/XPath.md",
-    "IN/Java 6 特性.md",
-    "IN/事件模型.md",
     "IN/Java特性.md",
+    "IN/Java 9 特性.md",
+    "IN/Java反射.md",
+    "学习资料工具.md",
+    "IN/未命名.md",
+    "book/The_Economist_UK_20241207.pdf",
+    "book",
+    "IN/类加载.md",
+    "IN/类加载器.md",
+    "IN/Mybatis.md",
+    "ACTION/面试问题.md",
+    "IN/Java 6 特性.md",
+    "🏠Welcome.md",
+    "IN/🏫COURSE/Algorithm.md",
+    "IN/🏫COURSE/KRR.md",
+    "IN/🏫COURSE/Programming for data science.md",
+    "IN/XPath.md",
+    "IN/事件模型.md",
     "ACTION/规划.md",
     "ACTION/Spring Servlet.md",
     "ACTION/DDD是什么？.md",
     "未命名.md",
     "面试anki整理",
-    "学习资料工具.md",
-    "🏠Welcome.md",
-    "IN/Java反射.md",
     "IN/ORM映射.md",
     "IN/JDBC.md",
     "@template/blog template.md",
     "IN/JDBC Drivers.md",
     "IN/Spring事务管理机制.md",
     "IN/Java7 特性.md",
-    "IN/九大服务架构性能优化方式.md",
-    "ACTION/注解是几把啥？.md",
-    "ACTION/构建EchoChat时遇到的问题及解决办法.md",
-    "ACTION/Ilya 播客要点.md",
-    "ACTION/身份验证机制中的cookies,session,token概念解释.md",
-    "ACTION/如何理解React中的Hook？.md",
-    "IN/LLMs and Programming in the first days of 2024.md",
     "@asset/Pasted image 20241008152019.png",
     "@asset/Pasted image 20241008123952.png",
     "@asset/Pasted image 20241001113027.png",
@@ -304,8 +275,6 @@
     "🌈LIFE",
     "🌈LIFE/sumup/daily sum-up",
     "🌈Archive/🧮lc刷题/leetcode题解",
-    "🤖AI/深度学习",
-    "Blockchian",
-    "📕English"
+    "🤖AI/深度学习"
   ]
 }

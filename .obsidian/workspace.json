@@ -76,9 +76,23 @@
               "icon": "lucide-file",
               "title": "图灵机"
             }
+          },
+          {
+            "id": "a7ff6279d167f6bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🏠Welcome.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "🏠Welcome"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -169,10 +183,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IN/图灵机.md"
+                "file": "🏠Welcome.md"
               },
               "icon": "lucide-list",
-              "title": "图灵机 的大纲"
+              "title": "🏠Welcome 的大纲"
             }
           },
           {
@@ -226,8 +240,9 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "4fd3a612466b7b76",
+  "active": "a7ff6279d167f6bb",
   "lastOpenFiles": [
+    "IN/图灵机.md",
     "IN/未命名.md",
     "IN/敏捷开发.md",
     "ACTION/🗃️PROJECT/cuan.md",
@@ -256,7 +271,6 @@
     "面试anki整理",
     "IN/ORM映射.md",
     "IN/JDBC.md",
-    "@template/blog template.md",
     "@asset/Pasted image 20241008152019.png",
     "@asset/Pasted image 20241008123952.png",
     "@asset/Pasted image 20241001113027.png",

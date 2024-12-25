@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN/Java 9 特性.md",
+                "file": "IN/图灵机.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Java 9 特性"
+              "title": "图灵机"
             }
           }
         ],
@@ -137,7 +137,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IN/Java 9 特性.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +146,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Java 9 特性 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -170,10 +169,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IN/Java 9 特性.md"
+                "file": "IN/图灵机.md"
               },
               "icon": "lucide-list",
-              "title": "Java 9 特性 的大纲"
+              "title": "图灵机 的大纲"
             }
           },
           {
@@ -182,7 +181,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#基本思想",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -194,7 +193,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "18aa1af1a2544607",
@@ -229,11 +228,14 @@
   },
   "active": "4fd3a612466b7b76",
   "lastOpenFiles": [
-    "IN/Java特性.md",
+    "IN/未命名.md",
+    "IN/敏捷开发.md",
+    "ACTION/🗃️PROJECT/cuan.md",
+    "ACTION/🗃️PROJECT/echochat（仿poe）.md",
     "IN/Java 9 特性.md",
+    "IN/Java特性.md",
     "IN/Java反射.md",
     "学习资料工具.md",
-    "IN/未命名.md",
     "book/The_Economist_UK_20241207.pdf",
     "book",
     "IN/类加载.md",
@@ -255,9 +257,6 @@
     "IN/ORM映射.md",
     "IN/JDBC.md",
     "@template/blog template.md",
-    "IN/JDBC Drivers.md",
-    "IN/Spring事务管理机制.md",
-    "IN/Java7 特性.md",
     "@asset/Pasted image 20241008152019.png",
     "@asset/Pasted image 20241008123952.png",
     "@asset/Pasted image 20241001113027.png",

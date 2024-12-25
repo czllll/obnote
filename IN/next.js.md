@@ -1,1 +1,0 @@
->Nextjs 如果你不去管 Api route ，SSR 这些后端东西，只用 Page 下面的东西，它依然不过就是个 React + React Router 的东西，重吗？并不重。

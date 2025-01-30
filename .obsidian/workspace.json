@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏠Welcome.md",
+                "file": "IN/🏫COURSE/ML.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🏠Welcome"
+              "title": "ML"
             }
           },
           {
@@ -251,10 +251,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏠Welcome.md"
+                "file": "IN/🏫COURSE/ML.md"
               },
               "icon": "lucide-list",
-              "title": "🏠Welcome 的大纲"
+              "title": "ML 的大纲"
             }
           },
           {
@@ -299,7 +299,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -312,11 +312,13 @@
   },
   "active": "8eeade28b95ae201",
   "lastOpenFiles": [
-    "IN/八股复习-java.md",
+    "学习资料工具.md",
+    "IN/🏫COURSE/ML.md",
     "IN/八股复习-java~.md",
+    "🏠Welcome.md",
+    "IN/八股复习-java.md",
     "IN/八股复习-网络.md",
     "ACTION/面试问题.md",
-    "学习资料工具.md",
     "IN/统计学习方法阅读.md",
     "IN/独立同分布.md",
     "IN/分布密度函数.md",
@@ -336,8 +338,6 @@
     "ACTION/🗃️PROJECT/echochat（仿poe）.md",
     "ACTION/🗃️PROJECT/easyvidshare.md",
     "IN/🏫COURSE/Algorithm.md",
-    "🏠Welcome.md",
-    "ACTION/由obsidian的git插件push失败后引申的ssh相关的问题.md",
     "book/The_Economist_UK_20241207.pdf",
     "book",
     "面试anki整理",

@@ -356,7 +356,7 @@ actions = {
 * - Only handles discrete, deterministic actions
 - Cannot represent continuous state changes
 ### Situation Calculus
-* Situation Calculus is a 1st-order language for representing  dynamically changing worlds.
+* Situation Calculus is a 1st-order language for representing  dynamically changing worlds.1
 $holds(\phi, s)$ , $\phi$ is called a fluent, s is a state
 $result(α, s)$ denotes the **state** resulting from doing action $\alpha$ when in state s
 $holds(Light-Off, s) → holds(Light-On, result(switch, s))$

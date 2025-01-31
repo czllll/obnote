@@ -80,8 +80,58 @@ topics
 * Supposed that we have a set of data point from a Bernoulli process
 	* eg x1 = H x2 = T x3 = T
 	* $μ(1 − μ)2 = Ber(x = 1 | μ)Ber(x = 0 | μ)Ber(x = 0 | μ)$
-* Probability
-	* Known $\mu$, calculating chance of specific outcomes.
-* Likehood
-	* Known outcomes, treating expression as a function of parameter $\mu$
+	* **Probability**
+		* Known $\mu$, calculating chance of specific outcomes.
+	* **Likehood**
+		* Known outcomes, treating expression as a function of parameter $\mu$
+* **likelihood function**
+	* $L(\theta|x) = P(x|\theta)$
+	* $\theta$ - parameters
+	* x - observation
+	* eg: toss 10 times coins 7h 3t
+		* $L(p) = p^7 * (1-p)^3$
+		* usually use log to avoid multiply
+		* 
+### Maximum Likelihood Estimation(MLE)
+* to find parameter values of a statistical model that maximize the probability of observing the given data.
+* 
 ### Binomial 二项分布
+* the sum of n independent Bernoulli trials.
+* Formula
+	* $P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}$
+		* $\binom{n}{k} = \frac{n!}{k!(n-k)!}$ is the binomial coefficient
+		- $p$ is the probability of success on each trial
+		- $n$ is the total number of trials
+		- $k$ is the number of successes
+
+## Continuous Distributions
+### Gaussian/ Normal  Distribution 高斯/正态分布
+* Formula
+	* $f(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}$
+		* $\mu$ - mean
+		* $\sigma$ - standard deviation
+* Expected Value (Mean)： $\mathbb{E}[N(x|\mu,\sigma^2)] = \mu$
+* Variance：$\text{var}[N(x|\mu,\sigma^2)] = \sigma^2$ 
+
+### Uniform Distribution 均匀分布
+* Definition
+	* all possible values have equal probability of occurring.
+		* Probability of a number being in some interval is well defined
+
+# Sum and Product rule
+* Sum rule
+	* $P(X) = \sum_Y P(X, Y)$
+* Product rule
+	* $P(X, Y) = P(Y | X) P(X)$
+
+# Bayes' Rule
+* outline
+* ![image.png](https://img.dirtsai.work/astro-blog/2025/01/cddf7a77e595abf1fa6d6a884113f75d.png)
+## basic
+*  $P(A|B) = \frac{P(B|A)P(A)}{P(B)}$
+* use the sum rule $P(A|B) = \frac{P(B|A)P(A}{\sum_A P(B|A)P(A)}$
+
+## Bayesian Inference
+
+
+

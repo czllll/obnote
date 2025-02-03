@@ -463,17 +463,91 @@
       * key是beanName，value是BeanDefinition对象
     * 实例化阶段
       * 根据BeanDefinition创建Bean实例
-      * 若是单粒，检查单例缓存
+      * 若是单例，检查单例缓存
       * 通过反射或CGLIB创建对象
     * 属性填充
       * 根据BeanDefinition中的属性信息
       * 通过反射给Bean设置属性值
-      * 处理依赖注入
-    * 初始化阶段
+      * 递归初始化被依赖的其他bean
+    * 初始化bean
       * 如果实现了Aware接口，执行Aware方法
       * 执行BeanPostProcessor的前置处理
-      * 
-    * 注册单例Bean到缓存
+      * 调用init-method指定的初始化方法
+      * 执行BeanPostProcessor的后置处理
+    * 注册销毁回调
+      * 如果bean实现了DisposableBean接口或指定了destroy-method，spring会注册相应的销毁回调方法，在容器关闭时调用这些方法
 
     
+
+## 注解
+
+### 讲讲注解的原理
+
+* 本质上是一个继承了Annotation的特殊接口，具体实现类是java运行时生成的动态代理类
+
+* **定义原理**
+  * 使用@interface关键字来定义注解
+
+```java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+public @interface MyAnnotation {
+    String value() default "";  // 注解属性
+}
+```
+
+* **存储原理**
+  * 注解信息会被编译器写道class文件的属性表中，主要存储在一下特殊的属性表中
+    * RuntimeVisibleAnnotations 运行时可见
+    * RuntimeInvisibleAnnotations
+    * RuntimeVisibleParameterAnnotations 方法参数运行时可见
+    * RuntimeInvisibleParameterAnnotations 方法参数运行时不可见
+* **解析原理**
+  * 使用反射来解析注解
+* **注解处理器的工作原理**
+  * 编译时注解处理
+    * 注解处理器实现javax.annotation.processing.AbstractProcessor类
+    * 在编译期间，编译器会调用注解处理器来处理注解信息
+    * 处理器可以生成新的源文件、修改编译过程
+  * 运行时处理
+    * 运行时通过反射API获取注解信息并进行处理
+
+* **生命周期**：通过Retention指定
+  * SOURCE：源码级别
+  * CLASS：字节码级别
+  * RUNTIME：运行时级别
+* **使用范围**：通过@Target指定
+  * TYPE：类、接口
+  * FIELD：字段
+  * METHOD：方法
+  * PARAMETER：参数
+  * CONSTRUCTOR：构造方法
+  * LOCAL——VARIABLE：局部变量
+* **继承**：通过@Inherited元注解可以让子类继承父类的注解
+
+
+
+## 异常
+
+![image-20250203204959756](https://img.dirtsai.work/astro-blog/2025/02/6e968f0b310c3ab45481c03d82594fc5.png)
+
+* 非运行时异常：
+  * 在编译时起就必须被捕获或抛出，通常是外部错误：文件不存在等
+* 运行时异常
+  * 由程序错误导致如NPE 和数组越界等
+
+### java异常处理有哪些
+
+* try-catch
+  * 可以有多个catch块来处理不同类型的异常
+* throw
+  * 手动抛出异常，可以根据需要在代码中使用throw语句主动抛出特定类型异常
+* throws
+  * 在方法声明中声明可能抛出的异常类型
+  * 调用者必须处理异常
+
+* finally
+  * 定义无论是否发生异常都会执行的代码块，通常用于释放资源，确保资源正常关闭
+
+## Object
 

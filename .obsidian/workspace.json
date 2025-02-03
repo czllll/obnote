@@ -36,6 +36,20 @@
             }
           },
           {
+            "id": "78d90f2e27a84e55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IN/🏫COURSE/term2/cloud-computing/lecture/week2-intro2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "week2-intro2"
+            }
+          },
+          {
             "id": "19cad34486d50626",
             "type": "leaf",
             "state": {
@@ -83,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN/🏫COURSE/ML.md",
+                "file": "IN/🏫COURSE/term2/assessment.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ML"
+              "title": "assessment"
             }
           },
           {
@@ -158,7 +172,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -187,7 +201,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 208.50390243530273,
+    "width": 343.50390243530273,
     "collapsed": true
   },
   "right": {
@@ -251,10 +265,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IN/🏫COURSE/ML.md"
+                "file": "IN/🏫COURSE/term2/cloud-computing/lecture/week2-intro2.md"
               },
               "icon": "lucide-list",
-              "title": "ML 的大纲"
+              "title": "week2-intro2 的大纲"
             }
           },
           {
@@ -310,12 +324,23 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "8eeade28b95ae201",
+  "active": "78d90f2e27a84e55",
   "lastOpenFiles": [
-    "IN/八股复习-java~.md",
-    "学习资料工具.md",
-    "IN/🏫COURSE/ML.md",
+    "IN/🏫COURSE/term2/cloud-computing/lecture/week1-intro1.md",
+    "IN/🏫COURSE/term2/cloud-computing/lecture/week2-intro2.md",
+    "IN/🏫COURSE/term2/cloud-computing/lab/lab1.md",
+    "IN/🏫COURSE/term2/cloud-computing/lecture",
+    "IN/🏫COURSE/term2/ML.md",
+    "IN/🏫COURSE/term2/cloud-computing/lab",
+    "IN/🏫COURSE/term2/cloud-computing",
     "🏠Welcome.md",
+    "IN/Java反射.md",
+    "IN/八股复习-java~.md",
+    "IN/🏫COURSE/term2/assessment.md",
+    "IN/🏫COURSE/term2/DL.md",
+    "IN/🏫COURSE/term1",
+    "IN/🏫COURSE/term2",
+    "学习资料工具.md",
     "IN/八股复习-java.md",
     "IN/八股复习-网络.md",
     "ACTION/面试问题.md",
@@ -323,21 +348,15 @@
     "IN/独立同分布.md",
     "IN/分布密度函数.md",
     "IN/欧氏空间.md",
-    "IN/Java反射.md",
     "IN/Java特性.md",
     "IN/机器学习基本概念.md",
-    "IN/🏫COURSE/DL.md",
     "ACTION/Ilya 播客要点.md",
-    "IN/🏫COURSE/KRR.md",
+    "IN/🏫COURSE/term1/KRR.md",
     "ACTION/🗃️PROJECT/英语演讲.md",
     "ACTION/🗃️PROJECT/cuan.md",
     "ACTION/🗃️PROJECT/面试.md",
     "ACTION/🗃️PROJECT/apiport/apiport.md",
     "ACTION/🗃️PROJECT/apiport/feature梳理.md",
-    "ACTION/规划.md",
-    "ACTION/🗃️PROJECT/echochat（仿poe）.md",
-    "ACTION/🗃️PROJECT/easyvidshare.md",
-    "IN/🏫COURSE/Algorithm.md",
     "book/The_Economist_UK_20241207.pdf",
     "book",
     "面试anki整理",
@@ -353,11 +372,6 @@
     "@asset/Pasted image 20241031134316.png",
     "PIC",
     "未命名.canvas",
-    "🌈LIFE/sumup/weekly sum-up",
-    "🌈LIFE/sumup",
-    "🌈LIFE",
-    "🌈LIFE/sumup/daily sum-up",
-    "🌈Archive/🧮lc刷题/leetcode题解",
-    "🤖AI/深度学习"
+    "🌈LIFE/sumup/weekly sum-up"
   ]
 }

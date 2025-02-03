@@ -123,7 +123,6 @@ topics
 	* $P(X) = \sum_Y P(X, Y)$
 * Product rule
 	* $P(X, Y) = P(Y | X) P(X)$
-
 # Bayes' Rule
 * outline
 * ![image.png](https://img.dirtsai.work/astro-blog/2025/01/cddf7a77e595abf1fa6d6a884113f75d.png)

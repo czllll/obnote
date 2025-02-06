@@ -4,95 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bbd9f2b01fa3cfdb",
+        "id": "42b658824d53e2c8",
         "type": "tabs",
         "children": [
           {
-            "id": "7b0b7944713940bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IN/Java 6 特性.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Java 6 特性"
-            }
-          },
-          {
-            "id": "8f4557c520c8a00c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IN/Java反射.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Java反射"
-            }
-          },
-          {
-            "id": "78d90f2e27a84e55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IN/🏫COURSE/term2/cloud-computing/lecture/week2-intro2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "week2-intro2"
-            }
-          },
-          {
-            "id": "19cad34486d50626",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IN/统计学习方法阅读.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "统计学习方法阅读"
-            }
-          },
-          {
-            "id": "d13ddfd8f729924c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IN/统计学习方法阅读.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "统计学习方法阅读"
-            }
-          },
-          {
-            "id": "72c95833efaf88d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IN/八股复习-java.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "八股复习-java"
-            }
-          },
-          {
-            "id": "8eeade28b95ae201",
+            "id": "10f04b0dabda5ea6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -106,35 +22,7 @@
             }
           },
           {
-            "id": "55e4132a8fcb3991",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IN/统计学习方法阅读.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "统计学习方法阅读"
-            }
-          },
-          {
-            "id": "4fd3a612466b7b76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IN/图灵机.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "图灵机"
-            }
-          },
-          {
-            "id": "a7ff6279d167f6bb",
+            "id": "c6b2b247080587d9",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -144,31 +32,17 @@
             }
           },
           {
-            "id": "004f3d2e7f0c28bb",
+            "id": "5667040f3a6bc6cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN/机器学习基本概念.md",
+                "file": "IN/🏫COURSE/term2/ML.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "机器学习基本概念"
-            }
-          },
-          {
-            "id": "9c438bbc0609d0c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IN/统计学习方法阅读.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "统计学习方法阅读"
+              "title": "ML"
             }
           }
         ],
@@ -277,7 +151,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#machine-learning",
+                "query": "tag:#bagu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -289,7 +163,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "18aa1af1a2544607",
@@ -313,8 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -324,39 +197,39 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "78d90f2e27a84e55",
+  "active": "5667040f3a6bc6cf",
   "lastOpenFiles": [
-    "IN/🏫COURSE/term2/cloud-computing/lecture/week1-intro1.md",
+    "IN/欧氏空间.md",
+    "IN/innoDB引擎.md",
+    "IN/Bufferpool详解.md",
+    "学习资料工具.md",
+    "IN/typescript基础.md",
+    "IN/八股复习-java集合.md",
+    "IN/🏫COURSE/term2/DL.md",
+    "IN/🏫COURSE/term2/blockchain.md",
+    "IN/🏫COURSE/term2/data-mining.md",
+    "IN/🏫COURSE/term2/ML.md",
+    "IN/🏫COURSE/term2/assessment.md",
+    "🏠Welcome.md",
+    "IN/八股复习-java集合~.md",
+    "IN/八股复习-java.md",
+    "IN/八股复习-java~.md",
     "IN/🏫COURSE/term2/cloud-computing/lecture/week2-intro2.md",
+    "IN/🏫COURSE/term2/cloud-computing/lecture/week1-intro1.md",
     "IN/🏫COURSE/term2/cloud-computing/lab/lab1.md",
     "IN/🏫COURSE/term2/cloud-computing/lecture",
-    "IN/🏫COURSE/term2/ML.md",
     "IN/🏫COURSE/term2/cloud-computing/lab",
     "IN/🏫COURSE/term2/cloud-computing",
-    "🏠Welcome.md",
     "IN/Java反射.md",
-    "IN/八股复习-java~.md",
-    "IN/🏫COURSE/term2/assessment.md",
-    "IN/🏫COURSE/term2/DL.md",
     "IN/🏫COURSE/term1",
     "IN/🏫COURSE/term2",
-    "学习资料工具.md",
-    "IN/八股复习-java.md",
     "IN/八股复习-网络.md",
     "ACTION/面试问题.md",
     "IN/统计学习方法阅读.md",
     "IN/独立同分布.md",
     "IN/分布密度函数.md",
-    "IN/欧氏空间.md",
     "IN/Java特性.md",
     "IN/机器学习基本概念.md",
-    "ACTION/Ilya 播客要点.md",
-    "IN/🏫COURSE/term1/KRR.md",
-    "ACTION/🗃️PROJECT/英语演讲.md",
-    "ACTION/🗃️PROJECT/cuan.md",
-    "ACTION/🗃️PROJECT/面试.md",
-    "ACTION/🗃️PROJECT/apiport/apiport.md",
-    "ACTION/🗃️PROJECT/apiport/feature梳理.md",
     "book/The_Economist_UK_20241207.pdf",
     "book",
     "面试anki整理",

@@ -551,3 +551,167 @@ public @interface MyAnnotation {
 
 ## Object
 
+### == 与equals 有什么区别
+
+* 字符串变量
+  * == 比较两个变量本身的值，即两个对象在内存中的首地址
+  * equals比较字符串包含的内容是否相同
+* 非字符串常量
+  * 未对equals()进行重写的话，两者作用相同，都是比较对象在堆内存中的首地址，即用来比较两个引用变量是否指向同一个对象
+
+### String、StringBuffer和StringBuild区别是什么
+
+* String被声明为final class，是不可变字符串。
+  * 在拼接字符串时会产生stringbuilder中间对象，频繁操作对性能有影响
+* StringBuffer
+  * 提供append方法
+  * 线程安全的可修改的字符序列
+* StringBuilder是JDK1.5发布的，它和StringBuffer本质上没区别，去掉了保证线程安全的部分
+
+## JDK1.8
+
+### stream api介绍一下
+
+* 函数式编程特性，用于处理集合数据，相比于传统for循环吗代码更简洁且支持并行处理
+  * 链式操作
+  * 延迟执行，中间操作（filter、map）不会立即执行，直到终端操作（collect）
+  * 常用操作
+    * filter
+    * map
+    * reduce
+    * collect
+
+```java
+list.stream()
+    .filter(x -> x > 10)
+    .map(x -> x * 2)
+    .collect(Collectors.toList());
+```
+
+### Stream流的并行API是什么
+
+* 是什么
+  * 将源数据分成多个子流对象进行多线程操作，然后将处理的结果再汇成一个流对象
+
+* 实现方式
+  * parallelStream()：集合直接创建并行流
+  * parallel(): 将顺序流转为并行流
+  * sequential()：将并行流转会顺序流
+* 底层原理
+  * 基于Fork/Join框架实现
+  * 默认使用ForkJoinPool.commonPool()线程池
+  * 可通过 System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "N") 设置线程数
+
+
+
+### completableFuture怎么用？
+
+* Java8之前使用Future实现异步
+  * Future用于表示异步计算的结果，只能通过阻塞或者轮训的方式i获取结果，而且不支持设置回调方法
+  * CompletableFuture对Future进行了扩展，可以通过设置回调的方式处理计算结果，同时也支持组合操作(thenApply/thenCombine等)，支持链式调用、异常处理（exceptionally）
+    * CompletableFuture实现了两个接口
+      * Future
+      * CompletionStage表示异步执行过程中的一个步骤
+
+
+
+
+
+## 序列化
+
+### 怎么把一个对象从一个jvm转移到另一个jvm
+
+* 使用序列化和反序列化
+  * 对象序列化为字节流，并将其发送到另一个JVM，然后在另一个JVM中反序列化字节流回复对象。
+  * 使用ObjectOutpotStream和ObjectInputStream实现
+* 使用消息传递机制
+  * 消息队列或网络套接字
+  * 需要自定义协议来序列化对象并在另一个JVM中反序列化
+* 使用RPC远程方法调用
+  * RPC可以让你在分布式系统中调用远程JVM上的对象的方法
+* 使用共享数据库或缓存
+  * 将对象存在共享数据库或共享缓存中中
+  * 让不同的JVM可以访问这些共享数据
+
+### Java序列化存在什么问题
+
+* 不灵活
+  * 格式单一、不支持自定义
+  * 难以跨语言、平台
+* 容易被攻击
+  * readObject()用于从序列化流中读取和重建对象，该方法过于强大
+    * 可以实例化任何实现Serializable的类
+    * 在类路径上的所有类都可能被加载
+    * 无法有效控制哪些类可以被反序列化
+* 性能差
+  * 序列化过程需要反射获取类信息
+  * 写入大量元数据、导致序列化后数据量大
+  * 反序列化过程复杂耗时
+
+### 你会如何实现序列化和反序列化
+
+* 考虑主流序列化框架
+  * FastJson
+  * Protobuf
+
+
+
+### 将对象转为二进制字节流具体怎么实现？
+
+在Java中通过序列化对象流来完成序列化和反序列化：
+
+* ObjectOutputStream
+  * 通过writeObject()方法做序列化操作
+* ObjectOutputStream
+  * 通过readObject()方法做反序列化操作
+
+
+
+## 设计模式
+
+### volatile和sychronized如何实现单例模式
+
+[[博客]]
+
+### 代理模式和适配器模式有什么不同
+
+* 目的不同
+  * 代理模式主要关注控制对对象的访问
+  * 适配器模式则用于接口转换，使不兼容的类能够一起工作
+* 结构不同
+  * 代理模式一般包含抽象主题、真实主题和代理三个角色
+  * 适配器模式包含目标接口、适配器和被适配者三个juese
+* 应用场景不同
+  * 代理模式常用语添加额外功能或控制对对象的访问
+  * 适配器模式常用于让不兼容的接口协同工作
+
+
+
+## I/O
+
+### BIO、NIO、AIO区别是什么
+
+* BIO(Blocking I/O)
+  * 属于java.io包基于流模型实现：InputStream和OutputStream都是单向的
+  * 工作方式
+    * 同步阻塞：线程发起IO请求后，必须等待读写完成才能继续
+  * 一个线程只能处理一个IO连接，连接多时需要创建大量线程，性能较差
+* NIO(Non-blocking IO)
+  * Java1.4 引入的新IO模型，在java.nio包中
+  * 核心组件
+    * Buffer：可读可写的缓冲区，支持双向操作
+    * Channel：类似于Stream但是双向，可以非阻塞读写
+    * Selector：允许一个线程监控多个Channel，实现*多路复用*
+  * 工作方式
+    * 线程发起IO请求后可以立即返回做其他事情
+    * 通过Selector定期检查IO是否就绪
+    * 一个线程可以同时处理多个IO连接
+  * 实际应用Tomcat 7/8 默认NIO
+* AIO（Asynchronous不同时存在的 IO）
+  * Java 1.7引入的异步IO模型
+  * 是NIO升级版，也叫NIO.2
+  * 工作方式 异步非阻塞
+    * 线程发起IO请求后立即返回
+    * IO完成后，OS会通知相应的线程来处理
+    * 不需要像NIO那样轮询检查IO状态
+

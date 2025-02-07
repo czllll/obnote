@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN/Basel Accords.md",
+                "file": "IN/🏫COURSE/term2/cloud-computing/lecture/week3-cloud platform architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Basel Accords"
+              "title": "week3-cloud platform architecture"
             }
           },
           {
@@ -213,9 +213,13 @@
   },
   "active": "10f04b0dabda5ea6",
   "lastOpenFiles": [
+    "IN/🏫COURSE/term1/Algorithm.md",
+    "IN/🏫COURSE/term2/cloud-computing/lecture/week3-cloud platform architecture.md",
+    "IN/🏫COURSE/term2/cloud-computing/lecture/week2-intro2.md",
+    "IN/🏫COURSE/term2/data-mining.md",
+    "IN/🏫COURSE/term2/blockchain.md",
     "IN/🏫COURSE/term2/assessment.md",
     "IN/Basel Accords.md",
-    "IN/🏫COURSE/term2/blockchain.md",
     "IN/🏫COURSE/term2/ML.md",
     "IN/八股复习-java集合~.md",
     "IN/欧氏空间.md",
@@ -225,11 +229,9 @@
     "IN/typescript基础.md",
     "IN/八股复习-java集合.md",
     "IN/🏫COURSE/term2/DL.md",
-    "IN/🏫COURSE/term2/data-mining.md",
     "🏠Welcome.md",
     "IN/八股复习-java.md",
     "IN/八股复习-java~.md",
-    "IN/🏫COURSE/term2/cloud-computing/lecture/week2-intro2.md",
     "IN/🏫COURSE/term2/cloud-computing/lecture/week1-intro1.md",
     "IN/🏫COURSE/term2/cloud-computing/lab/lab1.md",
     "IN/🏫COURSE/term2/cloud-computing/lecture",
@@ -242,8 +244,6 @@
     "ACTION/面试问题.md",
     "IN/统计学习方法阅读.md",
     "IN/独立同分布.md",
-    "IN/分布密度函数.md",
-    "IN/Java特性.md",
     "book/The_Economist_UK_20241207.pdf",
     "book",
     "面试anki整理",

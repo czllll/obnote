@@ -1,3 +1,4 @@
+2025-02-07
 * Computing at scale
 	* PC
 	* Server
@@ -44,3 +45,4 @@
 		* local network that uses Fibre Channel(光纤) to connect several data storage devices
 	* NAS Network Attached Storage
 		* dedicated hardware device that connects to a local area network, usually through an Ethernet connection and operates on data files
+

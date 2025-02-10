@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN/八股复习-java并发.md",
+                "file": "ACTION/🗃️PROJECT/小红书.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "八股复习-java并发"
+              "title": "小红书"
             }
           },
           {
@@ -37,12 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN/🏫COURSE/term2/blockchain.md",
+                "file": "ACTION/🗃️PROJECT/小红书.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "blockchain"
+              "title": "小红书"
             }
           },
           {
@@ -59,7 +59,8 @@
               "title": "Basel Accords"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -210,10 +211,14 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "10f04b0dabda5ea6",
+  "active": "5667040f3a6bc6cf",
   "lastOpenFiles": [
-    "IN/八股复习-java集合.md",
+    "ACTION/🗃️PROJECT/小红书~.md",
+    "IN/🏫COURSE/term2/blockchain.md",
+    "ACTION/🗃️PROJECT/小红书.md",
+    "IN/项目简历.md",
     "IN/八股复习-java并发.md",
+    "IN/八股复习-java集合.md",
     "IN/八股复习-java.md",
     "IN/八股复习-java集合~.md",
     "IN/🏫COURSE/term2/cloud-computing/lab/week2-lab.md",
@@ -222,7 +227,6 @@
     "IN/🏫COURSE/term1/Algorithm.md",
     "IN/🏫COURSE/term2/cloud-computing/lecture/week2-intro2.md",
     "IN/🏫COURSE/term2/data-mining.md",
-    "IN/🏫COURSE/term2/blockchain.md",
     "IN/🏫COURSE/term2/assessment.md",
     "IN/Basel Accords.md",
     "IN/🏫COURSE/term2/ML.md",
@@ -238,11 +242,8 @@
     "IN/🏫COURSE/term2/cloud-computing/lecture",
     "IN/🏫COURSE/term2/cloud-computing/lab",
     "IN/🏫COURSE/term2/cloud-computing",
-    "IN/Java反射.md",
     "IN/🏫COURSE/term1",
     "IN/🏫COURSE/term2",
-    "IN/八股复习-网络.md",
-    "ACTION/面试问题.md",
     "book/The_Economist_UK_20241207.pdf",
     "book",
     "面试anki整理",

@@ -41,8 +41,9 @@
 * hardware comparison
 * ![image.png](https://img.dirtsai.work/astro-blog/2025/02/00b3f666d6f8a0ab48f7fe650a3f104b.png)
 * Storage and Array Switch
-	* SAN Storage Area Network
+	* SAN Storage Area Network存储区域网络
 		* local network that uses Fibre Channel(光纤) to connect several data storage devices
-	* NAS Network Attached Storage
+		* server take SAN as *local storage*
+	* NAS Network Attached Storage网络附加存储
 		* dedicated hardware device that connects to a local area network, usually through an Ethernet connection and operates on data files
 

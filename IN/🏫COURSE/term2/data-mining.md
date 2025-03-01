@@ -11,3 +11,7 @@
 * WebBootCat
 	* create corpus from web-pages
 * Terminology术语
+
+## week3
+* online communities and resources
+* 

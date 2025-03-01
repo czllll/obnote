@@ -22,3 +22,16 @@
 * 20th: [[Basel Accords]]巴塞尔协议 replace gold standard
 	* Liquid assets become equivalent to gold reserves
 	* Modern financial regulation begins
+
+
+### week3
+* https://andersbrownworth.com/blockchain/
+* hash
+* block
+	* block
+	* nonce随机数
+	* data
+	* hash
+
+### week5
+* https://thesecretlivesofdata.com/raft/

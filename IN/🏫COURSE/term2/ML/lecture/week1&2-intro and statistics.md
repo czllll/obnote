@@ -1,7 +1,6 @@
 ![image.png](https://img.dirtsai.work/astro-blog/2025/01/93364e05e256540e3d38eea3f912e1b3.png)
 topics
 ![image.png](https://img.dirtsai.work/astro-blog/2025/01/69df364f8694044fb7d1d3fdecba42c3.png)
-
 # statistics 
 
 ## simple objectives
@@ -86,12 +85,14 @@ topics
 		* Known outcomes, treating expression as a function of parameter $\mu$
 * **likelihood function**
 	* $L(\theta|x) = P(x|\theta)$
+	* $P(x|\theta)$ is a *probability* distribution(a conditional probability) and describes the likelihood of observing x given a particular $\theta$
+	* $L(\theta|x)$ is a *function* of $\theta$ and is used to evaluate how likely different values of $\theta$ are, given the observed data.
 	* $\theta$ - parameters
 	* x - observation
 	* eg: toss 10 times coins 7h 3t
 		* $L(p) = p^7 * (1-p)^3$
 		* usually use log to avoid multiply
-		* 
+
 ### Maximum Likelihood Estimation(MLE)
 * to find parameter values of a statistical model that maximize the probability of observing the given data.
 * 
@@ -109,7 +110,7 @@ topics
 * Formula
 	* $f(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}$
 		* $\mu$ - mean
-		* $\sigma$ - standard deviation
+		* $\sigma$ - standard deviation标准差
 * Expected Value (Mean)： $\mathbb{E}[N(x|\mu,\sigma^2)] = \mu$
 * Variance：$\text{var}[N(x|\mu,\sigma^2)] = \sigma^2$ 
 
@@ -123,14 +124,7 @@ topics
 	* $P(X) = \sum_Y P(X, Y)$
 * Product rule
 	* $P(X, Y) = P(Y | X) P(X)$
-# Bayes' Rule
-* outline
-* ![image.png](https://img.dirtsai.work/astro-blog/2025/01/cddf7a77e595abf1fa6d6a884113f75d.png)
-## basic
-*  $P(A|B) = \frac{P(B|A)P(A)}{P(B)}$
-* use the sum rule $P(A|B) = \frac{P(B|A)P(A}{\sum_A P(B|A)P(A)}$
 
-## Bayesian Inference
 
 
 

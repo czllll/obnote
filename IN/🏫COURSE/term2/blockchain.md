@@ -35,3 +35,20 @@
 
 ### week5
 * https://thesecretlivesofdata.com/raft/
+### 
+* RSA
+
+### week7
+* hardhat
+	* 以太坊开发环境
+	* 功能
+		* 编译：
+			* 使用sol编译：生成ABI和字节码
+		* 本地开发链
+			* 本地运行一个EVM区块链，支持即时挖矿和高校调试
+			* 提供默认账户和私钥，方便测试
+	* 比Remix要功能更强大一点，可以使用npm继承外部库
+* Metamask
+	* eth blockchain wallet
+
+### week 8

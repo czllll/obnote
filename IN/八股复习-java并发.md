@@ -166,4 +166,688 @@
 
 ### JUC包下你常用的类？
 
-* 线程池
+* 线程池相关
+
+  * ThreadPoolExecutor
+  * Executors
+    * 线程池工厂类，提供静态方法来创建不同类型的线程池，如：
+      * newFixedThreadPool
+      * newCachedThreadPool
+      * newSingleThreadExecutor
+
+* 并发集合相关
+
+  * ConcurrentHashMap
+    * 线程安全的hashmap，使用分段锁
+  * CopyOnWriteArrayList
+    * 线程安全的list
+      * 在修改时会创建一个新的底层数组，在新数组修改，在旧数组读取
+      * 读写分离，适合读多写少
+
+* 同步工具类
+
+  * CountDownLatch
+    * 让一组线程等待直到计数归零
+    * 实现：
+      * 计数器初始化为线程的数量，线程完成任务-1，=0时，等待的线程可以继续执行
+    * 常用：
+      * 多个线程完成各自任务后再进行汇总或下一步操作
+  * CyclicBarrier
+    * 让一组线程互相等待，直到所有线程都达到某个屏障点后再一起继续执行
+    * 与CountDownLatch区别
+      * 可重复使用：所有线程通过屏障后，计数器会重置
+      * 可指定额外操作barrierAction
+  * Semaphore:
+    * 信号量：控制对有限资源访问
+
+* 原子类
+
+  * AtomicInteger
+
+    * 提供了对整数类型的原子操作，如自增，自减，比较并交换等
+    * 基于CAS
+    * 通过硬件级别的原子指令来保证操作的原子性和线程安全
+    * 场景：
+      * 代替 `volatile int`，避免使用 `synchronized`
+
+  * AtomicReference
+
+    * 原子引用，用于对对象引用进行原子操作
+    * 保证在多线程的环境下，对对象的更新操作是原子性的
+      * 要么全部成功，要么全部失败
+    * 常用于实现无锁数据结构或需要对对象进行原子更新的场景
+
+    
+
+### 怎样保证多线程安全？
+
+* synchronized关键字
+  * 同一时刻只有一个线程可以访问代码块
+* volatile关键字
+  * 用于变量，确保所有线程看到的是改变两个最新值，而不是可能存在本地寄存器中的副本
+* Lock接口和ReentrantLock
+  * locks.Lock 接口提供了比synchronized更强大的锁定机制
+  * ReentrantLock是一个实现该接口的例子
+* 原子类
+  * java.util.concurrent.atomic
+    * AtomicInteger
+    * AtomicLong
+  * 提供了原子操作，可以用于更新基本类型的变量而无需额外的同步
+* 线程局部变量
+  * ThreadLocal
+    * 为每个线程提供独立的变量副本，每个线程都拥有自己的变量，消除了竞争条件
+* 并发集合
+* JUC工具类
+  * Semaphore 和 CyclicBarrier等
+
+### Java中有哪些常用的锁，在什么场景下使用？
+
+* 内置锁synchronized
+
+  * synchronized加锁有
+    * 无锁
+    * 偏向锁
+    * 轻量级锁： 使用线程栈上的数据结构，避免了操作系统级别的锁
+    * 重量级锁：涉及操作系统级别的互斥锁
+
+* ReentrantLock
+
+  * 显式的锁
+  * 提供
+    * 可中断的锁等待，定时锁等待，公平锁选项等
+  * 使用lock 和 unlock方法来获取和释放锁
+  * 公平锁
+    * 按照线程请求锁的顺序来分配锁，保证锁分配的公平性但可能增加锁的等待时间
+  * 非公平锁
+    * 不保证锁分配的顺序，可以减少锁的竞争，提高性能，但可能造成某些线程饥饿
+
+* 读写锁**ReadWriteLock**
+
+  * 允许多个读取这同时访问共享资源，但只允许一个写入者
+
+* 乐观锁和悲观锁
+
+  * 悲观锁通常在访问数据钱就锁定资源，假设最坏的情况
+    * synchronized和Reentrantlock
+  * 乐观锁通常不锁定资源，而是在更新数据时检查数据是否已经被其他线程修改
+    * 通常使用版本号或时间戳来实现
+
+* 自旋锁
+
+  * 是一种锁机制，线程在等待锁时会持续循环检查锁是否可用，而不是放弃CPU并阻塞
+  * 通常使用CAS实现
+  * 时间短就提高性能，过度自旋浪费CPU资源
+
+  
+
+### 怎么在实践中使用锁的？
+
+* synchronized方法
+  * 用于方法或代码块
+* Lock接口
+  * ReentrantLock是Lock的一个实现
+* ReadWriteLock接口提供了读写锁的实现，允许多个读操作同时进行，写操作独占
+
+### Java并发工具你知道哪些？
+
+* 位于`java.util.concurrent` 包中，常见的有
+  * CountDownLatch
+    * 让一组线程等待直到计数归零
+    * 实现：
+      * 计数器初始化为线程的数量，线程完成任务-1，=0时，等待的线程可以继续执行
+    * 常用：
+      * 多个线程完成各自任务后再进行汇总或下一步操作
+  * CyclicBarrier
+    * 让一组线程互相等待，直到所有线程都达到某个屏障点后再一起继续执行
+    * 与CountDownLatch区别
+      * 可重复使用：所有线程通过屏障后，计数器会重置
+      * 可指定额外操作barrierAction
+  * Semaphore:
+    * 信号量：控制对有限资源访问
+  * Future 和 Callable
+    * Callable是一个类似Runnable的接口，但它可以返回结果，并且可以抛出异常
+    * Future用于表示一个异步计算的结果，可以使用Future来获得Callable任务的执行结果或取消任务
+  * **ConcurrentHashMap**
+
+
+
+### synchronized和reentrantlock及其应用场景？
+
+* Synchronized 工作原理
+
+  * synchronized **依赖** **对象内部的 监视器锁（Monitor）** 实现同步。
+
+    * 监视器锁：Java提供的原子性内置锁，内置且使用者看不到
+    * **Monitor 依赖 JVM 实现**，它的本质是通过**对象头（Mark Word）+ Monitor 对象**管理锁的获取和释放。
+    * **当 synchronized 升级到重量级锁时，Monitor 会调用底层的操作系统的 Mutex Lock** 来实现线程阻塞和唤醒。
+
+  * 使用synchronized之后，编译之后再同步的代码块钱后加上monitorenter和monitorexit字节码指令，以来操作系统底层互斥锁实现。作用就是实现原子性操作和解决共享变量的内存可见性问题
+
+    * 执行monitorenter指令会尝试获取对象锁，如果对象没有被锁定或者已经获得了锁，锁的计数器+1.此时其他竞争锁的线程则会进入等待队列中。
+    * 执行monitorexit指令时则会吧计数器-1，当计数器为0，锁释放，处于等待队中的线程再继续竞争锁。
+
+  * synchronized是排他锁，当一个线程获得锁后，其他线程必须等待该线程释放锁后才能获得锁，而且由于Java中的线程和操作系统原生线程一一对应，线程被阻塞或者唤醒时会从用户态切换到内核态，转换比较消耗性能。
+
+  * **内存语义**上讲，加锁的过程会清除工作内存中的共享变量，强制从主内存中读取，保证它看到的是其他线程修改过的最新值；释放锁会把工作内存中的共享变量刷新到主内存，使其他线程可以看到最新的值。
+
+    * 如何理解？这是JMM（java内存模型）相关概念，涉及可见性和原子性
+      * 在多线程环境下，每个线程都有自己的**工作内存**（缓存），而共享变量存储在**主内存**（堆内存）
+        * **线程读取共享变量时**：可能从自己的**工作内存**读取，而不是从**主内存**读取。
+        * **线程修改共享变量时**：不会立即写回主内存，而是先更新**工作内存**，导致其他线程可能看不到最新值。
+
+  * 源码实现
+
+    1. **线程竞争锁，进入 entryList**
+
+    - 当多个线程试图进入 `synchronized` 代码块时，**无法立即获得锁的线程** 会被加入 **entryList** 队列中，排队等待获取 `monitor` 锁。
+
+    2. **线程获得锁，占用 monitor**
+
+    - 某个线程成功获取 `monitor` 锁后，锁的**持有者变为该线程**。
+    - 同时 **锁的计数器（Mark Word 记录的重入次数）+1**，表示该线程持有锁。
+    - **⚠ 注意**：这里 **synchronized 的锁计数不是 ReentrantLock 的 state，而是对象头（Mark Word）中的重入计数！**
+
+    3. **线程调用 wait() 释放锁，进入 waitSet**
+
+    - 如果持有锁的线程调用 `wait()` 方法：
+      - 立即 **释放锁**，**锁的计数器 -1**，如果计数降为 `0`，锁的持有者置为 `null`。
+      - 该线程 **进入 waitSet**，进入等待状态，直到被 `notify()` 或 `notifyAll()` 唤醒。
+      - `waitSet` 里的线程**不会竞争锁**，只能等待被唤醒。
+
+    4. **notify() 或 notifyAll() 唤醒，重新进入 entryList**
+
+    - 某个线程执行 `notify()` 或 `notifyAll()` 时：
+      - `waitSet` 中的线程**不会立即恢复执行**，而是被唤醒，并重新加入 **entryList** 竞争锁。
+      - 线程只有 **竞争到 `monitor` 锁** 后，才能继续执行 `wait()` 之后的代码。
+
+    5. **线程执行完成，释放锁**
+
+    - 当线程执行完 `synchronized` 代码块后：
+      - **自动释放锁**，对象头中的**锁计数 -1**。
+      - 如果锁计数降为 `0`，锁的**持有者置为 `null`**，其他线程可以争抢 `monitor` 锁。
+
+* reentrantlock工作原理
+
+  1. ReentrantLock 底层依赖 AbstractQueuedSynchronizer (AQS) 作为锁的实现基础。
+
+     * AQS 通过 状态值（state）+ 阻塞队列（CLH 队列） 来管理锁的获取和释放。
+
+     * 线程获取锁的逻辑：
+       - state=0（未被占用） → 直接获取锁，state 设为 1，线程成为锁的持有者。
+       - state>0（被占用） → 线程加入 AQS 的同步队列，进入等待状态（`park()` 挂起）。
+       - 持有锁的线程释放锁时，AQS 从同步队列中唤醒等待线程（`unpark()` ）。
+
+  2. 具备可中断，避免死锁
+
+     - ReentrantLock 支持可中断（Interruptible Locking），线程在等待锁的过程中，可以被其他线程中断，从而避免死锁。
+
+     - synchronized 不可中断，而 ReentrantLock 可以 `lockInterruptibly()` 让线程可中断等待。
+
+     - 底层实现依赖 `LockSupport.park()` 和 `LockSupport.unpark()` 来管理线程挂起和恢复。
+
+  3. 支持超时，避免长时间阻塞
+
+     - 支持超时机制（tryLock(time, unit)），线程在指定时间内尝试获取锁，超时后返回 `false`，避免无限等待。
+
+     - 适用于高吞吐场景，防止线程长期阻塞在锁上。
+
+     - 底层使用 `tryAcquireNanos()` 方法，通过 `System.nanoTime()` 计算超时时间。
+
+  4. 公平锁 & 非公平锁
+
+     - 默认非公平锁，多个线程竞争锁时，不考虑先后顺序，提高吞吐量。
+
+     - 公平锁按 FIFO 获取锁，线程按照请求锁的顺序依次执行。
+
+     - 创建锁时可指定 `true` 使其为公平锁
+
+     - 底层通过 AQS 的 `hasQueuedPredecessors()` 判断是否有前驱线程，如果有则等待，否则立即尝试获取锁。
+
+  5. 支持多个 Condition 变量
+
+     - ReentrantLock 允许创建多个 `Condition` 变量，实现更细粒度的线程等待和唤醒。
+
+     - 相比 `synchronized` 只能 `wait()` & `notify()`，`Condition` 变量可以精准控制哪些线程需要被唤醒。
+
+     - 使用方式
+       - 底层实现基于 AQS 的 `ConditionObject`，管理等待队列。
+
+  6. 可重入性
+
+     - ReentrantLock 支持可重入，即同一线程可多次获取同一把锁，而不会发生死锁。
+
+     - 底层通过 `holdCount` 记录锁的重入次数，`holdCount=0` 时才释放锁。
+
+     - 适用于递归调用或同一线程调用多个 `synchronized` 方法
+
+     - synchronized 也是可重入的，底层通过对象头的 Mark Word 记录锁的持有者和重入次数。
+
+  7. 释放锁唤醒等待线程
+
+     - 线程释放锁时，会通过 AQS 唤醒同步队列中的下一个等待线程。
+
+     - 公平锁会按照 FIFO 方式唤醒线程，非公平锁可能会让新进线程直接竞争锁。
+
+     - 底层通过 `unpark()` 唤醒线程，让它重新尝试获取锁。
+
+
+
+### Synchronized和reentrantlock应用场景区别？
+
+1. synchronized
+
+   - **简单同步需求**
+
+     - 适用于简单的代码块或方法的同步控制
+     - 不需要额外资源管理，方法或代码块执行完毕后自动释放锁
+
+     - 代码块同步
+       - 适用于对特定代码段进行同步，而不是整个方法
+       - 提高并发性能，减少锁的持有时间
+
+   - **内置锁的使用**
+     - synchronized 使用对象的内置锁（监视器锁）
+       - 需要使用对象作为锁对象的情况下很有用，**适用于对象状态与锁保护的代码紧密相关的情况**
+         - 每个Java对象都有一个内置锁（monitor lock），synchronized锁这个来实现同步控制
+
+2. ReentrantLock
+
+   - **高级功能需求**
+
+     - 提供 synchronized 不具备的高级功能，如公平锁、可中断锁、定时锁、多条件变量等
+
+     - 性能优化
+       - 适用于高并发环境，提供更细粒度的锁控制
+       - 允许尝试锁定、定时锁定，减少线程阻塞可能性
+
+   - **复杂同步结构**
+     - 适用于多条件变量协作的复杂同步逻辑
+       - 结合 Condition 对象可以提供更灵活的解决方案
+
+### synchronized 和 ReentrantLock 的区别？
+
+1. 用法不同
+   - `synchronized` 可以用于修饰**普通方法、静态方法和代码块**
+   - `ReentrantLock` 只能用于**代码块**，需要手动加锁和释放锁
+2. 获取锁和释放锁方式不同
+   - `synchronized` **自动加锁和释放**，进入代码块时加锁，执行完毕后自动释放
+   - `ReentrantLock` 需要**手动调用 `lock()` 获取锁，`unlock()` 释放锁**，避免死锁时需要 `try-finally` 保障释放
+3. 锁类型不同
+   - `synchronized` 默认是**非公平锁**，线程获取锁时可能会发生“插队”
+   - `ReentrantLock` **支持公平锁和非公平锁**，可以通过构造方法 `new ReentrantLock(true)` 指定公平锁
+4. 响应中断不同
+   - `ReentrantLock` **支持可中断锁**，可以调用 `lockInterruptibly()` 在获取锁的过程中响应中断，避免死锁
+   - `synchronized` **不支持中断**，如果一个线程被阻塞在 `synchronized` 代码块中，就无法响应 `interrupt()`
+5. 底层实现不同
+   - `synchronized` **依赖 JVM 监视器（Monitor）** 实现，底层通过**对象头的 Mark Word** 记录锁的状态
+   - `ReentrantLock` **基于 AQS（AbstractQueuedSynchronizer）** 实现，通过 `state` 变量和 FIFO 等待队列管理线程同步
+6. 适用场景不同
+   - `synchronized` **适用于简单的同步需求**，代码清晰易读，JVM 自动优化性能
+   - `ReentrantLock` **适用于高并发场景**，需要更灵活的锁控制，如可中断锁、公平锁、条件变量（`Condition`）等
+
+### 怎么理解可重入锁？
+
+1. **定义**
+
+   - 可重入锁指的是**同一个线程**在获取锁之后，可以**再次获取该锁**，不会造成死锁或阻塞。
+
+   - 如果线程已经持有锁，**再次请求锁时不会被阻塞**，而是直接成功获取锁。
+
+2. **实现机制**
+
+   - `ReentrantLock` 和 `synchronized` 通过**计数器**实现可重入性。
+
+   - **线程第一次获取锁时，计数器 `+1`**，表示该线程持有锁。
+
+   - **如果同一线程再次获取锁，计数器继续 `+1`**，锁不会被阻塞。
+
+   - **线程释放锁时，计数器 `-1`**，直到 `0` 时锁才真正释放。
+
+3. **为什么需要可重入锁？**
+
+   - **避免同一线程的死锁**：如果锁不可重入，线程在持有锁时再次获取锁会导致死锁。
+
+   - **支持递归调用**：递归方法内部多次获取同一把锁，如果锁不可重入，递归会导致死锁。
+
+   - **方法嵌套调用时避免阻塞**：一个 `synchronized` 方法调用另一个 `synchronized` 方法时，必须能重入，否则会阻塞自己。
+
+   - **提高程序的灵活性**：减少不必要的锁等待，避免释放锁后重新竞争，提高并发能力。
+
+4. **适用范围**
+
+   - `synchronized` 依赖**对象头的 Mark Word** 记录线程 ID 和重入次数。
+
+   - `ReentrantLock` 依赖 **AQS 的 `state` 变量** 记录锁的持有次数。
+
+### synchronized 支持重入吗？如何实现的?
+
+1. synchronized 是可重入的
+
+   - synchronized 采用内置锁机制，一个线程在获取锁后，可以在同一对象的其他 synchronized 方法或代码块中再次获取该锁，而不会被阻塞
+
+   - 可重入性允许同一线程在方法调用链中多次获取相同的锁，避免死锁问题
+
+2. synchronized 可重入锁的实现
+
+   - synchronized 依赖计算机系统的 **mutex Lock** 实现，每个可重入锁都关联一个线程 ID 和一个锁状态
+
+   - 线程请求锁时，会检查当前锁的状态
+     - 如果锁状态为 0，表示该锁未被占用，使用 CAS 操作获取锁，并将线程 ID 设为自己
+       - 如果锁状态不为 0，表示锁已被占用
+         - 如果占用锁的线程 ID 是当前线程，锁状态计数加 1，线程继续执行
+         - 如果占用锁的线程 ID 是其他线程，当前线程进入阻塞队列等待
+
+3. synchronized 可重入锁的释放
+   - 每次方法退出都会将锁状态计数减 1，直到计数器归零，锁才真正释放
+
+### synchronized锁升级过程？
+
+1. 无锁
+
+   - 线程未使用 synchronized 关键字进行同步，所有线程都能自由访问对象。
+
+   - JDK 1.6 之后默认开启偏向锁，但会有**偏向延迟**，即 JVM 启动后需要等待一段时间才会开启偏向锁（可通过 JVM 参数调整）。
+
+2. 偏向锁
+
+   - 当一个线程第一次获取锁时，JVM **会在对象的 Mark Word 记录该线程的 ID**，表明该锁偏向于这个线程。
+
+   - **后续同一线程获取锁时，不需要 CAS 操作，直接持有锁**，提高性能。
+
+   - 如果**有其他线程尝试获取锁**，偏向锁就会**撤销**，进入轻量级锁状态。
+
+3. 轻量级锁
+
+   - 线程在进入同步块时，**使用 CAS 操作尝试修改对象头的 Mark Word**，将其指向当前线程的栈帧 Lock Record。
+
+   - **如果 CAS 成功，线程获取锁**，进入临界区。
+
+   - **如果 CAS 失败，表示有竞争，需要自旋等待**，如果多个线程都在竞争锁（自选10次失败-所膨胀），最终会**升级为重量级锁**
+
+4. 重量级锁
+
+   - **两个或更多线程竞争同一把锁，CAS 操作反复失败**，轻量级锁就会升级为重量级锁。
+
+   - **线程会被阻塞，进入等待队列，等待被唤醒**，而不是自旋，减少 CPU 资源浪费。
+
+   - 进入和退出重量级锁涉及操作系统的 **Mutex Lock（互斥锁）**，**需要系统调用，性能开销较大**。
+
+### JVM对Synchornized的优化？
+
+1. 锁膨胀
+
+   - synchronized 从无锁状态逐步升级为偏向锁、轻量级锁，最后升级到重量级锁的过程被称为**锁膨胀**。
+
+   - JDK 1.6 之前，synchronized 直接使用重量级锁，导致频繁的用户态与内核态切换，影响性能。
+
+   - 通过引入 **偏向锁、轻量级锁**，减少了进入重量级锁的概率，提高并发性能。
+
+2. 锁消除
+   - JVM 在 JIT 编译阶段，如果检测到代码中的 synchronized 锁**没有共享和竞争的可能性**，则会自动移除该锁，以减少不必要的同步开销，提高程序性能。
+     - JIT编译 Just In Time 即时编译，是JVM在运行时动态编译字节码为机器码的过程；JIT 编译阶段就是指 JVM 在运行时发现某些方法或代码块被频繁执行后，对其进行优化编译的阶段。
+
+3. 锁粗化
+   - 如果代码中**存在连续的锁与解锁操作**，JVM 可能会**将多个小的锁操作合并为一个更大的锁范围**，减少频繁的加锁和释放锁带来的开销，提高执行效率。
+
+4. 自适应自旋
+
+   - 线程在尝试获取锁时，**会进行自旋等待，而不是立即进入阻塞状态**，以减少线程挂起和恢复的开销。
+
+   - 这种方式适用于锁竞争短暂的场景，可以减少 CPU 资源消耗，提高吞吐量。
+
+### 介绍一下AQS？
+
+1. AQS 概述
+
+   - AQS（AbstractQueuedSynchronizer）是 Java 并发框架中的一个抽象类，主要用于构建锁、同步器和协作工具。
+     - AQS **提供了一套抽象方法，子类可以继承 AQS，并根据自己的需求实现获取和释放同步状态的方法**。
+
+   - AQS 通过维护一个共享资源的同步状态，并使用 FIFO 等待队列**管理**获取资源的**线程**。
+
+2. AQS 的核心思想
+
+   - 如果资源被占用，AQS 通过阻塞等待和唤醒机制保证线程按照队列顺序获取资源。
+
+   - 如果资源可用，AQS 允许线程直接获取资源并执行任务。
+
+   - AQS 主要使用 CLH（Craig, Landin, Hagersten）队列作为等待队列，保证公平的线程调度。
+     - CLH是什么
+
+3. AQS 的实现机制
+
+   - 使用 `volatile int state` 变量表示同步状态，多个线程通过 CAS 操作修改 state 值。
+
+   - 基于 FIFO 队列管理等待线程，未获取到锁的线程会被放入等待队列，按顺序竞争锁。
+
+   - **独占模式**（ReentrantLock）：一个线程获取锁，其他线程阻塞等待。
+
+   - **共享模式**（CountDownLatch、Semaphore）：多个线程可共享资源，并按计数控制访问权限。
+
+4. AQS 在并发工具中的应用
+
+   - ReentrantLock：可重入独占锁，基于 AQS 维护同步状态。
+
+   - CountDownLatch：允许一个或多个线程等待其他线程完成操作。
+
+   - Semaphore：用于控制多个线程对共享资源的访问数量。
+
+   - ReentrantReadWriteLock：同时支持读写分离，读锁可共享，写锁独占。
+
+5. 结论
+
+   - AQS 提供了一种通用的同步框架，使开发者可以基于它构建高效、可扩展的锁和同步机制。
+
+   - FIFO 线程队列和 CAS 机制确保线程安全地获取资源，提高并发性能。
+
+### CLH是什么？
+
+CLH（Craig, Landin, and Hagersten）是一种高效的自旋锁队列，用于管理多线程竞争资源的顺序。它主要用于实现公平的 FIFO（先进先出）等待队列，确保线程按照请求顺序获得锁。
+
+1. CLH 队列的基本概念
+   - CLH 是一种 FIFO（先进先出）锁队列，线程按顺序排队，依次获取锁。
+   - CLH 采用单向链表结构，每个线程在获取锁时，会在队列尾部排队，等待前驱线程释放锁。
+   - CLH 主要用于 AQS（AbstractQueuedSynchronizer）实现独占锁（如 ReentrantLock）和共享锁（如 ReentrantReadWriteLock）。
+2. CLH 的工作原理
+   - 线程尝试获取锁时，会创建一个新的节点，并将其加入等待队列的尾部。
+   - 当前持有锁的线程释放锁时，会通知队列中的下一个线程，使其获得锁。
+   - 所有线程只能等待它们的前驱节点释放锁，不会主动去竞争，提高了效率。
+3. CLH 队列的结构
+   - CLH 队列是一个隐式链表，每个节点代表一个等待线程，并维护以下信息：
+     - prev 指向前驱节点
+     - next 指向后继节点
+     - state 表示线程的状态（等待、运行、完成）
+   - 示例结构：
+      head → [线程 A] → [线程 B] → [线程 C] → null
+      线程 A 释放锁后，线程 B 变为持有锁的线程，线程 C 继续等待。
+4. CLH 在 AQS 里的应用
+   - AQS 通过 CLH 变体的虚拟双向队列（FIFO）组织等待线程。
+   - 线程获取锁失败后，会加入 AQS 的 CLH 队列，阻塞等待锁的释放。
+   - 释放锁后，AQS 会通知队列中的下一个线程继续执行，保证公平调度。
+5. CLH 队列的优势
+   - 公平性，所有线程按照先来先服务的方式获取锁，避免线程饥饿。
+   - 减少竞争，线程不会主动去竞争锁，而是等待前驱线程释放锁，降低 CPU 资源浪费。
+   - 高效扩展，适用于高并发环境，减少锁竞争，提高系统吞吐量。
+6. 结论
+   - CLH 是一种 FIFO 先进先出的自旋锁队列，用于管理多线程的锁竞争。
+   - AQS 采用基于 CLH 变体的队列作为核心机制，实现公平锁管理。
+   - CLH 队列保证线程按顺序获取锁，避免资源争抢，提高并发效率。
+
+**为什么使用 `volatile int state` 变量配合 CAS 操作就能保证同步？**
+
+1. **volatile 的作用**
+
+   - `volatile` 关键字保证 **可见性**，即当一个线程修改 `state` 后，其他线程立即能够看到最新的值。
+
+   - `volatile` 还**禁止指令重排序**，确保 `state` 变量的修改按程序逻辑执行。
+
+   - 但 **`volatile` 本身并不保证原子性**，仅仅保证可见性。
+
+2. **CAS（Compare-And-Swap）操作的作用**
+
+   - CAS 是 **一种无锁的原子操作**，确保多个线程同时修改 `state` 时，只有一个线程能够成功。
+
+   - CAS 的执行流程：
+     1. 线程先读取 `state` 的当前值（预期值）。
+        1. 使用 **CPU 的原子指令**（如 `lock cmpxchg`）尝试将 `state` 从预期值修改为新值。
+        2. 如果 `state` 仍然是预期值，则修改成功；否则修改失败，线程需要重新尝试。
+
+   - 由于 **CAS 依赖 CPU 级别的原子指令**，它能保证多个线程修改 `state` 时的同步安全性。
+
+3. **总结**
+
+- `volatile` 确保 `state` 的**可见性**，保证线程能获取最新值。
+- CAS 确保 `state` 的**原子性**，保证多个线程竞争时，只有一个线程能成功修改 `state`。
+- `volatile + CAS` 结合使用，就能保证线程安全的同步机制，广泛应用于 AQS、AtomicInteger 等并发组件中。
+
+### AQS原理
+
+1. **状态 state**
+
+   - state 的具体含义取决于不同的同步工具.
+     - 在 Semaphore 中，它表示剩余许可的数量；
+     - 在 CountDownLatch 中，它表示需要倒数的次数；
+     - 在 ReentrantLock 中，state 代表锁的占用情况，并支持可重入计数。
+
+   - 当 state 的值为 0 时，表示锁未被任何线程持有。
+
+   - state 变量由 volatile 修饰，保证可见性，并且修改 state 的方法需要保证线程安全，例如 getState、setState 以及 compareAndSetState 操作，通常依赖于 Unsafe 类进行原子更新。
+
+2. **FIFO 队列**
+
+   - 这个队列用于存放等待锁的线程，AQS 充当“排队管理器”，当多个线程竞争同一把锁时，需要通过队列管理哪些线程可以进入等待状态。
+
+   - 当锁被释放时，锁管理器会选择一个合适的等待线程来获取锁。
+
+   - AQS 维护一个等待线程的 FIFO 队列，并将线程放入双向链表结构的等待队列中。
+
+3. **实现获取和释放方法**
+
+   - 获取方法：获取操作会令线程进入等待队列，通常在竞争失败时发生。
+     - 在 Semaphore 中，获取锁的方法是 acquire，作用是获取一个许可；
+     - 在 CountDownLatch 中，获取方法是 await，作用是等待倒数结束。
+
+   - 释放方法：用于释放同步状态
+     -  Semaphore 中的 release 方法，作用是释放一个许可；
+     - 在 CountDownLatch 中，释放方法是 countDown，作用是减少倒数的数量。
+
+### ThreadLocal 是什么？
+
+* ThreadLocal 是 Java 提供的一种**线程本地存储（Thread Local Storage，TLS）机制**。
+* 它允许每个线程维护**自己的变量副本**，避免多个线程访问同一个变量时产生的竞争问题。
+
+### ThreadLocal作用？
+
+1. 线程隔离
+   - ThreadLocal 为每个线程提供独立的变量副本，线程之间互不影响。
+   - 避免了在多线程环境下使用共享变量时可能产生的数据竞争和同步问题。
+2. 降低耦合度
+   - 在同一个线程内的多个方法或组件之间，可以使用 ThreadLocal 传递数据，减少方法参数的传递，降低代码之间的耦合度。
+     - 在同一个线程内，不同的方法或组件可以**通过 ThreadLocal 访问同一个变量**，因为 **ThreadLocal 变量存储在当前线程的 ThreadLocalMap 中**，只要线程未结束，数据就不会丢失。
+3. 性能优化
+   - 避免多个线程访问共享变量时需要加锁，提高并发性能。
+   - 适用于高并发场景，减少锁的开销，提升系统吞吐量。
+
+* ThreadLocal 适用于需要线程独立存储数据的场景，如用户会话管理、数据库连接管理、事务控制等。
+
+### ThreadLocal原理？
+
+1. **基础结构**
+
+   - ThreadLocal 依赖于 Thread 类中的 `ThreadLocalMap` 变量，**每个线程都有自己独立的 `ThreadLocalMap`**，用于存储当前线程的 ThreadLocal 变量。
+
+   - `ThreadLocalMap`是 一个 key-value 结构
+     - **key 是 ThreadLocal 对象本身**（弱引用）。
+       - **value 是线程存储的变量值**（强引用）。
+
+2. **数据存取流程**
+
+   - **创建 ThreadLocal 变量**：每个 ThreadLocal 对象实例都可以存储某个线程独立的数据。
+
+     -  `get()` 方法
+       - 先检查当前线程的 `ThreadLocalMap` 是否存在该 ThreadLocal 变量。
+         - 如果存在，则直接返回存储的值。
+         - 如果不存在，则调用 `initialValue()` 方法（如果有重写），初始化默认值，并存入 `ThreadLocalMap`，然后返回该值。
+
+     -  `set(value)` 方法
+       - 将当前线程的 `ThreadLocalMap` 里，**以当前 ThreadLocal 对象为 key，存储传入的 value**。
+
+     -  `remove()` 方法
+       - 删除当前线程 `ThreadLocalMap` 中，**与该 ThreadLocal 变量对应的 Entry**，防止内存泄漏。
+
+3. **特点**
+   - **`ThreadLocalMap` 的 key 是弱引用，value 是强引用**，需要手动 `remove()` 避免内存泄漏。
+
+
+
+### 什么是弱引用和强引用？
+
+* 在 Java 中，**引用类型** 主要分为 **强引用、软引用、弱引用、虚引用**，它们的主要区别在于 **GC 回收对象的时机**。
+
+  - **强引用（Strong Reference）**：
+    - 定义：直接用new关键词创建对象并用变量引用它；
+    - `Object obj = new Object();`
+      - 变量 `obj` **是对 `new Object()` 的强引用**。
+      - `new Object()` 创建的对象 **存储在 Java 堆内存中**。
+      - 变量 `obj` **存储在栈（Stack）内**，指向堆（Heap）中的 `Object` 实例。
+        - 栈上变量的生命周期由方法作用域决定，方法执行完毕后，方法栈帧被销毁，obj也随之被销毁
+    - 特性
+      - 不会被GC回收，只要对象有强引用存在，就不会被回收
+    - GC规则
+      - 只有当 obj 赋值为 `null` 或Object()对象不再被任何变量引用时，GC 才可能回收它。
+  - **软引用（SoftReference）**
+    - 定义：使用 `SoftReference<T>` 包装对象
+      - `SoftReference<Object> softRef = new SoftReference<>(new Object());`
+    - 特性：
+      - 内存足够，软引用对象不会被回收；内存不足，JVM会尝试回收软引用对象（**GC规则**）。
+      - 适用于缓存不重要又需要复用的数据
+
+  - **弱引用（Weak Reference）**：
+
+    - 定义：使用 `WeakReference<T>` 包装对象
+      - `WeakReference<Object> weakRef = new WeakReference<>(new Object());`
+    - 特性：
+      - 下一次GC，不管内存是否充足，弱引用的对象都会被回收，确保对象不会无故存活太久
+
+  - 虚引用（PhantomReference）
+
+    - 定义：使用 `PhantomReference<T>`，必须与 `ReferenceQueue` 结合使用
+
+      - ```java
+        ReferenceQueue<Object> queue = new ReferenceQueue<>();
+        PhantomReference<Object> phantomRef = new PhantomReference<>(new Object(), queue);
+        ```
+
+    - 
+
+### **为什么 `ThreadLocalMap` 设计 key 为弱引用，value 为强引用？**
+
+1. **key 采用弱引用**：
+   - 避免 `ThreadLocal` 对象在代码中没有强引用时，仍然被 `ThreadLocalMap` 持有，导致无法被 GC 回收，造成内存泄漏。
+     - 设想一种场景，多线程的情况下，线程持有ThreadLocal，由于是多线程情况，线程会重复使用ThreadLocal，因此如果是强引用，ThreadLocalMap会一直引用ThreadLocal作为key，导致内存泄漏。
+     - 非多线程的情况下，线程持有ThreadLocal，当主线程执行完毕后，Thread会被回收，ThreadLocalMap由于没有引用也会被回收，
+
+2. **value 采用强引用**：
+   - 在ThreadLocalmap中
+     - key是对ThreadLocal<?>的弱引用
+     - vlaue是对线程本地变量（ThreadLocal存储值）的强引用
+   - 业务代码中声明的 ThreadLocal 变量对 ThreadLocal 实例有强引用，保证在使用时不会被 GC 回收
+   - ThreadLocalMap.Entry 的 key 对 ThreadLocal 使用弱引用，确保当业务代码不再持有 ThreadLocal 时，GC 可以回收它，避免内存泄漏
+   - ThreadLocalMap.Entry 的 value 采用强引用，因为除了 Entry，本身没有其他地方引用它，避免 value 被 GC 过早回收
+   - 线程存活期间，ThreadLocalMap 持有的 Entry 依然存在，确保 get() 方法可以正常获取 value
+   - 当 key 被 GC 后，ThreadLocalMap 在执行 get()、set() 或 remove() 时，会清理 key 为 null 的 Entry，释放对应的 value，防止内存泄漏
+
+3. **权衡方案**：
+
+   - 保证 key 可以被 GC 回收，避免内存泄漏。
+
+   - 保证 value 在线程存活期间不被 GC，确保数据稳定。
+
+   - 但如果没有手动 `remove()`，key 被 GC 后，value 仍然存留在 `ThreadLocalMap`，会导致内存泄漏。
+
+4. **解决方案**：
+   - 使用完 `ThreadLocal` 变量后，手动调用 `remove()`，清理 `ThreadLocalMap` 中的 key-value，避免内存泄漏。
+
+## 场景问题？
+
+### 假设系统中有10000个线程同时写入日志，如何设计一个高性能的日志系统？
+

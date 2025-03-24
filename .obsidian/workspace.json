@@ -51,8 +51,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.50390243530273,
-    "collapsed": true
+    "width": 343.50390243530273
   },
   "right": {
     "id": "3085a088a655b4cf",
@@ -181,13 +180,16 @@
   },
   "active": "11b9e5fc61cb3c77",
   "lastOpenFiles": [
+    "IN/八股复习-JVM~.md",
+    "IN/八股复习-JVM.md",
+    "IN/Untitled.md",
+    "IN/八股复习-java并发~.md",
     "IN/🏫COURSE/term2/blockchain.md",
     "IN/《高效能》.md",
     "IN/🏫COURSE/term2/cloud-computing/cw2.md",
     "dd~.md",
     "dd.md",
     "Untitled.md",
-    "IN/八股复习-java并发~.md",
     "IN/🏫COURSE/term2/cloud-computing/lecture/week8-big data.md",
     "IN/🏫COURSE/term2/ML/lecture/week4a-Gauss.md",
     "ACTION/面试/qizhi项目梳理.md",
@@ -207,9 +209,6 @@
     "ACTION/面试",
     "ACTION/未命名.md",
     "IN/🏫COURSE/term2/ML/lecture/week1&2-intro and statistics.md",
-    "学习资料工具.md",
-    "IN/统计学习方法阅读.md",
-    "IN/分布密度函数.md",
     "IN/🏫COURSE/term2/DL",
     "IN/🏫COURSE/term2/ML/lab",
     "IN/🏫COURSE/term2/ML/lecture",

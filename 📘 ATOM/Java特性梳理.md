@@ -85,3 +85,10 @@ private static void queryData(Connection conn) throws SQLException {
 	* 意思说如果构造函数抛出了一个`InstantiationException`或`IllegalAccessException`以外的受检查异常,这个异常会从`Class.newInstance()`方法中抛出,但是编译器不会强制调用者处理这个异常,因为它没有在`Class.newInstance()`的声明中指定，比较有风险；在其声明中指定了`InvocationTargetException`异常。这个异常包装了构造函数抛出的任何异常。这迫使调用者必须处理`InvocationTargetException`,从而间接地处理构造函数可能抛出的任何异常。
 	* The call `clazz.newInstance()` can be replaced by `clazz.getDeclaredConstructor().newInstance()`
 	* The latter sequence of calls is inferred to be able to throw the additional exception types `InvocationTargetException` and `NoSuchMethodException`. Both of these exception types are subclasses of `ReflectiveOperationException`.
+
+
+
+# Jdk 14
+## Dual-pivot quicksort improvements
+* [[JDK-8226297] Dual-pivot quicksort improvements - Java Bug System](https://bugs.openjdk.org/browse/JDK-8226297)
+* 对于双轴快排进行了改进

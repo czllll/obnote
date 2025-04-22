@@ -92,3 +92,36 @@ private static void queryData(Connection conn) throws SQLException {
 ## Dual-pivot quicksort improvements
 * [[JDK-8226297] Dual-pivot quicksort improvements - Java Bug System](https://bugs.openjdk.org/browse/JDK-8226297)
 * 对于双轴快排进行了改进
+
+# Java 16
+## record
+* jdk14 预览版，jdk16正式引入
+* 自动生成一个final 类
+```java
+public record Point(int x, int y) {}
+// 等价于
+public final class Point {
+    private final int x;
+    private final int y;
+
+    public Point(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    public int x() { return x; }
+    public int y() { return y; }
+
+    @Override
+    public boolean equals(Object o) { ... }
+
+    @Override
+    public int hashCode() { ... }
+
+    @Override
+    public String toString() {
+        return "Point[x=" + x + ", y=" + y + "]";
+    }
+}
+
+```

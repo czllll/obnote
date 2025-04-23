@@ -140,3 +140,61 @@
 		* 对这层的 feature map，每个通道乘以上面对应的权重，然后**加在一起**，得到一个 2D 热图。
 	* ReLU 激活 + 插值到原图大小
 		* 保留正贡献部分，再插值变大，叠加到原图上。
+
+## 模型评估
+### Top-k准确率
+* 传统准确率是top-1准确率，只有当概率最高类别与真实标签匹配时才被记为正确
+* top-k放宽了这一标准：如果真实标签出现在模型预测的前k个类别中，就认为预测是正确的
+* **为什么使用**
+	* 细粒度需要
+	* 类别数量大
+	* 多标签场景：比如一张照片有沙发和狗
+### 混淆矩阵（Confusion Matrix）
+* 一个矩阵对比模型的预测结果和真实标签的匹配情况
+* 适用于分类任务
+* 如果你有 3 个类别（A, B, C），混淆矩阵是个 3×3 的表格：
+
+|实际＼预测|A|B|C|
+|---|---|---|---|
+|A|50|2|3|
+|B|1|47|5|
+|C|0|4|46|
+* 对角线是预测正确的数量
+
+### ROC curve
+* Receiver Operating Characteristic Curve接受者操作特征曲线
+* 用来评估而分类模型性能的图形工具
+
+| 轴     | 名称            | 含义                         |
+| ----- | ------------- | -------------------------- |
+| 横轴（x） | **FPR**（假阳性率） | 错把负样本预测成正样本的比例（越低越好）       |
+| 纵轴（y） | **TPR**（真正率）  | 正确识别正样本的比例，也就是 Recall（召回率） |
+* **AUC（Area Under Curve）**
+	* ROC曲线下的面积成为AUC，范围是0～1
+	* AUC越接近1，说明模型性能越好
+		* AUC=0.5 就是随机猜
+		* AUC>0.9 优秀
+
+## 使用CNNs进行图像分割
+* 图像分割的任务
+	* 为输入图像的每一个像素点分配一个类别标签
+		* 具体对象类别
+		* 背景
+* **Jaccard Index（交并比）Intersection over Union**
+	* 衡量两个集合相似度的指标$\text{Jaccard Index (IoU)} = \frac{|A \cap B|}{|A \cup B|}$
+		* A 真实的目标区域（ground-truth像素集合）
+		* B 预测出的目标区域（predicted像素集合）
+	* multi-class segmentation: $\text{Mean IoU} = \frac{1}{N} \sum_{i=1}^{N} \frac{|A_i \cap B_i|}{|A_i \cup B_i|}$
+* **patch-wise method**
+	* 指将整张图像切成一个个小的区域（patch），对每个patch 单独跑一次CNN预测这个patch中心像素的类别，然后把所有结果拼起来，重建整张分割图
+	* **Without extracting patches**（Dense prediction via FCN）
+		* 把整张图输入CNN，输出每个像素类别
+		* 为什么要这样演进？
+			* 本质上是手动滑窗+重复计算到卷积本身就是滑窗的自然演进。
+
+## Encoder-Decoder 架构
+* 是语义分割中的经典架构，是像U-Net、SegNet这些模型的核心框架
+* Encoder and decoder are typically *CNNs*, with layers to downscale (e.g. pooling) and upscale
+* 是一种Representation learning
+	* **自动学习出能够有效表达原始数据特征的“内部表示”**，而不是手工设计特征
+* 任务：提取语义信息 + 恢复像素级预测，从“理解整图”到“定位每像素”，是现代语义分割任务的核心设计

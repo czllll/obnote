@@ -198,3 +198,19 @@
 * 是一种Representation learning
 	* **自动学习出能够有效表达原始数据特征的“内部表示”**，而不是手工设计特征
 * 任务：提取语义信息 + 恢复像素级预测，从“理解整图”到“定位每像素”，是现代语义分割任务的核心设计
+
+
+## 文本分类
+### Word Embedding词向量表示
+* 把词用一个低维向量表示，而且相似词会被map到相近的位置
+* 是 **word2vec**的目标
+* Distributional Hypothesis分布假设
+	* 上下文相似的词，含义也相似。是NLP中的基本假设
+### Word2Vec
+* 用nn训练Word Embedding词向量的方法
+* 用nn做下面2种任务
+	* CBOW（Continuous Bag of Words）
+		* 给定上下文，预测中间词
+	* Skip-Gram
+		* 给定中间词，预测上下文
+* 

@@ -1,9 +1,9 @@
 {
-  "cssTheme": "Border",
+  "cssTheme": "Maple",
   "baseFontSize": 22,
   "baseFontSizeAction": true,
-  "theme": "system",
-  "accentColor": "",
+  "theme": "moonstone",
+  "accentColor": "#ffffff",
   "textFontFamily": "Arial",
   "interfaceFontFamily": "Arial",
   "nativeMenus": false,

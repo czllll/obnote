@@ -49,7 +49,7 @@
 	- SGD每次只用一个或一小批样本来估计梯度，是近似的带有 **随机性**
 ## Convolution卷积
 * 滤波（filtering）
-	* 尤其是在图像处理中，整个卷记得过程也可以叫filtering
+	* 尤其是在图像处理中，整个卷积的过程也可以叫filtering
 * 卷积核（kernel）
 	* 也叫mask/filter 掩膜/滤波器
 	* 是一个在图像上滑动的小矩阵，对每个局部区域做加权求和
@@ -66,6 +66,7 @@
 		* 即用多个不同的卷积核处理后的输出最大的
 * 互相关运算（Cross-correlation）
 	* 卷积Convolution，实际是将kernel旋转180后再做互相关运算（cross-correlation）
+		* $f'(x, y) = \sum_{u=-1}^{1} \sum_{v=-1}^{1} h(u, v) \cdot f(x + u, y + v)$
 	* ppt上讲的就是用一个都是1/9的矩阵来和像素值相乘求和（即求平均值）
 	* 在使用Gaussian kernel时，旋转kernel和之前一样，因此使用Gaussian kernel做卷积和做互相关运算是一样的
 * 填充（padding）
@@ -122,7 +123,7 @@
 * 仿射变换（Affine transformation）
 	* 是ax+b ，线性变化加平移
 	* $BN(x)=γ⋅\frac{x-\mu}{\sigma}​+β$
-	* 标准化后胎规整了，削弱了模型表达能力，加上仿射变化就可以让network削除要不要再缩放或者平移
+	* 标准化后太规整了，削弱了模型表达能力，加上仿射变化就可以让network削除要不要再缩放或者平移
 
 ### 感受野（Receptive Field）
 
@@ -180,6 +181,18 @@
 	* 为输入图像的每一个像素点分配一个类别标签
 		* 具体对象类别
 		* 背景
+	* 即网络通畅输出每个像素的分类概率分布，目标是预测每个像素属于哪个类别
+### 图像分割常用的损失函数
+* Cross-Entropy Loss交叉熵，标准分类损失。对整个图像而言，即对所有像素的交叉熵取平均
+	* $\mathcal{L}_{\mathrm{CE}} = - \sum_{i=1}^{C} y_i \log(p_i)$
+		* C:类别数量
+		* $y_i$：真实标签的one-hot编码（只有一个位置为1，其余为0）
+		* $p_i$:模型预测第i类的概率
+* Mean Squared Error MSE Loss（均方误差）
+	* $\mathcal{L}_{\mathrm{MSE}} = \left\| y - f(x) \right\|^2$
+		* y: 真实值（label）
+		* f(x):模型对输入x的预测
+		* $\left\| * \right\|^2$ : 向量的平方范数，即平方的L2范数 ， 就是距离的平方。
 * **Jaccard Index（交并比）Intersection over Union**
 	* 衡量两个集合相似度的指标$\text{Jaccard Index (IoU)} = \frac{|A \cap B|}{|A \cup B|}$
 		* A 真实的目标区域（ground-truth像素集合）
@@ -191,10 +204,36 @@
 		* 把整张图输入CNN，输出每个像素类别
 		* 为什么要这样演进？
 			* 本质上是手动滑窗+重复计算到卷积本身就是滑窗的自然演进。
+### U-net
+* 专为图像分割设计的CNN架构
+* U-Net = 编码器 + 解码器 + 跳跃连接（skip connections）
+* 两边对称：左边压缩提取特征encoder，右边上采样恢复空间结构decoder
+* **编码器**
+	* 一系列 Conv → ReLU → Conv → ReLU → MaxPool
+	- 每次下采样都会减小图像尺寸，但增加通道数，提取**逐渐抽象**的特征
+- **解码器**
+	- 每一层都执行
+	    - 上采样（通常是反卷积或双线性插值Bilinear interpolation）
+	    - 与编码器中同层的特征图进行拼接（skip connection）
+	    - 再进行卷积处理
+	- 逐步恢复图像空间分辨率
+- **Skip Connections**
+	- 把**编码器中的特征图**直接连接到解码器中对应层，提供细节信息
+	- 解决上采样过程中容易丢失边界细节的问题
+- **final output**
+	- 输出维度与输入图像相同，但通道数为类别数
+	- 对于每个像素，输出一个分类概率向量（softmax）
+	- 使用 **cross-entropy loss** 或 **Dice loss** 来训练
+#### Bilinear interpolation 双线性插值
+* 在upsampling时候或者平移变换时，对像素值进行平滑估算
+* 方法：先在水平方向做线性插值，再在垂直方向做线性插值，用来估算目标位置的像素值
+	* $f(x, y) = (x_2 - x)(y_2 - y) Q_{11} + (x - x_1)(y_2 - y) Q_{21} + (x_2 - x)(y - y_1) Q_{12} + (x - x_1)(y - y_1) Q_{22}$
+	* 找到四个邻居点 Q11, Q12, Q21, Q22
+	- 在 x 方向做两次线性插值 → 得到 R1 和 R2
+	- 在 y 方向用 R1 和 R2 再做一次插值 → 得到最终值
 
-## Encoder-Decoder 架构
-* 是语义分割中的经典架构，是像U-Net、SegNet这些模型的核心框架
-* Encoder and decoder are typically *CNNs*, with layers to downscale (e.g. pooling) and upscale
+## [[Encoder-Decoder 架构]]使用CNN
+* 在语义分割任务中，是像U-Net、SegNet这些模型的核心框架。在语义分割任中，encoder 和 decoder都是cnn。语义分割任务是一种图像分割任务的特殊类别。In vision tasks, Encoder-decoder are typically *CNNs*, with layers to downscale (e.g. pooling) and upscale
 * 是一种Representation learning
 	* **自动学习出能够有效表达原始数据特征的“内部表示”**，而不是手工设计特征
 * 任务：提取语义信息 + 恢复像素级预测，从“理解整图”到“定位每像素”，是现代语义分割任务的核心设计
@@ -213,4 +252,3 @@
 		* 给定上下文，预测中间词
 	* Skip-Gram
 		* 给定中间词，预测上下文
-* 

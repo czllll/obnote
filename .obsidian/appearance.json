@@ -3,7 +3,7 @@
   "baseFontSize": 22,
   "baseFontSizeAction": true,
   "theme": "moonstone",
-  "accentColor": "#ffffff",
+  "accentColor": "",
   "textFontFamily": "Arial",
   "interfaceFontFamily": "Arial",
   "nativeMenus": false,

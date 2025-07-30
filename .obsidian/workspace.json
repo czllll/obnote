@@ -4,47 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3852b449036d3138",
+        "id": "98491ffe09c403c1",
         "type": "tabs",
         "children": [
           {
-            "id": "ef8ba3795e50e6f3",
+            "id": "62f40a1403fe4af3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🗃️PROJECT/algocove/6. IM.md",
+                "file": "500 Daily/202507/Week5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6. IM"
-            }
-          },
-          {
-            "id": "a66c2c8a18a619c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📘 ATOM/未命名.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "未命名"
-            }
-          },
-          {
-            "id": "5d1982fef7345287",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-06-21 18.36.24.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-06-21 18.36.24.excalidraw"
+              "title": "Week5"
             }
           }
         ]
@@ -141,13 +115,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🗃️PROJECT/algocove/6. IM.md",
+                "file": "500 Daily/202507/Week5.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "6. IM 的大纲"
+              "title": "Week5 的大纲"
             }
           },
           {
@@ -156,7 +130,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#system-design",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -168,7 +142,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "18aa1af1a2544607",
@@ -202,47 +176,48 @@
       "command-palette:打开命令面板": false,
       "templater-obsidian:Templater": false,
       "graph:查看关系图谱": false,
-      "obsidian-weread-plugin:同步微信读书笔记": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "44c4af6550794709",
+  "active": "62f40a1403fe4af3",
   "lastOpenFiles": [
-    "🎓 ORGANIZE/🏫COURSE/term2/ML/总复习.md",
-    "🎓 ORGANIZE/🏫COURSE/term2/ML/lecture/week4b-linear regression.md",
-    "🎓 ORGANIZE/🏫COURSE/term2/ML/lecture/week4a-Gauss.md",
-    "🎓 ORGANIZE/🏫COURSE/term2/ML/lecture/week1&2-intro and statistics.md",
-    "🎓 ORGANIZE/🏫COURSE/term2/ML/lecture/PCA（Principal Component Analysis）主成分分析.md",
-    "🗃️PROJECT/algocove/8.feed.md",
-    "📘 ATOM/【系统设计】Feed.md",
-    "🗃️PROJECT/algocove/6. IM.md",
-    "📘 ATOM/未命名.md",
-    "📘 ATOM/系统设计案例.md",
-    "🗃️PROJECT/SD prgress.md",
-    "🗃️PROJECT/algocove/0. Infra.md",
-    "🗃️PROJECT/algocove/7. Checkin.md",
-    "🗃️PROJECT/algocove/kanban.md",
-    "🗃️PROJECT/algocove/5. Team.md",
-    "🗃️PROJECT/algocove/4. Post.md",
-    "🗃️PROJECT/algocove/3. User.md",
-    "🗃️PROJECT/algocove/2. Auth.md",
-    "🗃️PROJECT/algocove/1. Gateway.md",
-    "🧾INTERVIEW-CHEATSHEET/面经.md",
-    "🧾INTERVIEW-CHEATSHEET/未命名.md",
-    "🎓 ORGANIZE/《深入理解Java虚拟机》读书笔记.md",
-    "🎓 ORGANIZE/《高效能人士》读书笔记.md",
-    "🏠Welcome.md",
-    "Excalidraw/Drawing 2025-06-21 18.36.24.excalidraw.md",
+    "100 Notes/🧩碎片知识整理.md",
+    "100 Notes/CNN卷积神经网络.md",
+    "100 Notes/Encoder-Decoder 架构.md",
+    "100 Notes/🧠不懂的问题.md",
+    "200 Projects/algocove/0. Infra.md",
+    "100 Notes/🧾INTERVIEW-CHEATSHEET/cib项目梳理.md",
+    "100 Notes/🧾INTERVIEW-CHEATSHEET/项目简历.md",
+    "200 Projects/项目CICD流程.md",
+    "100 Notes/🧾INTERVIEW-CHEATSHEET/面试问题.md",
+    "100 Notes/🧾INTERVIEW-CHEATSHEET/规划.md",
+    "100 Notes/🧾INTERVIEW-CHEATSHEET/面经.md",
+    "100 Notes/🧾INTERVIEW-CHEATSHEET/过面经.md",
+    "100 Notes/🧾INTERVIEW-CHEATSHEET/分析场景题的方法论.md",
+    "100 Notes/🧾INTERVIEW-CHEATSHEET/未命名.md",
+    "500 Daily/202507/Week5.md",
+    "999 Templates/🏠Welcome.md",
+    "500 Daily/202507",
+    "500 Daily",
+    "100 Notes/学习资料工具.md",
+    "100 Notes/匹配算法.md",
+    "100 Notes/未命名.md",
+    "200 Projects/【系统设计】Feed.md",
+    "100 Notes/🧾INTERVIEW-CHEATSHEET/八股复习-CN&OS.md",
+    "100 Notes/🧾INTERVIEW-CHEATSHEET/八股场景.md",
+    "400 Books/论文/论文进度.md",
+    "🎓 ORGANIZE/论文/Chinese ver.~.md",
+    "400 Books/论文/figure/Core-300_Guesser-Hinter_SuccessRate.png",
+    "400 Books/论文/figure",
+    "🎓 ORGANIZE/论文/Untitled Folder",
+    "400 Books/论文/Chinese ver..md",
+    "400 Books/论文/分配.md",
     "Excalidraw",
-    "🗃️PROJECT/未命名.md",
     "🗃️PROJECT/Eatwise",
     "🧾INTERVIEW-CHEATSHEET/mock",
-    "🗃️PROJECT/algocove",
+    "200 Projects/algocove",
     "读书clip",
-    "📘 ATOM/基础",
-    "🎓 ORGANIZE/🏫COURSE/论文",
-    "Clippings",
+    "100 Notes/基础",
     "@asset/Pasted image 20241016134949.png",
     "@asset/Pasted image 20241013165245.png",
     "@asset/Pasted image 20241013160755.png",
@@ -252,9 +227,6 @@
     "@asset/Pasted image 20241008123952.png",
     "@asset/Pasted image 20241001113027.png",
     "@asset/Pasted image 20241001111730.png",
-    "@asset/Pasted image 20240908174614.png",
-    "🎓 ORGANIZE/🏫COURSE/term2/blockChain",
-    "🗺️INDEX",
     "未命名.canvas"
   ]
 }

@@ -497,7 +497,7 @@ public @interface MyAnnotation {
 ```
 
 * **存储原理**
-  * 注解信息会被编译器写道class文件的属性表中，主要存储在一下特殊的属性表中
+  * 注解信息会被编译器写到class文件的属性表中，主要存储在一下特殊的属性表中
     * RuntimeVisibleAnnotations 运行时可见
     * RuntimeInvisibleAnnotations
     * RuntimeVisibleParameterAnnotations 方法参数运行时可见
@@ -513,9 +513,9 @@ public @interface MyAnnotation {
     * 运行时通过反射API获取注解信息并进行处理
 
 * **生命周期**：通过Retention指定
-  * SOURCE：源码级别
-  * CLASS：字节码级别
-  * RUNTIME：运行时级别
+  * SOURCE：源码级别，编译时处理， 运行时不存在
+  * CLASS：字节码级别，java字节码中存在，运行时不可访问，运行时JVM不加载
+  * RUNTIME：运行时级别，运行时可通过反射访问
 * **使用范围**：通过@Target指定
   * TYPE：类、接口
   * FIELD：字段
@@ -525,8 +525,38 @@ public @interface MyAnnotation {
   * LOCAL——VARIABLE：局部变量
 * **继承**：通过@Inherited元注解可以让子类继承父类的注解
 
+### java常见注解有哪些
+* JDK 内置注解（编译器级别）
+	* @Override *Source级别*
+* Jakarta 规范注解 @Resource
+* 元注解（用于定义注解）*Runtime级别*
+* 常见框架注解
+	* Spring *Runtime级别*
+		* 组件定义与DI @Component @Service`
+		* AOP相关 @Aspect @Around @Before @After
+		* web相关的 @RequestMapping
+	* lombok *Source级别*
 
+### 如何定义一个注解？
+* 定义注解接口
+* 创建注解处理器（AOP）
+* 配置Spring容器
+* 使用
 
+### autowired和resource区别 ？
+* 来源
+	* Spring
+	* JSR-250
+* 注入类型
+	* autowired默认byType注入，如果同一个类型有多个实现，需要配合 `@Qualifier("beanName")` 指定，如果不指定会抛异常；
+	* resource默认byName注入，找不到与字段同名的Bean，会byType注入，也可指定name或者Type
+* 支持的注入方式
+	* Autowired:构造器，Setter，字段
+	* Resource：Setter，字段
+* 导致行为差异的原因？
+	* 所依赖的 **注解处理机制（解析器）不同**
+	* Autowired 依赖 spring框架下的 `AutowiredAnnotationBeanPostProcessor`
+	* Resource 依赖 spring 框架下的`CommonAnnotationBeanPostProcessor` 用来支持 JSR-250 标准注解（如 `@Resource`, `@PostConstruct`, `@PreDestroy`）的注入与生命周期回调
 ## 异常
 
 ![image-20250203204959756](https://img.dirtsai.work/astro-blog/2025/02/6e968f0b310c3ab45481c03d82594fc5.png)

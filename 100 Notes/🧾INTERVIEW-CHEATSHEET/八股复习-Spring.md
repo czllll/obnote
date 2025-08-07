@@ -2,17 +2,6 @@
 
 ### 说一下你对Spring的理解？
 
-1. **Spring 框架总体架构**
-
-   Spring 是一个开源的轻量级 Java 企业应用开发框架，提供 IoC、AOP、事务、Web 开发等一整套解决方案，具有良好的分层结构和模块化特性。
-
-   - 核心模块包括：
-     - Core Container：Beans、Core、Context、SpEL
-     - AOP 与 Aspects
-     - 数据访问模块：JDBC、ORM、OXM、JMS、Transactions
-     - Web 模块：Web、WebSocket、Servlet、Portlet
-     - 其他支持模块：Instrumentation、Messaging、Test
-
 2. **IoC 容器（控制反转）**
 
    - 通过 IoC 机制由容器负责对象的创建与依赖注入，开发者无需手动创建和管理依赖关系
@@ -47,33 +36,7 @@
      - 支持多种视图解析器：JSP、Thymeleaf、FreeMarker 等
      - 与 IoC 容器深度集成，实现统一的 Bean 管理
 
-6. **核心容器模块（Core Container）**
 
-   - Beans：Bean 定义、生命周期、依赖注入等基础功能
-   - Core：提供 IoC 容器的核心实现
-   - Context：扩展 BeanFactory，提供国际化、事件发布、资源访问等功能
-   - SpEL（Spring Expression Language）：用于在配置中动态计算表达式，支持属性访问、方法调用、集合处理等
-
-7. **数据访问与集成模块（Data Access/Integration）**
-
-   - JDBC：封装原始 JDBC 操作，提供 JdbcTemplate 简化开发
-   - ORM：集成主流 ORM 框架（Hibernate、JPA、MyBatis）
-   - OXM：支持对象与 XML 的映射
-   - JMS：集成消息服务中间件，支持消息的发送与接收
-   - Transactions：统一的事务管理抽象接口，支持声明式与编程式事务
-
-8. **Web 模块支持**
-
-   - Web：基础的 Web 功能，如文件上传、多部分请求处理
-   - WebSocket：提供 WebSocket API 支持，实现服务端双向通信
-   - Servlet：封装 Servlet API，使用 DispatcherServlet 作为核心控制器
-   - Portlet：支持 Portlet 开发，适用于门户应用
-
-9. **其他支持模块**
-
-   - Instrumentation：为类加载提供支持，常用于 Java EE 服务容器
-   - Messaging：支持基于消息的处理机制（如 STOMP）
-   - Test：支持单元测试与集成测试，整合 JUnit、TestNG，提供注入与事务回滚功能
 
 ### spring的核心思想说说你的理解？
 
@@ -850,38 +813,38 @@
      }
      ```
 
-### Bean的生命周期说一下？
+### Bean的生命周期？
 
 1. **实例化阶段**
-   - Spring 启动时，加载配置或扫描注解，创建并实例化 Bean 对象。
-   - 此时仅调用构造方法，不涉及属性赋值。
+   - Spring 通过构造器创建 Bean 实例。此时仅调用构造方法，不涉及属性赋值。
 2. **属性赋值阶段**
-   - Spring 将配置中的属性值注入到 Bean 的字段中（包括依赖注入）。
-   - 也包括 `@Value`、`@Autowired` 注入。
-3. **感知接口调用阶段（Aware 接口）**
-   - 若实现以下接口，Spring 会依次调用对应方法注入容器资源：
-     - **BeanNameAware**：注入当前 Bean 的名称（`setBeanName` 方法）
-     - **BeanFactoryAware**：注入所属 BeanFactory 容器（`setBeanFactory` 方法）
-     - **ApplicationContextAware**：注入所属的 ApplicationContext（`setApplicationContext` 方法）
+   - Spring 通过反射给 Bean 字段赋值，包括：
+	- `@Value` 注入配置值
+	- `@Autowired` / `@Resource` 依赖注入
+		- InstantiationAwareBeanPostProcessor#postProcessProperties 具体区分两者不同行为的
+3. **Aware接口回调阶段**- 名称工厂上下文
+   - Spring 检查是否实现以下接口，并回调注入容器相关资源：
+     - BeanNameAware：注入当前 Bean 的名称（`setBeanName` 方法）
+	 - BeanFactoryAware：注入所属 BeanFactory 容器（`setBeanFactory` 方法）
+     - ApplicationContextAware：注入所属的 ApplicationContext（`setApplicationContext` 方法）
 4. **初始化前处理阶段（BeanPostProcessor 前置处理）**
-   - 若存在 BeanPostProcessor（如 @Component 实现类），Spring 调用其：
-     - `postProcessBeforeInitialization(bean, beanName)`
+   - 调用所有注册的 `BeanPostProcessor#postProcessBeforeInitialization()` 方法
    - 允许开发者在初始化前对 Bean 做增强处理（如 AOP、代理等）
 5. **初始化阶段**
-   - 执行初始化逻辑，若满足以下条件，会调用对应方法：
-     - 实现 **InitializingBean** 接口，执行 `afterPropertiesSet()` 方法
-     - 配置了自定义初始化方法，如 `init-method="xxx"`，Spring 会调用该方法
+	* Bean 执行初始化逻辑，有三种机制：
+		* 实现 `InitializingBean` 接口 → 自动调用 `afterPropertiesSet()`
+		- 配置 `<bean init-method="initXx"/>`
+		- 使用 `@PostConstruct` 注解的方法（由 `CommonAnnotationBeanPostProcessor` 支持）
 6. **初始化后处理阶段（BeanPostProcessor 后置处理）**
    - Spring 再次调用 `postProcessAfterInitialization(bean, beanName)`
    - 通常用于增强功能，如 AOP 动态代理包装
-7. **Bean 准备就绪**
-   - Bean 被完全创建并交由容器管理，可供外部使用
+7. **Bean 准备就绪交由容器管理**
    - 此时已完成：构造 → 属性注入 → Aware → 初始化 → 后置处理
 8. **销毁阶段**
-   - 当应用上下文关闭时，Spring 会销毁所有单例 Bean。
-   - 销毁逻辑如下：
-     - 实现 **DisposableBean** 接口，调用其 `destroy()` 方法
-     - 配置了 `destroy-method="xxx"`，则调用该方法
+   - 容器关闭时，Spring 回收 Bean，执行清理逻辑：
+    1. 实现 `DisposableBean` → 调用 `destroy()`
+    2. 配置 `<bean destroy-method="cleanup"/>`
+    3. 使用 `@PreDestroy` 注解的方法（同样由 `CommonAnnotationBeanPostProcessor` 支持）
 
 ### Bean是否单例？
 
@@ -1136,6 +1099,9 @@
    - 实现框架或第三方库的自动装配能力。
 8. **自定义注解**
    - 可以结合 AOP 或元注解机制，实现权限控制、日志记录、接口限流等横切逻辑。
+
+### **Autoweird和Resource有什么区别？**
+### **Spring架构演进**
 
 ## Spring MVC
 
@@ -1576,6 +1542,13 @@
    过滤器常用于编码处理、日志记录、安全验证、全局请求预处理等；
     拦截器多用于业务相关逻辑控制，如权限校验、参数验证、请求追踪等。
 
+
+### springboot自动装配是通过哪个注解开启的
+* @SpringBootApplication
+	 * @SpringBootConfiguration
+	 + @EnableAutoConfiguration
+	 + @ComponentScan
+
 ## Mybatis
 
 ### MyBatis 做得比较好的方面
@@ -1755,8 +1728,8 @@
 
 2. **功能侧重点不同**
 
-   Spring Boot 主要关注于应用的开发效率，如自动配置、起步依赖、嵌入式服务器等。
-    Spring Cloud 侧重于微服务架构中的系统级功能，如服务注册与发现、负载均衡、断路器、网关、配置中心等。
+* Spring Boot 主要关注于应用的开发效率，如自动配置、起步依赖、嵌入式服务器等。
+* Spring Cloud 侧重于微服务架构中的系统级功能，如服务注册与发现、负载均衡、断路器、网关、配置中心等。
 
 3. **使用方式互补**
 

@@ -8,31 +8,90 @@
         "type": "tabs",
         "children": [
           {
-            "id": "62f40a1403fe4af3",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
-            }
-          },
-          {
-            "id": "3a454e68dcebe995",
+            "id": "a666dc384267e906",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "999 Templates/🏠Welcome.md",
+                "file": "100 Notes/分布式事务.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🏠Welcome"
+              "title": "分布式事务"
+            }
+          },
+          {
+            "id": "3cfd8c1725a9d477",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "500 Daily/202508/Week2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Week2"
+            }
+          },
+          {
+            "id": "c8aef08b597604cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 Notes/🧾INTERVIEW-CHEATSHEET/八股复习-java.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "八股复习-java"
+            }
+          },
+          {
+            "id": "b687e6bb2fc38351",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 Notes/🧾INTERVIEW-CHEATSHEET/八股复习-java集合.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "八股复习-java集合"
+            }
+          },
+          {
+            "id": "409248a44f4ad944",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 Notes/🧾INTERVIEW-CHEATSHEET/八股复习-Spring.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "八股复习-Spring"
+            }
+          },
+          {
+            "id": "6b635a151a653587",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 Notes/🧾INTERVIEW-CHEATSHEET/八股复习-CN.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "八股复习-CN"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -57,8 +116,24 @@
               "icon": "lucide-folder-closed",
               "title": "文件列表"
             }
+          },
+          {
+            "id": "5afd4f92ae21d2a9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "100 Notes/分布式事务.md",
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "分布式事务 的大纲"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -112,27 +187,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧾INTERVIEW-CHEATSHEET/八股复习-JVM.md",
+                "file": "500 Daily/202508/Week2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "八股复习-JVM 的出链列表"
-            }
-          },
-          {
-            "id": "5afd4f92ae21d2a9",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "999 Templates/🏠Welcome.md",
-                "followCursor": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "🏠Welcome 的大纲"
+              "title": "Week2 的出链列表"
             }
           },
           {
@@ -141,7 +201,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#distribute-system",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -190,45 +250,45 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3a454e68dcebe995",
+  "active": "5afd4f92ae21d2a9",
   "lastOpenFiles": [
+    "500 Daily/202508/Week2.md",
+    "999 Templates/🏠Welcome.md",
+    "100 Notes/分布式事务.md",
+    "100 Notes/AI-Agent.md",
+    "100 Notes/🧾INTERVIEW-CHEATSHEET/面经归档.md",
+    "200 Projects/论文/论文进度.md",
+    "200 Projects/论文/Chinese ver..md",
+    "500 Daily/202508/Week1.md",
+    "未命名.md",
     "500 Daily/202507/Week5.md",
+    "100 Notes/算法笔记.md",
+    "100 Notes/Spring.md",
+    "100 Notes/🧾INTERVIEW-CHEATSHEET/八股复习-java.md",
+    "100 Notes/🧾INTERVIEW-CHEATSHEET/八股复习-Spring.md",
+    "500 Daily/202508",
+    "500 Daily/未命名.md",
+    "100 Notes/🧾INTERVIEW-CHEATSHEET/八股复习-CN.md",
+    "100 Notes/🧾INTERVIEW-CHEATSHEET/八股复习-MYSQL.md",
+    "100 Notes/🧾INTERVIEW-CHEATSHEET/八股复习-java集合.md",
+    "100 Notes/🧾INTERVIEW-CHEATSHEET/cib项目梳理.md",
     "100 Notes/🧩碎片知识整理.md",
     "100 Notes/CNN卷积神经网络.md",
     "100 Notes/Encoder-Decoder 架构.md",
     "100 Notes/🧠不懂的问题.md",
     "200 Projects/algocove/0. Infra.md",
-    "100 Notes/🧾INTERVIEW-CHEATSHEET/cib项目梳理.md",
     "100 Notes/🧾INTERVIEW-CHEATSHEET/项目简历.md",
     "200 Projects/项目CICD流程.md",
-    "100 Notes/🧾INTERVIEW-CHEATSHEET/面试问题.md",
-    "100 Notes/🧾INTERVIEW-CHEATSHEET/规划.md",
-    "100 Notes/🧾INTERVIEW-CHEATSHEET/面经.md",
-    "100 Notes/🧾INTERVIEW-CHEATSHEET/过面经.md",
-    "100 Notes/🧾INTERVIEW-CHEATSHEET/分析场景题的方法论.md",
-    "100 Notes/🧾INTERVIEW-CHEATSHEET/未命名.md",
-    "999 Templates/🏠Welcome.md",
     "500 Daily/202507",
     "500 Daily",
-    "100 Notes/学习资料工具.md",
-    "100 Notes/匹配算法.md",
-    "100 Notes/未命名.md",
-    "200 Projects/【系统设计】Feed.md",
-    "100 Notes/🧾INTERVIEW-CHEATSHEET/八股复习-CN&OS.md",
-    "100 Notes/🧾INTERVIEW-CHEATSHEET/八股场景.md",
-    "400 Books/论文/论文进度.md",
-    "🎓 ORGANIZE/论文/Chinese ver.~.md",
-    "400 Books/论文/figure/Core-300_Guesser-Hinter_SuccessRate.png",
-    "400 Books/论文/figure",
+    "200 Projects/论文/figure/Core-300_Guesser-Hinter_SuccessRate.png",
+    "200 Projects/论文/figure",
     "🎓 ORGANIZE/论文/Untitled Folder",
-    "400 Books/论文/Chinese ver..md",
-    "400 Books/论文/分配.md",
     "Excalidraw",
     "🗃️PROJECT/Eatwise",
     "🧾INTERVIEW-CHEATSHEET/mock",
     "200 Projects/algocove",
     "读书clip",
-    "100 Notes/基础",
     "@asset/Pasted image 20241016134949.png",
     "@asset/Pasted image 20241013165245.png",
     "@asset/Pasted image 20241013160755.png",

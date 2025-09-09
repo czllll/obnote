@@ -543,7 +543,7 @@ MyObject obj = new MyObject();
 | `-XX:G1MixedGCCountTarget`            | 8      | 并发标记完成后，最多执行 Mixed GC 的轮数                     |
 | `-XX:G1OldCSetRegionThresholdPercent` | 10     | 每轮 Mixed GC 中 Old Region 的最大数量（以 heap 百分比限制） |
 
-### CMS垃圾回收流程？
+	### CMS垃圾回收流程？
 
 * 使用范围
   - 主要用于老年代的垃圾回收

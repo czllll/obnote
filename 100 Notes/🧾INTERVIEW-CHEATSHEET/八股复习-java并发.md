@@ -2,47 +2,8 @@
 
 ## 多线程
 
-### java里的线程和OS的线程一样吗？
 
-* java底层会调用pthread_create 来创建线程，本质上java程序创建的线程就是和OS线程是一样的，是1对1的线程模型。
 
-### Java线程安全哪三方面？
-
-* 原子性
-
-  * 定义：一个操作是不可分割的，要么全部执行成功，要么全部是被
-  * 问题：
-    * 多线程下可能导致结果错误
-  * 解决
-    * synchronized关键字
-    * Lock锁
-    * Atomic原子类
-    * CAS操作
-
-* 可见性
-
-  * 定义：一个线程修改了共享变量，其他线程能立即看到修改后的值。
-  * 问题
-    * 一个线程修改了变量值
-    * 其他线程可能看到的还是旧值
-
-  * 解决
-    * volatile关键字
-    * synchronized关键字
-    * Lock锁
-    * final关键字（适用于不变量）
-
-* 有序性
-
-  * 程序执行的顺序按照代码的先后顺序执行
-  * 问题
-    * 代码重排序可能改变执行顺序户
-    * 指令重排序可能影响多线程结果
-  * 解决
-    * volatile关键字
-    * synchronized关键字
-    * happen-before原则
-    * Lock锁
 
 
 
@@ -98,67 +59,6 @@
   * 若该线程正在执行低级别的可中断方法（如Thread.sleep(),Thread.join()或Object.wait()）,则会解除阻塞并抛出InterruptedException异常。
   * 否则，Thread.interrupt()仅设置线程的中断状态，在该被中断的线程中稍后可通过轮询中断状态决定是否要停止当前正在执行的任务
 
-### Java线程状态有哪些？
-
-![image-20250212223314794](https://img.dirtsai.work/astro-blog/2025/02/e0a74c807f5a751bd45369935a56f412.png)
-
-可以调用Thread.getState()方法来获取当前线程状态
-
-* NEW
-  * 尚未启动的线程状态，即线程创建，尚未启动
-  * `Thread t = new Thread();`
-* RUNNABLE
-  * 线程正在执行，或等待 CPU 调度
-  * `t.start();`
-* BLOCKED
-  * 线程尝试获取锁，但锁被其他线程占用
-  * `synchronized` 锁竞争
-* WAITING
-  * 等待状态的线程正在等待另一线程执行特定的操作（如notify）, 线程主动等待，不会自动恢复
-  * `Object.wait()` / `LockSupport.park()`
-* TIME_WAITING超时等待
-  * 等待一段时间后自动退出等待
-  * `Thread.sleep()` / `Object.wait(time)`
-* TERMINATED
-  * 线程完成执行，中止状态
-  * 线程执行完 `run()` 方法
-
-
-
-### blocked和waiting的区别？
-
-* 触发条件
-  * BLOCKED
-    * 当 `synchronized` 关键字锁被其他线程占用，线程**会进入 `BLOCKED`**，等待锁释放
-  * WAITING
-    * 显式调用 `wait()`，线程会进入 `WAITING`，等待 `notify()` 唤醒。
-    * 显式调用 `LockSupport.park()`，线程会进入 `WAITING`，等待 `unpark()` 唤醒。
-    * `ReentrantLock`（公平锁）内部使用 `LockSupport.park()`，可能让线程进入 `WAITING`，而不是 `BLOCKED`。
-* 唤醒机制
-  * 当一个线程被阻塞等待锁时，一旦锁被释放，线程将有机会重新尝试获取锁，若此时锁未被其他线程获取，那么线程可从BLOCKED变成RUNNABLE状态。
-  * 线程在waiting状态中需要被显式唤醒
-
-
-
-### waiting状态下线程如何恢复到runnable状态？
-
-* `wait()` → `notify()` 或 `notifyAll()`
-* `LockSupport.park()` → `LockSupport.unpark(thread)`
-* `join()` → 目标线程执行完毕
-
-
-
-### notify和notifyALL的区别？
-
-* notify() 
-  * 随机唤醒一个waiting线程，由JVM选择
-* notifyALL()
-  * 唤醒所有线程，开始竞争锁
-
-### notify选择哪个线程
-
-* 依赖JVM实现，有很多实现
-  * 比较流行的是hotspot也是是FIFO
 
 
 

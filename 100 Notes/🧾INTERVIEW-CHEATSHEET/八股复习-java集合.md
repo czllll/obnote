@@ -81,7 +81,7 @@
   * 并发Map
     * **CurrentHashMap**
       * 1.8之前，加的是分段（Segment）锁，修改时才需要获得锁，读操作不需要加锁
-        * Segment是一种[[ReentrantLock锁]]
+        * Segment是一种[[深入理解ReentrantLock]]
         * 一个ConcurrentHashMap里包含一个Segment数组（Segment结构和HashMap类似）
         * 一个Segment包含一个HashEntry数组
           * 每个HashEntry是一个链表结构

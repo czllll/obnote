@@ -25,3 +25,9 @@ class Frame {
     // 其他调试 / JIT 附加信息
 }
 ```
+## Lock Record
+### 结构
+```ascii
+displaced_header = 原始MarkWord (含hash?) 
+obj_ref = 指向 obj   
+```

@@ -8,59 +8,45 @@
         "type": "tabs",
         "children": [
           {
-            "id": "407e8b26b94ecc9d",
+            "id": "ed71b25979388000",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 Notes/🧾INTERVIEW-CHEATSHEET/问题列表.md",
+                "file": "100 Notes/Kafka.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "问题列表"
+              "title": "Kafka"
             }
           },
           {
-            "id": "f92da3d5153a98a4",
+            "id": "cbaf638551127619",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 Notes/🧾INTERVIEW-CHEATSHEET/CRC16 算法.md",
+                "file": "100 Notes/面试八股问题列表.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CRC16 算法"
+              "title": "面试八股问题列表"
             }
           },
           {
-            "id": "055cbeba5726fba6",
+            "id": "54e83b4bb0190f1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 Notes/🧾INTERVIEW-CHEATSHEET/MultiLock和 RedLock.md",
+                "file": "100 Notes/如何保证消息顺序消费？.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MultiLock和 RedLock"
-            }
-          },
-          {
-            "id": "60accb2c74d51755",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 Notes/🧾INTERVIEW-CHEATSHEET/为什么不同隔离级别下对 binlog 模式还有要求？.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "为什么不同隔离级别下对 binlog 模式还有要求？"
+              "title": "如何保证消息顺序消费？"
             }
           }
         ],
@@ -94,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.50390243530273
+    "width": 343.50390243530273,
+    "collapsed": true
   },
   "right": {
     "id": "3085a088a655b4cf",
@@ -158,7 +145,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "kafka",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -195,7 +182,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "18aa1af1a2544607",
@@ -233,38 +220,38 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "44c4af6550794709",
+  "active": "cbaf638551127619",
   "lastOpenFiles": [
-    "100 Notes/🧾INTERVIEW-CHEATSHEET/CRC16 算法.md",
-    "100 Notes/🧾INTERVIEW-CHEATSHEET/问题列表.md",
-    "100 Notes/🧾INTERVIEW-CHEATSHEET/MultiLock和 RedLock.md",
-    "100 Notes/🧾INTERVIEW-CHEATSHEET/为什么不同隔离级别下对 binlog 模式还有要求？.md",
-    "100 Notes/🧾INTERVIEW-CHEATSHEET/索引条件下推.md",
+    "100 Notes/如何保证消息顺序消费？.md",
+    "100 Notes/面试八股问题列表.md",
+    "100 Notes/Kafka.md",
+    "100 Notes/🧾INTERVIEW-CHEATSHEET/八股场景.md",
+    "100 Notes/🧾INTERVIEW-CHEATSHEET/qizhi项目梳理.md",
+    "100 Notes/为什么使用 kafka，相较于其他 mq 有什么优势？.md",
+    "100 Notes/索引条件下推.md",
+    "300 Clips/大厂面试高频：Kafka、RabbitMQ、RocketMQ如何选型？.md",
+    "500 Daily/2025/202509.md",
+    "400 Books/《深入理解Java虚拟机》读书笔记.md",
+    "400 Books/《高效能人士》读书笔记.md",
+    "400 Books/《统计学习方法》读书笔记.md",
+    "400 Books/《机器学习》-周志华.md",
+    "100 Notes/线上问题排查方案.md",
+    "300 Clips/未命名 1.base",
+    "300 Clips/未命名.base",
+    "100 Notes/JDBC Drivers.md",
+    "100 Notes/LUA基础.md",
+    "100 Notes/设计模式.md",
+    "100 Notes/为什么不同隔离级别下对 binlog 模式还有要求？.md",
+    "100 Notes/🧾INTERVIEW-CHEATSHEET/八股复习-MYSQL.md",
+    "100 Notes/🧾INTERVIEW-CHEATSHEET/八股复习-java并发.md",
+    "100 Notes/CRC16 算法.md",
+    "100 Notes/🧾INTERVIEW-CHEATSHEET/cib项目梳理.md",
+    "100 Notes/🧾INTERVIEW-CHEATSHEET/分析场景题的方法论.md",
+    "100 Notes/MultiLock和 RedLock.md",
     "100 Notes/🧾INTERVIEW-CHEATSHEET/面试问题.md",
     "100 Notes/🧾INTERVIEW-CHEATSHEET/es中的状态代表什么？.md",
-    "100 Notes/🧾INTERVIEW-CHEATSHEET/八股复习-MYSQL.md",
-    "100 Notes/Spring.md",
-    "100 Notes/基础/设计模式.md",
-    "100 Notes/深入理解synchronized.md",
-    "100 Notes/类加载器.md",
-    "100 Notes/单例模式.md",
-    "100 Notes/🧾INTERVIEW-CHEATSHEET/八股复习-OS.md",
-    "100 Notes/🧾INTERVIEW-CHEATSHEET/cib项目梳理.md",
-    "200 Projects/algocove/6. IM.md",
-    "100 Notes/🧾INTERVIEW-CHEATSHEET/八股复习-redis.md",
-    "100 Notes/🧾INTERVIEW-CHEATSHEET/qizhi项目梳理.md",
-    "100 Notes/🧾INTERVIEW-CHEATSHEET/八股复习-java集合.md",
-    "100 Notes/🧾INTERVIEW-CHEATSHEET/八股复习-java并发.md",
-    "200 Projects/algocove/8.feed.md",
-    "200 Projects/algocove/5. Team.md",
-    "200 Projects/algocove/3. User.md",
-    "100 Notes/🧾INTERVIEW-CHEATSHEET/分析场景题的方法论.md",
-    "100 Notes/消息队列-kafka.md",
-    "100 Notes/🧾INTERVIEW-CHEATSHEET/八股场景.md",
     "500 Daily/2025",
     "500 Daily/202509",
-    "300 Clips/未命名.base",
-    "300 Clips/未命名 1.base",
     "未命名.base",
     "500 Daily/2025/202508",
     "500 Daily/2025/202507",

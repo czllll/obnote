@@ -1,3 +1,4 @@
+#mysql
 - **Binlog 格式**：
     
     - `STATEMENT`：记录执行的 SQL 语句。

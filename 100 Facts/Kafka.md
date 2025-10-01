@@ -1,7 +1,7 @@
 
-| domain      | layer  | type  |
-| ----------- | ------ | ----- |
-| #middleware | #kafka | #fact |
+| domain      | layer | type  |
+| ----------- | ----- | ----- |
+| #middleware | #mq   | #fact |
 
 * 基本概念
 * 常见问题

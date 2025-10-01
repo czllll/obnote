@@ -1,6 +1,8 @@
-#高并发 #system-design
 
-# BILIBILI点赞系统
+| domain         | layer | type     |
+| -------------- | ----- | -------- |
+| #system-design |       | #insight |
+
 
 ## 系统压力
 

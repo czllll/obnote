@@ -2,12 +2,12 @@
   "obsidian-git",
   "obsidian-style-settings",
   "obsidian-outliner",
-  "homepage",
   "dataview",
   "obsidian-banners",
   "templater-obsidian",
   "shortcuts-extender",
   "contribution-graph",
   "obsidian-image-auto-upload-plugin",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "homepage"
 ]

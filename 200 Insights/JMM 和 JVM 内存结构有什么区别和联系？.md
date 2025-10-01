@@ -1,3 +1,8 @@
+
+| domain | layer | type     |
+| ------ | ----- | -------- |
+| #java  | #jvm  | #insight |
+
 * JVM 内存结构是硬件和操作系统层面的抽象；
 * JMM 定义了 Java 内存操作的规则，并依赖于 JVM 内存结构来实现。
 

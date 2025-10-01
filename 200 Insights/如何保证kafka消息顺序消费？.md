@@ -1,7 +1,7 @@
 
-| domain      | layer  | type     |
-| ----------- | ------ | -------- |
-| #middleware | #kafka | #insight |
+| domain      | layer | type     |
+| ----------- | ----- | -------- |
+| #middleware | #mq   | #insight |
 
 一般是业务上的要求
 **将需要保证顺序的同一类消息，发送到同一个分区上。**

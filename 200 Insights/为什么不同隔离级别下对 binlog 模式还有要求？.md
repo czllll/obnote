@@ -1,4 +1,8 @@
-#mysql
+
+| domain | layer  | type     |
+| ------ | ------ | -------- |
+| #db    | #mysql | #insight |
+
 - **Binlog 格式**：
     
     - `STATEMENT`：记录执行的 SQL 语句。

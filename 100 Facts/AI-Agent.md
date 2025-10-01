@@ -1,7 +1,7 @@
 
-| domain | layer | type   |
-| ------ | ----- | ------ |
-| #ai    | #llm  | #fact  |
+| domain | layer | type  |
+| ------ | ----- | ----- |
+| #ai    | #llm  | #fact |
 
 * Agent = LLM+记忆+规划技能+工具使用
 * 规划

@@ -8,171 +8,53 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cbaf638551127619",
+            "id": "e32f00812a30cac7",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "999 Templates/🏠Welcome.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "🏠Welcome"
+            }
+          },
+          {
+            "id": "4a8b3c800e993d02",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 Notes/面试八股问题列表.md",
-                "mode": "source",
+                "file": "999 Templates/🏠Welcome.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "面试八股问题列表"
+              "title": "🏠Welcome"
             }
           },
           {
-            "id": "5e71026d09f21fad",
+            "id": "1bbba011298a968a",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 Notes/JVM调优.md",
+                "file": "999 Templates/🏠Welcome.md",
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "JVM调优"
-            }
-          },
-          {
-            "id": "4861eddfe517ffe6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 Notes/双亲委派.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "双亲委派"
-            }
-          },
-          {
-            "id": "e68e7907f1030336",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200 Projects/algocove/2. Auth.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2. Auth"
-            }
-          },
-          {
-            "id": "b1570f975a4c3c20",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 Notes/面试八股问题列表.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "面试八股问题列表"
-            }
-          },
-          {
-            "id": "1bc39f6388c4c9e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 Notes/面试八股问题列表.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "面试八股问题列表"
-            }
-          },
-          {
-            "id": "93cda2aac3deaecd",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
-            }
-          },
-          {
-            "id": "2a34f7349e6eadd1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200 Insights/🧠不懂的问题.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "🧠不懂的问题"
-            }
-          },
-          {
-            "id": "563ee3d621420150",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300 Projects/algocove/部署流程.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "部署流程"
-            }
-          },
-          {
-            "id": "34e2b5ec233e26a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 Notes/Java命令.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Java命令"
-            }
-          },
-          {
-            "id": "b2ee583defd31ff2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 Notes/JVM调优.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JVM调优"
-            }
-          },
-          {
-            "id": "e27a68e6d0b8f861",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 Notes/垃圾回收.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "垃圾回收"
+              "title": "🏠Welcome"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -211,7 +93,6 @@
       {
         "id": "a84e5dae37e79ca0",
         "type": "tabs",
-        "dimension": 74.93734335839599,
         "children": [
           {
             "id": "31feefb3105bf58a",
@@ -252,12 +133,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200 Projects/algocove/4. Post.md",
+                "file": "999 Templates/🏠Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "4. Post 的出链列表"
+              "title": "🏠Welcome 的出链列表"
             }
           },
           {
@@ -266,7 +147,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "distribu",
+                "query": "tag:#python",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -283,13 +164,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 Insights/🧠不懂的问题.md",
+                "file": "999 Templates/🏠Welcome.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "🧠不懂的问题 的大纲"
+              "title": "🏠Welcome 的大纲"
             }
           },
           {
@@ -301,15 +182,7 @@
               "icon": "spreadsheet",
               "title": "Advanced Tables"
             }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "18aa1af1a2544607",
-        "type": "tabs",
-        "dimension": 25.062656641604008,
-        "children": [
+          },
           {
             "id": "d3707d4f3ad74aa6",
             "type": "leaf",
@@ -325,7 +198,8 @@
               "title": "标签"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -334,41 +208,44 @@
   "left-ribbon": {
     "hiddenItems": {
       "bases:创建新数据库": true,
+      "homepage:Open homepage": false,
       "command-palette:打开命令面板": false,
       "templater-obsidian:Templater": true,
       "graph:查看关系图谱": false,
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "2a34f7349e6eadd1",
+  "active": "1bbba011298a968a",
   "lastOpenFiles": [
-    "100 Facts/分布式事务.md",
-    "100 Facts/面试八股问题列表.md",
-    "100 Facts/限流算法.md",
-    "100 Facts/设计模式.md",
-    "100 Facts/编译&解释.md",
-    "200 Insights/线上问题排查方案.md",
-    "100 Facts/索引条件下推.md",
-    "100 Facts/类加载器.md",
-    "200 Insights/系统设计案例.md",
-    "100 Facts/算法笔记.md",
-    "100 Facts/深入理解volatile.md",
-    "100 Facts/深入理解Unsafe.md",
-    "100 Facts/深入理解synchronized.md",
-    "100 Facts/深入理解ReentrantLock.md",
-    "100 Facts/深入理解Condition.md",
-    "100 Facts/深入理解AQS.md",
-    "100 Facts/深入理解 Thread.md",
-    "100 Facts/模板方法模式.md",
-    "100 Facts/深入Java 源码.md",
-    "100 Facts/单例模式.md",
-    "100 Facts/学习资料工具.md",
-    "100 Facts/敏捷开发基础.md",
-    "100 Facts/根可达性算法.md",
-    "200 Insights/如何保证消息顺序消费？.md",
-    "100 Facts/垃圾回收.md",
-    "100 Facts/图灵机理论基础.md",
-    "300 Projects/300 Blogs",
+    "999 Templates/新笔记.md",
+    "999 Templates/MOC.md",
+    "999 Templates/🏠Welcome.md",
+    "999 Templates/blog template.md",
+    "100 Facts/AI-Agent.md",
+    "050 Resource/110 Clips/python包装在哪里了.md",
+    "050 Resource/110 Clips/软件开发者需要知道有关学习的10件事情.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-Spring.md",
+    "999 Templates/Blog Reading Template.md",
+    "400 Daily/2025/202509.md",
+    "300 Projects/303 qizhi项目梳理.md",
+    "200 Insights/声明式注解事务失效原因?.md",
+    "300 Projects/小红书.md",
+    "100 Facts/es.md",
+    "100 Facts/Cassandra.md",
+    "100 Facts/倒排索引.md",
+    "300 Projects/302 algocove/部署流程.md",
+    "100 Facts/RBAC 权限控制模型.md",
+    "100 Facts/maven中的打包方式jar和pom有什么区别？.md",
+    "300 Projects/项目CICD流程.md",
+    "300 Projects/SD prgress.md",
+    "300 Projects/302 algocove/【系统设计】Feed.md",
+    "300 Projects/论文/论文进度.md",
+    "300 Projects/论文/分配.md",
+    "300 Projects/论文/literature.md",
+    "300 Projects/论文/HPC相关.md",
+    "300 Projects/论文/figure/Core-300_Guesser-Hinter_SuccessRate.png",
+    "050 Resource",
+    "300 Projects/301 Blogs",
     "200 Insights",
     "000 Inbox",
     "300 Clips/未命名 1.base",
@@ -377,8 +254,6 @@
     "500 Daily/202509",
     "未命名.base",
     "400 Daily/2025/202508",
-    "400 Daily/2025/202507",
-    "300 Projects/论文/figure/Core-300_Guesser-Hinter_SuccessRate.png",
     "@asset/Pasted image 20241016134949.png",
     "@asset/Pasted image 20241013165245.png",
     "@asset/Pasted image 20241013160755.png",

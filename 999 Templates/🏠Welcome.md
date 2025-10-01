@@ -1,10 +1,4 @@
-```dataview
-TABLE file.mtime as "最后更新时间"
-FROM ""
-WHERE file.name != "🏠Welcome"
-SORT file.mtime desc
-LIMIT 8 
-```
+[[MOC]]
 ```dataviewjs
 // 获取当前日期
 const today = new Date();

@@ -1,0 +1,7 @@
+
+| domain | layer | type  |
+| ------ | ----- | ----- |
+| #db    | #     | #fact |
+
+ORM框架的主要功能就是根据映射配置文件，完成数据在对象模型与关系模型之间的映射，同时也屏蔽了[[JDBC基础]]的代码，只暴露简单的API供开发人员使用。
+![image.png](https://img.dirtsai.work/astro-blog/2025/10/b4e503e893bb988e1f4758e5aa61301c.png)

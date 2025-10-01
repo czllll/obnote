@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ed71b25979388000",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 Notes/Kafka.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kafka"
-            }
-          },
-          {
             "id": "cbaf638551127619",
             "type": "leaf",
             "state": {
@@ -36,17 +22,139 @@
             }
           },
           {
-            "id": "2ad72ca45d8de1e6",
+            "id": "5e71026d09f21fad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 Notes/根可达性算法.md",
+                "file": "100 Notes/JVM调优.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "根可达性算法"
+              "title": "JVM调优"
+            }
+          },
+          {
+            "id": "4861eddfe517ffe6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 Notes/双亲委派.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "双亲委派"
+            }
+          },
+          {
+            "id": "e68e7907f1030336",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200 Projects/algocove/2. Auth.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. Auth"
+            }
+          },
+          {
+            "id": "b1570f975a4c3c20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 Notes/面试八股问题列表.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "面试八股问题列表"
+            }
+          },
+          {
+            "id": "1bc39f6388c4c9e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 Notes/面试八股问题列表.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "面试八股问题列表"
+            }
+          },
+          {
+            "id": "93cda2aac3deaecd",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          },
+          {
+            "id": "2a34f7349e6eadd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200 Insights/🧠不懂的问题.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "🧠不懂的问题"
+            }
+          },
+          {
+            "id": "563ee3d621420150",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "300 Projects/algocove/部署流程.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "部署流程"
+            }
+          },
+          {
+            "id": "34e2b5ec233e26a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 Notes/Java命令.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Java命令"
+            }
+          },
+          {
+            "id": "b2ee583defd31ff2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 Notes/JVM调优.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JVM调优"
             }
           },
           {
@@ -55,16 +163,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 Notes/三色标记法.md",
+                "file": "100 Notes/垃圾回收.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "三色标记法"
+              "title": "垃圾回收"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -83,7 +191,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -125,7 +233,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/🧾INTERVIEW-CHEATSHEET/问题列表.md",
+                "file": "200 Projects/algocove/4. Post.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +243,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "问题列表 的反向链接列表"
+              "title": "4. Post 的反向链接列表"
             }
           },
           {
@@ -144,12 +252,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100 Notes/🧾INTERVIEW-CHEATSHEET/问题列表.md",
+                "file": "200 Projects/algocove/4. Post.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "问题列表 的出链列表"
+              "title": "4. Post 的出链列表"
             }
           },
           {
@@ -158,7 +266,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kafka",
+                "query": "distribu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -175,13 +283,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/🧾INTERVIEW-CHEATSHEET/问题列表.md",
+                "file": "200 Insights/🧠不懂的问题.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "问题列表 的大纲"
+              "title": "🧠不懂的问题 的大纲"
             }
           },
           {
@@ -221,8 +329,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5,
-    "collapsed": true
+    "width": 664.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,45 +340,45 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "e27a68e6d0b8f861",
+  "active": "2a34f7349e6eadd1",
   "lastOpenFiles": [
-    "100 Notes/如何保证消息顺序消费？.md",
-    "100 Notes/三色标记法.md",
-    "100 Notes/JMM 和 JVM 内存结构有什么区别和联系？.md",
-    "100 Notes/垃圾回收.md",
-    "100 Notes/根可达性算法.md",
-    "100 Notes/面试八股问题列表.md",
-    "100 Notes/dd.md",
-    "100 Notes/Kafka.md",
-    "100 Notes/什么是 TLAB？.md",
-    "100 Notes/模板方法模式.md",
-    "100 Notes/为什么不同隔离级别下对 binlog 模式还有要求？.md",
-    "100 Notes/Spring.md",
-    "100 Notes/设计模式.md",
-    "100 Notes/索引条件下推.md",
-    "100 Notes/CRC16 算法.md",
-    "100 Notes/为什么使用 kafka，相较于其他 mq 有什么优势？.md",
-    "100 Notes/MultiLock和 RedLock.md",
-    "100 Notes/🧾INTERVIEW-CHEATSHEET/八股场景.md",
-    "100 Notes/🧾INTERVIEW-CHEATSHEET/qizhi项目梳理.md",
-    "300 Clips/大厂面试高频：Kafka、RabbitMQ、RocketMQ如何选型？.md",
-    "500 Daily/2025/202509.md",
-    "400 Books/《深入理解Java虚拟机》读书笔记.md",
-    "400 Books/《高效能人士》读书笔记.md",
-    "400 Books/《统计学习方法》读书笔记.md",
-    "400 Books/《机器学习》-周志华.md",
-    "100 Notes/线上问题排查方案.md",
+    "100 Facts/分布式事务.md",
+    "100 Facts/面试八股问题列表.md",
+    "100 Facts/限流算法.md",
+    "100 Facts/设计模式.md",
+    "100 Facts/编译&解释.md",
+    "200 Insights/线上问题排查方案.md",
+    "100 Facts/索引条件下推.md",
+    "100 Facts/类加载器.md",
+    "200 Insights/系统设计案例.md",
+    "100 Facts/算法笔记.md",
+    "100 Facts/深入理解volatile.md",
+    "100 Facts/深入理解Unsafe.md",
+    "100 Facts/深入理解synchronized.md",
+    "100 Facts/深入理解ReentrantLock.md",
+    "100 Facts/深入理解Condition.md",
+    "100 Facts/深入理解AQS.md",
+    "100 Facts/深入理解 Thread.md",
+    "100 Facts/模板方法模式.md",
+    "100 Facts/深入Java 源码.md",
+    "100 Facts/单例模式.md",
+    "100 Facts/学习资料工具.md",
+    "100 Facts/敏捷开发基础.md",
+    "100 Facts/根可达性算法.md",
+    "200 Insights/如何保证消息顺序消费？.md",
+    "100 Facts/垃圾回收.md",
+    "100 Facts/图灵机理论基础.md",
+    "300 Projects/300 Blogs",
+    "200 Insights",
+    "000 Inbox",
     "300 Clips/未命名 1.base",
     "300 Clips/未命名.base",
-    "500 Daily/2025",
+    "400 Daily/2025",
     "500 Daily/202509",
     "未命名.base",
-    "500 Daily/2025/202508",
-    "500 Daily/2025/202507",
-    "500 Daily",
-    "200 Projects/论文/figure/Core-300_Guesser-Hinter_SuccessRate.png",
-    "200 Projects/论文/figure",
-    "🎓 ORGANIZE/论文/Untitled Folder",
+    "400 Daily/2025/202508",
+    "400 Daily/2025/202507",
+    "300 Projects/论文/figure/Core-300_Guesser-Hinter_SuccessRate.png",
     "@asset/Pasted image 20241016134949.png",
     "@asset/Pasted image 20241013165245.png",
     "@asset/Pasted image 20241013160755.png",

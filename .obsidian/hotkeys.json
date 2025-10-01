@@ -16,5 +16,13 @@
       ],
       "key": "B"
     }
+  ],
+  "templater-obsidian:999 Templates/新笔记.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
   ]
 }

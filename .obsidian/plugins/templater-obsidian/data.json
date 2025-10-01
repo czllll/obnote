@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "@template",
+  "templates_folder": "999 Templates",
   "templates_pairs": [
     [
       "",
@@ -22,7 +22,7 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "@template/Blog Reading Template.md",
+    "999 Templates/新笔记.md",
     ""
   ],
   "startup_templates": [

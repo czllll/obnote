@@ -110,6 +110,6 @@
   "Appearance-light@@card-highlight-light": true,
   "maple-workspace@@bg-enable": "bg-default",
   "maple-basic@@color-use-custom": true,
-  "maple-basic@@setting-accent-h-light": 50,
+  "maple-basic@@setting-accent-h-light": 175,
   "maple-editor@@setting-file-line-width": "clamp(600px, 100%, 1050px)"
 }

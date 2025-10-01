@@ -1,8 +1,7 @@
 
-| 原文链接 | [你的 Python 包都装到哪了？ - Frost's Blog](https://frostming.com/2019/03-13/where-do-your-packages-go/) |
-| ---- | ----------------------------------------------------------------------------------------------- |
-| 日期   | 2024-09-08                                                                                      |
-| Tags | #blog-reading #python #python-package                                                           |
+| domain  | layer | type                    |
+| ------- | ----- | ----------------------- |
+| #python | #     | #blog-reading #insight  |
 
 ## 要点
 * 虚拟环境
@@ -41,3 +40,7 @@ print ("a")
 	* `python -m proj.b`，会将`/proj`目录添加到`sys.path`中,找不到a.py，所以会报错`ModuleNotFoundError: No module named 'a'`
 	* 将b.py中的导入语句换成`from proj import a`,Python 会根据模块的包结构来查找 `a.py`。在这种情况下，`proj` 是一个包，Python 会在 `sys.path` 中查找 `proj` 目录,所以不会报错
 ## 思考
+
+
+# Reference
+[[你的 Python 包都装到哪了？]]

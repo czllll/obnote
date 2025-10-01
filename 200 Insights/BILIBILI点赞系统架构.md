@@ -1,7 +1,7 @@
 
-| domain         | layer | type     |
-| -------------- | ----- | -------- |
-| #system-design |       | #insight |
+| domain         | layer | type                    |
+| -------------- | ----- | ----------------------- |
+| #system-design |       | #insight #blog-reading  |
 
 
 ## 系统压力
@@ -95,3 +95,7 @@
 TODO：
 
 * 缓存策略。以及更新我的点赞/收藏操作
+
+
+# Reference
+[[【点个赞吧】 - B站千亿级点赞系统服务架构设计]]

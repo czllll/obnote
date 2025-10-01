@@ -1,5 +1,5 @@
 ```dataviewjs
-const domainOrder = ["ai", "java", "linux","db", "algorithm", "frontend", "middleware", "system-design","devops","python"];
+const domainOrder = ["ai", "java", "linux","db", "algorithm", "frontend", "middleware", "system-design","devops","python","life"];
 const layerOrder = {
   ai: ["llm", "cnn", "transformer"],
   java: ["javase", "jvm", "juc", "jdk", "spring"],
@@ -10,7 +10,8 @@ const layerOrder = {
   "system-design": ["design-pattern"],
   "devops":["maven"],
   "linux":[],
-  "python":[]
+  "python":[],
+  "life":[]
 };
 
 const typeColors = { fact: "#6AB04C", insight: "#F39C12", blog: "#9B59B6" };

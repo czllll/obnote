@@ -52,9 +52,51 @@
               "icon": "lucide-file",
               "title": "🏠Welcome"
             }
+          },
+          {
+            "id": "7a5b129e4cf8db9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "050 Resource/110 Clips/LLMs and Programming in the first days of 2024 - <antirez>.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LLMs and Programming in the first days of 2024 - <antirez>"
+            }
+          },
+          {
+            "id": "29a5140167fe96de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 Facts/类加载器.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "类加载器"
+            }
+          },
+          {
+            "id": "afbfd49276f78b8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "500 Daily/2025/202510.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "202510"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -133,12 +175,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "999 Templates/🏠Welcome.md",
+                "file": "500 Daily/2025/202510.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "🏠Welcome 的出链列表"
+              "title": "202510 的出链列表"
             }
           },
           {
@@ -147,7 +189,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#python",
+                "query": "tag:#include  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,13 +206,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "999 Templates/🏠Welcome.md",
+                "file": "500 Daily/2025/202510.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "🏠Welcome 的大纲"
+              "title": "202510 的大纲"
             }
           },
           {
@@ -215,34 +257,36 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "1bbba011298a968a",
+  "active": "44c4af6550794709",
   "lastOpenFiles": [
-    "999 Templates/新笔记.md",
-    "999 Templates/MOC.md",
-    "999 Templates/🏠Welcome.md",
-    "999 Templates/blog template.md",
-    "100 Facts/AI-Agent.md",
-    "050 Resource/110 Clips/python包装在哪里了.md",
-    "050 Resource/110 Clips/软件开发者需要知道有关学习的10件事情.md",
-    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-Spring.md",
-    "999 Templates/Blog Reading Template.md",
-    "400 Daily/2025/202509.md",
-    "300 Projects/303 qizhi项目梳理.md",
+    "050 Resource/400 Books/《高效能人士》读书笔记.md",
+    "050 Resource/400 Books/《统计学习方法》读书笔记.md",
+    "050 Resource/400 Books/《机器学习》-周志华.md",
+    "200 Insights/BILIBILI点赞系统架构.md",
+    "200 Insights/JMM 和 JVM 内存结构有什么区别和联系？.md",
+    "200 Insights/Linux端口同时被listen和connect 吗？.md",
+    "200 Insights/python包装在哪里了?.md",
+    "200 Insights/为什么不同隔离级别下对 binlog 模式还有要求？.md",
+    "200 Insights/为什么使用 kafka，相较于其他 mq 有什么优势？.md",
+    "200 Insights/九大服务架构性能优化方式.md",
     "200 Insights/声明式注解事务失效原因?.md",
-    "300 Projects/小红书.md",
-    "100 Facts/es.md",
-    "100 Facts/Cassandra.md",
-    "100 Facts/倒排索引.md",
-    "300 Projects/302 algocove/部署流程.md",
-    "100 Facts/RBAC 权限控制模型.md",
-    "100 Facts/maven中的打包方式jar和pom有什么区别？.md",
-    "300 Projects/项目CICD流程.md",
-    "300 Projects/SD prgress.md",
-    "300 Projects/302 algocove/【系统设计】Feed.md",
-    "300 Projects/论文/论文进度.md",
-    "300 Projects/论文/分配.md",
-    "300 Projects/论文/literature.md",
-    "300 Projects/论文/HPC相关.md",
+    "200 Insights/如何保证kafka消息顺序消费？.md",
+    "200 Insights/线上问题排查方案？.md",
+    "200 Insights/软件开发者需要知道有关学习的10件事情.md",
+    "200 Insights/LLMs and Programming in the first days of 2024.md",
+    "999 Templates/🏠Welcome.md",
+    "050 Resource/110 Clips/LLMs and Programming in the first days of 2024 - <antirez>.md",
+    "050 Resource/110 Clips/九大服务架构性能优化方式.md",
+    "050 Resource/110 Clips/你的 Python 包都装到哪了？.md",
+    "999 Templates/MOC.md",
+    "999 Templates/blog template.md",
+    "050 Resource/110 Clips/动态业务架构演进.md",
+    "050 Resource/110 Clips/为什么 MySQL 使用 B+ 树 - 面向信仰编程.md",
+    "050 Resource/110 Clips/万字长文深入浅出教你优雅开发复杂AI Agent.md",
+    "500 Daily/2025/202510.md",
+    "500 Daily/2025",
+    "500 Daily",
+    "050 Resource/110 Clips/大厂面试高频：Kafka、RabbitMQ、RocketMQ如何选型？.md",
     "300 Projects/论文/figure/Core-300_Guesser-Hinter_SuccessRate.png",
     "050 Resource",
     "300 Projects/301 Blogs",
@@ -250,10 +294,8 @@
     "000 Inbox",
     "300 Clips/未命名 1.base",
     "300 Clips/未命名.base",
-    "400 Daily/2025",
+    "500 Daily/2025",
     "500 Daily/202509",
-    "未命名.base",
-    "400 Daily/2025/202508",
     "@asset/Pasted image 20241016134949.png",
     "@asset/Pasted image 20241013165245.png",
     "@asset/Pasted image 20241013160755.png",

@@ -403,8 +403,6 @@ async function* asyncGenerator() {
 ## 导入
 ### 动态导入
 * import(module)家在模块并返回一个promise
-## Proxy和Reflect
-#todo 
 ## Document
 ### 文档对象模型DOM
 * 将所有页面内容表示为可以修改的对象

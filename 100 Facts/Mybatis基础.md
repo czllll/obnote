@@ -155,7 +155,7 @@ mybatis对常见的反射做了封装，提供更简洁方便的反射API
 			* `<transactionManager type="JDBC"/>`
 				* 有两种type：
 					* JDBC ：直接使用JDBC的事务管理机制（JDBC Connection对象）；由Mybatis直接管理事务；适合单独使用Mybatis的项目
-					* MANAGED：不直接负责，将事务管理交给外部容器（如Spring、JEE容器）来管理；当使用Spring集成mybatis时，不需要配置Mybatis的事务管理器，直接使用[[Spring事务管理机制]]，这种情况下，这个配置会被Spring覆盖。
+					* MANAGED：不直接负责，将事务管理交给外部容器（如Spring、JEE容器）来管理；当使用Spring集成mybatis时，不需要配置Mybatis的事务管理器，直接使用[[Spring事务]]，这种情况下，这个配置会被Spring覆盖。
 			* `<mappers> <mapper resource="xxxMapper.xml"/> </mappers>`
 				* 配置Mapper的路径，可以配置多个Mapper文件
 		* `getResourceAsStream` 方法来源于`ibatis.io.Resources`类，这是一个重载方法，最后调用到：

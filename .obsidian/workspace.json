@@ -4,77 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "59c7ed48a18a82f0",
+        "id": "d528b71d90671604",
         "type": "tabs",
         "children": [
           {
-            "id": "8a1232a024e1a8c7",
+            "id": "f5eee3a750b1b5e4",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 Facts/Spring.md",
-                "mode": "source",
+                "file": "999 Templates/🏠Welcome.md",
+                "mode": "preview",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "Spring"
-            }
-          },
-          {
-            "id": "69cce11b1c64742e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 Facts/半连接队列和全连接队列.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "半连接队列和全连接队列"
-            }
-          },
-          {
-            "id": "e84141b5dbb5036e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 Facts/SYN 洪水攻击.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SYN 洪水攻击"
-            }
-          },
-          {
-            "id": "6d92c9befebf6ffd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 Facts/SYN 洪水攻击.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SYN 洪水攻击"
-            }
-          },
-          {
-            "id": "b4ea53389db99cb3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 Facts/HTTP 请求方法.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "HTTP 请求方法"
+              "title": "🏠Welcome"
             }
           }
         ]
@@ -170,7 +116,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "死锁",
+                "query": "事务传播行为",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -221,50 +167,51 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 469.5,
-    "collapsed": true
+    "width": 469.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "bases:创建新数据库": true,
+      "homepage:Open homepage": false,
       "command-palette:打开命令面板": false,
       "templater-obsidian:Templater": true,
       "graph:查看关系图谱": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": true
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "webpage-html-export:导出为HTML": false
     }
   },
-  "active": "8a1232a024e1a8c7",
+  "active": "f5eee3a750b1b5e4",
   "lastOpenFiles": [
-    "100 Facts/Seata.md",
-    "100 Facts/Spring.md",
-    "100 Facts/TCP 与 UDP.md",
-    "100 Facts/Xpath.md",
-    "100 Facts/面试八股问题列表.md",
-    "100 Facts/SYN 洪水攻击.md",
+    "100 Facts/编译&解释.md",
+    "999 Templates/🏠Welcome.md",
     "100 Facts/半连接队列和全连接队列.md",
-    "100 Facts/HTTP 请求方法.md",
-    "100 Facts/HTTP 状态码.md",
-    "100 Facts/().md",
-    "100 Facts/HTTP 发展.md",
-    "100 Facts/CDN.md",
-    "100 Facts/DNAT（目的地址转写）.md",
     "100 Facts/键入网址到网页显示全流程？.md",
-    "100 Facts/DNS.md",
-    "100 Facts/NAT.md",
-    "100 Facts/LVS（Linux Virtual Server）.md",
-    "100 Facts/IP 隧道.md",
+    "100 Facts/进程、线程、协程.md",
     "100 Facts/未命名.md",
-    "100 Facts/未命名 1.md",
-    "500 Daily/2025/202510.md",
-    "100 Facts/网络分层.md",
-    "100 Facts/根可达性算法.md",
-    "100 Facts/分布式事务.md",
-    "100 Facts/倒排索引.md",
-    "100 Facts/单例模式.md",
+    "100 Facts/AI-Agent.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-MYSQL.md",
+    "100 Facts/Spring事务.md",
+    "100 Facts/事务.md",
+    "100 Facts/Encoder-Decoder 架构.md",
+    "100 Facts/Java命令.md",
+    "999 Templates/MOC.md",
+    "200 Insights/为什么不同隔离级别下对 binlog 模式还有要求？.md",
+    "200 Insights/声明式注解事务失效原因?.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股场景.md",
+    "100 Facts/面试八股问题列表.md",
+    "100 Facts/Mybatis基础.md",
+    "100 Facts/Spring IoC & AOP.md",
+    "100 Facts/Xpath.md",
+    "100 Facts/TCP 与 UDP.md",
+    "100 Facts/Seata.md",
+    "100 Facts/动态代理.md",
+    "100 Facts/代理模式.md",
+    "100 Facts/设计模式.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-Spring.md",
     "500 Daily/2025",
     "500 Daily",
     "300 Projects/论文/figure/Core-300_Guesser-Hinter_SuccessRate.png",

@@ -22,8 +22,125 @@
               "icon": "lucide-file",
               "title": "🏠Welcome"
             }
+          },
+          {
+            "id": "0a1c7b1f750f98df",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "999 Templates/🏠Welcome.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "🏠Welcome"
+            }
+          },
+          {
+            "id": "3cc05f11d8e42d76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "050 Resource/400 Books/《统计学习方法》读书笔记.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "《统计学习方法》读书笔记"
+            }
+          },
+          {
+            "id": "15be9e4bca88549e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "999 Templates/🏠Welcome.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "🏠Welcome"
+            }
+          },
+          {
+            "id": "553152cb0460a845",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 Facts/决策树.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "决策树"
+            }
+          },
+          {
+            "id": "b88615259904d717",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 Facts/随机森林Random Forest.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "随机森林Random Forest"
+            }
+          },
+          {
+            "id": "abb3aa9299ac53c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 Facts/逻辑回归Logistic-Regression.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "逻辑回归Logistic-Regression"
+            }
+          },
+          {
+            "id": "40ca6675858ea490",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "050 Resource/400 Books/《机器学习》-周志华.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "《机器学习》-周志华"
+            }
+          },
+          {
+            "id": "0d3441e18c7b3666",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 Facts/随机森林Random Forest.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "随机森林Random Forest"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -42,19 +159,36 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byModifiedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
             }
+          },
+          {
+            "id": "4268dc6927e2b9e6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Sigmoid",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 343.50390243530273,
-    "collapsed": true
+    "width": 343.50390243530273
   },
   "right": {
     "id": "3085a088a655b4cf",
@@ -103,29 +237,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100 Facts/Spring事务.md",
+                "file": "100 Facts/SpringBoot自动装配原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Spring事务 的出链列表"
-            }
-          },
-          {
-            "id": "4268dc6927e2b9e6",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "bean的生命周期",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "搜索"
+              "title": "SpringBoot自动装配原理 的出链列表"
             }
           },
           {
@@ -134,13 +251,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Facts/Spring事务.md",
+                "file": "100 Facts/决策树.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Spring事务 的大纲"
+              "title": "决策树 的大纲"
             }
           },
           {
@@ -173,8 +290,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 469.5,
-    "collapsed": true
+    "width": 338.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,34 +303,34 @@
       "webpage-html-export:导出为HTML": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "553152cb0460a845",
   "lastOpenFiles": [
-    "Spring Bean.md",
-    "100 Facts/SpringBoot 自动装配原理.md",
+    "100 Facts/随机森林Random Forest.md",
+    "100 Facts/决策树.md",
+    "100 Facts/机器学习基础.md",
+    "100 Facts/逻辑回归Logistic-Regression.md",
+    "050 Resource/400 Books/《机器学习》-周志华.md",
+    "100 Facts/CNN卷积神经网络.md",
+    "050 Resource/400 Books/《统计学习方法》读书笔记.md",
     "999 Templates/🏠Welcome.md",
+    "100 Facts/Kafka.md",
+    "300 Projects/301 Blogs/彻底失败.md",
+    "500 Daily/2025/202510.md",
+    "500 Daily/2025/202509.md",
+    "100 Facts/Transformer.md",
+    "《图解大模型》读书笔记.md",
+    "100 Facts/RNN循环神经网络.md",
+    "().md",
+    "999 Templates/MOC.md",
+    "999 Templates/经济学.md",
+    "100 Facts/类加载器.md",
+    "100 Facts/面试八股问题列表.md",
+    "100 Facts/敏捷开发基础.md",
+    "100 Facts/OS 中断.md",
+    "100 Facts/IP 隧道.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/Future.md",
+    "100 Facts/SpringBoot启动流程.md",
     "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-java.md",
-    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-Spring.md",
-    "100 Facts/Spring事务.md",
-    "100 Facts/Java的final关键字.md",
-    "100 Facts/Spring IoC & AOP.md",
-    "100 Facts/Spring.md",
-    "100 Facts/Java反射机制详解.md",
-    "100 Facts/Java类的生命周期.md",
-    "100 Facts/Java的final.md",
-    "100 Facts/Java的final 关键字.md",
-    "100 Facts/`final`方法.md",
-    "100 Facts/Java.md",
-    "100 Facts/事务.md",
-    "100 Facts/动态代理.md",
-    "100 Facts/es.md",
-    "100 Facts/深入理解 Thread.md",
-    "100 Facts/编译&解释.md",
-    "100 Facts/半连接队列和全连接队列.md",
-    "100 Facts/键入网址到网页显示全流程？.md",
-    "100 Facts/进程、线程、协程.md",
-    "100 Facts/AI-Agent.md",
-    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-MYSQL.md",
-    "100 Facts/Encoder-Decoder 架构.md",
     "500 Daily/2025",
     "500 Daily",
     "300 Projects/论文/figure/Core-300_Guesser-Hinter_SuccessRate.png",

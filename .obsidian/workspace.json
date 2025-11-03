@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "aafdf7c232c3fa8e",
+            "id": "3678f6fc6e2f2bd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 Facts/Linux 常用命令.md",
+                "file": "100 Facts/Spring Bean.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux 常用命令"
+              "title": "Spring Bean"
             }
           }
         ],
@@ -81,13 +81,11 @@
               "title": "搜索"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 343.50390243530273,
-    "collapsed": true
+    "width": 343.50390243530273
   },
   "right": {
     "id": "3085a088a655b4cf",
@@ -203,13 +201,18 @@
       "webpage-html-export:导出为HTML": false
     }
   },
-  "active": "aafdf7c232c3fa8e",
+  "active": "3678f6fc6e2f2bd2",
   "lastOpenFiles": [
+    "Spring如何解决循环依赖.md",
+    "100 Facts/Spring Bean.md",
+    "050 Resource/《图解大模型》读书笔记.md",
+    "@Autowired和@Resourced.md",
     "正则表达式.md",
+    "999 Templates/🏠Welcome.md",
+    "999 Templates/哲学基础.md",
     "100 Facts/Linux 常用命令.md",
     "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-MYSQL.md",
     "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股场景.md",
-    "999 Templates/🏠Welcome.md",
     "100 Facts/图像处理.md",
     "100 Facts/决策树.md",
     "100 Facts/随机森林Random Forest.md",
@@ -223,14 +226,9 @@
     "500 Daily/2025/202510.md",
     "500 Daily/2025/202509.md",
     "100 Facts/Transformer.md",
-    "《图解大模型》读书笔记.md",
     "100 Facts/RNN循环神经网络.md",
     "().md",
     "999 Templates/MOC.md",
-    "999 Templates/经济学.md",
-    "100 Facts/类加载器.md",
-    "100 Facts/面试八股问题列表.md",
-    "100 Facts/敏捷开发基础.md",
     "500 Daily/2025",
     "500 Daily",
     "300 Projects/论文/figure/Core-300_Guesser-Hinter_SuccessRate.png",

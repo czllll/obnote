@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "51d73419ec936a60",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -21,112 +21,9 @@
               "pinned": true,
               "icon": "lucide-file",
               "title": "🏠Welcome"
-            }
-          },
-          {
-            "id": "c6d50c65537662bd",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "999 Templates/🏠Welcome.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "🏠Welcome"
-            }
-          },
-          {
-            "id": "b055334dba8768f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "400 Diary/2025-11-04.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-11-04"
-            }
-          },
-          {
-            "id": "af4019a6885ca122",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 Facts/数据库三大范式.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "数据库三大范式"
-            }
-          },
-          {
-            "id": "0b705dddc67b2d26",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "999 Templates/🏠Welcome.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "🏠Welcome"
-            }
-          },
-          {
-            "id": "1617e449f96fb15f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "999 Templates/MOC.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MOC"
-            }
-          },
-          {
-            "id": "1b7c888dbfa2fae9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 Facts/STOMP协议.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "STOMP协议"
-            }
-          },
-          {
-            "id": "578c6813670974c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 Facts/SQL 语法必备.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SQL 语法必备"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"888 Archive/论文/\" ",
+                "query": "tag:#middleware  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -292,17 +189,34 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "578c6813670974c7",
+  "active": "51d73419ec936a60",
   "lastOpenFiles": [
-    "888 Archive/assets/IM-Architecture.md",
-    "100 Facts/SQL 语法必备.md",
+    "100 Facts/面试八股问题列表.md",
+    "100 Facts/OS 中断.md",
+    "100 Facts/内存分配策略.md",
+    "100 Facts/类加载器.md",
+    "100 Facts/CRC16 算法.md",
+    "200 Insights/如何保证kafka消息顺序消费？.md",
+    "100 Facts/三色标记法.md",
+    "100 Facts/动态代理.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-Spring.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-java.md",
+    "100 Facts/进程、线程、协程.md",
+    "100 Facts/孤儿进程&僵尸进程.md",
+    "100 Facts/用户态&内核态.md",
+    "100 Facts/网络分层.md",
+    "100 Facts/HTTP 发展.md",
+    "100 Facts/TCP 与 UDP.md",
+    "100 Facts/LVS（Linux Virtual Server）.md",
+    "100 Facts/IP 隧道.md",
+    "100 Facts/NAT.md",
+    "100 Facts/DNS.md",
+    "100 Facts/Spring IoC & AOP.md",
+    "100 Facts/Mybatis基础.md",
+    "100 Facts/事务.md",
     "999 Templates/🏠Welcome.md",
-    "100 Facts/STOMP协议.md",
-    "999 Templates/MOC.md",
-    "100 Facts/数据库三大范式.md",
-    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-MYSQL.md",
-    "888 Archive/论文/分配.md",
-    "500 Daily/2025/202511.md",
+    "100 Facts/Kafka.md",
+    "300 Projects/302 algocove/4. Post.md",
     "500 Daily/2025",
     "500 Daily",
     "888 Archive/assets/excalidraw-ppugins/architecture-diagram-components.excalidrawlib",
@@ -312,24 +226,7 @@
     "888 Archive/assets/excalidraw-ppugins/software-architecture.excalidrawlib",
     "888 Archive/assets/excalidraw-ppugins/未确认 353820.crdownload",
     "888 Archive/assets/excalidraw-ppugins",
-    "400 Diary/2025-11-04.md",
-    "Users/czl/Documents/obnote/888 Archive/assets/Drawing 2025-11-04 19.37.26.excalidraw.md",
     "Users/czl/Documents/obnote/888 Archive/assets",
-    "300 Projects/301 Blogs/彻底失败.md",
-    "100 Facts/Servlet.md",
-    "300 Projects/303 qizhi项目梳理.md",
-    "100 Facts/Cassandra.md",
-    "999 Templates/哲学基础.md",
-    "100 Facts/Linux 常用命令.md",
-    "100 Facts/Spring Bean.md",
-    "Spring如何解决循环依赖.md",
-    "050 Resource/400 Books/《图解大模型》读书笔记.md",
-    "@Autowired和@Resourced.md",
-    "正则表达式.md",
-    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股场景.md",
-    "100 Facts/图像处理.md",
-    "100 Facts/决策树.md",
-    "100 Facts/随机森林Random Forest.md",
     "888 Archive/论文/figure/Core-300_Guesser-Hinter_SuccessRate.png",
     "@asset/Pasted image 20241016134949.png",
     "@asset/Pasted image 20241013165245.png",

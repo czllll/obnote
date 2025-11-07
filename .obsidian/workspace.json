@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "51d73419ec936a60",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#middleware  ",
+                "query": "算法笔记",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,8 @@
               "title": "搜索"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -189,8 +190,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "51d73419ec936a60",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "100 Facts/算法笔记.md",
+    "999 Templates/🏠Welcome.md",
     "100 Facts/面试八股问题列表.md",
     "100 Facts/OS 中断.md",
     "100 Facts/内存分配策略.md",
@@ -214,9 +217,7 @@
     "100 Facts/Spring IoC & AOP.md",
     "100 Facts/Mybatis基础.md",
     "100 Facts/事务.md",
-    "999 Templates/🏠Welcome.md",
     "100 Facts/Kafka.md",
-    "300 Projects/302 algocove/4. Post.md",
     "500 Daily/2025",
     "500 Daily",
     "888 Archive/assets/excalidraw-ppugins/architecture-diagram-components.excalidrawlib",

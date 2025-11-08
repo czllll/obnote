@@ -22,8 +22,23 @@
               "icon": "lucide-file",
               "title": "🏠Welcome"
             }
+          },
+          {
+            "id": "f732880cddd684e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200 Insights/Linux端口同时被listen和connect 吗？.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linux端口同时被listen和connect 吗？"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -55,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "算法笔记",
+                "query": "内部类",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +81,7 @@
               "title": "搜索"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -190,34 +204,34 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "f732880cddd684e2",
   "lastOpenFiles": [
-    "100 Facts/算法笔记.md",
-    "999 Templates/🏠Welcome.md",
-    "100 Facts/面试八股问题列表.md",
-    "100 Facts/OS 中断.md",
-    "100 Facts/内存分配策略.md",
-    "100 Facts/类加载器.md",
-    "100 Facts/CRC16 算法.md",
+    "200 Insights/为什么不同隔离级别下对 binlog 模式还有要求？.md",
     "200 Insights/如何保证kafka消息顺序消费？.md",
-    "100 Facts/三色标记法.md",
-    "100 Facts/动态代理.md",
-    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-Spring.md",
+    "200 Insights/JMM 和 JVM 内存结构有什么区别和联系？.md",
+    "200 Insights/服务架构性能优化方式.md",
+    "200 Insights/python包装在哪里了?.md",
+    "200 Insights/BILIBILI点赞系统架构.md",
+    "200 Insights/软件开发者需要知道有关学习的10件事情.md",
+    "200 Insights/如何进行大文件在小内存上的排序？.md",
+    "200 Insights/为什么使用 kafka，相较于其他 mq 有什么优势？.md",
+    "100 Facts/经济学.md",
+    "999 Templates/🏠Welcome.md",
+    "999 Templates/blog template.md",
+    "999 Templates/新笔记.md",
+    "100 Facts/哲学基础.md",
+    "300 Projects/303 qizhi项目梳理.md",
+    "300 Projects/302 algocove/1. Gateway.md",
+    "400 Diary/2025-11-04.md",
+    "500 Daily/2025/202511.md",
+    "300 Projects/302 algocove/7. Checkin.md",
+    "300 Projects/302 algocove/【系统设计】Feed.md",
+    "300 Projects/302 algocove/部署流程.md",
+    "300 Projects/302 algocove/4. Post.md",
+    "300 Projects/302 algocove/6. IM.md",
+    "300 Projects/302 algocove/未命名.md",
+    "100 Facts/Java 内部类.md",
     "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-java.md",
-    "100 Facts/进程、线程、协程.md",
-    "100 Facts/孤儿进程&僵尸进程.md",
-    "100 Facts/用户态&内核态.md",
-    "100 Facts/网络分层.md",
-    "100 Facts/HTTP 发展.md",
-    "100 Facts/TCP 与 UDP.md",
-    "100 Facts/LVS（Linux Virtual Server）.md",
-    "100 Facts/IP 隧道.md",
-    "100 Facts/NAT.md",
-    "100 Facts/DNS.md",
-    "100 Facts/Spring IoC & AOP.md",
-    "100 Facts/Mybatis基础.md",
-    "100 Facts/事务.md",
-    "100 Facts/Kafka.md",
     "500 Daily/2025",
     "500 Daily",
     "888 Archive/assets/excalidraw-ppugins/architecture-diagram-components.excalidrawlib",

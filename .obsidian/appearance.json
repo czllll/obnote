@@ -3,7 +3,7 @@
   "baseFontSize": 15,
   "baseFontSizeAction": true,
   "theme": "system",
-  "accentColor": "#ffffff",
+  "accentColor": "#000000",
   "textFontFamily": "Arial",
   "interfaceFontFamily": "Arial",
   "nativeMenus": false,

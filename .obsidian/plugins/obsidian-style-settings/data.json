@@ -117,7 +117,7 @@
   "minimal-style@@link-unresolved-opacity": 0.25,
   "maple-workspace@@outline-enable": true,
   "maple-basic@@setting-accent-h-light": 260,
-  "maple-basic@@color-scheme": "color-use-custom",
+  "maple-basic@@color-scheme": "color-use-minimal",
   "maple-workspace@@explorer-folder-bold": true,
   "maple-workspace@@enable-group-title": false,
   "maple-workspace@@modal-header-search": true,
@@ -128,5 +128,9 @@
   "maple-workspace@@enable-blur": true,
   "maple-workspace@@explorer-icon": false,
   "maple-workspace@@status-bar-style-float": true,
-  "maple-editor@@editor-bg-pattern": "editor-bg-plain"
+  "maple-editor@@editor-bg-pattern": "editor-bg-plain",
+  "obsidian-velocity@@code-special": "var(--color-red)",
+  "obsidian-velocity@@theme-mode": "theme-corsa",
+  "obsidian-velocity@@color-highlight-rgb": "var(--color-orange-rgb)",
+  "obsidian-velocity@@line-height-normal": "1.5"
 }

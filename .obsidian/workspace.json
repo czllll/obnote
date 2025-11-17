@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 Facts/Mapreduce.md",
+                "file": "100 Facts/倒排索引.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mapreduce"
+              "title": "倒排索引"
             }
           }
         ],
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "两阶段提交",
+                "query": "脑裂",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -81,8 +81,7 @@
               "title": "搜索"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -197,8 +196,14 @@
   },
   "active": "309428c7cc1b8876",
   "lastOpenFiles": [
-    "100 Facts/两阶段提交.md",
+    "300 Projects/MIT6.5840/LEC.md",
+    "100 Facts/状态机.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-redis.md",
+    "300 Projects/303 qizhi项目梳理.md",
     "100 Facts/Mapreduce.md",
+    "300 Projects/MIT6.5840",
+    "500 Daily/2025/202511.md",
+    "100 Facts/两阶段提交.md",
     "100 Facts/分布式事务.md",
     "100 Facts/OS内存管理.md",
     "999 Templates/🏠Welcome.md",
@@ -206,7 +211,6 @@
     "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股场景.md",
     "100 Facts/OS进程管理.md",
     "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-OS.md",
-    "500 Daily/2025/202511.md",
     "500 Daily/2025",
     "500 Daily",
     "100 Facts/死锁与资源管理.md",
@@ -221,10 +225,6 @@
     "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-CN.md",
     "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-MYSQL.md",
     "888 Archive/assets/IM-Architecture.md",
-    "200 Insights/服务限流实战.md",
-    "888 Archive/assets/AI 服务限流.md",
-    "888 Archive/assets/Algocove 核心流程.md",
-    "100 Facts/Alibaba-Sentinel.md",
     "888 Archive/assets/excalidraw-ppugins/architecture-diagram-components.excalidrawlib",
     "888 Archive/assets/excalidraw-ppugins/未确认 235527.crdownload",
     "888 Archive/assets/excalidraw-ppugins/drwnio.excalidrawlib",
@@ -232,7 +232,6 @@
     "888 Archive/assets/excalidraw-ppugins/software-architecture.excalidrawlib",
     "888 Archive/assets/excalidraw-ppugins/未确认 353820.crdownload",
     "888 Archive/assets/excalidraw-ppugins",
-    "Users/czl/Documents/obnote/888 Archive/assets",
     "888 Archive/论文/figure/Core-300_Guesser-Hinter_SuccessRate.png",
     "@asset/Pasted image 20241016134949.png",
     "@asset/Pasted image 20241013165245.png",

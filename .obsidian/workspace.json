@@ -85,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 261.5,
+    "collapsed": true
   },
   "right": {
     "id": "3085a088a655b4cf",
@@ -187,9 +188,9 @@
       "templater-obsidian:Templater": true,
       "graph:查看关系图谱": false,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
-      "webpage-html-export:导出为HTML": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "random-note:开始漫游笔记": false,
+      "webpage-html-export:导出为HTML": true,
+      "daily-notes:打开/创建今天的日记": true,
+      "random-note:开始漫游笔记": true,
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },

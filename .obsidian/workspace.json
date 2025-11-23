@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "ec35ee6217a1cfda",
+            "id": "448acb2f6989539d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "100 Facts/Redis数据类型.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Redis数据类型"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ],
@@ -57,7 +57,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "redis 线程",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -85,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5,
-    "collapsed": true
+    "width": 261.5
   },
   "right": {
     "id": "3085a088a655b4cf",
@@ -164,13 +163,22 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Facts/Redis数据类型.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Redis数据类型 的大纲"
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "f74716cc50d6af88",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -191,7 +199,8 @@
       "webpage-html-export:导出为HTML": true,
       "daily-notes:打开/创建今天的日记": true,
       "random-note:开始漫游笔记": true,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "floating": {
@@ -233,11 +242,26 @@
       }
     ]
   },
-  "active": "ec35ee6217a1cfda",
+  "active": "448acb2f6989539d",
   "lastOpenFiles": [
     "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-redis.md",
+    "100 Facts/【00】面试八股问题列表.md",
+    "200 Insights/BILIBILI点赞系统架构.md",
+    "200 Insights/线上问题排查方案？.md",
+    "200 Insights/为什么使用 kafka，相较于其他 mq 有什么优势？.md",
+    "200 Insights/为什么不同隔离级别下对 binlog 模式还有要求？.md",
+    "200 Insights/声明式注解事务失效原因?.md",
+    "200 Insights/软件开发者需要知道有关学习的10件事情.md",
+    "200 Insights/如何进行大文件在小内存上的排序？.md",
+    "200 Insights/如何保证kafka消息顺序消费？.md",
+    "200 Insights/服务限流实战.md",
+    "200 Insights/服务架构性能优化方式.md",
+    "888 Archive/assets/AI 服务限流.md",
+    "999 Templates/🏠Welcome.md",
     "100 Facts/Redis数据类型.md",
-    "100 Facts/面试八股问题列表.md",
+    "100 Facts/半连接队列和全连接队列.md",
+    "100 Facts/逻辑回归Logistic-Regression.md",
+    "100 Facts/什么是 TLAB？.md",
     "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-JVM.md",
     "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-MYSQL.md",
     "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股场景.md",
@@ -246,24 +270,9 @@
     "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-OS.md",
     "100 Facts/倒排索引.md",
     "200 Insights/电梯算法.md",
-    "100 Facts/Mapreduce.md",
-    "999 Templates/🏠Welcome.md",
-    "100 Facts/闭包.md",
-    "500 Daily/2025/202511.md",
     "500 Daily/2025",
     "500 Daily",
-    "300 Projects/MIT6.5840/LEC.md",
-    "100 Facts/算法笔记.md",
-    "100 Facts/状态机.md",
-    "300 Projects/303 qizhi项目梳理.md",
     "300 Projects/MIT6.5840",
-    "100 Facts/两阶段提交.md",
-    "100 Facts/分布式事务.md",
-    "100 Facts/OS内存管理.md",
-    "888 Archive/assets/process-state.md",
-    "100 Facts/OS进程管理.md",
-    "100 Facts/死锁与资源管理.md",
-    "100 Facts/用户态&内核态.md",
     "888 Archive/assets/excalidraw-ppugins/architecture-diagram-components.excalidrawlib",
     "888 Archive/assets/excalidraw-ppugins/未确认 235527.crdownload",
     "888 Archive/assets/excalidraw-ppugins/drwnio.excalidrawlib",

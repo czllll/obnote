@@ -1,7 +1,7 @@
 
-| domain | layer | type  |
-| ------ | ----- | ----- |
-| #db    | #     | #fact |
+| domain | layer   | type  |
+| ------ | ------- | ----- |
+| #db    | #redis  | #fact |
 
 ## String
 ### 底层实现

@@ -15,3 +15,6 @@
 * Performance
 	* 吞吐
 	* 低延迟
+
+### Mapreduce
+[[Mapreduce]]

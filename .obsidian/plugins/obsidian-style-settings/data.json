@@ -117,7 +117,7 @@
   "minimal-style@@link-unresolved-opacity": 0.25,
   "maple-workspace@@outline-enable": true,
   "maple-basic@@setting-accent-h-light": 260,
-  "maple-basic@@color-scheme": "color-use-minimal",
+  "maple-basic@@color-scheme": "color-use-default",
   "maple-workspace@@explorer-folder-bold": true,
   "maple-workspace@@enable-group-title": false,
   "maple-workspace@@modal-header-search": true,

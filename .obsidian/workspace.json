@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "309428c7cc1b8876",
+            "id": "ec35ee6217a1cfda",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 Facts/倒排索引.md",
+                "file": "100 Facts/Redis数据类型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "倒排索引"
+              "title": "Redis数据类型"
             }
           }
         ],
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "脑裂",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -163,13 +163,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Facts/Mapreduce.md",
+                "file": "100 Facts/Redis数据类型.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Mapreduce 的大纲"
+              "title": "Redis数据类型 的大纲"
             }
           }
         ],
@@ -177,8 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338.5,
-    "collapsed": true
+    "width": 338.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,37 +193,76 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "309428c7cc1b8876",
+  "floating": {
+    "id": "de42e9c97b11b6f9",
+    "type": "floating",
+    "children": [
+      {
+        "id": "ee88177b6407b9fc",
+        "type": "window",
+        "children": [
+          {
+            "id": "bfb8c71911700202",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "47f3f4a7f2c05bfb",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-redis.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "八股复习-redis"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 9,
+        "y": 29,
+        "width": 1191,
+        "height": 960,
+        "maximize": false,
+        "zoom": 0.5
+      }
+    ]
+  },
+  "active": "ec35ee6217a1cfda",
   "lastOpenFiles": [
-    "300 Projects/MIT6.5840/LEC.md",
-    "100 Facts/状态机.md",
     "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-redis.md",
-    "300 Projects/303 qizhi项目梳理.md",
+    "100 Facts/Redis数据类型.md",
+    "100 Facts/面试八股问题列表.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-JVM.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-MYSQL.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股场景.md",
+    "100 Facts/工厂模式.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/Future.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-OS.md",
+    "100 Facts/倒排索引.md",
+    "200 Insights/电梯算法.md",
     "100 Facts/Mapreduce.md",
-    "300 Projects/MIT6.5840",
+    "999 Templates/🏠Welcome.md",
+    "100 Facts/闭包.md",
     "500 Daily/2025/202511.md",
+    "500 Daily/2025",
+    "500 Daily",
+    "300 Projects/MIT6.5840/LEC.md",
+    "100 Facts/算法笔记.md",
+    "100 Facts/状态机.md",
+    "300 Projects/303 qizhi项目梳理.md",
+    "300 Projects/MIT6.5840",
     "100 Facts/两阶段提交.md",
     "100 Facts/分布式事务.md",
     "100 Facts/OS内存管理.md",
-    "999 Templates/🏠Welcome.md",
     "888 Archive/assets/process-state.md",
-    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股场景.md",
     "100 Facts/OS进程管理.md",
-    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-OS.md",
-    "500 Daily/2025",
-    "500 Daily",
     "100 Facts/死锁与资源管理.md",
-    "100 Facts/面试八股问题列表.md",
     "100 Facts/用户态&内核态.md",
-    "100 Facts/OS 中断.md",
-    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-OS~.md",
-    "100 Facts/中断.md",
-    "100 Facts/O7yuhjn mS 中断.md",
-    "999 Templates/未命名.md",
-    "100 Facts/限流算法.md",
-    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-CN.md",
-    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-MYSQL.md",
-    "888 Archive/assets/IM-Architecture.md",
     "888 Archive/assets/excalidraw-ppugins/architecture-diagram-components.excalidrawlib",
     "888 Archive/assets/excalidraw-ppugins/未确认 235527.crdownload",
     "888 Archive/assets/excalidraw-ppugins/drwnio.excalidrawlib",

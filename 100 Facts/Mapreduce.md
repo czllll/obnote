@@ -10,8 +10,8 @@
 3. map worker 读取输入，解析 kv 对，传递给用户自定义的 Map()函数，Map()函数生成中间 kv 对，缓存在内存中
 4. 分区函数将缓存的 kv 对分成 R 个 regins，周期性写到 local disk 上，在 disk 上的位置将会被回传给 master，master 将会把这些位置传送给 Reduce Worker；
 5. Reduce Worker 接收到位置信息，使用 RPC 从 Map worker 读取到 kv 对。之后 Reduce Worker 将 key 进行排序后使用相同的 key 值的数据聚合在一起。
-6. Reduce worker 遍历排序好的 kv 对，将这个 key 和他先管的中间 value 值的集合传递给用户自定义的 Reduce()函数，输出被追加到所属分区的输出文件。
-7. Map 和 Reduce 任务都完成后， master 唤醒用户程序，用户程序看到 mp 返回
+6. Reduce worker 遍历排序好的 kv 对，将这个 key 和相关的中间 value 值的集合传递给用户自定义的 Reduce()函数，输出被追加到所属分区的输出文件。
+7. Map 和 Reduce 任务都完成后， master 唤醒用户程序，用户程序看到 mr 返回
 用户得到的返回一般是 R 个输出文件，一般不需要合并成一个，可以作为另一个 MapReduce 的输入或其他应用中使用。
 
 ## Master 数据结构

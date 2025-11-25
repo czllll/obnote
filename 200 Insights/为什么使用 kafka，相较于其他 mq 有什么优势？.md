@@ -1,4 +1,6 @@
-
-| domain      | layer | type           |
-| ----------- | ----- | -------------- |
-| #middleware | #mq   | #insight #todo |
+---
+tags:
+- middleware
+- mq
+- insight todo
+---

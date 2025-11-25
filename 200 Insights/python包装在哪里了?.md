@@ -1,8 +1,8 @@
-
-| domain  | layer | type                    |
-| ------- | ----- | ----------------------- |
-| #python | #     | #blog-reading #insight  |
-
+---
+tags:
+- python
+- blog-reading insight
+---
 ## 要点
 * 虚拟环境
 	* 运行`virtualenv myenv`会复制一个新的 Python 解释器到`myenv/bin`下，

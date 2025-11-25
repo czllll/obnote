@@ -1,8 +1,8 @@
-
-| domain | layer | type          |
-| ------ | ----- | ------------- |
-| #ai    | #     | #blog-reading |
-
+---
+tags:
+- ai
+- blog-reading
+---
 ## 要点
 >They help those with the will, ability, and discipline, but they are of marginal benefit to those who have fallen behind.
 >neural networks remain quite opaque.(不透明)

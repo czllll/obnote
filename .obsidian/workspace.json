@@ -24,15 +24,29 @@
             }
           },
           {
-            "id": "c8e1f7dd3bc4d4e9",
+            "id": "2e72bbea101c317f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 Facts/130 Database/Redis/02 Redis线程模型和网络模型.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02 Redis线程模型和网络模型"
+            }
+          },
+          {
+            "id": "36bf61c3614673d8",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "888 Archive/assets/Algocove 核心流程.md"
+                "file": "888 Archive/assets/Drawing 2025-11-25 20.43.08.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Algocove 核心流程"
+              "title": "Drawing 2025-11-25 20.43.08.excalidraw"
             }
           }
         ],
@@ -68,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"excalidraw-plugin\"]",
+                "query": "IO 多路",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -161,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "888 Archive/assets/Algocove 核心流程.md",
+                "file": "100 Facts/130 Database/Redis/02 Redis线程模型和网络模型.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Algocove 核心流程 的大纲"
+              "title": "02 Redis线程模型和网络模型 的大纲"
             }
           },
           {
@@ -180,7 +194,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -201,83 +216,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "de42e9c97b11b6f9",
-    "type": "floating",
-    "children": [
-      {
-        "id": "ee88177b6407b9fc",
-        "type": "window",
-        "children": [
-          {
-            "id": "bfb8c71911700202",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "47f3f4a7f2c05bfb",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-redis.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "八股复习-redis"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 489,
-        "y": 25,
-        "width": 1191,
-        "height": 960,
-        "maximize": false,
-        "zoom": 0.5
-      }
-    ]
-  },
-  "active": "c8e1f7dd3bc4d4e9",
+  "active": "2e72bbea101c317f",
   "lastOpenFiles": [
-    "100 Facts/150 General/经济学.md",
-    "100 Facts/150 General/【00】面试八股问题列表.md",
-    "100 Facts/150 General/学习资料工具.md",
-    "100 Facts/150 General/哲学基础.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-redis.md",
+    "100 Facts/130 Database/Redis/02 Redis线程模型和网络模型.md",
+    "888 Archive/assets/Drawing 2025-11-25 20.43.08.excalidraw.md",
+    "100 Facts/130 Database/Redis/01 Redis数据类型.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-CN.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-java并发.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-JVM.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-MYSQL.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-OS.md",
+    "100 Facts/100 Operating System/IO 多路复用.md",
+    "100 Facts/100 Operating System/Linux 常用命令.md",
+    "100 Facts/100 Operating System/Linux基础.md",
+    "100 Facts/100 Operating System/OS内存管理.md",
+    "100 Facts/100 Operating System/OS进程管理.md",
+    "100 Facts/100 Operating System/内存分配策略.md",
+    "100 Facts/100 Operating System/进程调度算法.md",
+    "100 Facts/100 Operating System/银行家算法.md",
+    "100 Facts/100 Operating System/文件描述符FD.md",
+    "100 Facts/100 Operating System/死锁与资源管理.md",
+    "100 Facts/100 Operating System/进程间通信.md",
+    "100 Facts/130 Database/MultiLock和 RedLock.md",
+    "100 Facts/130 Database/Mybatis基础.md",
+    "100 Facts/130 Database/LUA基础.md",
+    "100 Facts/130 Database/es.md",
+    "100 Facts/130 Database/Cassandra.md",
+    "100 Facts/130 Database/索引条件下推.md",
+    "100 Facts/130 Database/Redis",
     "100 Facts/150 General",
-    "100 Facts/145 Security/OAuth.md",
-    "100 Facts/145 Security/CRC16 算法.md",
     "100 Facts/145 Security",
-    "100 Facts/140 AI/逻辑回归Logistic-Regression.md",
-    "100 Facts/140 AI/机器学习基础.md",
-    "100 Facts/140 AI/图像处理.md",
-    "100 Facts/140 AI/决策树.md",
-    "100 Facts/140 AI/ml&dl基础.md",
-    "100 Facts/140 AI/Transformer.md",
-    "100 Facts/140 AI/Transfer Learning迁移学习.md",
-    "100 Facts/140 AI/RNN循环神经网络.md",
-    "100 Facts/140 AI/Encoder-Decoder 架构.md",
-    "100 Facts/140 AI/CNN卷积神经网络.md",
-    "100 Facts/140 AI/AI-Agent.md",
     "100 Facts/140 AI",
-    "100 Facts/135 Architecture/限流算法.md",
-    "100 Facts/135 Architecture/模板方法模式.md",
-    "100 Facts/135 Architecture/敏捷开发基础.md",
-    "100 Facts/135 Architecture/设计模式.md",
-    "100 Facts/135 Architecture/工厂模式.md",
-    "100 Facts/135 Architecture/单例模式.md",
-    "100 Facts/135 Architecture/Kafka.md",
-    "100 Facts/135 Architecture/分布式事务.md",
-    "100 Facts/135 Architecture/代理模式.md",
     "100 Facts/135 Architecture",
     "100 Facts/130 Database",
     "100 Facts/125 Frontend",
     "100 Facts/120 Python",
     "100 Facts/115 Java/JVM",
     "100 Facts/115 Java",
-    "100 Facts/110 Algorithms",
     "888 Archive/论文/figure/Core-300_Guesser-Hinter_SuccessRate.png",
     "@asset/Pasted image 20241016134949.png",
     "@asset/Pasted image 20241013165245.png",

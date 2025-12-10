@@ -24,29 +24,15 @@
             }
           },
           {
-            "id": "2e72bbea101c317f",
+            "id": "4ad285d7e8712b26",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "100 Facts/130 Database/Redis/02 Redis线程模型和网络模型.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.10.6"
               },
-              "icon": "lucide-file",
-              "title": "02 Redis线程模型和网络模型"
-            }
-          },
-          {
-            "id": "36bf61c3614673d8",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "888 Archive/assets/Drawing 2025-11-25 20.43.08.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-11-25 20.43.08.excalidraw"
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.10.6"
             }
           }
         ],
@@ -82,11 +68,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "IO 多路",
+                "query": "mapreduce",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
-                "extraContext": false,
+                "collapseAll": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
@@ -127,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-OS.md",
+                "file": "100 Facts/135 Architecture/Mapreduce.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +123,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "八股复习-OS 的反向链接列表"
+              "title": "Mapreduce 的反向链接列表"
             }
           },
           {
@@ -146,12 +132,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-OS.md",
-                "linksCollapsed": false,
+                "file": "100 Facts/135 Architecture/Mapreduce.md",
+                "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "八股复习-OS 的出链列表"
+              "title": "Mapreduce 的出链列表"
             }
           },
           {
@@ -175,13 +161,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Facts/130 Database/Redis/02 Redis线程模型和网络模型.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "02 Redis线程模型和网络模型 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -199,7 +184,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338.5
+    "width": 307
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,34 +201,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2e72bbea101c317f",
+  "active": "4ad285d7e8712b26",
   "lastOpenFiles": [
-    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-redis.md",
-    "100 Facts/130 Database/Redis/02 Redis线程模型和网络模型.md",
-    "888 Archive/assets/Drawing 2025-11-25 20.43.08.excalidraw.md",
-    "100 Facts/130 Database/Redis/01 Redis数据类型.md",
-    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-CN.md",
-    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-java并发.md",
-    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-JVM.md",
-    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-MYSQL.md",
-    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-OS.md",
+    "999 Templates/🏠Welcome.md",
+    "300 Projects/302 algocove/12.4.md",
+    "100 Facts/135 Architecture/Mapreduce.md",
+    "300 Projects/MIT6.5840/LEC.md",
+    "100 Facts/140 AI/AI-Agent.md",
+    "100 Facts/100 Operating System/04-网络IO管理.md",
+    "100 Facts/100 Operating System/03-OS进程管理.md",
+    "100 Facts/100 Operating System/05-死锁与资源管理.md",
+    "100 Facts/100 Operating System/02-OS内存管理.md",
+    "300 Projects/302 algocove/6. IM.md",
+    "100 Facts/100 Operating System/00-Linux 常用命令.md",
+    "100 Facts/100 Operating System/04-网络.md",
+    "100 Facts/100 Operating System/(04-网络.md",
+    "100 Facts/100 Operating System/进程间通信.md",
     "100 Facts/100 Operating System/IO 多路复用.md",
-    "100 Facts/100 Operating System/Linux 常用命令.md",
     "100 Facts/100 Operating System/Linux基础.md",
-    "100 Facts/100 Operating System/OS内存管理.md",
-    "100 Facts/100 Operating System/OS进程管理.md",
+    "100 Facts/100 Operating System/文件描述符FD.md",
+    "100 Facts/100 Operating System/银行家算法.md",
+    "100 Facts/100 Operating System/OS 中断.md",
     "100 Facts/100 Operating System/内存分配策略.md",
     "100 Facts/100 Operating System/进程调度算法.md",
-    "100 Facts/100 Operating System/银行家算法.md",
-    "100 Facts/100 Operating System/文件描述符FD.md",
-    "100 Facts/100 Operating System/死锁与资源管理.md",
-    "100 Facts/100 Operating System/进程间通信.md",
-    "100 Facts/130 Database/MultiLock和 RedLock.md",
-    "100 Facts/130 Database/Mybatis基础.md",
-    "100 Facts/130 Database/LUA基础.md",
-    "100 Facts/130 Database/es.md",
-    "100 Facts/130 Database/Cassandra.md",
-    "100 Facts/130 Database/索引条件下推.md",
+    "100 Facts/100 Operating System/孤儿进程&僵尸进程.md",
+    "100 Facts/100 Operating System/01-用户态&内核态.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-OS.md",
+    "300 Projects/302 algocove/1. Gateway.md",
+    "888 Archive/assets/Drawing 2025-11-26 21.31.05.excalidraw.md",
     "100 Facts/130 Database/Redis",
     "100 Facts/150 General",
     "100 Facts/145 Security",

@@ -24,19 +24,37 @@
             }
           },
           {
-            "id": "4ad285d7e8712b26",
+            "id": "755fb86d0c56e884",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "999 Templates/🏠Welcome.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "🏠Welcome"
+            }
+          },
+          {
+            "id": "7c7e6a995755364a",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.10.6"
+                "file": "999 Templates/index.md.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.10.6"
+              "icon": "lucide-file",
+              "title": "index.md"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -68,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mapreduce",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -161,12 +179,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "999 Templates/index.md.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "index.md 的大纲"
             }
           },
           {
@@ -180,11 +199,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 307
+    "width": 466
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,9 +220,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4ad285d7e8712b26",
+  "active": "7c7e6a995755364a",
   "lastOpenFiles": [
     "999 Templates/🏠Welcome.md",
+    "999 Templates/index.md.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-redis.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-MYSQL.md",
+    "300 Projects/302 algocove/2. Auth.md",
+    "100 Facts/100 Operating System/00-Linux 常用命令.md",
+    "index.md.md",
+    "050 Resource/110 Clips/I Reverse Engineered ChatGPT's Memory System, and Here's What I Found!.md",
     "300 Projects/302 algocove/12.4.md",
     "100 Facts/135 Architecture/Mapreduce.md",
     "300 Projects/MIT6.5840/LEC.md",
@@ -213,7 +239,6 @@
     "100 Facts/100 Operating System/05-死锁与资源管理.md",
     "100 Facts/100 Operating System/02-OS内存管理.md",
     "300 Projects/302 algocove/6. IM.md",
-    "100 Facts/100 Operating System/00-Linux 常用命令.md",
     "100 Facts/100 Operating System/04-网络.md",
     "100 Facts/100 Operating System/(04-网络.md",
     "100 Facts/100 Operating System/进程间通信.md",
@@ -223,12 +248,6 @@
     "100 Facts/100 Operating System/银行家算法.md",
     "100 Facts/100 Operating System/OS 中断.md",
     "100 Facts/100 Operating System/内存分配策略.md",
-    "100 Facts/100 Operating System/进程调度算法.md",
-    "100 Facts/100 Operating System/孤儿进程&僵尸进程.md",
-    "100 Facts/100 Operating System/01-用户态&内核态.md",
-    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-OS.md",
-    "300 Projects/302 algocove/1. Gateway.md",
-    "888 Archive/assets/Drawing 2025-11-26 21.31.05.excalidraw.md",
     "100 Facts/130 Database/Redis",
     "100 Facts/150 General",
     "100 Facts/145 Security",

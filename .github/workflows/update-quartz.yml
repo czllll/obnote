@@ -1,0 +1,25 @@
+name: Update Quartz Submodule
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: czllll/quartzpub
+          ref: v4
+          token: ${{ secrets.PAT_TOKEN }}
+          submodules: true
+
+      - name: Update submodule
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git submodule update --remote content
+          git add content
+          git diff --cached --quiet || git commit -m "Update content submodule"
+          git push

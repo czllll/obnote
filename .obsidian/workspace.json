@@ -24,37 +24,41 @@
             }
           },
           {
-            "id": "755fb86d0c56e884",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "999 Templates/🏠Welcome.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "🏠Welcome"
-            }
-          },
-          {
-            "id": "18c97c865d06c5bd",
+            "id": "5d9f0a4e6b340aa3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-OS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "八股复习-OS"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
+      },
+      {
+        "id": "416130f181d2a17b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8fd8e60f25a3727c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 Facts/100 Operating System/03-OS进程管理.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03-OS进程管理"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -86,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "kafka",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,7 +119,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 261.5,
+    "collapsed": true
   },
   "right": {
     "id": "3085a088a655b4cf",
@@ -193,13 +198,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "100 Facts/100 Operating System/03-OS进程管理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "index 的大纲"
+              "title": "03-OS进程管理 的大纲"
             }
           },
           {
@@ -213,11 +218,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 466
+    "width": 302
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,13 +239,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "18c97c865d06c5bd",
+  "active": "8fd8e60f25a3727c",
   "lastOpenFiles": [
-    "999 Templates/index.md.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-OS.md",
+    "100 Facts/100 Operating System/03-OS进程管理.md",
+    "999 Templates/🏠Welcome.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-JVM.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-CN.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股场景.md",
+    "100 Facts/150 General/【00】面试八股问题列表.md",
     "index.md",
+    "999 Templates/index.md.md",
     "999 Templates/未命名 1.md",
     "999 Templates/未命名.md",
-    "999 Templates/🏠Welcome.md",
     "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-redis.md",
     "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-MYSQL.md",
     "300 Projects/302 algocove/2. Auth.md",
@@ -252,16 +263,10 @@
     "300 Projects/MIT6.5840/LEC.md",
     "100 Facts/140 AI/AI-Agent.md",
     "100 Facts/100 Operating System/04-网络IO管理.md",
-    "100 Facts/100 Operating System/03-OS进程管理.md",
     "100 Facts/100 Operating System/05-死锁与资源管理.md",
     "100 Facts/100 Operating System/02-OS内存管理.md",
     "300 Projects/302 algocove/6. IM.md",
     "100 Facts/100 Operating System/04-网络.md",
-    "100 Facts/100 Operating System/(04-网络.md",
-    "100 Facts/100 Operating System/进程间通信.md",
-    "100 Facts/100 Operating System/IO 多路复用.md",
-    "100 Facts/100 Operating System/Linux基础.md",
-    "100 Facts/100 Operating System/文件描述符FD.md",
     "100 Facts/130 Database/Redis",
     "100 Facts/150 General",
     "100 Facts/145 Security",

@@ -3,7 +3,7 @@ tags:
 - distributed-system
 ---
 ## 流程
-![image.png](https://img.dirtsai.work/astro-blog/2025/11/392d7d0b9f9536bc8402802cd7a19ca9.png)
+![image.png](https://img.eryi.me/astro-blog/2025/11/392d7d0b9f9536bc8402802cd7a19ca9.png)
 
 1. 输入文件分片 M片，每个块叫做input split；在机器上创建用户编写的程序副本
 2. 一个 master，其余的都是 worker，master 来分配任务；M 个 Map 任务和 R 个 Reduce 任务将被分配

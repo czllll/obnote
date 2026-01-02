@@ -22,41 +22,6 @@
               "icon": "lucide-file",
               "title": "🏠Welcome"
             }
-          },
-          {
-            "id": "5d9f0a4e6b340aa3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-OS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "八股复习-OS"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "416130f181d2a17b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8fd8e60f25a3727c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 Facts/100 Operating System/03-OS进程管理.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "03-OS进程管理"
-            }
           }
         ]
       }
@@ -90,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kafka",
+                "query": "img.dirtsai.work",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -119,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5,
-    "collapsed": true
+    "width": 211
   },
   "right": {
     "id": "3085a088a655b4cf",
@@ -198,13 +162,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Facts/100 Operating System/03-OS进程管理.md",
+                "file": "999 Templates/🏠Welcome.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "03-OS进程管理 的大纲"
+              "title": "🏠Welcome 的大纲"
             }
           },
           {
@@ -239,34 +203,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8fd8e60f25a3727c",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-OS.md",
-    "100 Facts/100 Operating System/03-OS进程管理.md",
-    "999 Templates/🏠Welcome.md",
-    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-JVM.md",
-    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-CN.md",
-    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股场景.md",
-    "100 Facts/150 General/【00】面试八股问题列表.md",
-    "index.md",
-    "999 Templates/index.md.md",
-    "999 Templates/未命名 1.md",
-    "999 Templates/未命名.md",
-    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-redis.md",
-    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-MYSQL.md",
-    "300 Projects/302 algocove/2. Auth.md",
-    "100 Facts/100 Operating System/00-Linux 常用命令.md",
-    "index.md.md",
-    "050 Resource/110 Clips/I Reverse Engineered ChatGPT's Memory System, and Here's What I Found!.md",
-    "300 Projects/302 algocove/12.4.md",
-    "100 Facts/135 Architecture/Mapreduce.md",
-    "300 Projects/MIT6.5840/LEC.md",
-    "100 Facts/140 AI/AI-Agent.md",
-    "100 Facts/100 Operating System/04-网络IO管理.md",
-    "100 Facts/100 Operating System/05-死锁与资源管理.md",
+    "888 Archive/assets/进程虚拟内存物理内存.md",
     "100 Facts/100 Operating System/02-OS内存管理.md",
-    "300 Projects/302 algocove/6. IM.md",
-    "100 Facts/100 Operating System/04-网络.md",
+    "888 Archive/assets/AI 服务限流.md",
+    "200 Insights/服务限流实战.md",
+    "999 Templates/🏠Welcome.md",
+    "100 Facts/100 Operating System/04-网络IO管理.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股场景.md",
+    "050 Resource/400 Books/《图解大模型》读书笔记.md",
+    "050 Resource/110 Clips/LLMs and Programming in the first days of 2024 - <antirez>.md",
+    "050 Resource/400 Books/《高效能人士》读书笔记.md",
+    "050 Resource/400 Books/《机器学习》-周志华.md",
+    "050 Resource/400 Books/《统计学习方法》读书笔记.md",
+    "100 Facts/145 Security/OAuth.md",
+    "100 Facts/145 Security/CRC16 算法.md",
+    "100 Facts/150 General/【00】面试八股问题列表.md",
+    "100 Facts/150 General/经济学.md",
+    "100 Facts/150 General/哲学基础.md",
+    "100 Facts/150 General/学习资料工具.md",
+    "999 Templates/新笔记.md",
+    "999 Templates/index.md.md",
+    "index.md",
+    "999 Templates/未命名.md",
+    "888 Archive/assets/Drawing 2025-12-23 16.28.09.excalidraw.md",
+    "100 Facts/100 Operating System/01-用户态&内核态.md",
+    "100 Facts/100 Operating System/03-OS进程管理.md",
     "100 Facts/130 Database/Redis",
     "100 Facts/150 General",
     "100 Facts/145 Security",

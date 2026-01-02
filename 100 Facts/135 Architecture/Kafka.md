@@ -18,7 +18,7 @@ Topic是一个逻辑概念
 * 消费者是从它所指定订阅的 “主题”Topic 中去拉取的
 * 一个主题Topic被分成多个Partition分区
 ### Patition
-![image.png](https://img.dirtsai.work/astro-blog/2025/09/b5de0e64374d6466b98377475941898f.png)
+![image.png](https://img.eryi.me/astro-blog/2025/09/b5de0e64374d6466b98377475941898f.png)
 - Partition分区 是最小的存储单元，掌握着一个Topic的部分数据。
 - 每个 Partition 分区都是一个单独的 log 文件，每条记录都以追加的形式写入。
 - 一个 Topic 的所有 Partition是分布在多个不同的Broker中的，目的是提高容错率、提高消息的消费能力，所有 Partition 的数据的并集就是所有数据

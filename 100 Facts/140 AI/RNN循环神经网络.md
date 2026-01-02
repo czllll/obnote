@@ -18,7 +18,7 @@ tags:
 	* 连接时间上前一个时刻的隐藏状态$h_{t-1}$到当前的$h_t$
 	* 就是RNN的循环记忆，让模型可以记住之前的信息
 * 这两个权重矩阵：1.可以匹配维度；2.可以矩阵式模型在训练中学习的参数
-* ![image.png](https://img.dirtsai.work/astro-blog/2025/04/93478d0eaf4b9409194bb90b84cabaf3.png)
+* ![image.png](https://img.eryi.me/astro-blog/2025/04/93478d0eaf4b9409194bb90b84cabaf3.png)
 * 输入
 * 隐藏状态
 	* 即$h_t$,从当前输入和上一步结果计算得到

@@ -2,7 +2,7 @@
 tags:
 - net
 ---
-![image.png](https://img.dirtsai.work/astro-blog/2025/10/47c25cc46dbba1f08601acf592633c8f.png)
+![image.png](https://img.eryi.me/astro-blog/2025/10/47c25cc46dbba1f08601acf592633c8f.png)
 
 - **200（成功）**：客户端请求成功
 

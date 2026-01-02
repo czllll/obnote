@@ -23,7 +23,7 @@
 - 紧急指针 2 字节 标志位URG = 1 才会有用
 - 选项字段（如 MSS、窗口扩大、时间戳）
 ### 三次握手
-![image.png](https://img.dirtsai.work/astro-blog/2025/10/b635eb3333f0218539c42066c24f6b9c.png)
+![image.png](https://img.eryi.me/astro-blog/2025/10/b635eb3333f0218539c42066c24f6b9c.png)
 * 初始状态
 	* 客户端和服务端都是 close 状态
 	* 服务端主动监听某个端口，处于 listen 状态
@@ -50,7 +50,7 @@
 	* 在两次握手的场景下，若服务器收到一个过时的 SYN 报文，就要分配资源去建立连接，服务端无法分辨是否是新的连接请求；而三次握手最后一次握手客户端会通过确认号来分辨是否是新的连接请求，如果是旧的，那就拒绝。
 
 ### 四次挥手
-![image.png](https://img.dirtsai.work/astro-blog/2025/10/e7a2bc3a8fb5f9a10116800813b1b0fc.png)
+![image.png](https://img.eryi.me/astro-blog/2025/10/e7a2bc3a8fb5f9a10116800813b1b0fc.png)
 * 目的：双方都能可靠地完成连接释放，不丢失数据
 * 初始状态
 	* 客户端和服务端都处于 Established 状态，客户端打算关闭连接

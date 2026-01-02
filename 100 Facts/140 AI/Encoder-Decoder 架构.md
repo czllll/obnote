@@ -6,7 +6,7 @@ tags:
 # What
 * Usually used for tasks where input and output are both sequences, but possibly of different lengths or structures.(指输入输出)
 * Originated in sequence-to-sequence(*Seq2Seq*) model for tasks like translation
-* ![image.png](https://img.dirtsai.work/astro-blog/2025/05/ee5f6359f6199ff5a1620a0846d574a6.png)
+* ![image.png](https://img.eryi.me/astro-blog/2025/05/ee5f6359f6199ff5a1620a0846d574a6.png)
 
 # Why
 ## Why we use

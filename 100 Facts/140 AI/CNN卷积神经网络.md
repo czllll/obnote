@@ -83,7 +83,7 @@ tags:
 * 扩张（Dilation）
 	* 拉大卷积核的覆盖范围
 	* 如**Dilation=2** 时，卷积核中间会**隔一个像素再取值**
-	* <img src="https://img.dirtsai.work/astro-blog/2025/04/b2e67cb181d66bd24a8aaaee6fa577dc.png" width="300">
+	* <img src="https://img.eryi.me/astro-blog/2025/04/b2e67cb181d66bd24a8aaaee6fa577dc.png" width="300">
 
 ## Convolutional neural networks 卷积神经网络
 ### layer

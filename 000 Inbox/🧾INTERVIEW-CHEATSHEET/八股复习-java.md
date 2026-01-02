@@ -10,11 +10,11 @@
 * JVM
 * 我们编写的java源代码编译后生成字节码文件。JVM将字节码文件翻译成特定平台的机器码运行
 * 不同平台下编译生成的字节码是一样的，但是JVM翻译的机器码不一样
-* ![image.png](https://img.dirtsai.work/astro-blog/2025/01/ed22f62b9563c1fe164619f7a1dc9269.png)
+* ![image.png](https://img.eryi.me/astro-blog/2025/01/ed22f62b9563c1fe164619f7a1dc9269.png)
 
 ### jvm jdk jre
 
-* ![image.png](https://img.dirtsai.work/astro-blog/2025/01/f35e1f4a6268b3d3879271fa06f16483.png)
+* ![image.png](https://img.eryi.me/astro-blog/2025/01/f35e1f4a6268b3d3879271fa06f16483.png)
 * JVM是java程序运行环境
 	* 提供内存管理、垃圾回收、安全性等功能
 	* 使得java程序具备跨平台性
@@ -64,7 +64,7 @@
 
 ### 数据类型
 
-![image-20250129203423272](https://img.dirtsai.work/astro-blog/2025/01/fc96c3990148c8ce9eb619b51caad496.png)
+![image-20250129203423272](https://img.eryi.me/astro-blog/2025/01/fc96c3990148c8ce9eb619b51caad496.png)
 
 ### 数据类型转换方式
 
@@ -521,7 +521,7 @@ public @interface MyAnnotation {
 
 ## 异常
 
-![image-20250203204959756](https://img.dirtsai.work/astro-blog/2025/02/6e968f0b310c3ab45481c03d82594fc5.png)
+![image-20250203204959756](https://img.eryi.me/astro-blog/2025/02/6e968f0b310c3ab45481c03d82594fc5.png)
 
 * 非运行时异常：
   * 在编译时起就必须被捕获或抛出，通常是外部错误：文件不存在等

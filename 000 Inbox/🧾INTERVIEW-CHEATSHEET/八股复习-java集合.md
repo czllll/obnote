@@ -13,7 +13,7 @@
 
 ### 说说Java中的集合
 
-![image-20250206141211810](https://img.dirtsai.work/astro-blog/2025/02/2f2abbd5e24d3ea46ca48b3fae0281a4.png)
+![image-20250206141211810](https://img.eryi.me/astro-blog/2025/02/2f2abbd5e24d3ea46ca48b3fae0281a4.png)
 
 * List
 

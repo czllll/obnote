@@ -5,7 +5,7 @@ tags:
 ---
 ### Java线程状态种类
 
-![image-20250212223314794](https://img.dirtsai.work/astro-blog/2025/09/e0a74c807f5a751bd45369935a56f412.png)
+![image-20250212223314794](https://img.eryi.me/astro-blog/2025/09/e0a74c807f5a751bd45369935a56f412.png)
 
 Thread.getState()获取当前线程状态
 ## NEW

@@ -21,4 +21,4 @@ tags:
 		* AI智能体之间的互操作性和协作提供标准化的通信方式
 		* A2A
 	* eg
-	* ![image.png](https://img.dirtsai.work/astro-blog/2025/08/046fe737e13dbacb325d2e3145ccaa7f.png)
+	* ![image.png](https://img.eryi.me/astro-blog/2025/08/046fe737e13dbacb325d2e3145ccaa7f.png)

@@ -10,7 +10,7 @@ tags:
 5. HandlerAdapter经过适配调用具体的处理器（Handler即Controller的某个方法）
 6. 在方法上添加了@ResponseBody，因此通过HttpMessageConverter来返回结果转换为JSON并响应
 
-![image.png](https://img.dirtsai.work/astro-blog/2025/10/4ab1112e30bcd248bf8e3f2dba7a4c6c.png)
+![image.png](https://img.eryi.me/astro-blog/2025/10/4ab1112e30bcd248bf8e3f2dba7a4c6c.png)
 ### DispatcherServlet
 * 继承自 HttpServlet
 * HttpServlet 继承自Servlet

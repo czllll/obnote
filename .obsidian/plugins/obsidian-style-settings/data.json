@@ -110,7 +110,7 @@
   "Appearance-light@@card-highlight-light": true,
   "maple-editor@@setting-file-line-width": "clamp(500px, 70%, 7000px)",
   "maple-basic@@color-active-light": "color-active-default-light",
-  "maple-basic@@app-layout-card": false,
+  "maple-basic@@app-layout-card": true,
   "minimal-advanced@@cursor": "pointer",
   "minimal-style@@link-color@@light": "#7E97E8",
   "minimal-style@@link-color-hover@@light": "#7E97E8",
@@ -132,6 +132,6 @@
   "obsidian-velocity@@theme-mode": "theme-corsa",
   "obsidian-velocity@@color-highlight-rgb": "var(--color-orange-rgb)",
   "obsidian-velocity@@line-height-normal": "1.5",
-  "maple-basic@@color-scheme": "color-use-custom",
+  "maple-basic@@color-scheme": "color-use-minimal",
   "maple-editor@@setting-hr-icon": "\"\""
 }

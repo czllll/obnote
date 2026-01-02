@@ -2,7 +2,6 @@
 tags:
 - protocol-standard
 ---
-|                    |       |       |
 
 ## OAuth 2.0
 ### 角色

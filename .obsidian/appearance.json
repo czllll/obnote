@@ -4,8 +4,8 @@
   "baseFontSizeAction": true,
   "theme": "system",
   "accentColor": "#000000",
-  "textFontFamily": "Arial",
-  "interfaceFontFamily": "Arial",
+  "textFontFamily": "TsangerJinKai02,Arial",
+  "interfaceFontFamily": "TsangerJinKai02,Arial",
   "nativeMenus": false,
   "translucency": false
 }

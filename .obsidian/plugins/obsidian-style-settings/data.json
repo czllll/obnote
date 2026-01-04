@@ -133,5 +133,7 @@
   "obsidian-velocity@@color-highlight-rgb": "var(--color-orange-rgb)",
   "obsidian-velocity@@line-height-normal": "1.5",
   "maple-basic@@color-scheme": "color-use-minimal",
-  "maple-editor@@setting-hr-icon": "\"\""
+  "maple-editor@@setting-hr-icon": "\"\"",
+  "maple-editor@@font-maple": true,
+  "maple-basic@@app-layout-card-bg": "app-layout-card-plain"
 }

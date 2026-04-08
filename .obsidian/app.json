@@ -1,13 +1,3 @@
 {
-  "promptDelete": false,
-  "autoPairMarkdown": false,
-  "alwaysUpdateLinks": true,
-  "newFileLocation": "current",
-  "attachmentFolderPath": "@asset",
-  "pdfExportSettings": {
-    "pageSize": "A4",
-    "landscape": false,
-    "margin": "0",
-    "downscalePercent": 39
-  }
+  "promptDelete": false
 }

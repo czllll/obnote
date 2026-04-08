@@ -121,10 +121,5 @@
 	* `sudo chmod +t mydir `
 	* `sudo chmod 1755 mydir`
 
-
-
-
-
-
 ## Reference
 [Linux Journey: 免费 Linux 教程与课程，学习 Linux](https://labex.io/zh/linuxjourney)

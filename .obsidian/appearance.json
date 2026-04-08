@@ -1,11 +1,3 @@
 {
-  "cssTheme": "Maple",
-  "baseFontSize": 15,
-  "baseFontSizeAction": true,
-  "theme": "system",
-  "accentColor": "#000000",
-  "textFontFamily": "TsangerJinKai02,Arial",
-  "interfaceFontFamily": "TsangerJinKai02,Arial",
-  "nativeMenus": false,
-  "translucency": false
+  "cssTheme": "Maple"
 }

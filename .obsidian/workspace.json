@@ -8,20 +8,37 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3a349bd8fca31ed5",
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "999 Templates/🏠Welcome.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "🏠Welcome"
+            }
+          },
+          {
+            "id": "8aa425b910cc5e89",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 Facts/140 AI/Word2vec.md",
+                "file": "300 Projects/303 LLM from scratch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Word2vec"
+              "title": "303 LLM from scratch"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -35,25 +52,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "44c4af6550794709",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
-            }
-          },
-          {
             "id": "4268dc6927e2b9e6",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "范式",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,17 +72,37 @@
             "id": "7c7e6a995755364a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "999 Templates/index.md.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "index.md"
+              "title": "新标签页"
+            }
+          },
+          {
+            "id": "2cf11eda26ac35b6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "44c4af6550794709",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -176,12 +200,12 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -190,47 +214,45 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:创建新数据库": true,
-      "homepage:Open homepage": false,
+      "switcher:打开快速切换": true,
+      "canvas:新建白板": true,
+      "templates:插入模板": false,
+      "bases:新建数据库": true,
       "command-palette:打开命令面板": false,
-      "templater-obsidian:Templater": true,
       "graph:查看关系图谱": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": true,
-      "webpage-html-export:导出为HTML": true,
-      "daily-notes:打开/创建今天的日记": true,
-      "random-note:开始漫游笔记": true,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-git:Open Git source control": false
+      "daily-notes:打开/创建今天的日记": true
     }
   },
-  "active": "3a349bd8fca31ed5",
+  "active": "8aa425b910cc5e89",
   "lastOpenFiles": [
+    "300 Projects/303 LLM from scratch.md",
     "999 Templates/🏠Welcome.md",
-    "100 Facts/140 AI/Word2vec.md",
-    "100 Facts/140 AI/逻辑回归Logistic-Regression.md",
-    "100 Facts/140 AI/Transformer.md",
-    "100 Facts/100 Operating System/02-OS内存管理.md",
-    "100 Facts/130 Database/数据库三大范式.md",
-    "100 Facts/130 Database/Redis/MultiLock和 RedLock.md",
-    "100 Facts/130 Database/ORM Object-Relational Mapping.md",
-    "100 Facts/135 Architecture/敏捷开发基础.md",
-    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-OS.md",
-    "888 Archive/assets/进程虚拟内存物理内存.md",
-    "888 Archive/assets/AI 服务限流.md",
-    "200 Insights/服务限流实战.md",
-    "100 Facts/100 Operating System/04-网络IO管理.md",
+    "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股复习-CN.md",
     "000 Inbox/🧾INTERVIEW-CHEATSHEET/八股场景.md",
-    "050 Resource/400 Books/《图解大模型》读书笔记.md",
-    "050 Resource/110 Clips/LLMs and Programming in the first days of 2024 - <antirez>.md",
-    "050 Resource/400 Books/《高效能人士》读书笔记.md",
-    "050 Resource/400 Books/《机器学习》-周志华.md",
-    "050 Resource/400 Books/《统计学习方法》读书笔记.md",
-    "100 Facts/145 Security/OAuth.md",
-    "100 Facts/145 Security/CRC16 算法.md",
-    "100 Facts/150 General/【00】面试八股问题列表.md",
-    "100 Facts/150 General/经济学.md",
+    "index.md",
+    "未命名.base",
+    "未命名.canvas",
+    "100 Facts/140 AI/AI-Agent.md",
+    "100 Facts/140 AI/图像处理.md",
+    "100 Facts/140 AI/Transfer Learning迁移学习.md",
+    "100 Facts/140 AI/Transformer.md",
+    "100 Facts/140 AI/RNN循环神经网络.md",
+    "100 Facts/140 AI/ml&dl基础.md",
+    "100 Facts/140 AI/LLM 基础.md",
+    "100 Facts/140 AI/Encoder-Decoder 架构.md",
+    "100 Facts/135 Architecture/限流算法.md",
     "100 Facts/150 General/哲学基础.md",
-    "100 Facts/150 General/学习资料工具.md",
+    "100 Facts/150 General/经济学.md",
+    "100 Facts/150 General/【00】面试八股问题列表.md",
+    "100 Facts/135 Architecture/Mapreduce.md",
+    "100 Facts/135 Architecture/代理模式.md",
+    "100 Facts/115 Java/SpringBoot自动装配原理.md",
+    "100 Facts/115 Java/Spring IoC & AOP.md",
+    "100 Facts/115 Java/Spring Bean.md",
+    "100 Facts/115 Java/Java命令.md",
+    "100 Facts/115 Java/Java特性梳理.md",
+    "100 Facts/115 Java/Java 内部类.md",
+    "100 Facts/115 Java/深入理解synchronized.md",
     "100 Facts/130 Database/Redis",
     "100 Facts/150 General",
     "100 Facts/145 Security",
@@ -240,7 +262,6 @@
     "100 Facts/125 Frontend",
     "100 Facts/120 Python",
     "100 Facts/115 Java/JVM",
-    "100 Facts/115 Java",
     "888 Archive/论文/figure/Core-300_Guesser-Hinter_SuccessRate.png",
     "@asset/Pasted image 20241016134949.png",
     "@asset/Pasted image 20241013165245.png",
@@ -250,7 +271,6 @@
     "@asset/Pasted image 20241008152019.png",
     "@asset/Pasted image 20241008123952.png",
     "@asset/Pasted image 20241001113027.png",
-    "@asset/Pasted image 20241001111730.png",
-    "未命名.canvas"
+    "@asset/Pasted image 20241001111730.png"
   ]
 }

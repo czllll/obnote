@@ -1,8 +1,0 @@
-
-| domain | layer | type     |
-| ------ | ----- | -------- |
-| #linux |       | #insight |
-
-![image.png](https://img.eryi.me/astro-blog/2025/04/95471e917ed4944e682d850e78e682e5.png)
-[inet_hashtables.h - include/net/inet_hashtables.h - Linux source code v6.10.8 - Bootlin](https://elixir.bootlin.com/linux/v6.10.8/source/include/net/inet_hashtables.h#L408)
-

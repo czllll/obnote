@@ -29,12 +29,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 Facts/140 AI/LLM 基础.md",
+                "file": "100 Facts/140 AI/ml&dl基础.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LLM 基础"
+              "title": "ml&dl基础"
+            }
+          },
+          {
+            "id": "4c01ac3d60e7fb6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 Facts/140 AI/激活函数.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "激活函数"
             }
           }
         ],
@@ -57,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "交叉熵",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,8 +115,7 @@
               "title": "文件列表"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -226,8 +239,25 @@
   },
   "active": "5e415abcaedf4905",
   "lastOpenFiles": [
+    "100 Facts/140 AI/机器学习概览.md",
+    "100 Facts/140 AI/ml&dl基础.md",
+    "100 Facts/140 AI/决策树.md",
+    "100 Facts/140 AI/LLM.md",
+    "100 Facts/140 AI/Transformer.md",
+    "100 Facts/140 AI/激活函数.md",
     "999 Templates/🏠Welcome.md",
-    "100 Facts/140 AI/LLM 基础.md",
+    "300 Projects/303 LLM from scratch.md",
+    "100 Facts/150 General/java面试八股问题列表.md",
+    "100 Facts/145 Security/OAuth.md",
+    "100 Facts/140 AI/逻辑回归Logistic-Regression.md",
+    "100 Facts/140 AI/Encoder-Decoder 架构.md",
+    "100 Facts/140 AI/RNN循环神经网络.md",
+    "100 Facts/140 AI/CNN卷积神经网络.md",
+    "100 Facts/140 AI/AI-Agent.md",
+    "100 Facts/140 AI/Transfer Learning迁移学习.md",
+    "100 Facts/140 AI/图像处理.md",
+    "Excalidraw/Drawing 2026-05-28 10.32.41.excalidraw.md",
+    "Excalidraw",
     "000 Inbox/110 Clips/I Reverse Engineered ChatGPT's Memory System, and Here's What I Found!.md",
     "200 Insights/记忆系统.md",
     "000 Inbox/110 Clips/万字长文深入浅出教你优雅开发复杂AI Agent.md",
@@ -236,22 +266,6 @@
     "000 Inbox/110 Clips/【点个赞吧】 - B站千亿级点赞系统服务架构设计.md",
     "000 Inbox/110 Clips/你的 Python 包都装到哪了？.md",
     "000 Inbox/110 Clips/九大服务架构性能优化方式.md",
-    "innoDB引擎.md",
-    "888 Archive/assets/AI 服务限流.md",
-    "888 Archive/assets/进程虚拟内存物理内存.md",
-    "888 Archive/assets/Drawing 2025-11-26 21.31.05.excalidraw.md",
-    "888 Archive/assets/process-state.md",
-    "888 Archive/assets/Algocove 核心流程.md",
-    "888 Archive/assets/IM-Architecture.md",
-    "300 Projects/303 qizhi项目梳理.md",
-    "200 Insights/为什么不同隔离级别下对 binlog 模式还有要求？.md",
-    "200 Insights/服务架构性能优化方式.md",
-    "200 Insights/如何保证kafka消息顺序消费？.md",
-    "200 Insights/声明式注解事务失效原因?.md",
-    "200 Insights/JMM 和 JVM 内存结构有什么区别和联系？.md",
-    "200 Insights/为什么使用 kafka，相较于其他 mq 有什么优势？.md",
-    "200 Insights/LLMs and Programming in the first days of 2024.md",
-    "200 Insights/Linux端口同时被listen和connect 吗？.md",
     "Pasted image 20260408170315.png",
     "未命名.base",
     "未命名.canvas",
@@ -263,7 +277,6 @@
     "100 Facts/130 Database",
     "100 Facts/125 Frontend",
     "100 Facts/120 Python",
-    "100 Facts/115 Java/JVM",
     "888 Archive/论文/figure/Core-300_Guesser-Hinter_SuccessRate.png",
     "@asset/Pasted image 20241016134949.png",
     "@asset/Pasted image 20241013165245.png",
